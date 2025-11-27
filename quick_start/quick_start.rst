@@ -31,3 +31,8 @@ By the end of this chapter, your Fusion HAT will be fully prepared and ready for
     assemble_power_hat
     set_up_your_raspberry_pi
     run_installer
+
+
+.. note::
+
+    shimountain!
