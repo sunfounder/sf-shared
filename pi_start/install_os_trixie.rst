@@ -62,7 +62,7 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    .. image:: img/imager_os.png
       :width: 90%
 
-.. start_choose_os
+:start_choose_os:
 
 #. In the **Storage** section, select your microSD card. For safety, unplug other USB drives so only the SD card appears in the list.
 
@@ -174,4 +174,4 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    .. image:: img/os_sd_to_pi.jpg
         :width: 70%
 
-.. end_choose_os
+:end_choose_os:
