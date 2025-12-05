@@ -35,12 +35,12 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
 
 #. Visit the official Raspberry Pi Imager download page: |shared_link_rpi_imager|. Download the correct installer for your operating system.
 
-   .. image:: /img/imager_download.png
+   .. image:: /_shared/pi_start/img/imager_download.png
       :width: 70%
 
 #. Follow the installation prompts (language, install path, confirmation). After installation, launch **Raspberry Pi Imager** from your desktop or applications menu.
 
-   .. image:: /img/imager_install.png
+   .. image:: /_shared/pi_start/img/imager_install.png
       :width: 90%
 
 -------------------
@@ -51,15 +51,14 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
 
 #. When Raspberry Pi Imager opens, you will see the **Device** page. Select your Raspberry Pi model from the list (e.g., Raspberry Pi 5, 4, 3, or Zero 2W).
 
-   .. image:: /img/imager_device.png
+   .. image:: /_shared/pi_start/img/imager_device.png
       :width: 90%
 
 .. end_imager
 
-
 #. Go to the **OS** section and choose the recommended **Raspberry Pi OS (64-bit)** option.
 
-   .. image:: /img/imager_os.png
+   .. image:: /_shared/pi_start/img/imager_os.png
       :width: 90%
 
 .. start_choose_os
@@ -71,7 +70,7 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
       Be very careful when selecting the storage device.  
       Choosing the wrong drive may erase important data.
 
-   .. image:: /img/imager_storage.png
+   .. image:: /_shared/pi_start/img/imager_storage.png
       :width: 90%
 
 #. Click **Next** to continue to the customization step.
@@ -81,7 +80,7 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
       * If you will connect a monitor, keyboard, and mouse directly to your Raspberry Pi, you may click **SKIP CUSTOMISATION**.  
       * If you plan to set up the Raspberry Pi *headless* (Wi-Fi remote access), you must complete the customization settings.
 
-   .. image:: /img/imager_custom_skip.png
+   .. image:: /_shared/pi_start/img/imager_custom_skip.png
       :width: 90%
 
 -------------------
@@ -93,7 +92,7 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    * Give your Raspberry Pi a unique hostname.  
    * You can connect to it later using ``hostname.local``.
 
-   .. image:: /img/imager_custom_hostname.png
+   .. image:: /_shared/pi_start/img/imager_custom_hostname.png
       :width: 90%
 
 #. **Set Localisation**
@@ -101,14 +100,14 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    * Choose your country, language, and time zone.  
    * Make sure the **capital city** is correct—incorrect settings may cause Wi-Fi issues.
    
-   .. image:: /img/imager_custom_local.png
+   .. image:: /_shared/pi_start/img/imager_custom_local.png
       :width: 90%
 
 #. **Set Username & Password**
 
    Create the default user account for your Raspberry Pi.
    
-   .. image:: /img/imager_custom_user.png
+   .. image:: /_shared/pi_start/img/imager_custom_user.png
       :width: 90%
 
 #. **Configure Wi-Fi**
@@ -116,7 +115,7 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    * Enter your Wi-Fi **SSID** (network name) and **password**.  
    * Your Raspberry Pi will automatically connect on first boot.
    
-   .. image:: /img/imager_custom_wifi.png
+   .. image:: /_shared/pi_start/img/imager_custom_wifi.png
       :width: 90%
 
 #. **Enable SSH (Optional but Recommended)**
@@ -124,7 +123,7 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    * Enabling SSH allows you to remotely log in from your computer.  
    * You may log in using your username/password or configure SSH keys.
    
-   .. image:: /img/imager_custom_ssh.png
+   .. image:: /_shared/pi_start/img/imager_custom_ssh.png
       :width: 90%
 
 #. **Enable Raspberry Pi Connect (Optional)**
@@ -134,18 +133,18 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    
    * Turn on **Raspberry Pi Connect**, then click **OPEN RASPBERRY PI CONNECT**.
    
-     .. image:: /img/imager_custom_connect.png
+     .. image:: /_shared/pi_start/img/imager_custom_connect.png
         :width: 90%
 
    
    * Sign in with your Raspberry Pi ID and generate your authentication key.
    
-     .. image:: /img/imager_custom_authkey.png
+     .. image:: /_shared/pi_start/img/imager_custom_authkey.png
         :width: 90%
    
    * The token will be automatically filled in.
    
-     .. image:: /img/imager_custom_connect_token.png
+     .. image:: /_shared/pi_start/img/imager_custom_connect_token.png
         :width: 90%
 
 -------------------
@@ -155,23 +154,23 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
 
 #. Review all settings and click **WRITE**.
 
-   .. image:: /img/imager_writing.png
+   .. image:: /_shared/pi_start/img/imager_writing.png
       :width: 90%
 
 #. If the card already contains data, Raspberry Pi Imager will show a warning that all data on the device will be erased. Double-check that you selected the correct drive, then click **I UNDERSTAND, ERASE AND WRITE** to continue.
 
-   .. image:: /img/imager_erase.png
+   .. image:: /_shared/pi_start/img/imager_erase.png
       :width: 90%
 
 #. Wait for the writing and verification to finish. When it is done, Raspberry Pi Imager will show **Write complete!** and a summary of your choices. The storage device will be ejected automatically so you can remove it safely.
 
 
-   .. image:: /img/imager_finish.png
+   .. image:: /_shared/pi_start/img/imager_finish.png
         :width: 90%
 
 #. Remove the microSD card and insert it into the slot on the underside of your Raspberry Pi. Your Raspberry Pi is now ready to boot with the new OS!
 
-   .. image:: /img/os_sd_to_pi.jpg
+   .. image:: /_shared/pi_start/img/os_sd_to_pi.jpg
         :width: 70%
 
 .. end_choose_os
