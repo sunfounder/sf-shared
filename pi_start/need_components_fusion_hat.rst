@@ -10,10 +10,7 @@
     - **Special Discounts**: Enjoy exclusive discounts on our newest products.
     - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
-
-What Do We Need?
-========================
+    👉 Ready to explore and create with us? Click [|shared_link_sf_facebook|] and join today!
 
 What Else Do You Need?
 ===============================
@@ -30,13 +27,13 @@ Required Components
   .. image:: img/need_pi.jpg
 
   * **Compatible models**: Raspberry Pi 5, Raspberry Pi 4, 3, or Raspberry Pi Zero 2W  
+  * **Minimum**: **2GB RAM** — sufficient for all standard python projects and for using **online AI services** such as OpenAI Whisper, TTS, or LLMs.  
+  * **Recommended**: **4GB RAM or more** — ensures smoother performance when running **local AI models** (e.g., Vosk speech recognition, Piper TTS, or lightweight LLMs) alongside camera streaming and control tasks.  
+  
 
 * **Power Adapter**
 
   Prepare a suitable power supply based on your Raspberry Pi model:
-
-  .. image:: img/need_power.png
-    :width: 400
 
   - **Raspberry Pi 5**: 5V 5A USB-C (recommended: official 27W PD power supply).  
   - **Raspberry Pi 4**: 5V 3A USB-C.  
@@ -44,6 +41,7 @@ Required Components
   - **Raspberry Pi Zero 2W**: 5V 2A Micro-USB.
 
   Using a stable power source helps prevent undervoltage and ensures reliable operation.
+
 
 * **Micro SD Card**
 

@@ -3,83 +3,111 @@
 I2C Configuration
 -----------------------
 
-**Step 1**: Enable the I2C port of your Raspberry Pi (If you have
-enabled it, skip this; if you do not know whether you have done that or
-not, please continue).
+Follow the steps below to enable and test the I²C interface on your Raspberry Pi.  
+These instructions work for Raspberry Pi 5, 4, 3, and Zero 2W.
+
+-----------------------
+
+**Step 1: Enable the I²C interface**
+
+Open the Raspberry Pi configuration tool:
 
 .. raw:: html
 
    <run></run>
- 
-.. code-block:: 
+
+.. code-block::
 
     sudo raspi-config
 
-**3 Interfacing options**
+In the menu, navigate to:
 
-.. image:: img/image282.png
+**3 Interface Options → I2C**
+
+.. image:: img/i2c_interface.png
     :align: center
 
-**I4 I2C**
+Select **I2C** to enable it.
 
-.. image:: img/I4i2c.jpeg
+.. image:: img/i2c_i2c.png
     :align: center
 
-**<Yes>, then <Ok> -> <Finish>**
+Choose **<Yes>** when asked to enable the I²C interface.
 
-.. image:: img/image284.png
+.. image:: img/i2c_yes.png
     :align: center
 
-**Step 2:** Check whether the i2c modules are loaded and active.
+When finished, select **<Ok> → <Finish>**.  
+If prompted, reboot your Raspberry Pi.
+
+-----------------------
+
+**Step 2: Check whether the I²C kernel modules are loaded**
+
+Run:
 
 .. raw:: html
 
    <run></run>
- 
-.. code-block:: 
+
+.. code-block::
 
     lsmod | grep i2c
 
-Then the following codes will appear (the number may be different), if it does not appear, please reboot the Raspberry Pi with ``sudo reboot``.
+If I²C is enabled, you will see output similar to:
 
-.. code-block:: 
+.. code-block::
 
     i2c_dev                     6276    0
     i2c_bcm2708                 4121    0
 
-**Step 3:** Install i2c-tools.
+If nothing appears, reboot your Raspberry Pi:
+
+.. code-block::
+
+    sudo reboot
+
+-----------------------
+
+**Step 3: Install i2c-tools**
+
+This package provides commands for detecting I²C devices.
 
 .. raw:: html
 
    <run></run>
- 
-.. code-block:: 
 
-    sudo apt-get install i2c-tools
+.. code-block::
 
-**Step 4:** Check the address of the I2C device.
+    sudo apt install i2c-tools
 
+-----------------------
+
+**Step 4: Detect connected I²C devices**
+
+For Raspberry Pi 2 and later (Pi 3, Pi 4, Pi 5, Zero 2W):
 
 .. raw:: html
 
     <run></run>
-  
-.. code-block:: 
 
-    i2cdetect -y 1      # For Raspberry Pi 2 and higher version
+.. code-block::
 
+    i2cdetect -y 1
 
+For Raspberry Pi 1:
 
 .. raw:: html
 
    <run></run>
- 
-.. code-block:: 
 
-    i2cdetect -y 0      # For Raspberry Pi 1
+.. code-block::
 
+    i2cdetect -y 0
 
-.. code-block:: 
+Example output:
+
+.. code-block::
 
     pi@raspberrypi ~ $ i2cdetect -y 1
         0  1  2  3   4  5  6  7  8  9   a  b  c  d  e  f
@@ -92,62 +120,24 @@ Then the following codes will appear (the number may be different), if it does n
     60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
     70: -- -- -- -- -- -- -- --
 
-If there is an I2C device connected, the address of the device will be displayed.
+If a device is connected, its address (e.g., **0x48**) will appear in the table.
 
-**Step 5:**
+-----------------------
 
-**For C language users:** Install libi2c-dev.
+**Step 5: Install smbus2 (for I²C communication in Python)**
+
+To use I²C in Python, install the smbus2 library:
 
 .. raw:: html
 
    <run></run>
- 
-.. code-block:: 
 
-    sudo apt-get install libi2c-dev 
+.. code-block::
 
-**For Python users:**
+    pip3 install smbus2
 
-1. Activating the Virtual Environment.
+The smbus2 library provides all the functions needed to communicate with I²C sensors and modules on Raspberry Pi.
 
-.. note::
-    
-    * Before activation, you need to ensure that you have created a virtual environment, please refer to: :ref:`create_virtual`.
+-----------------------
 
-    * Each time you restart the Raspberry Pi, or open a new terminal, you will need to run the following command again to activate the virtual environment.
-
-.. raw:: html
-
-    <run></run>
-
-.. code-block:: shell
-
-    source myenv/bin/activate
-
-Once the virtual environment is activated, you will see the environment name before the command line prompt, indicating you are working within the virtual environment.
-
-
-2. Install smbus for I2C.
-
-.. raw:: html
-
-    <run></run>
- 
-.. code-block:: 
-
-    sudo pip3 install smbus2
-
-
-3. Exiting the Virtual Environment.
-
-When you have completed your work and wish to exit the virtual environment, simply run:
-
-.. raw:: html
-
-    <run></run>
-
-.. code-block:: shell
-
-    deactivate
-
-This will return you to the system's global Python environment.
+Your Raspberry Pi is now ready to use I²C with both command-line tools and Python.

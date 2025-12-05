@@ -15,7 +15,7 @@
 
 .. _install_all_modules:
 
-5. Configure Power & Install Software (Important)
+Configure Power & Install Software (Important)
 ================================================================
 
 In this chapter, you’ll install the related software, configure audio, set up safe power management and learn how to handle shutdowns.

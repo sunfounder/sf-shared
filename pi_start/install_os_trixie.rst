@@ -14,7 +14,7 @@
 
 .. _install_os_sd:
 
-2. Installing the Operating System
+Installing the Operating System
 ===================================
 
 .. start_imager
