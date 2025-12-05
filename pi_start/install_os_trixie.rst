@@ -12,11 +12,12 @@
 
     👉 Ready to explore and create with us? Click [|shared_link_sf_facebook|] and join today!
 
-
 .. _install_os_sd:
 
 2. Installing the Operating System
 ===================================
+
+.. start_imager
 
 Before using your Raspberry Pi, you need to install **Raspberry Pi OS** onto a microSD card.  
 This guide explains how to do that using **Raspberry Pi Imager** in a simple, beginner-friendly way.
@@ -53,10 +54,15 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    .. image:: img/imager_device.png
       :width: 90%
 
+.. end_imager
+
+
 #. Go to the **OS** section and choose the recommended **Raspberry Pi OS (64-bit)** option.
 
    .. image:: img/imager_os.png
       :width: 90%
+
+.. start_choose_os
 
 #. In the **Storage** section, select your microSD card. For safety, unplug other USB drives so only the SD card appears in the list.
 
@@ -168,4 +174,4 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    .. image:: img/os_sd_to_pi.jpg
         :width: 70%
 
-
+.. end_choose_os
