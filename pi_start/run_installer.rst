@@ -10,7 +10,7 @@
     - **Special Discounts**: Enjoy exclusive discounts on our newest products.
     - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Ready to explore and create with us? Click [|shared_link_sf_facebook|] and join today!
 
 
 .. _install_all_modules:
@@ -53,7 +53,7 @@ Run the command in terminal to install ``fusion-hat`` module.
 
       curl -sSL https://raw.githubusercontent.com/sunfounder/sunfounder-installer-scripts/main/install-fusion-hat.sh | sudo bash
 
-.. note:: For the detail of fusion-hat, please refer to the |link_fusion_hat|.
+.. note:: For the detail of fusion-hat, please refer to the |shared_link_fusion_hat|.
 
 
 After installation completes, reboot the Raspberry Pi. Then execute the audio setup script:

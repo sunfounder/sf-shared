@@ -10,7 +10,7 @@
     - **Special Discounts**: Enjoy exclusive discounts on our newest products.
     - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Ready to explore and create with us? Click [|shared_link_sf_facebook|] and join today!
 
 .. _setup_pi:
 
@@ -125,6 +125,6 @@ If you prefer a graphical interface instead of command line, you have two option
         :align: center
 
 * :ref:`remote_desktop`: Enable **VNC (Virtual Network Computing)** for a full desktop experience on your Pi.  
-* |link_rpi_connect|: Use **Raspberry Pi Connect** for secure remote access from anywhere, directly in a browser.  
+* |shared_link_rpi_connect|: Use **Raspberry Pi Connect** for secure remote access from anywhere, directly in a browser.  
 
 Now you cancontrol your Raspberry Pi without a monitor, either through SSH for command-line operations, or with VNC / Raspberry Pi Connect for a graphical desktop experience.

@@ -10,7 +10,7 @@
     - **Special Discounts**: Enjoy exclusive discounts on our newest products.
     - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Ready to explore and create with us? Click [|shared_link_sf_facebook|] and join today!
 
 
 .. _install_os_sd:
@@ -32,7 +32,7 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
 **1. Install Raspberry Pi Imager**
 
 
-#. Visit the official Raspberry Pi Imager download page: |link_rpi_imager|. Download the correct installer for your operating system.
+#. Visit the official Raspberry Pi Imager download page: |shared_link_rpi_imager|. Download the correct installer for your operating system.
 
    .. image:: img/imager_download.png
       :width: 70%
