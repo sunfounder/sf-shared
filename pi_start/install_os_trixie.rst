@@ -10,9 +10,9 @@
     - **Special Discounts**: Enjoy exclusive discounts on our newest products.
     - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
 
-    👉 Ready to explore and create with us? Click [|shared_link_sf_facebook|] and join today!
+    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
-.. _install_os_sd:
+.. _install_os:
 
 Installing the Operating System
 ===================================
@@ -31,7 +31,7 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
 -------------------
 
 **1. Install Raspberry Pi Imager**
-
+-------------------------------------------
 
 #. Visit the official Raspberry Pi Imager download page: |shared_link_rpi_imager|. Download the correct installer for your operating system.
 
@@ -46,29 +46,28 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
 -------------------
 
 **2. Install the OS to the microSD Card**
+------------------------------------------------
 
 #. Insert your microSD card into your computer using a card reader. Back up any important data before proceeding.
+
+   .. image:: /_shared/pi_start/img/insert_sd.png
+      :width: 90%
 
 #. When Raspberry Pi Imager opens, you will see the **Device** page. Select your Raspberry Pi model from the list (e.g., Raspberry Pi 5, 4, 3, or Zero 2W).
 
    .. image:: /_shared/pi_start/img/imager_device.png
       :width: 90%
 
-.. end_imager
+   .. end_imager
 
 #. Go to the **OS** section and choose the recommended **Raspberry Pi OS (64-bit)** option.
 
    .. image:: /_shared/pi_start/img/imager_os.png
       :width: 90%
 
-.. start_choose_os
+   .. start_choose_os
 
 #. In the **Storage** section, select your microSD card. For safety, unplug other USB drives so only the SD card appears in the list.
-
-   .. note::
-
-      Be very careful when selecting the storage device.  
-      Choosing the wrong drive may erase important data.
 
    .. image:: /_shared/pi_start/img/imager_storage.png
       :width: 90%
@@ -85,7 +84,10 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
 
 -------------------
 
+.. _imager_custom:
+
 **3. OS Customization Settings**
+------------------------------------------
 
 #. **Set Hostname**
 
@@ -97,15 +99,15 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
 
 #. **Set Localisation**
 
-   * Choose your country, language, and time zone.  
-   * Make sure the **capital city** is correct—incorrect settings may cause Wi-Fi issues.
+   * Choose your capital city.
+   * Imager will auto-complete the time zone and keyboard layout based on your selection, though you can adjust them if needed. Select Next.
    
    .. image:: /_shared/pi_start/img/imager_custom_local.png
       :width: 90%
 
 #. **Set Username & Password**
 
-   Create the default user account for your Raspberry Pi.
+   Create a user account for your Raspberry Pi.
    
    .. image:: /_shared/pi_start/img/imager_custom_user.png
       :width: 90%
@@ -136,14 +138,25 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
      .. image:: /_shared/pi_start/img/imager_custom_connect.png
         :width: 90%
 
-   
-   * Sign in with your Raspberry Pi ID and generate your authentication key.
+   * The Raspberry Pi Connect website will open in your default browser. Log in to your Raspberry Pi ID account, or sign up if you don’t have one yet.
+
+     .. image:: /_shared/pi_start/img/imager_custom_open.png
+        :width: 90%
+
+   * On the **New auth key** page, create your one-time auth key. 
+      
+      * If your Raspberry Pi ID account isn’t part of any organisation, select **Create auth key and launch Raspberry Pi Imager**.
+      * If you belong to one or more organisations, choose one, then create the key and launch Imager.
+      * Make sure to power on your Raspberry Pi and connect it to the internet before the key expires.
    
      .. image:: /_shared/pi_start/img/imager_custom_authkey.png
         :width: 90%
    
-   * The token will be automatically filled in.
-   
+   * Your browser may ask to open Raspberry Pi Imager — allow it.
+
+     * Imager will open on the Raspberry Pi Connect tab, showing the authentication token.
+     * If the token doesn’t transfer automatically, open the **Having trouble?** section on the Raspberry Pi Connect page, copy the token, and paste it into Imager manually.
+
      .. image:: /_shared/pi_start/img/imager_custom_connect_token.png
         :width: 90%
 
@@ -173,4 +186,4 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    .. image:: /_shared/pi_start/img/os_sd_to_pi.jpg
         :width: 70%
 
-.. end_choose_os
+   .. end_choose_os

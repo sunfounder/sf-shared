@@ -10,7 +10,7 @@
     - **Special Discounts**: Enjoy exclusive discounts on our newest products.
     - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
 
-    👉 Ready to explore and create with us? Click [|shared_link_sf_facebook|] and join today!
+    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
 What Else Do You Need?
 ===============================
@@ -24,7 +24,7 @@ Required Components
 
   The Raspberry Pi acts as the **brain**, handling all computing, sensing, and control tasks.  
   
-  .. image:: img/need_pi.jpg
+  .. image:: /_shared/pi_start/img/need_pi.jpg
 
   * **Compatible models**: Raspberry Pi 5, Raspberry Pi 4, 3, or Raspberry Pi Zero 2W  
   * **Minimum**: **2GB RAM** — sufficient for all standard python projects and for using **online AI services** such as OpenAI Whisper, TTS, or LLMs.  
@@ -33,21 +33,21 @@ Required Components
 
 * **Power Adapter**
 
-  Prepare a suitable power supply based on your Raspberry Pi model:
+  This kit comes with an **18650 battery pack** and a **Fusion HAT** board featuring a built-in charging circuit.
+  
+  .. image:: /_shared/pi_start/img/need_power.png
+    :width: 400
 
-  - **Raspberry Pi 5**: 5V 5A USB-C (recommended: official 27W PD power supply).  
-  - **Raspberry Pi 4**: 5V 3A USB-C.  
-  - **Raspberry Pi 3B/3B+**: 5V 2.5A Micro-USB.  
-  - **Raspberry Pi Zero 2W**: 5V 2A Micro-USB.
-
-  Using a stable power source helps prevent undervoltage and ensures reliable operation.
+  * For charging, it is recommended to use a **5V 3A power supply**, such as the official **Raspberry Pi 15W USB-C adapter**.  
+  * You may also use a **USB-C Power Delivery (PD) charger** or a **QC 2.0 fast charger**.  
+  * A full charge typically takes about **2 hours** (from 0% to 100%).  
 
 
 * **Micro SD Card**
 
   The Raspberry Pi does not have a built-in hard drive. It boots and stores all files on a **Micro SD card**.  
   
-  .. image:: img/need_sd.jpg
+  .. image:: /_shared/pi_start/img/need_sd.jpg
     :width: 200
 
   * Minimum: **16GB**  
@@ -63,7 +63,7 @@ Although not strictly required, the following peripherals will greatly improve y
 
   For beginners, we strongly recommend a display with an HDMI input, so you can easily configure Raspberry Pi OS and run graphical programs.  
 
-  .. image:: img/need_screen.png
+  .. image:: /_shared/pi_start/img/need_screen.png
     :width: 400
 
 * **HDMI Cable (Standard / Mini / Micro)**
@@ -74,14 +74,14 @@ Although not strictly required, the following peripherals will greatly improve y
   * **Raspberry Pi 3**: Standard HDMI  
   * **Raspberry Pi Zero 2W**: Mini HDMI 
 
-  .. image:: img/need_hdmi.png
+  .. image:: /_shared/pi_start/img/need_hdmi.png
     :width: 400
 
 * **Keyboard & Mouse**
 
   Very useful during the initial setup of Raspberry Pi OS. Later, you may switch to remote access (SSH/VNC), but for beginners we recommend preparing a basic USB or wireless set.  
 
-  .. image:: img/need_keyboard_mouse.png
+  .. image:: /_shared/pi_start/img/need_keyboard_mouse.png
     :width: 500
  
 
@@ -89,4 +89,3 @@ Although not strictly required, the following peripherals will greatly improve y
 
 * If you purchased this kit, most accessories are included, but you still need to prepare the Raspberry Pi board, Micro SD card, and power adapter separately.  
 * Not sure what to buy? The most stable and universal choice is: **Raspberry Pi 4 (2GB) + Official Power Supply + 32GB Micro SD card**.  
-

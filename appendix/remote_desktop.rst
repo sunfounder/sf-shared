@@ -10,189 +10,126 @@
     - **Special Discounts**: Enjoy exclusive discounts on our newest products.
     - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
 
-    👉 Ready to explore and create with us? Click [|shared_link_sf_facebook|] and join today!
+    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
 .. _remote_desktop:
 
-Remote Desktop 
-=====================
+Remote Desktop
+==============
 
-There are two ways to control the desktop of the Raspberry Pi remotely:
+You can access and control the Raspberry Pi desktop remotely from another computer.  
+The recommended method is **VNC**, which is officially supported on Raspberry Pi OS and provides a reliable and consistent desktop experience.
 
-**VNC** and **XRDP**, you can use any of them.
+The following section explains how to enable VNC on your Raspberry Pi and connect to it using |shared_link_realvnc|.
 
-VNC 
---------------
+-----------------
 
-You can use the function of remote desktop through VNC.
+Enable the VNC Service
+----------------------
 
-**Enable VNC service**
+RealVNC Server is preinstalled on Raspberry Pi OS, but it is **disabled by default**.  
+You must enable it through the configuration tool.
 
-The VNC service has been installed in the system. By default, VNC is
-disabled. You need to enable it in config.
+#. Open a terminal on your computer (Windows: **PowerShell**; macOS/Linux: **Terminal**) and connect to your Raspberry Pi:
 
-**Step 1**
+   .. code-block:: bash
 
-Input the following command:
+      ssh <username>@<hostname>.local
 
-.. raw:: html
+   or
 
-    <run></run>
+   .. code-block:: bash
 
-.. code-block:: 
+      ssh <username>@<ip_address>
 
-    sudo raspi-config
+#. Run the configuration tool:
 
-.. image:: img/image287.png
-   :align: center
+   .. code-block:: bash
 
-**Step 2**
+      sudo raspi-config
 
-Choose **3** **Interfacing Options** by press the down arrow key on your
-keyboard, then press the **Enter** key.
+   .. image:: /_shared/appendix/img/ssh_raspi_config.png
 
-.. image:: img/image282.png
-   :align: center
 
-**Step 3**
+#. Select **Interfacing Options** and press **Enter**.
 
-**P3 VNC**
+   .. image:: /_shared/appendix/img/ssh_interface.png
 
-.. image:: img/image288.png
-   :align: center
 
-**Step 4**
+#. Select **VNC**.
 
-Select **Yes -> OK -> Finish** to exit the configuration.
+   .. image:: /_shared/appendix/img/ssh_vnc_vnc.png
 
-.. image:: img/image289.png
-   :align: center
 
-**Login to VNC**
+#. Choose **Yes**, then **OK**, and finally **Finish** to exit.
 
-**Step 1**
+   .. image:: /_shared/appendix/img/ssh_vnc_enable.png
 
-You need to download and install the `VNC Viewer <https://www.realvnc.com/en/connect/download/viewer/>`_ on personal computer. After the installation is done, open it.
 
-**Step 2**
 
-Then select \"**New connection**\".
+Log in with RealVNC® Viewer
+---------------------------
 
-.. image:: img/image290.png
-   :align: center
+#. Download and install |shared_link_realvnc| for your operating system.
 
-**Step 3**
+   .. image:: /_shared/appendix/img/ssh_vnc_download.png
 
-Input IP address of Raspberry Pi and any **Name**.
 
-.. image:: img/image291.png
-   :align: center
+#. Open **RealVNC Viewer**, then enter your Raspberry Pi's IP address or ``<hostname>.local`` and press **Enter**.
 
-**Step 4**
+   .. image:: /_shared/appendix/img/ssh_vnc_login.png
 
-Double click the **connection** just created:
 
-.. image:: img/image292.png
-   :align: center
+#. Enter your Raspberry Pi's **username** and **password**, then select **OK**.
 
-**Step 5**
+   .. note::
 
-Enter Username (**pi**) and Password (**raspberry** by default).
+      When connecting for the first time, you may see a message such as “VNC Server not recognized”. Select **Continue** to proceed.
 
-.. image:: img/image293.png
-   :align: center
+   .. image:: /_shared/appendix/img/ssh_vnc_username.png
 
-**Step 6**
 
-Now you can see the desktop of the Raspberry Pi:
+#. You should now see the Raspberry Pi desktop:
 
-.. image:: img/image294.png
-   :align: center
+   .. image:: /_shared/appendix/img/ssh_vnc_desktop.png
 
-That's the end of the VNC part.
 
+This completes the VNC setup process.
 
-XRDP
------------------------
+-----------------
 
-Another method of remote desktop is XRDP, it provides a graphical login to remote machines using RDP (Microsoft
-Remote Desktop Protocol).
 
-**Install XRDP**
+Additional Notes
+-----------------
 
-**Step 1**
+* **Desktop version required**
 
-Login to Raspberry Pi by using SSH.
+  * VNC requires the Raspberry Pi to be running the full desktop version of Raspberry Pi OS.  
+  * If you are using **Raspberry Pi OS Lite**, install VNC Server manually: ``sudo apt install realvnc-vnc-server``
 
-**Step 2**
 
-Input the following instructions to install XRDP.
+* **Network performance tips** 
 
-.. raw:: html
+  * If you experience lag or slow refresh rates, check your network quality.  
+  * Wired Ethernet generally offers the best performance.
 
-    <run></run>
 
-.. code-block:: 
+* **Fixing display resolution issues**
 
-   sudo apt-get update
-   sudo apt-get install xrdp
+  * If the VNC window appears too small or the resolution is incorrect, set a fixed resolution via: ``sudo raspi-config`` → **Display Options** → **VNC Resolution**
 
-**Step 3**
 
-Later, the installation starts.
+* **Ensure VNC is enabled**
 
-Enter \"Y\", press key \"Enter\" to confirm.
+  If VNC fails to connect, verify that it is enabled in: ``sudo raspi-config`` → ``Interfacing Options`` → ``VNC``
 
-.. image:: img/image295.png
-   :align: center
+* **Stopping the VNC service**
 
-**Step 4**
+  To manually stop the VNC Server: ``sudo systemctl stop vncserver-x11-serviced``
 
-Finished the installation, you should login to your Raspberry Pi by
-using Windows remote desktop applications.
 
-**Login to XRDP**
+* **Security reminder**
 
-**Step 1**
-
-If you are a Windows user, you can use the Remote Desktop feature that
-comes with Windows. If you are a Mac user, you can download and use
-Microsoft Remote Desktop from the APP Store, and there is not much
-difference between the two. The next example is Windows remote desktop.
-
-**Step 2**
-
-Type in \"**mstsc**\" in Run (WIN+R) to open the Remote Desktop
-Connection, and input the IP address of Raspberry Pi, then click on
-\"Connect\".
-
-.. image:: img/image296.png
-   :align: center
-
-**Step 3**
-
-Then the xrdp login page pops out. Please type in your username and
-password. After that, please click \"OK\". At the first time you log in,
-your username is \"pi\" and the password is \"raspberry\".
-
-.. image:: img/image297.png
-   :align: center
-
-**Step 4**
-
-Here, you successfully login to RPi by using the remote desktop.
-
-.. image:: img/image20.png
-   :align: center
-
-**Copyright Notice**
-
-All contents including but not limited to texts, images, and code in
-this manual are owned by the SunFounder Company. You should only use it
-for personal study, investigation, enjoyment, or other non-commercial or
-nonprofit purposes, under the related regulations and copyrights laws,
-without infringing the legal rights of the author and relevant right
-holders. For any individual or organization that uses these for
-commercial profit without permission, the Company reserves the right to
-take legal action.
-
+  * VNC is designed for trusted local networks.  
+  * Do **not** expose VNC directly to the internet.  
+  * For secure remote access from outside your network, use **Raspberry Pi Connect** or a VPN.

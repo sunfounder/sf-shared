@@ -10,48 +10,45 @@
     - **Special Discounts**: Enjoy exclusive discounts on our newest products.
     - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
 
-    👉 Ready to explore and create with us? Click [|shared_link_sf_facebook|] and join today!
+    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
 .. _login_windows:
 
 PuTTY
 =========================
 
-If you are a Windows user, you can use some applications of SSH. Here, we recommend `PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`_.
+PuTTY is a simple and reliable SSH client for Windows users to remotely access the Raspberry Pi.  
 
-**Step 1**
+#. Download PuTTY from |shared_link_putty| and install it on your computer.
 
-Download PuTTY.
+   .. image:: /_shared/appendix/img/putty_download.png
+      :width: 70%
 
-**Step 2**
 
-Open PuTTY and click **Session** on the left tree-alike structure. Enter
-the IP address of the RPi in the text box under **Host Name (or IP
-address)** and **22** under **Port** (by default it is 22).
+#. Open PuTTY and prepare the connection:
 
-.. image:: img/image25.png
-    :align: center
+   * Enter your Raspberry Pi’s **hostname or IP address** in **Host Name**.
+   * Set the **Port** to ``22``.
+   * Click **Open** to connect.
 
-**Step 3**
 
-Click **Open**. Note that when you first log in to the Raspberry Pi with
-the IP address, there prompts a security reminder. Just click **Yes**.
+   .. image:: /_shared/appendix/img/putty_open.png
+      :width: 70%
+   
+#. If a security warning appears on first use, click **Accept** to continue.
 
-**Step 4**
+   .. image:: /_shared/appendix/img/putty_accept.png
+      :width: 70%
 
-When the PuTTY window prompts \"**login as:**\", type in
-\"**pi**\" (the user name of the RPi), and **password**: \"raspberry\"
-(the default one, if you haven't changed it).
+#. Log in to the Raspberry Pi:
+
+   * When you see **login as:**, enter the username you set in **Raspberry Pi Imager**.
+   * Enter your password (it will not appear while typing—this is normal).
+   * After logging in, the terminal is ready for you to enter commands and operate your Raspberry Pi remotely.
+
+   .. image:: /_shared/appendix/img/putty_login.png
+      :width: 70%
 
 .. note::
 
-    When you input the password, the characters do not display on window accordingly, which is normal. What you need is to input the correct password.
-    
-    If inactive appears next to PuTTY, it means that the connection has been broken and needs to be reconnected.
-    
-.. image:: img/image26.png
-    :align: center
-
-**Step 5**
-
-Here, we get the Raspberry Pi connected and it is time to conduct the next steps.
+    If PuTTY shows **inactive**, the connection was lost and needs to be reconnected.

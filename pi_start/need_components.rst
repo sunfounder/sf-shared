@@ -12,9 +12,6 @@
 
     👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
-What Do We Need?
-========================
-
 What Else Do You Need?
 ===============================
 
@@ -27,15 +24,16 @@ Required Components
 
   The Raspberry Pi acts as the **brain**, handling all computing, sensing, and control tasks.  
   
-  .. image:: img/need_pi.jpg
-
   * **Compatible models**: Raspberry Pi 5, Raspberry Pi 4, 3, or Raspberry Pi Zero 2W  
 
+  .. image:: /_shared/pi_start/img/need_pi.jpg
+
+  
 * **Power Adapter**
 
   Prepare a suitable power supply based on your Raspberry Pi model:
 
-  .. image:: img/need_power.png
+  .. image:: /_shared/pi_start/img/need_power.png
     :width: 400
 
   - **Raspberry Pi 5**: 5V 5A USB-C (recommended: official 27W PD power supply).  
@@ -49,7 +47,7 @@ Required Components
 
   The Raspberry Pi does not have a built-in hard drive. It boots and stores all files on a **Micro SD card**.  
   
-  .. image:: img/need_sd.jpg
+  .. image:: /_shared/pi_start/img/need_sd.jpg
     :width: 200
 
   * Minimum: **16GB**  
@@ -65,7 +63,7 @@ Although not strictly required, the following peripherals will greatly improve y
 
   For beginners, we strongly recommend a display with an HDMI input, so you can easily configure Raspberry Pi OS and run graphical programs.  
 
-  .. image:: img/need_screen.png
+  .. image:: /_shared/pi_start/img/need_screen.png
     :width: 400
 
 * **HDMI Cable (Standard / Mini / Micro)**
@@ -76,19 +74,19 @@ Although not strictly required, the following peripherals will greatly improve y
   * **Raspberry Pi 3**: Standard HDMI  
   * **Raspberry Pi Zero 2W**: Mini HDMI 
 
-  .. image:: img/need_hdmi.png
+  .. image:: /_shared/pi_start/img/need_hdmi.png
     :width: 400
 
 * **Keyboard & Mouse**
 
   Very useful during the initial setup of Raspberry Pi OS. Later, you may switch to remote access (SSH/VNC), but for beginners we recommend preparing a basic USB or wireless set.  
 
-  .. image:: img/need_keyboard_mouse.png
+  .. image:: /_shared/pi_start/img/need_keyboard_mouse.png
     :width: 500
  
 
 **Tips for Preparation**
 
 * If you purchased this kit, most accessories are included, but you still need to prepare the Raspberry Pi board, Micro SD card, and power adapter separately.  
-* Not sure what to buy? The most stable and universal choice is: **Raspberry Pi 4 (2GB) + Official Power Supply + 32GB Micro SD card**.  
+* Not sure what to buy? The most stable and universal choice is: **Raspberry Pi 4/5 (2GB) + Official Power Supply + 32GB Micro SD card**.  
 

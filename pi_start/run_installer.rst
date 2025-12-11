@@ -10,7 +10,7 @@
     - **Special Discounts**: Enjoy exclusive discounts on our newest products.
     - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
 
-    👉 Ready to explore and create with us? Click [|shared_link_sf_facebook|] and join today!
+    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
 
 .. _install_all_modules:
@@ -19,22 +19,6 @@ Configure Power & Install Software (Important)
 ================================================================
 
 In this chapter, you’ll install the related software, configure audio, set up safe power management and learn how to handle shutdowns.
-
-
-.. _download_code:
-
-Download Sample Code
----------------------------------
-Download the complete set of example code for the kit:
-
-   .. raw:: html
-
-      <run></run>
-
-   .. code-block::
-
-      cd ~/
-      git clone https://github.com/sunfounder/ai-lab-kit.git
 
 .. _install_fusion_hat:
 
@@ -80,7 +64,7 @@ These models support complete power-off after shutdown. The Fusion HAT monitors 
 
 1. Place the jumper on **RPI_STATE → Pi3V3**.
 
-   .. image:: img/state_3v3.jpg
+   .. image:: /_shared/pi_start/img/state_3v3.jpg
       :width: 400
 
 2. Edit the EEPROM configuration manually:
@@ -91,11 +75,11 @@ These models support complete power-off after shutdown. The Fusion HAT monitors 
 
 3. Navigate to **Advanced Options → A12 Shutdown Behaviour**.
 
-   .. image:: img/shutdown_behaviour.png
+   .. image:: /_shared/pi_start/img/shutdown_behaviour.png
 
 4. Select **B1 Full Power Off**.
 
-   .. image:: img/run_power_off.png
+   .. image:: /_shared/pi_start/img/run_power_off.png
 
 5. Save the changes. You will be prompted to reboot for the new settings to take effect.
 
@@ -105,7 +89,7 @@ These models do **not** support full power-off using 3.3V. Instead, GPIO26 must 
 
 1. Place the jumper on **RPI_STATE → IO26**.
 
-   .. image:: img/state_io26.jpg
+   .. image:: /_shared/pi_start/img/state_io26.jpg
       :width: 400
 
 2. Edit the ``/boot/firmware/config.txt`` file:

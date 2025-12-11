@@ -1,143 +1,132 @@
+.. note::
+
+    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+
+    **Why Join?**
+
+    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
+    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
+    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
+    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
+    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+
+    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+
 .. _i2c_config:
 
-I2C Configuration
------------------------
+I²C Configuration
+=================
 
 Follow the steps below to enable and test the I²C interface on your Raspberry Pi.  
-These instructions work for Raspberry Pi 5, 4, 3, and Zero 2W.
+These instructions apply to Raspberry Pi 5, 4, 3, and Zero 2W.
 
------------------------
+Enable the I²C Interface
+------------------------
 
-**Step 1: Enable the I²C interface**
+#. Open a terminal on your computer (Windows: **PowerShell**; macOS/Linux: **Terminal**) and connect to your Raspberry Pi:
 
-Open the Raspberry Pi configuration tool:
+   .. code-block:: bash
 
-.. raw:: html
+      ssh <username>@<hostname>.local
 
-   <run></run>
+   or:
 
-.. code-block::
+   .. code-block:: bash
 
-    sudo raspi-config
+      ssh <username>@<ip_address>
 
-In the menu, navigate to:
+#. Open the Raspberry Pi configuration tool:
 
-**3 Interface Options → I2C**
+   .. code-block:: bash
 
-.. image:: img/i2c_interface.png
-    :align: center
+      sudo raspi-config
 
-Select **I2C** to enable it.
+#. Select **Interfacing Options** and press **Enter**.
 
-.. image:: img/i2c_i2c.png
-    :align: center
+   .. image:: /_shared/appendix/img/ssh_interface.png
+      :align: center
 
-Choose **<Yes>** when asked to enable the I²C interface.
+#. Select **I2C**.
 
-.. image:: img/i2c_yes.png
-    :align: center
+   .. image:: img/ssh_i2c_i2c.png
+      :align: center
 
-When finished, select **<Ok> → <Finish>**.  
-If prompted, reboot your Raspberry Pi.
+#. Choose **<Yes>**, then **<Ok> → <Finish>** to apply the changes.  
+   If prompted, reboot your Raspberry Pi.
 
------------------------
+   .. image:: img/ssh_i2c_yes.png
+      :align: center
 
-**Step 2: Check whether the I²C kernel modules are loaded**
 
-Run:
+Check I²C Kernel Modules
+------------------------
 
-.. raw:: html
+#. Run the following command:
 
-   <run></run>
+   .. code-block:: bash
 
-.. code-block::
+      lsmod | grep i2c
 
-    lsmod | grep i2c
+#. If I²C is enabled, you will see modules such as:
 
-If I²C is enabled, you will see output similar to:
+   .. code-block:: text
 
-.. code-block::
+      i2c_dev        6276    0
+      i2c_bcm2708    4121    0
 
-    i2c_dev                     6276    0
-    i2c_bcm2708                 4121    0
+#. If nothing appears, reboot the system:
 
-If nothing appears, reboot your Raspberry Pi:
+   .. code-block:: bash
 
-.. code-block::
+      sudo reboot
 
-    sudo reboot
 
------------------------
+Install i2c-tools
+-----------------
 
-**Step 3: Install i2c-tools**
+#. Install the utilities required for scanning and testing I²C devices:
 
-This package provides commands for detecting I²C devices.
+   .. code-block:: bash
 
-.. raw:: html
+      sudo apt install i2c-tools
 
-   <run></run>
 
-.. code-block::
+Detect Connected I²C Devices
+----------------------------
 
-    sudo apt install i2c-tools
+#. Scan the I²C bus:
 
------------------------
+   .. code-block:: bash
 
-**Step 4: Detect connected I²C devices**
+      i2cdetect -y 1
 
-For Raspberry Pi 2 and later (Pi 3, Pi 4, Pi 5, Zero 2W):
+#. Example output:
 
-.. raw:: html
+   .. code-block:: text
 
-    <run></run>
+      pi@raspberrypi ~ $ i2cdetect -y 1
+          0  1  2  3   4  5  6  7  8  9   a  b  c  d  e  f
+      00:           -- -- -- -- -- -- -- -- -- -- -- -- --
+      10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+      20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+      30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+      40: -- -- -- -- -- -- -- -- 48 -- -- -- -- -- -- --
+      50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+      60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+      70: -- -- -- -- -- -- -- --
 
-.. code-block::
+#. If a device is connected, its address (e.g., **0x48**) will appear in the table.
 
-    i2cdetect -y 1
 
-For Raspberry Pi 1:
+Install the Python I²C Library
+------------------------------
 
-.. raw:: html
+#. Install the ``python3-smbus2`` package:
 
-   <run></run>
+   .. code-block:: bash
 
-.. code-block::
+      sudo apt install python3-smbus2
 
-    i2cdetect -y 0
+   The ``smbus2`` library provides all the functions required to communicate with I²C devices in Python.
 
-Example output:
-
-.. code-block::
-
-    pi@raspberrypi ~ $ i2cdetect -y 1
-        0  1  2  3   4  5  6  7  8  9   a  b  c  d  e  f
-    00:           -- -- -- -- -- -- -- -- -- -- -- -- --
-    10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-    20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-    30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-    40: -- -- -- -- -- -- -- -- 48 -- -- -- -- -- -- --
-    50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-    60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-    70: -- -- -- -- -- -- -- --
-
-If a device is connected, its address (e.g., **0x48**) will appear in the table.
-
------------------------
-
-**Step 5: Install smbus2 (for I²C communication in Python)**
-
-To use I²C in Python, install the smbus2 library:
-
-.. raw:: html
-
-   <run></run>
-
-.. code-block::
-
-    pip3 install smbus2
-
-The smbus2 library provides all the functions needed to communicate with I²C sensors and modules on Raspberry Pi.
-
------------------------
-
-Your Raspberry Pi is now ready to use I²C with both command-line tools and Python.
+Your Raspberry Pi is now fully configured and ready to communicate with I²C devices.

@@ -10,38 +10,48 @@
     - **Special Discounts**: Enjoy exclusive discounts on our newest products.
     - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
 
-    👉 Ready to explore and create with us? Click [|shared_link_sf_facebook|] and join today!
+    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
 .. _filezilla:
 
-Filezilla Software
-==========================
+FileZilla Software
+==================
 
-.. image:: img/filezilla_icon.png
+.. image:: /_shared/appendix/img/filezilla_icon.png
+   :width: 20%
 
-The File Transfer Protocol (FTP) is a standard communication protocol used for the transfer of computer files from a server to a client on a computer network.
+File Transfer Protocol (FTP) is commonly used to transfer files between computers over a network.  
+**FileZilla** is an open-source client that supports FTP, FTPS, and **SFTP** (recommended for Raspberry Pi).  
+With FileZilla, you can easily upload files (such as images, audio, and scripts) from your computer to the Raspberry Pi, or download files from the Pi back to your computer.
 
-Filezilla is an open source software that not only supports FTP, but also FTP over TLS (FTPS) and SFTP. We can use Filezilla to upload local files (such as pictures and audio, etc.) to the Raspberry Pi, or download files from the Raspberry Pi to the local.
+Download FileZilla
+------------------
 
-**Step 1**: Download Filezilla.
+#. Visit the |shared_link_filezilla| official website and download **FileZilla Client** for your operating system.
 
-Download the client from `Filezilla’s official website <https://filezilla-project.org/>`_, Filezilla has a very good tutorial, please refer to: `Documentation - Filezilla <https://wiki.filezilla-project.org/Documentation>`_.
+#. Install and launch the program.
 
-**Step 2**: Connect to Raspberry Pi
+   .. image:: /_shared/appendix/img/filezilla_install.png
 
-After a quick install open it up and now `connect it to an FTP server <https://wiki.filezilla-project.org/Using#Connecting_to_an_FTP_server>`_. It has 3 ways to connect, here we use the **Quick Connect** bar. Enter the **hostname/IP**, **username**, **password** and **port (22)**, then click **Quick Connect** or press **Enter** to connect to the server.
+#. Open FileZilla and enter the following information:
 
-.. image:: img/filezilla_connect.png
+   * **Host:** ``<hostname>.local`` or the Raspberry Pi’s IP address  
+   * **Username:** your Pi username  
+   * **Password:** the password set in Raspberry Pi Imager  
+   * **Port:** ``22`` (for SFTP)
+   * Click **Quickconnect** (or press **Enter**) to establish a connection.
 
-.. note::
+   .. image:: /_shared/appendix/img/filezilla_connect.png
+      :align: center
 
-    Quick Connect is a good way to test your login information. If you want to create a permanent entry, you can select **File**-> **Copy Current Connection to Site Manager** after a successful Quick Connect, enter the name and click **OK**. Next time you will be able to connect by selecting the previously saved site inside **File** -> **Site Manager**.
-    
-    .. image:: img/ftp_site.png
+#. Once connected, the left panel shows your **local files**, and the right panel shows the **Raspberry Pi files**.
 
-**Step 3**: Upload/download files.
+    .. image:: /_shared/appendix/img/filezilla_in.png
+       :align: center
 
-You can upload local files to Raspberry Pi by dragging and dropping them, or download the files inside Raspberry Pi
-files locally.
+#. You can:
 
-.. image:: img/upload_ftp.png
+   * **Upload** a file: drag from the left panel → right panel  
+   * **Download** a file: drag from the right panel → left panel  
+
+   FileZilla will immediately start the transfer, and the status will appear in the panel at the bottom.
