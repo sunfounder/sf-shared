@@ -29,8 +29,9 @@ Diese Anleitung beschreibt zwei gängige Methoden:
    Wir empfehlen daher das **Headless-Setup**.
 
 -------------------------
+
 Wenn Sie einen Bildschirm haben
--------------------------
+------------------------------------------
 
 **Benötigte Komponenten**
 
@@ -61,8 +62,9 @@ Wenn Sie einen Bildschirm haben
 
 
 ----------------------------------
+
 Wenn Sie keinen Bildschirm haben (Headless)
-----------------------------------
+------------------------------------------------------------
 
 Ohne Monitor können Sie Ihren Raspberry Pi vollständig per Fernzugriff konfigurieren und steuern.  
 Dies ist für die meisten Benutzer die bequemste Methode.

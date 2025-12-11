@@ -47,7 +47,7 @@ Diese Anleitung zeigt, wie Sie dies mit dem **Raspberry Pi Imager** einfach und 
 -------------------
 
 **2. Das Betriebssystem auf die microSD-Karte installieren**
------------------------------------------------------------
+------------------------------------------------------------------------------
 
 #. Stecken Sie Ihre microSD-Karte mithilfe eines Kartenlesers in Ihren Computer.  
    Sichern Sie wichtige Daten, da sie überschrieben werden.

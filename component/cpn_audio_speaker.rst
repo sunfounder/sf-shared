@@ -70,10 +70,6 @@ Nachdem Sie die Schaltung gemäß dem obigen Diagramm aufgebaut haben, stecken S
     :width: 400
     :align: center
 
-Wenn Ihr Lautsprecher keinen Ton von sich gibt, könnte es daran liegen, dass der Raspberry Pi den falschen Audio-Ausgang ausgewählt hat (Standardmäßig ist HDMI ausgewählt). Sie müssen dann :ref:`change_audio_output` auf **Kopfhörer** ändern.
-
-Wenn Sie das Gefühl haben, dass die Lautstärke der Lautsprecher zu niedrig ist, können Sie :ref:`adjust_volume`.
-
 .. **Beispiel**
 
 .. * :ref:`3.1.3_py` (Python-Projekt)
