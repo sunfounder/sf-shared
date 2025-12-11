@@ -1,33 +1,33 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    ¡Hola, bienvenido a la comunidad de entusiastas de SunFounder Raspberry Pi & Arduino & ESP32 en Facebook! Sumérgete más en Raspberry Pi, Arduino y ESP32 con otros entusiastas.
 
-    **Why Join?**
+    **¿Por qué unirse?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Soporte experto**: Resuelve problemas postventa y desafíos técnicos con la ayuda de nuestra comunidad y equipo.
+    - **Aprender y compartir**: Intercambia consejos y tutoriales para mejorar tus habilidades.
+    - **Previsualizaciones exclusivas**: Obtén acceso temprano a anuncios de nuevos productos y adelantos exclusivos.
+    - **Descuentos especiales**: Disfruta de descuentos exclusivos en nuestros productos más nuevos.
+    - **Promociones y sorteos festivos**: Participa en sorteos y promociones festivas.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 ¿Listo para explorar y crear con nosotros? Haz clic en [|link_sf_facebook|] y únete hoy mismo.
 
 
 .. _install_all_modules:
 
-Configure Power & Install Software (Important)
+Configurar la Alimentación e Instalar el Software (Importante)
 ================================================================
 
-In this chapter, you’ll install the related software, configure audio, set up safe power management and learn how to handle shutdowns.
+En este capítulo instalarás el software relacionado, configurarás el audio, establecerás una gestión segura de energía y aprenderás cómo manejar los apagados correctamente.
 
 .. _install_fusion_hat:
 
-Install ``fusion-hat`` module
+Instalar el módulo ``fusion-hat``
 ----------------------------------
 
-For this kit, all GPIO functionalities are managed through the Fusion HAT. Therefore, you need to use the accompanying ``fusion-hat`` library to access and control them.
+Para este kit, todas las funciones GPIO se gestionan a través del Fusion HAT. Por lo tanto, debes usar la biblioteca correspondiente ``fusion-hat`` para acceder y controlarlas.
 
-Run the command in terminal to install ``fusion-hat`` module.
+Ejecuta el siguiente comando en la terminal para instalar el módulo ``fusion-hat``:
 
    .. raw:: html
 
@@ -37,10 +37,10 @@ Run the command in terminal to install ``fusion-hat`` module.
 
       curl -sSL https://raw.githubusercontent.com/sunfounder/sunfounder-installer-scripts/main/install-fusion-hat.sh | sudo bash
 
-.. note:: For the detail of fusion-hat, please refer to the |shared_link_fusion_hat|.
+.. note:: Para más detalles sobre fusion-hat, consulta |shared_link_fusion_hat|.
 
 
-After installation completes, reboot the Raspberry Pi. Then execute the audio setup script:
+Cuando finalice la instalación, reinicia la Raspberry Pi. Luego ejecuta el script de configuración de audio:
 
    .. raw:: html
 
@@ -50,80 +50,80 @@ After installation completes, reboot the Raspberry Pi. Then execute the audio se
 
       sudo /opt/setup_fusion_hat_audio.sh
 
-This completes the software installation process for the Fusion HAT.
+Esto completa el proceso de instalación del software para el Fusion HAT.
 
-Configure and Use Safe Shutdown
+Configurar y Usar el Apagado Seguro
 -----------------------------------
 
-The Fusion HAT relies on the Raspberry Pi’s shutdown signal to fully manage system power.  
-To ensure a safe and reliable power-off process, you need to **configure the shutdown behavior** according to your Raspberry Pi model and then use the **power button** correctly.
+El Fusion HAT depende de la señal de apagado de la Raspberry Pi para gestionar completamente la alimentación del sistema.  
+Para garantizar un proceso de apagado seguro y confiable, debes **configurar el comportamiento de apagado** según el modelo de tu Raspberry Pi y luego usar correctamente el **botón de encendido**.
 
-**For Raspberry Pi 5 and 4B**
+**Para Raspberry Pi 5 y 4B**
 
-These models support complete power-off after shutdown. The Fusion HAT monitors the 3.3V line to detect the Pi’s power state.
+Estos modelos admiten un apagado completo. El Fusion HAT monitorea la línea de 3.3V para detectar el estado de energía de la Pi.
 
-1. Place the jumper on **RPI_STATE → Pi3V3**.
+1. Coloca el jumper en **RPI_STATE → Pi3V3**.
 
    .. image:: /_shared/pi_start/img/state_3v3.jpg
       :width: 400
 
-2. Edit the EEPROM configuration manually:
+2. Edita la configuración del EEPROM manualmente:
 
    .. code-block::
 
       sudo raspi-config
 
-3. Navigate to **Advanced Options → A12 Shutdown Behaviour**.
+3. Navega a **Advanced Options → A12 Shutdown Behaviour**.
 
    .. image:: /_shared/pi_start/img/shutdown_behaviour.png
 
-4. Select **B1 Full Power Off**.
+4. Selecciona **B1 Full Power Off**.
 
    .. image:: /_shared/pi_start/img/run_power_off.png
 
-5. Save the changes. You will be prompted to reboot for the new settings to take effect.
+5. Guarda los cambios. Se te pedirá reiniciar para que la nueva configuración surta efecto.
 
-**For Raspberry Pi Zero 2W, 3B, 3B+**
+**Para Raspberry Pi Zero 2W, 3B, 3B+**
 
-These models do **not** support full power-off using 3.3V. Instead, GPIO26 must be configured as a shutdown state indicator.
+Estos modelos **no** admiten apagado completo usando 3.3V. En su lugar, se debe configurar el GPIO26 como indicador de estado de apagado.
 
-1. Place the jumper on **RPI_STATE → IO26**.
+1. Coloca el jumper en **RPI_STATE → IO26**.
 
    .. image:: /_shared/pi_start/img/state_io26.jpg
       :width: 400
 
-2. Edit the ``/boot/firmware/config.txt`` file:
+2. Edita el archivo ``/boot/firmware/config.txt``:
 
    .. code-block::
 
       sudo nano /boot/firmware/config.txt
 
-3. Add the following line at the end to set GPIO26 as low on shutdown and high on power-up:
+3. Agrega la siguiente línea al final para establecer el GPIO26 como bajo en apagado y alto al encender:
 
    .. code-block::
 
       dtoverlay=gpio-poweroff,gpio_pin=26,active_low=1
 
-4. Reboot to apply changes:
+4. Reinicia para aplicar los cambios:
 
    .. code-block::
 
       sudo reboot
 
-**Using the Power Button for Safe Shutdown**
+**Uso del Botón de Encendido para Apagado Seguro**
 
-After the shutdown configuration is completed, you can safely power off the PiCar-X using the Fusion HAT power button.
+Una vez completada la configuración de apagado, puedes apagar el PiCar-X de forma segura usando el botón de encendido del Fusion HAT.
 
-* **Soft Shutdown (Recommended)**
+* **Apagado Suave (Recomendado)**
 
-  * Press and hold the power button for **2 seconds**.  
-  * The two power LEDs will flash rapidly.  
-  * Release the button → Fusion HAT triggers Raspberry Pi shutdown.  
-  * Once the shutdown is complete, Fusion HAT will cut power automatically.  
-  * This protects your SD card and files.
+  * Mantén presionado el botón de encendido durante **2 segundos**.  
+  * Los dos LED de alimentación parpadearán rápidamente.  
+  * Suelta el botón → Fusion HAT iniciará el apagado de la Raspberry Pi.  
+  * Una vez que finalice el apagado, Fusion HAT cortará la alimentación automáticamente.  
+  * Esto protege tu tarjeta SD y tus archivos.
 
-* **Hard Shutdown (Emergency Only)**
+* **Apagado Forzado (Solo Emergencias)**
 
-  * If the system becomes unresponsive, press and hold the power button for **5+ seconds**.  
-  * Fusion HAT will force power-off.  
-  * Warning: This may corrupt the SD card or system files. Use only when necessary.
+  * Si el sistema no responde, mantén presionado el botón durante **más de 5 segundos**.  
+  * Fusion HAT forzará el apagado inmediato.  
+  * Advertencia: Esto puede dañar la tarjeta SD o corromper archivos del sistema. Úsalo solo cuando sea estrictamente necesario.

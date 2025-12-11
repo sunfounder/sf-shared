@@ -1,43 +1,43 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    ¡Hola, bienvenido a la comunidad de entusiastas de SunFounder Raspberry Pi & Arduino & ESP32 en Facebook! Sumérgete más en Raspberry Pi, Arduino y ESP32 con otros entusiastas.
 
-    **Why Join?**
+    **¿Por qué unirse?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Soporte experto**: Resuelve problemas postventa y desafíos técnicos con la ayuda de nuestra comunidad y equipo.
+    - **Aprender y compartir**: Intercambia consejos y tutoriales para mejorar tus habilidades.
+    - **Previsualizaciones exclusivas**: Obtén acceso temprano a anuncios de nuevos productos y adelantos exclusivos.
+    - **Descuentos especiales**: Disfruta de descuentos exclusivos en nuestros productos más nuevos.
+    - **Promociones y sorteos festivos**: Participa en sorteos y promociones festivas.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 ¿Listo para explorar y crear con nosotros? Haz clic en [|link_sf_facebook|] y únete hoy mismo.
 
 .. _openssh_powershell:
 
-Install OpenSSH via PowerShell
-------------------------------
+Instalar OpenSSH mediante PowerShell
+====================================
 
-If you see the following error when running ``ssh <username>@<hostname>.local`` or ``ssh <username>@<IP>``:
+Si ves el siguiente error al ejecutar ``ssh <username>@<hostname>.local`` o ``ssh <username>@<IP>``:
 
 .. code-block::
 
     ssh: The term 'ssh' is not recognized as the name of a cmdlet, function, script file, or operable program.
 
-It means your Windows system does not have OpenSSH installed.  
-Follow the steps below to install it manually.
+Significa que tu sistema Windows no tiene OpenSSH instalado.  
+Sigue los pasos a continuación para instalarlo manualmente.
 
-#. Open the Windows Start Menu, type **powershell**, right-click **Windows PowerShell**, and select **Run as administrator**.
+#. Abre el Menú Inicio de Windows, escribe **powershell**, haz clic derecho en **Windows PowerShell** y selecciona **Run as administrator** (Ejecutar como administrador).
 
    .. image:: /_shared/appendix/img/powershell_ssh.png
       :align: center
 
-#. Install the OpenSSH Client:
+#. Instala el cliente OpenSSH:
 
    .. code-block:: bash
 
       Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
 
-#. After installation, you should see output similar to:
+#. Tras la instalación, deberías ver una salida similar a:
 
    .. code-block::
 
@@ -45,13 +45,13 @@ Follow the steps below to install it manually.
         Online        : True
         RestartNeeded : False
 
-#. Verify the installation:
+#. Verifica la instalación:
 
    .. code-block:: bash
 
       Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'
 
-#. If OpenSSH is installed, the output will include:
+#. Si OpenSSH está instalado, la salida incluirá:
 
    .. code-block::
 
@@ -61,10 +61,10 @@ Follow the steps below to install it manually.
         State : NotPresent
 
    .. warning::
-      If ``Installed`` does not appear, your Windows system may be too old.  
-      In this case, we recommend using a third-party SSH tool. See: :ref:`login_windows`
+      Si ``Installed`` no aparece, es posible que tu sistema Windows sea demasiado antiguo.  
+      En ese caso, recomendamos usar una herramienta SSH de terceros. Consulta: :ref:`login_windows`
 
-#. Close PowerShell, reopen it (no need to run as administrator this time), and use the ``ssh`` command to log in:
+#. Cierra PowerShell, vuelve a abrirlo (esta vez no es necesario usar administrador) y utiliza el comando ``ssh`` para iniciar sesión:
 
    .. code-block:: bash
 
@@ -72,4 +72,5 @@ Follow the steps below to install it manually.
 
    .. image:: /_shared/appendix/img/powershell_login.png
       :align: center
+
 

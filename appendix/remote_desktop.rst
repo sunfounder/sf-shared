@@ -1,48 +1,49 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    ¡Hola, bienvenido a la comunidad de entusiastas de SunFounder Raspberry Pi & Arduino & ESP32 en Facebook! Sumérgete más en Raspberry Pi, Arduino y ESP32 con otros entusiastas.
 
-    **Why Join?**
+    **¿Por qué unirse?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Soporte experto**: Resuelve problemas postventa y desafíos técnicos con la ayuda de nuestra comunidad y equipo.
+    - **Aprender y compartir**: Intercambia consejos y tutoriales para mejorar tus habilidades.
+    - **Previsualizaciones exclusivas**: Obtén acceso temprano a anuncios de nuevos productos y adelantos exclusivos.
+    - **Descuentos especiales**: Disfruta de descuentos exclusivos en nuestros productos más nuevos.
+    - **Promociones y sorteos festivos**: Participa en sorteos y promociones festivas.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 ¿Listo para explorar y crear con nosotros? Haz clic en [|link_sf_facebook|] y únete hoy mismo.
+
 
 .. _remote_desktop:
 
-Remote Desktop
-==============
+Escritorio Remoto
+======================
 
-You can access and control the Raspberry Pi desktop remotely from another computer.  
-The recommended method is **VNC**, which is officially supported on Raspberry Pi OS and provides a reliable and consistent desktop experience.
+Puedes acceder y controlar el escritorio de la Raspberry Pi de forma remota desde otra computadora.  
+El método recomendado es **VNC**, que está soportado oficialmente en Raspberry Pi OS y proporciona una experiencia de escritorio confiable y consistente.
 
-The following section explains how to enable VNC on your Raspberry Pi and connect to it using |shared_link_realvnc|.
+La siguiente sección explica cómo habilitar VNC en tu Raspberry Pi y conectarte usando |shared_link_realvnc|.
 
 -----------------
 
-Enable the VNC Service
-----------------------
+Habilitar el Servicio VNC
+-------------------------
 
-RealVNC Server is preinstalled on Raspberry Pi OS, but it is **disabled by default**.  
-You must enable it through the configuration tool.
+RealVNC Server viene preinstalado en Raspberry Pi OS, pero está **deshabilitado por defecto**.  
+Debes habilitarlo mediante la herramienta de configuración.
 
-#. Open a terminal on your computer (Windows: **PowerShell**; macOS/Linux: **Terminal**) and connect to your Raspberry Pi:
+#. Abre una terminal en tu computadora (Windows: **PowerShell**; macOS/Linux: **Terminal**) y conéctate a tu Raspberry Pi:
 
    .. code-block:: bash
 
       ssh <username>@<hostname>.local
 
-   or
+   o
 
    .. code-block:: bash
 
       ssh <username>@<ip_address>
 
-#. Run the configuration tool:
+#. Ejecuta la herramienta de configuración:
 
    .. code-block:: bash
 
@@ -51,85 +52,84 @@ You must enable it through the configuration tool.
    .. image:: /_shared/appendix/img/ssh_raspi_config.png
 
 
-#. Select **Interfacing Options** and press **Enter**.
+#. Selecciona **Interfacing Options** y presiona **Enter**.
 
    .. image:: /_shared/appendix/img/ssh_interface.png
 
 
-#. Select **VNC**.
+#. Selecciona **VNC**.
 
    .. image:: /_shared/appendix/img/ssh_vnc_vnc.png
 
 
-#. Choose **Yes**, then **OK**, and finally **Finish** to exit.
+#. Elige **Yes**, luego **OK**, y finalmente **Finish** para salir.
 
    .. image:: /_shared/appendix/img/ssh_vnc_enable.png
 
 
 
-Log in with RealVNC® Viewer
----------------------------
+Iniciar sesión con RealVNC® Viewer
+----------------------------------
 
-#. Download and install |shared_link_realvnc| for your operating system.
+#. Descarga e instala |shared_link_realvnc| según tu sistema operativo.
 
    .. image:: /_shared/appendix/img/ssh_vnc_download.png
 
 
-#. Open **RealVNC Viewer**, then enter your Raspberry Pi's IP address or ``<hostname>.local`` and press **Enter**.
+#. Abre **RealVNC Viewer**, luego ingresa la dirección IP de tu Raspberry Pi o ``<hostname>.local`` y presiona **Enter**.
 
    .. image:: /_shared/appendix/img/ssh_vnc_login.png
 
 
-#. Enter your Raspberry Pi's **username** and **password**, then select **OK**.
+#. Ingresa el **nombre de usuario** y **contraseña** de tu Raspberry Pi, luego selecciona **OK**.
 
    .. note::
 
-      When connecting for the first time, you may see a message such as “VNC Server not recognized”. Select **Continue** to proceed.
+      Al conectarte por primera vez, puede aparecer un mensaje como “VNC Server not recognized”. Selecciona **Continue** para proceder.
 
    .. image:: /_shared/appendix/img/ssh_vnc_username.png
 
 
-#. You should now see the Raspberry Pi desktop:
+#. Ahora deberías ver el escritorio de la Raspberry Pi:
 
    .. image:: /_shared/appendix/img/ssh_vnc_desktop.png
 
 
-This completes the VNC setup process.
+Esto completa el proceso de configuración de VNC.
 
 -----------------
 
-
-Additional Notes
+Notas Adicionales
 -----------------
 
-* **Desktop version required**
+* **Se requiere la versión Desktop**
 
-  * VNC requires the Raspberry Pi to be running the full desktop version of Raspberry Pi OS.  
-  * If you are using **Raspberry Pi OS Lite**, install VNC Server manually: ``sudo apt install realvnc-vnc-server``
-
-
-* **Network performance tips** 
-
-  * If you experience lag or slow refresh rates, check your network quality.  
-  * Wired Ethernet generally offers the best performance.
+  * VNC necesita que la Raspberry Pi esté ejecutando la versión completa con escritorio de Raspberry Pi OS.  
+  * Si usas **Raspberry Pi OS Lite**, instala VNC Server manualmente: ``sudo apt install realvnc-vnc-server``
 
 
-* **Fixing display resolution issues**
+* **Consejos para el rendimiento de red** 
 
-  * If the VNC window appears too small or the resolution is incorrect, set a fixed resolution via: ``sudo raspi-config`` → **Display Options** → **VNC Resolution**
-
-
-* **Ensure VNC is enabled**
-
-  If VNC fails to connect, verify that it is enabled in: ``sudo raspi-config`` → ``Interfacing Options`` → ``VNC``
-
-* **Stopping the VNC service**
-
-  To manually stop the VNC Server: ``sudo systemctl stop vncserver-x11-serviced``
+  * Si experimentas lentitud o baja tasa de refresco, revisa la calidad de tu red.  
+  * Ethernet por cable generalmente ofrece el mejor rendimiento.
 
 
-* **Security reminder**
+* **Corrección de problemas de resolución**
 
-  * VNC is designed for trusted local networks.  
-  * Do **not** expose VNC directly to the internet.  
-  * For secure remote access from outside your network, use **Raspberry Pi Connect** or a VPN.
+  * Si la ventana VNC aparece demasiado pequeña o con resolución incorrecta, configura una resolución fija en: ``sudo raspi-config`` → **Display Options** → **VNC Resolution**
+
+
+* **Asegúrate de que VNC esté habilitado**
+
+  Si VNC no se conecta, verifica que esté habilitado en: ``sudo raspi-config`` → ``Interfacing Options`` → ``VNC``
+
+* **Detener el servicio VNC**
+
+  Para detener manualmente VNC Server: ``sudo systemctl stop vncserver-x11-serviced``
+
+
+* **Recordatorio de seguridad**
+
+  * VNC está diseñado para redes locales de confianza.  
+  * **No** expongas VNC directamente a internet.  
+  * Para acceso remoto seguro desde fuera de tu red, utiliza **Raspberry Pi Connect** o una VPN.
