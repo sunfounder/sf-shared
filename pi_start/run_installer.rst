@@ -1,33 +1,33 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Gemeinschaft auf Facebook! Tauchen Sie tiefer ein in die Welt von Raspberry Pi, Arduino und ESP32 mit anderen Enthusiasten.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Lösen Sie Nachverkaufsprobleme und technische Herausforderungen mit Hilfe unserer Gemeinschaft und unseres Teams.
+    - **Lernen & Teilen**: Tauschen Sie Tipps und Anleitungen aus, um Ihre Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalten Sie frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezialrabatte**: Genießen Sie exklusive Rabatte auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nehmen Sie an Gewinnspielen und Feiertagsaktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Sind Sie bereit, mit uns zu erkunden und zu erschaffen? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
 
 .. _install_all_modules:
 
-Configure Power & Install Software (Important)
+Strom konfigurieren & Software installieren (Wichtig)
 ================================================================
 
-In this chapter, you’ll install the related software, configure audio, set up safe power management and learn how to handle shutdowns.
+In diesem Kapitel installieren Sie die benötigte Software, konfigurieren die Audioeinstellungen, richten ein sicheres Powermanagement ein und lernen, wie Sie Abschaltungen korrekt durchführen.
 
 .. _install_fusion_hat:
 
-Install ``fusion-hat`` module
+``fusion-hat``-Modul installieren
 ----------------------------------
 
-For this kit, all GPIO functionalities are managed through the Fusion HAT. Therefore, you need to use the accompanying ``fusion-hat`` library to access and control them.
+Für dieses Kit werden alle GPIO-Funktionen über das Fusion HAT verwaltet. Daher müssen Sie die zugehörige ``fusion-hat``-Bibliothek verwenden, um darauf zuzugreifen und es zu steuern.
 
-Run the command in terminal to install ``fusion-hat`` module.
+Führen Sie im Terminal folgenden Befehl aus, um das ``fusion-hat``-Modul zu installieren:
 
    .. raw:: html
 
@@ -37,10 +37,10 @@ Run the command in terminal to install ``fusion-hat`` module.
 
       curl -sSL https://raw.githubusercontent.com/sunfounder/sunfounder-installer-scripts/main/install-fusion-hat.sh | sudo bash
 
-.. note:: For the detail of fusion-hat, please refer to the |shared_link_fusion_hat|.
+.. note:: Ausführliche Informationen zum Fusion HAT finden Sie unter |shared_link_fusion_hat|.
 
 
-After installation completes, reboot the Raspberry Pi. Then execute the audio setup script:
+Nach Abschluss der Installation starten Sie den Raspberry Pi neu. Danach führen Sie das Audio-Setup-Skript aus:
 
    .. raw:: html
 
@@ -50,80 +50,80 @@ After installation completes, reboot the Raspberry Pi. Then execute the audio se
 
       sudo /opt/setup_fusion_hat_audio.sh
 
-This completes the software installation process for the Fusion HAT.
+Damit ist die Softwareinstallation für das Fusion HAT abgeschlossen.
 
-Configure and Use Safe Shutdown
------------------------------------
+Sicheres Herunterfahren konfigurieren und verwenden
+----------------------------------------------------
 
-The Fusion HAT relies on the Raspberry Pi’s shutdown signal to fully manage system power.  
-To ensure a safe and reliable power-off process, you need to **configure the shutdown behavior** according to your Raspberry Pi model and then use the **power button** correctly.
+Das Fusion HAT stützt sich auf das Shutdown-Signal des Raspberry Pi, um die Stromversorgung vollständig zu verwalten.  
+Um einen sicheren und zuverlässigen Ausschaltvorgang zu gewährleisten, müssen Sie das **Herunterfahrverhalten** abhängig vom Raspberry-Pi-Modell konfigurieren und anschließend die **Powertaste** korrekt verwenden.
 
-**For Raspberry Pi 5 and 4B**
+**Für Raspberry Pi 5 und 4B**
 
-These models support complete power-off after shutdown. The Fusion HAT monitors the 3.3V line to detect the Pi’s power state.
+Diese Modelle unterstützen vollständiges Ausschalten nach dem Shutdown. Das Fusion HAT überwacht die 3,3V-Leitung, um den Stromzustand des Pi zu erkennen.
 
-1. Place the jumper on **RPI_STATE → Pi3V3**.
+1. Setzen Sie den Jumper auf **RPI_STATE → Pi3V3**.
 
    .. image:: /_shared/pi_start/img/state_3v3.jpg
       :width: 400
 
-2. Edit the EEPROM configuration manually:
+2. Öffnen Sie die EEPROM-Konfiguration:
 
    .. code-block::
 
       sudo raspi-config
 
-3. Navigate to **Advanced Options → A12 Shutdown Behaviour**.
+3. Navigieren Sie zu **Advanced Options → A12 Shutdown Behaviour**.
 
    .. image:: /_shared/pi_start/img/shutdown_behaviour.png
 
-4. Select **B1 Full Power Off**.
+4. Wählen Sie **B1 Full Power Off**.
 
    .. image:: /_shared/pi_start/img/run_power_off.png
 
-5. Save the changes. You will be prompted to reboot for the new settings to take effect.
+5. Speichern Sie die Änderungen. Sie werden aufgefordert, neu zu starten, damit die Einstellungen wirksam werden.
 
-**For Raspberry Pi Zero 2W, 3B, 3B+**
+**Für Raspberry Pi Zero 2W, 3B, 3B+**
 
-These models do **not** support full power-off using 3.3V. Instead, GPIO26 must be configured as a shutdown state indicator.
+Diese Modelle unterstützen **kein** vollständiges Ausschalten über die 3,3V-Leitung. Stattdessen muss GPIO26 als Shutdown-Indikator konfiguriert werden.
 
-1. Place the jumper on **RPI_STATE → IO26**.
+1. Setzen Sie den Jumper auf **RPI_STATE → IO26**.
 
    .. image:: /_shared/pi_start/img/state_io26.jpg
       :width: 400
 
-2. Edit the ``/boot/firmware/config.txt`` file:
+2. Bearbeiten Sie die Datei ``/boot/firmware/config.txt``:
 
    .. code-block::
 
       sudo nano /boot/firmware/config.txt
 
-3. Add the following line at the end to set GPIO26 as low on shutdown and high on power-up:
+3. Fügen Sie folgende Zeile am Ende hinzu, um GPIO26 beim Shutdown auf Low und beim Start auf High zu setzen:
 
    .. code-block::
 
       dtoverlay=gpio-poweroff,gpio_pin=26,active_low=1
 
-4. Reboot to apply changes:
+4. Starten Sie neu, um die Änderungen zu übernehmen:
 
    .. code-block::
 
       sudo reboot
 
-**Using the Power Button for Safe Shutdown**
+**Die Powertaste für einen sicheren Shutdown verwenden**
 
-After the shutdown configuration is completed, you can safely power off the PiCar-X using the Fusion HAT power button.
+Nach erfolgreicher Konfiguration können Sie die PiCar-X sicher über die Powertaste des Fusion HAT ausschalten.
 
-* **Soft Shutdown (Recommended)**
+* **Soft Shutdown (Empfohlen)**
 
-  * Press and hold the power button for **2 seconds**.  
-  * The two power LEDs will flash rapidly.  
-  * Release the button → Fusion HAT triggers Raspberry Pi shutdown.  
-  * Once the shutdown is complete, Fusion HAT will cut power automatically.  
-  * This protects your SD card and files.
+  * Powertaste **2 Sekunden lang** gedrückt halten.  
+  * Die beiden Power-LEDs beginnen schnell zu blinken.  
+  * Taste loslassen → Fusion HAT initiiert das Herunterfahren des Raspberry Pi.  
+  * Nach Abschluss des Shutdowns trennt das Fusion HAT automatisch die Stromversorgung.  
+  * Dies schützt Ihre SD-Karte und Dateien.
 
-* **Hard Shutdown (Emergency Only)**
+* **Hard Shutdown (Nur im Notfall)**
 
-  * If the system becomes unresponsive, press and hold the power button for **5+ seconds**.  
-  * Fusion HAT will force power-off.  
-  * Warning: This may corrupt the SD card or system files. Use only when necessary.
+  * Wenn das System nicht reagiert, Powertaste **länger als 5 Sekunden** gedrückt halten.  
+  * Fusion HAT erzwingt ein sofortiges Abschalten.  
+  * Warnung: Dies kann die SD-Karte oder Systemdateien beschädigen. Verwenden Sie diese Methode nur im Notfall.

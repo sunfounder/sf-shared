@@ -1,41 +1,36 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Gemeinschaft auf Facebook! Tauchen Sie tiefer ein in die Welt von Raspberry Pi, Arduino und ESP32 mit anderen Enthusiasten.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Lösen Sie Nachverkaufsprobleme und technische Herausforderungen mit Hilfe unserer Gemeinschaft und unseres Teams.
+    - **Lernen & Teilen**: Tauschen Sie Tipps und Anleitungen aus, um Ihre Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalten Sie frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezialrabatte**: Genießen Sie exklusive Rabatte auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nehmen Sie an Gewinnspielen und Feiertagsaktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Sind Sie bereit, mit uns zu erkunden und zu erschaffen? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
 .. _cpn_bar_graph:
 
-LED Bar Graph
+LED-Balkendiagramm
 ======================
 
 .. image:: img/bar_graph.png
     :width: 300
     :align: center
 
-LED Bar Graph is an LED array, which is used to connect with electronic
-circuit or microcontroller. It’s easy to connect LED bar graph with the
-circuit like as connecting 10 individual LEDs with 10 output pins.
-Generally we can use the LED bar graph as a Battery level Indicator,
-Audio equipments, and Industrial Control panels. There are many other
-applications of LED bar graphs.
+Das LED-Balkendiagramm ist ein LED-Array, das dazu verwendet wird, sich mit elektronischen Schaltungen oder Mikrocontrollern zu verbinden. Es ist einfach, das LED-Balkendiagramm mit der Schaltung zu verbinden, genau wie das Anschließen von 10 einzelnen LEDs an 10 Ausgangspins. In der Regel verwenden wir das LED-Balkendiagramm als Batteriestandsanzeige, Audioausrüstungen und industrielle Steuerungstafeln. Es gibt viele weitere Anwendungen für LED-Balkendiagramme.
 
-The following is the internal schematic diagram of LED Bar Graph. Generally speaking, the side with the label is the anode and the other side is the cathode.
+Nachfolgend ist das interne Schaltbild des LED-Balkendiagramms. Allgemein gesagt, ist die Seite mit dem Etikett die Anode und die andere Seite ist die Kathode.
 
 .. image:: img/led_bar_sche.png
 
-.. **Example**
+.. **Beispiel**
 
-.. * :ref:`1.1.3_c` (C Project)
-.. * :ref:`3.1.5_c` (C Project)
-.. * :ref:`1.1.3_py` (Python Project)
-.. * :ref:`4.1.11_py` (Python Project)
-.. * :ref:`1.12_scratch` (Scratch Project)
+.. * :ref:`1.1.3_c` (C-Projekt)
+.. * :ref:`3.1.5_c` (C-Projekt)
+.. * :ref:`1.1.3_py` (Python-Projekt)
+.. * :ref:`4.1.11_py` (Python-Projekt)
+.. * :ref:`1.12_scratch` (Scratch-Projekt)

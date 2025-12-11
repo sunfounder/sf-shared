@@ -1,16 +1,16 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Gemeinschaft auf Facebook! Tauchen Sie tiefer ein in die Welt von Raspberry Pi, Arduino und ESP32 mit anderen Enthusiasten.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Lösen Sie Nachverkaufsprobleme und technische Herausforderungen mit Hilfe unserer Gemeinschaft und unseres Teams.
+    - **Lernen & Teilen**: Tauschen Sie Tipps und Anleitungen aus, um Ihre Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalten Sie frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezialrabatte**: Genießen Sie exklusive Rabatte auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nehmen Sie an Gewinnspielen und Feiertagsaktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Sind Sie bereit, mit uns zu erkunden und zu erschaffen? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
 .. _cpn_i2c_lcd:
 
@@ -20,48 +20,45 @@ I2C LCD1602
 .. image:: img/i2c_lcd1602.png
     :width: 800
 
-* **GND**: Ground
-* **VCC**: Voltage supply, 5V.
-* **SDA**: Serial data line. Connect to VCC through a pullup resistor.
-* **SCL**: Serial clock line. Connect to VCC through a pullup resistor.
+* **GND**: Masse
+* **VCC**: Spannungsversorgung, 5V.
+* **SDA**: Serielle Datenleitung. Mit VCC über einen Pullup-Widerstand verbinden.
+* **SCL**: Serielle Taktleitung. Mit VCC über einen Pullup-Widerstand verbinden.
 
-As we all know, though LCD and some other displays greatly enrich the man-machine interaction, they share a common weakness. When they are connected to a controller, multiple IOs will be occupied of the controller which has no so many outer ports. Also it restricts other functions of the controller. 
+Wie wir alle wissen, bereichern LCDs und andere Anzeigen zwar die Mensch-Maschine-Interaktion, sie haben jedoch eine gemeinsame Schwäche. Wenn sie an einen Controller angeschlossen werden, werden mehrere IOs des Controllers belegt, der nicht viele externe Ports hat. Dies schränkt auch andere Funktionen des Controllers ein.
 
-Therefore, LCD1602 with an I2C module is developed to solve the problem. The I2C module has a built-in PCF8574 I2C chip that converts I2C serial data to parallel data for the LCD display.        
+Daher wurde LCD1602 mit einem I2C-Modul entwickelt, um dieses Problem zu lösen. Das I2C-Modul verfügt über einen integrierten PCF8574 I2C-Chip, der I2C-Serien-Daten in parallele Daten für das LCD-Display umwandelt.
 
-* `PCF8574 Datasheet <https://www.ti.com/lit/ds/symlink/pcf8574.pdf?ts=1627006546204&ref_url=https%253A%252F%252Fwww.google.com%252F>`_
+* `PCF8574 Datenblatt <https://www.ti.com/lit/ds/symlink/pcf8574.pdf?ts=1627006546204&ref_url=https%253A%252F%252Fwww.google.com%252F>`_
 
-**I2C Address**
+**I2C-Adresse**
 
-The default address is basically 0x27, in a few cases it may be 0x3F.
+Die Standardadresse ist in der Regel 0x27, in einigen Fällen kann sie jedoch 0x3F sein.
 
-Taking the default address of 0x27 as an example, the device address can be modified by shorting the A0/A1/A2 pads; in the default state, A0/A1/A2 is 1, and if the pad is shorted, A0/A1/A2 is 0.
+Wenn man die Standardadresse von 0x27 als Beispiel nimmt, kann die Geräteadresse durch Kurzschließen der A0/A1/A2-Pads geändert werden; im Standardzustand sind A0/A1/A2 1, und wenn das Pad kurzgeschlossen wird, sind A0/A1/A2 0.
 
 .. image:: img/i2c_address.jpg
     :width: 600
 
-**Backlight/Contrast**
+**Hintergrundbeleuchtung/Kontrast**
 
-Backlight can be enabled by jumper cap, unplugg the jumper cap to disable the backlight. The blue potentiometer on the back is used to adjust the contrast (the ratio of brightness between the brightest white and the darkest black).
-
+Die Hintergrundbeleuchtung kann durch einen Jumper aktiviert werden; zum Deaktivieren den Jumper entfernen. Das blaue Potentiometer auf der Rückseite dient zur Einstellung des Kontrasts (Verhältnis der Helligkeit zwischen dem hellsten Weiß und dem dunkelsten Schwarz).
 
 .. image:: img/back_lcd1602.jpg
 
-* **Shorting Cap**: Backlight can be enabled by this cap，unplugg this cap to disable the backlight.
-* **Potentiometer**: It is used to adjust the contrast (the clarity of the displayed text), which is increased in the clockwise direction and decreased in the counterclockwise direction.
+* **Jumper**: Mit diesem Jumper kann die Hintergrundbeleuchtung aktiviert werden. Entfernen Sie diesen Jumper, um die Hintergrundbeleuchtung zu deaktivieren.
+* **Potentiometer**: Dient zur Einstellung des Kontrasts (Klarheit des angezeigten Texts), im Uhrzeigersinn erhöhen und gegen den Uhrzeigersinn verringern.
 
+.. **Beispiel**
 
+.. * :ref:`1.1.7_c` (C-Projekt)
+.. * :ref:`3.1.3_c` (C-Projekt)
+.. * :ref:`3.1.7_c` (C-Projekt)
+.. * :ref:`3.1.8_c` (C-Projekt)
+.. * :ref:`3.1.11_c` (C-Projekt)
+.. * :ref:`1.1.7_py` (Python-Projekt)
+.. * :ref:`4.1.9_py` (Python-Projekt)
+.. * :ref:`4.1.13_py` (Python-Projekt)
+.. * :ref:`4.1.14_py` (Python-Projekt)
+.. * :ref:`4.1.17_py` (Python-Projekt)
 
-
-.. **Example**
-
-.. * :ref:`1.1.7_c` (C Project)
-.. * :ref:`3.1.3_c` (C Project)
-.. * :ref:`3.1.7_c` (C Project)
-.. * :ref:`3.1.8_c` (C Project)
-.. * :ref:`3.1.11_c` (C Project)
-.. * :ref:`1.1.7_py` (Python Project)
-.. * :ref:`4.1.9_py` (Python Project)
-.. * :ref:`4.1.13_py` (Python Project)
-.. * :ref:`4.1.14_py` (Python Project)
-.. * :ref:`4.1.17_py` (Python Project)

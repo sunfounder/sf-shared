@@ -1,43 +1,41 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Gemeinschaft auf Facebook! Tauchen Sie tiefer ein in die Welt von Raspberry Pi, Arduino und ESP32 mit anderen Enthusiasten.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Lösen Sie Nachverkaufsprobleme und technische Herausforderungen mit Hilfe unserer Gemeinschaft und unseres Teams.
+    - **Lernen & Teilen**: Tauschen Sie Tipps und Anleitungen aus, um Ihre Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalten Sie frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezialrabatte**: Genießen Sie exklusive Rabatte auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nehmen Sie an Gewinnspielen und Feiertagsaktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Sind Sie bereit, mit uns zu erkunden und zu erschaffen? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
 .. _cpn_rotary_encoder:
 
-Rotary Encoder Module
+Drehgebermodul
 =============================
 
 .. image:: img/rotary_encoder_pic.png
     :width: 300
     :align: center
 
-A rotary encoder is a position sensor that converts the rotation of a knob into an output signal, indicating the direction in which the knob is turned.
+Ein Drehgeber ist ein Positionssensor, der die Rotation eines Knopfes in ein Ausgangssignal umwandelt und die Richtung anzeigt, in welche der Knopf gedreht wird.
 
-Rotary encoders are digital versions of potentiometers, offering greater versatility. They can rotate continuously, while potentiometers have limited rotation. Potentiometers indicate exact knob position, while rotary encoders show changes in position.
+Drehgeber sind digitale Versionen von Potentiometern und bieten eine größere Vielseitigkeit. Sie können sich kontinuierlich drehen, während Potentiometer einen begrenzten Drehbereich haben. Potentiometer zeigen die genaue Knopfposition an, während Drehgeber Veränderungen in der Position anzeigen.
 
-There are mainly two types of rotary encoders: absolute and incremental (relative) encoders. An incremental one is used in this kit.
+Es gibt hauptsächlich zwei Arten von Drehgebern: absolute und inkrementelle (relative) Encoder. In diesem Kit wird ein inkrementeller verwendet.
 
-Incremental encoders produce two-phase square waves, with a 90-degree phase difference commonly referred to as the A and B channels.
+Inkrementelle Encoder erzeugen zweiphasige Rechteckwellen mit einer 90-Grad-Phasendifferenz, die üblicherweise als A- und B-Kanal bezeichnet werden.
 
-As illustrated below, when channel A transitions from a high level to a low level, if channel B is at a high level, it indicates that the rotary encoder is rotating clockwise (CW); if at that moment channel B is at a low level, it means the rotation is counterclockwise (CCW). Therefore, by reading the value of channel B when channel A is at a low level, we can determine the direction in which the rotary encoder rotates.
-
-
+Wie unten veranschaulicht, bedeutet es beim Übergang des Kanals A von einem hohen Pegel zu einem niedrigen Pegel - wenn Kanal B auf hohem Niveau ist -, dass sich der Drehgeber im Uhrzeigersinn (CW) dreht; befindet sich Kanal B in diesem Moment auf niedrigem Niveau, bedeutet dies eine Rotation entgegen dem Uhrzeigersinn (CCW). Indem wir also den Wert des Kanals B lesen, wenn Kanal A auf niedrigem Level ist, können wir die Drehrichtrung bestimmen, in welche sich der Drehencoder bewegt.
 
 .. image:: img/image206.png
     :width: 600
     :align: center
 	
-.. **Example**
+.. **Beispiel**
 
-.. * :ref:`2.1.6_c` (C Project)
-.. * :ref:`2.1.6_py` (Python Project)
+.. * :ref:`2.1.6_c` (C-Projekt)
+.. * :ref:`2.1.6_py` (Python-Projekt)

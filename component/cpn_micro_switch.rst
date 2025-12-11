@@ -1,58 +1,57 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Gemeinschaft auf Facebook! Tauchen Sie tiefer ein in die Welt von Raspberry Pi, Arduino und ESP32 mit anderen Enthusiasten.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Lösen Sie Nachverkaufsprobleme und technische Herausforderungen mit Hilfe unserer Gemeinschaft und unseres Teams.
+    - **Lernen & Teilen**: Tauschen Sie Tipps und Anleitungen aus, um Ihre Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalten Sie frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezialrabatte**: Genießen Sie exklusive Rabatte auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nehmen Sie an Gewinnspielen und Feiertagsaktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Sind Sie bereit, mit uns zu erkunden und zu erschaffen? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
 .. _cpn_micro_switch:
 
-Micro Switch
+Mikroschalter
 =====================
 
 .. image:: img/micro_pic.png
     :width: 200
     :align: center
 
-The construction of a micro switch is really simple. The main parts of the switch are:
+Der Aufbau eines Mikroschalters ist wirklich einfach. Die Hauptbestandteile des Schalters sind:
 
 .. image:: img/micro_switch2.png
     :align: center
 
-* 1.Plunger (Actuator)
-* 2.Cover
-* 3.Moving piece
-* 4.Support
-* 5.Case
-* 6.NO terminal: normally open
-* 7.NC terminal: normally closed
-* 8.Contact
-* 9.Moving arm
+* 1.Stößel (Betätiger)
+* 2.Abdeckung
+* 3.Bewegliches Teil
+* 4.Stütze
+* 5.Gehäuse
+* 6.NO-Klemme: normalerweise offen
+* 7.NC-Klemme: normalerweise geschlossen
+* 8.Kontakt
+* 9.Beweglicher Arm
 
+Nachdem ein Mikroschalter physischen Kontakt mit einem Objekt hergestellt hat, ändern seine Kontakte die Position. Das grundlegende Arbeitsprinzip lautet wie folgt:
 
-After a micro switch makes physical contact with an object, its contacts change position. The basic working principle is as follows.
+Wenn der Stößel in der freigegebenen oder Ruheposition ist.
 
-When the plunger is in the released or rest position.
+* Der normalerweise geschlossene Stromkreis kann Strom führen.
+* Der normalerweise offene Stromkreis ist elektrisch isoliert.
 
-* The normally closed circuit can carry current.
-* The normally open circuit is electrically insulated.
+Wenn der Stößel gedrückt oder umgeschaltet wird.
 
-When the plunger is depressed or switched.
-
-* The normally closed circuit is open.
-* The normally open circuit is closed.
+* Der normalerweise geschlossene Stromkreis ist offen.
+* Der normalerweise offene Stromkreis ist geschlossen.
 
 .. image:: img/micro_switch1.png
 
-.. **Example**
+.. **Beispiel**
 
-.. * :ref:`2.1.2_c` (C Project)
-.. * :ref:`2.1.2_py` (Python Project)
-.. * :ref:`1.8_scratch` (Scratch Project)
+.. * :ref:`2.1.2_c` (C-Projekt)
+.. * :ref:`2.1.2_py` (Python-Projekt)
+.. * :ref:`1.8_scratch` (Scratch-Projekt)

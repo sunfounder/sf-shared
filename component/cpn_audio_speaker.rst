@@ -1,83 +1,87 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Gemeinschaft auf Facebook! Tauchen Sie tiefer ein in die Welt von Raspberry Pi, Arduino und ESP32 mit anderen Enthusiasten.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Lösen Sie Nachverkaufsprobleme und technische Herausforderungen mit Hilfe unserer Gemeinschaft und unseres Teams.
+    - **Lernen & Teilen**: Tauschen Sie Tipps und Anleitungen aus, um Ihre Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalten Sie frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezialrabatte**: Genießen Sie exklusive Rabatte auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nehmen Sie an Gewinnspielen und Feiertagsaktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Sind Sie bereit, mit uns zu erkunden und zu erschaffen? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
 .. _cpn_audio_speaker:
 
-Audio Module and Speaker
-===========================
+Audio-Modul und Lautsprecher
+================================
 
-**Audio Amplifier Module**
+**Audio-Verstärker-Modul**
 
 .. image:: img/audio_module.jpg
     :width: 500
     :align: center
 
-Audio Amplifier Module contains a HXJ8002 audio power amplifier chip. This chip is a power amplifier with low power supply, that can provide 3W average audio power for a 3Ω BTL load with low harmonic distortion (under 10% threshold distortion at 1KHz) from a 5V DC power supply. This chip can amplify audio signals without any coupling capacitors or bootstrap capacitors.
+Das Audio-Verstärker-Modul enthält einen HXJ8002 Audio-Leistungsverstärker-Chip. Dieser Chip ist ein Verstärker mit geringer Stromversorgung, der bei einer 5V DC Stromversorgung 3W durchschnittliche Audioleistung für eine 3Ω BTL-Last bereitstellen kann, mit geringer harmonischer Verzerrung (unter 10% Schwellenwertverzerrung bei 1KHz). Dieser Chip kann Audiosignale ohne Kopplungskondensatoren oder Bootstrap-Kondensatoren verstärken.
 
-The module can be supplied by a 2.0V up to 5.5V DC with 10mA operating current (0.6uA for typical standby current) power source and produce a powerful amplified sound into a 3Ω, 4Ω, or 8Ω impedance speaker. This module has an improved pop and clicks circuitry for reducing significantly the transition nose at the powering on and off moment. Tiny size besides high efficiency and low power supplying make it applicable in widely portable and battery-powered projects and microcontrollers.  
-
+Das Modul kann mit einer Stromversorgung von 2,0V bis 5,5V DC bei einem Betriebsstrom von 10mA (0,6uA für den typischen Standby-Strom) betrieben werden und einen leistungsstarken verstärkten Ton in einen Lautsprecher mit 3Ω, 4Ω oder 8Ω Impedanz erzeugen. Dieses Modul verfügt über eine verbesserte Pop- und Klick-Schaltung, die das Übergangsrauschen beim Ein- und Ausschalten erheblich reduziert. Die geringe Größe, die hohe Effizienz und die geringe Stromversorgung machen es in vielen tragbaren und batteriebetriebenen Projekten sowie Mikrocontrollern weit verbreitet.
 
 * **IC**: HXJ8002
-* **Input Voltage**: 2V ~ 5.5V
-* **Standby Mode Current**: 0.6uA (typical value)
-* **Output Power**: 3W (3Ω load) , 2.5W (4Ω load) , 1.5W (8Ω load)
-* **Output Speaker Impedance**: 3Ω, 4Ω, 8Ω
-* **Size**: 19.8mm x 14.2mm
+* **Eingangsspannung**: 2V ~ 5.5V
+* **Standby-Modus Strom**: 0.6uA (typischer Wert)
+* **Ausgangsleistung**: 3W (3Ω Last), 2.5W (4Ω Last), 1.5W (8Ω Last)
+* **Ausgang Lautsprecher Impedanz**: 3Ω, 4Ω, 8Ω
+* **Größe**: 19.8mm x 14.2mm
 
-**Speaker**
+**Lautsprecher**
 
 .. image:: img/speaker_pic.png
     :width: 300
     :align: center
 
-* **Size**: 20x30x7mm
-* **Impedance**：8ohm
-* **Rate Input Power**: 1.5W 
-* **Max Input Power**: 2.0W
-* **Wire Length**: 10cm
+* **Größe**: 20x30x7mm
+* **Impedanz**: 8ohm
+* **Nenn-Eingangsleistung**: 1.5W 
+* **Max. Eingangsleistung**: 2.0W
+* **Kabellänge**: 10cm
 
 .. image:: img/2030_speaker.png
 
-The size chart is as follows：
+Die Größentabelle finden Sie unten:
 
-* :download:`2030 Speaker Datasheet <https://github.com/sunfounder/sf-pdf/raw/master/datasheet/2030-speaker-datasheet.pdf>`
+* :download:`2030 Lautsprecher Datenblatt <https://github.com/sunfounder/sf-pdf/raw/master/datasheet/2030-speaker-datasheet.pdf>`
 
-**Audio Cable**
+**Audiokabel**
 
 .. image:: img/audio_cable_pic2.png
     :width: 500
     :align: center
 
-This is a 3.5mm male audio cable with a total length of 43cm. it has 3 connectors, red for the left channel, white for the right channel, and GND in the middle.
+Es handelt sich um ein 3,5mm männliches Audiokabel mit einer Gesamtlänge von 43cm. Es verfügt über 3 Anschlüsse: Rot für den linken Kanal, Weiß für den rechten Kanal und GND in der Mitte.
 
-**Circuit**
+**Schaltplan**
 
 .. image:: img/4.1.4fritzing.png
 
-After building the circuit according to the above diagram, then plug the audio cable into the Raspberry Pi's 3.5mm audio jack.
+Nachdem Sie die Schaltung gemäß dem obigen Diagramm aufgebaut haben, stecken Sie das Audiokabel in die 3,5mm Audio-Buchse des Raspberry Pi.
 
 .. image:: img/audio4.png
     :width: 400
     :align: center
 
-.. **Example**
+Wenn Ihr Lautsprecher keinen Ton von sich gibt, könnte es daran liegen, dass der Raspberry Pi den falschen Audio-Ausgang ausgewählt hat (Standardmäßig ist HDMI ausgewählt). Sie müssen dann :ref:`change_audio_output` auf **Kopfhörer** ändern.
 
-.. * :ref:`3.1.3_py` (Python Project)
-.. * :ref:`3.1.4_py` (Python Project)
-.. * :ref:`4.1.2_py` (Python Project)
-.. * :ref:`4.1.3_py` (Python Project)
-.. * :ref:`4.1.5_py` (Python Project)
-.. * :ref:`1.8_scratch` (Scratch Project)
-.. * :ref:`1.9_scratch` (Scratch Project)
-.. * :ref:`1.10_scratch` (Scratch Project)
+Wenn Sie das Gefühl haben, dass die Lautstärke der Lautsprecher zu niedrig ist, können Sie :ref:`adjust_volume`.
+
+.. **Beispiel**
+
+.. * :ref:`3.1.3_py` (Python-Projekt)
+.. * :ref:`3.1.4_py` (Python-Projekt)
+.. * :ref:`4.1.2_py` (Python-Projekt)
+.. * :ref:`4.1.3_py` (Python-Projekt)
+.. * :ref:`4.1.5_py` (Python-Projekt)
+.. * :ref:`1.8_scratch` (Scratch-Projekt)
+.. * :ref:`1.9_scratch` (Scratch-Projekt)
+.. * :ref:`1.10_scratch` (Scratch-Projekt)
+

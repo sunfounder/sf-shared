@@ -1,91 +1,92 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Gemeinschaft auf Facebook! Tauchen Sie tiefer ein in die Welt von Raspberry Pi, Arduino und ESP32 mit anderen Enthusiasten.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Lösen Sie Nachverkaufsprobleme und technische Herausforderungen mit Hilfe unserer Gemeinschaft und unseres Teams.
+    - **Lernen & Teilen**: Tauschen Sie Tipps und Anleitungen aus, um Ihre Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalten Sie frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezialrabatte**: Genießen Sie exklusive Rabatte auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nehmen Sie an Gewinnspielen und Feiertagsaktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Sind Sie bereit, mit uns zu erkunden und zu erschaffen? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
-What Else Do You Need?
+Was benötigen Sie sonst noch?
 ===============================
 
-Before we start playing with this kit, let’s prepare the essential hardware.
+Bevor wir mit diesem Kit loslegen, bereiten wir zunächst die wichtigsten Hardwarekomponenten vor.
 
-Required Components
+Benötigte Komponenten
 ------------------------------
 
 * **Raspberry Pi**
 
-  The Raspberry Pi acts as the **brain**, handling all computing, sensing, and control tasks.  
+  Der Raspberry Pi dient als **Gehirn** des Systems und übernimmt alle Rechen-, Sensor- und Steueraufgaben.
   
   .. image:: /_shared/pi_start/img/need_pi.jpg
 
-  * **Compatible models**: Raspberry Pi 5, Raspberry Pi 4, 3, or Raspberry Pi Zero 2W  
-  * **Minimum**: **2GB RAM** — sufficient for all standard python projects and for using **online AI services** such as OpenAI Whisper, TTS, or LLMs.  
-  * **Recommended**: **4GB RAM or more** — ensures smoother performance when running **local AI models** (e.g., Vosk speech recognition, Piper TTS, or lightweight LLMs) alongside camera streaming and control tasks.  
-  
+  * **Kompatible Modelle**: Raspberry Pi 5, Raspberry Pi 4, 3 oder Raspberry Pi Zero 2W  
+  * **Minimum**: **2 GB RAM** — ausreichend für alle Standard-Python-Projekte sowie für die Nutzung **onlinebasierter KI-Dienste** wie OpenAI Whisper, TTS oder LLMs.  
+  * **Empfohlen**: **4 GB RAM oder mehr** — sorgt für flüssigere Leistung, insbesondere wenn **lokale KI-Modelle** (z. B. Vosk-Spracherkennung, Piper TTS oder leichte LLMs) parallel zu Kamera-Streaming und Steuerungsaufgaben laufen.  
 
-* **Power Adapter**
 
-  This kit comes with an **18650 battery pack** and a **Fusion HAT** board featuring a built-in charging circuit.
+* **Netzadapter**
+
+  Dieses Kit enthält ein **18650-Akkupack** sowie ein **Fusion HAT** mit integrierter Ladeelektronik.
   
   .. image:: /_shared/pi_start/img/need_power.png
-    :width: 400
+     :width: 400
 
-  * For charging, it is recommended to use a **5V 3A power supply**, such as the official **Raspberry Pi 15W USB-C adapter**.  
-  * You may also use a **USB-C Power Delivery (PD) charger** or a **QC 2.0 fast charger**.  
-  * A full charge typically takes about **2 hours** (from 0% to 100%).  
+  * Für das Laden wird ein **5V-3A-Netzteil** empfohlen, z. B. der offizielle **Raspberry Pi 15W USB-C Adapter**.  
+  * Alternativ können **USB-C Power Delivery (PD)** oder **QC 2.0 Schnellladegeräte** verwendet werden.  
+  * Eine vollständige Ladung dauert typischerweise etwa **2 Stunden** (von 0 % auf 100 %).  
 
 
-* **Micro SD Card**
+* **Micro-SD-Karte**
 
-  The Raspberry Pi does not have a built-in hard drive. It boots and stores all files on a **Micro SD card**.  
+  Der Raspberry Pi besitzt kein internes Laufwerk. Er startet und speichert alle Daten auf einer **Micro-SD-Karte**.
   
   .. image:: /_shared/pi_start/img/need_sd.jpg
-    :width: 200
+     :width: 200
 
-  * Minimum: **16GB**  
-  * Recommended: **32GB** for better stability  
-  * Brand: Use reliable options such as **SanDisk** or **Samsung** to avoid read/write errors  
+  * Minimum: **16 GB**  
+  * Empfohlen: **32 GB** für bessere Stabilität  
+  * Marke: Verwenden Sie zuverlässige Hersteller wie **SanDisk** oder **Samsung**, um Lese-/Schreibfehler zu vermeiden  
   
-Optional Components
+Optionale Komponenten
 ------------------------
 
-Although not strictly required, the following peripherals will greatly improve your learning and debugging experience:
+Diese Komponenten sind nicht zwingend notwendig, verbessern jedoch Ihr Lern- und Debugging-Erlebnis erheblich:
 
-* **Monitor (HDMI or TV)** 
+* **Monitor (HDMI oder Fernseher)**
 
-  For beginners, we strongly recommend a display with an HDMI input, so you can easily configure Raspberry Pi OS and run graphical programs.  
+  Für Anfänger empfehlen wir dringend ein Display mit HDMI-Eingang, um Raspberry Pi OS leichter einzurichten und grafische Anwendungen auszuführen.
 
   .. image:: /_shared/pi_start/img/need_screen.png
-    :width: 400
+     :width: 400
 
-* **HDMI Cable (Standard / Mini / Micro)**
+* **HDMI-Kabel (Standard / Mini / Micro)**
  
-  Different Raspberry Pi models use different HDMI connectors, be sure to check your Pi model and prepare the correct cable. 
+  Da verschiedene Raspberry-Pi-Modelle unterschiedliche HDMI-Anschlüsse verwenden, stellen Sie sicher, dass Sie das passende Kabel bereithalten.
   
   * **Raspberry Pi 4 / 5**: Micro HDMI  
   * **Raspberry Pi 3**: Standard HDMI  
   * **Raspberry Pi Zero 2W**: Mini HDMI 
 
   .. image:: /_shared/pi_start/img/need_hdmi.png
-    :width: 400
+     :width: 400
 
-* **Keyboard & Mouse**
+* **Tastatur & Maus**
 
-  Very useful during the initial setup of Raspberry Pi OS. Later, you may switch to remote access (SSH/VNC), but for beginners we recommend preparing a basic USB or wireless set.  
+  Sehr hilfreich während der Ersteinrichtung von Raspberry Pi OS. Später können Sie per SSH/VNC fernzugreifen, doch für Einsteiger ist ein einfaches USB- oder Funktastatur-/Maus-Set empfehlenswert.
 
   .. image:: /_shared/pi_start/img/need_keyboard_mouse.png
-    :width: 500
+     :width: 500
  
 
-**Tips for Preparation**
+**Tipps zur Vorbereitung**
 
-* If you purchased this kit, most accessories are included, but you still need to prepare the Raspberry Pi board, Micro SD card, and power adapter separately.  
-* Not sure what to buy? The most stable and universal choice is: **Raspberry Pi 4 (2GB) + Official Power Supply + 32GB Micro SD card**.  
+* Wenn Sie dieses Kit gekauft haben, sind die meisten Zubehörteile bereits enthalten, aber Sie müssen **Raspberry-Pi-Board**, **Micro-SD-Karte** und **Netzteil** separat vorbereiten.  
+* Unsicher, was Sie kaufen sollen? Eine stabile und universelle Empfehlung lautet:  
+  **Raspberry Pi 4 (2 GB) + offizielles Netzteil + 32 GB Micro-SD-Karte**.

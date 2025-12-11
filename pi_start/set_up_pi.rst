@@ -1,59 +1,59 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Gemeinschaft auf Facebook! Tauchen Sie tiefer ein in die Welt von Raspberry Pi, Arduino und ESP32 mit anderen Enthusiasten.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Lösen Sie Nachverkaufsprobleme und technische Herausforderungen mit Hilfe unserer Gemeinschaft und unseres Teams.
+    - **Lernen & Teilen**: Tauschen Sie Tipps und Anleitungen aus, um Ihre Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalten Sie frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezialrabatte**: Genießen Sie exklusive Rabatte auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nehmen Sie an Gewinnspielen und Feiertagsaktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Sind Sie bereit, mit uns zu erkunden und zu erschaffen? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
 .. _setup_pi:
 
-Set Up Your Raspberry Pi
-========================
+Richten Sie Ihren Raspberry Pi ein
+==================================
 
-To begin programming and controlling your Raspberry Pi, you first need to access it.  
-This guide describes two common methods:
+Um mit dem Programmieren und Steuern Ihres Raspberry Pi zu beginnen, müssen Sie zunächst Zugriff auf ihn erhalten.  
+Diese Anleitung beschreibt zwei gängige Methoden:
 
-* Using a monitor, keyboard, and mouse  
-* Setting up a headless (no-screen) connection for remote access  
+* Verwendung von Monitor, Tastatur und Maus  
+* Headless-Setup (ohne Bildschirm) für den Fernzugriff  
 
 .. note::
 
-   The Raspberry Pi Zero 2W installed on the robot is not easy to connect to a screen.  
-   We recommend using the **headless setup** method.
+   Der auf dem Roboter installierte Raspberry Pi Zero 2W lässt sich nur schwer an einen Bildschirm anschließen.  
+   Wir empfehlen daher das **Headless-Setup**.
 
 -------------------------
-If You Have a Screen
+Wenn Sie einen Bildschirm haben
 -------------------------
 
-**Required Components**
+**Benötigte Komponenten**
 
-* Raspberry Pi
-* Official Power Supply
-* MicroSD Card
-* HDMI Cable  
-  (For Raspberry Pi 4/5, use **HDMI0**, the port nearest the power connector.)
-* Monitor
-* Keyboard and Mouse
+* Raspberry Pi  
+* Offizielles Netzteil  
+* Micro-SD-Karte  
+* HDMI-Kabel  
+  (Für Raspberry Pi 4/5 verwenden Sie **HDMI0**, den Anschluss in der Nähe des Stromanschlusses.)  
+* Monitor  
+* Tastatur und Maus  
 
-**Steps**
+**Schritte**
 
-#. Insert the microSD card into your Raspberry Pi.
-#. Connect the keyboard, mouse, and monitor.
-#. Power on your Raspberry Pi.
-#. After booting, the Raspberry Pi OS desktop will appear. 
+#. Stecken Sie die microSD-Karte in Ihren Raspberry Pi.
+#. Schließen Sie Tastatur, Maus und Monitor an.
+#. Schalten Sie Ihren Raspberry Pi ein.
+#. Nach dem Booten erscheint der Desktop von Raspberry Pi OS.
 
    .. image:: /_shared/pi_start/img/plug_screen_trixie.png
       :width: 80%
       :align: center
 
-#. Open a **Terminal** to enter commands.
+#. Öffnen Sie ein **Terminal**, um Befehle einzugeben.
 
    .. image:: /_shared/pi_start/img/open_terminal.png
       :width: 60%
@@ -61,87 +61,85 @@ If You Have a Screen
 
 
 ----------------------------------
-If You Have No Screen (Headless)
+Wenn Sie keinen Bildschirm haben (Headless)
 ----------------------------------
 
-Without a monitor, you can configure and log in to your Raspberry Pi remotely.  
-This is the most convenient method for most users.
+Ohne Monitor können Sie Ihren Raspberry Pi vollständig per Fernzugriff konfigurieren und steuern.  
+Dies ist für die meisten Benutzer die bequemste Methode.
 
-**Required Components**
+**Benötigte Komponenten**
 
-* Raspberry Pi
-* Official Power Supply
-* MicroSD Card
-* A computer on the same network
+* Raspberry Pi  
+* Offizielles Netzteil  
+* Micro-SD-Karte  
+* Ein Computer im selben Netzwerk  
 
-**Tips**
+**Tipps**
 
-* Make sure you have completed all settings described in :ref:`imager_custom` when installing the system with Raspberry Pi Imager.
-* Ensure that your Raspberry Pi and your computer are on the same local network.
-* For best stability, use Ethernet if available.
+* Stellen Sie sicher, dass Sie alle Einstellungen aus :ref:`imager_custom` im Raspberry Pi Imager vorgenommen haben.
+* Raspberry Pi und Computer müssen sich im selben lokalen Netzwerk befinden.
+* Für maximale Stabilität nutzen Sie Ethernet, sofern verfügbar.
 
 
-**Connect via SSH**
+**Verbindung über SSH herstellen**
 
-#. Open a terminal on your computer (Windows: **PowerShell**; macOS/Linux: **Terminal**) and connect to your Raspberry Pi:
+#. Öffnen Sie ein Terminal auf Ihrem Computer (Windows: **PowerShell**; macOS/Linux: **Terminal**) und verbinden Sie sich mit Ihrem Raspberry Pi:
 
    .. code-block:: bash
 
       ssh <username>@<hostname>.local
-      # Example:
+      # Beispiel:
       ssh daisy@pi.local
 
-2. Alternatively, locate your Pi’s IP address from your router’s DHCP list and connect with:
+2. Alternativ können Sie die IP-Adresse Ihres Raspberry Pi über die DHCP-Liste Ihres Routers herausfinden und sich damit verbinden:
 
    .. code-block:: bash
 
       ssh <username>@<IP address>
-      # Example:
+      # Beispiel:
       ssh daisy@192.168.1.42
 
-3. On first login, type ``yes`` to confirm the SSH certificate.
+3. Beim ersten Login geben Sie ``yes`` ein, um das SSH-Zertifikat zu akzeptieren.
 
-4. Enter the password you configured in Raspberry Pi Imager.  
-   (Nothing appears while typing—this is normal.)
+4. Geben Sie das Passwort ein, das Sie im Raspberry Pi Imager festgelegt haben.  
+   (Während der Eingabe wird nichts angezeigt — das ist normal.)
 
-5. After login, you now have full command-line access.
+5. Nach der Anmeldung haben Sie vollständigen Zugriff auf die Kommandozeile.
 
    .. image:: /_shared/pi_start/img/ssh_login.png
       :align: center
 
 ----------------------
 
-**Troubleshooting**
+**Fehlerbehebung**
 
 * **ssh: Could not resolve hostname ...**
 
-  * Make sure the hostname is correct.
-  * Try connecting using the Pi’s IP address.
+  * Stellen Sie sicher, dass der Hostname korrekt ist.  
+  * Versuchen Sie die Verbindung über die IP-Adresse des Raspberry Pi.  
 
 * **The term 'ssh' is not recognized... (Windows)**
 
-  * OpenSSH is not installed. Install it manually or use a third-party SSH client.  
-  * See :ref:`openssh_powershell` or :ref:`login_windows`.
+  * OpenSSH ist nicht installiert. Installieren Sie es manuell oder nutzen Sie einen SSH-Client eines Drittanbieters.  
+  * Siehe :ref:`openssh_powershell` oder :ref:`login_windows`.  
 
 * **Permission denied (publickey,password)**
 
-  * Ensure you are using the username and password created in Raspberry Pi Imager.
+  * Vergewissern Sie sich, dass Sie Benutzername und Passwort verwenden, die im Raspberry Pi Imager erstellt wurden.  
 
 * **Connection refused**
 
-  * Wait 1–2 minutes after powering on.
-  * Confirm that SSH was enabled in Raspberry Pi Imager.
+  * Warten Sie 1–2 Minuten nach dem Einschalten.  
+  * Stellen Sie sicher, dass SSH im Raspberry Pi Imager aktiviert wurde.  
 
 --------------------------------
 
-Graphical Remote Access Options
+Grafische Fernzugriffsmöglichkeiten
 -------------------------------------
 
+Wenn Sie eine grafische Oberfläche bevorzugen:
 
-If you prefer a graphical interface:
+* :ref:`remote_desktop`: Aktivieren Sie **VNC (Virtual Network Computing)** für einen vollständigen Desktopzugriff.
+* |shared_link_rpi_connect|: Verwenden Sie Raspberry Pi Connect für sicheren Fernzugriff von überall direkt im Browser.
 
-* :ref:`remote_desktop`: Enable **VNC (Virtual Network Computing)** for a full desktop experience on your Pi.
-
-* |shared_link_rpi_connect|: Use Raspberry Pi Connect for secure remote access from anywhere, directly in a browser. 
-
-Now you can control your Raspberry Pi without a monitor, either through SSH for command-line operations, or with VNC / Raspberry Pi Connect for a graphical desktop experience.
+Jetzt können Sie Ihren Raspberry Pi ohne Monitor steuern – entweder über SSH für die Kommandozeile oder über VNC / Raspberry Pi Connect für eine grafische Desktop-Erfahrung.
