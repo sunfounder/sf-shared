@@ -33,6 +33,11 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
 **1. Install Raspberry Pi Imager**
 -------------------------------------------
 
+
+.. |shared_link_rpi_imager| raw:: html
+
+    <a href="https://www.raspberrypi.com/software/" target="_blank">Raspberry Pi Imager</a>   
+
 #. Visit the official Raspberry Pi Imager download page: |shared_link_rpi_imager|. Download the correct installer for your operating system.
 
    .. image:: /_shared/pi_start/img/imager_download.png
@@ -48,31 +53,31 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
 **2. Install the OS to the microSD Card**
 ------------------------------------------------
 
-#. Insert your microSD card into your computer using a card reader. Back up any important data before proceeding.
+1. Insert your microSD card into your computer using a card reader. Back up any important data before proceeding.
 
    .. image:: /_shared/pi_start/img/insert_sd.png
       :width: 90%
 
-#. When Raspberry Pi Imager opens, you will see the **Device** page. Select your Raspberry Pi model from the list (e.g., Raspberry Pi 5, 4, 3, or Zero 2W).
+2. When Raspberry Pi Imager opens, you will see the **Device** page. Select your Raspberry Pi model from the list (e.g., Raspberry Pi 5, 4, 3, or Zero 2W).
 
    .. image:: /_shared/pi_start/img/imager_device.png
       :width: 90%
 
    .. end_imager
 
-#. Go to the **OS** section and choose the recommended **Raspberry Pi OS (64-bit)** option.
+3. Go to the **OS** section and choose the recommended **Raspberry Pi OS (64-bit)** option.
 
    .. image:: /_shared/pi_start/img/imager_os.png
       :width: 90%
 
    .. start_choose_os
 
-#. In the **Storage** section, select your microSD card. For safety, unplug other USB drives so only the SD card appears in the list.
+4. In the **Storage** section, select your microSD card. For safety, unplug other USB drives so only the SD card appears in the list.
 
    .. image:: /_shared/pi_start/img/imager_storage.png
       :width: 90%
 
-#. Click **Next** to continue to the customization step.
+5. Click **Next** to continue to the customization step.
 
    .. note::
 

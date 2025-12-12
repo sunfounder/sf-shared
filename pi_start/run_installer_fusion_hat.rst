@@ -13,12 +13,14 @@
     👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
 
-.. _install_all_modules:
+.. _install_all_modules_fusion_hat:
 
 Configure Power & Install Software (Important)
 ================================================================
 
 In this chapter, you’ll install the related software, configure audio, set up safe power management and learn how to handle shutdowns.
+
+.. start_install_fusion_hat
 
 .. _install_fusion_hat:
 
@@ -36,6 +38,10 @@ Run the command in terminal to install ``fusion-hat`` module.
    .. code-block::
 
       curl -sSL https://raw.githubusercontent.com/sunfounder/sunfounder-installer-scripts/main/install-fusion-hat.sh | sudo bash
+
+.. |shared_link_fusion_hat| raw:: html
+
+    <a href="https://docs.sunfounder.com/projects/fusion-hat/en/latest/" target="_blank">Fusion HAT+</a>
 
 .. note:: For the detail of fusion-hat, please refer to the |shared_link_fusion_hat|.
 
@@ -127,3 +133,5 @@ After the shutdown configuration is completed, you can safely power off the PiCa
   * If the system becomes unresponsive, press and hold the power button for **5+ seconds**.  
   * Fusion HAT will force power-off.  
   * Warning: This may corrupt the SD card or system files. Use only when necessary.
+
+.. end_install_fusion_hat

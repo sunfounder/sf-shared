@@ -27,6 +27,10 @@ With FileZilla, you can easily upload files (such as images, audio, and scripts)
 Download FileZilla
 ------------------
 
+.. |shared_link_filezilla| raw:: html
+
+    <a href="https://filezilla-project.org/" target="_blank">FileZilla</a> 
+
 #. Visit the |shared_link_filezilla| official website and download **FileZilla Client** for your operating system.
 
 #. Install and launch the program.

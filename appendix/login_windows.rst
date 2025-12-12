@@ -19,6 +19,12 @@ PuTTY
 
 PuTTY is a simple and reliable SSH client for Windows users to remotely access the Raspberry Pi.  
 
+
+.. |shared_link_putty| raw:: html
+
+    <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>" target="_blank">PuTTY</a> 
+
+
 #. Download PuTTY from |shared_link_putty| and install it on your computer.
 
    .. image:: /_shared/appendix/img/putty_download.png

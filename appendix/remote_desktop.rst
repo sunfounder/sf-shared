@@ -17,6 +17,10 @@
 Remote Desktop
 ==============
 
+.. |shared_link_realvnc| raw:: html
+
+    <a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank">RealVNC® Viewer</a>   
+
 You can access and control the Raspberry Pi desktop remotely from another computer.  
 The recommended method is **VNC**, which is officially supported on Raspberry Pi OS and provides a reliable and consistent desktop experience.
 

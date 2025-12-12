@@ -137,6 +137,9 @@ This is the most convenient method for most users.
 Graphical Remote Access Options
 -------------------------------------
 
+.. |shared_link_rpi_connect| raw:: html
+
+    <a href="https://www.raspberrypi.com/documentation/services/connect.html" target="_blank">Raspberry Pi Connect</a> 
 
 If you prefer a graphical interface:
 
