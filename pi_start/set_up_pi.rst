@@ -56,7 +56,7 @@ If You Have a Screen
 #. Open a **Terminal** to enter commands.
 
    .. image:: /_shared/pi_start/img/open_terminal.png
-      :width: 60%
+      :width: 80%
       :align: center
 
 

@@ -33,7 +33,7 @@ Required Components
 
 * **Power Adapter**
 
-  This kit comes with an **18650 battery pack** and a **Fusion HAT** board featuring a built-in charging circuit.
+  This kit comes with an **18650 battery pack** and a **Fusion HAT+** board featuring a built-in charging circuit.
   
   .. image:: /_shared/pi_start/img/need_power.png
     :width: 400

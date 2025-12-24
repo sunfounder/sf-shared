@@ -27,7 +27,7 @@ In this chapter, you’ll install the related software, configure audio, set up 
 Install ``fusion-hat`` module
 ----------------------------------
 
-For this kit, all GPIO functionalities are managed through the Fusion HAT. Therefore, you need to use the accompanying ``fusion-hat`` library to access and control them.
+For this kit, all GPIO functionalities are managed through the Fusion HAT+. Therefore, you need to use the accompanying ``fusion-hat`` library to access and control them.
 
 Run the command in terminal to install ``fusion-hat`` module.
 
@@ -56,17 +56,17 @@ After installation completes, reboot the Raspberry Pi. Then execute the audio se
 
       sudo /opt/setup_fusion_hat_audio.sh
 
-This completes the software installation process for the Fusion HAT.
+This completes the software installation process for the Fusion HAT+.
 
 Configure and Use Safe Shutdown
 -----------------------------------
 
-The Fusion HAT relies on the Raspberry Pi’s shutdown signal to fully manage system power.  
+The Fusion HAT+ relies on the Raspberry Pi’s shutdown signal to fully manage system power.  
 To ensure a safe and reliable power-off process, you need to **configure the shutdown behavior** according to your Raspberry Pi model and then use the **power button** correctly.
 
 **For Raspberry Pi 5 and 4B**
 
-These models support complete power-off after shutdown. The Fusion HAT monitors the 3.3V line to detect the Pi’s power state.
+These models support complete power-off after shutdown. The Fusion HAT+ monitors the 3.3V line to detect the Pi’s power state.
 
 1. Place the jumper on **RPI_STATE → Pi3V3**.
 
@@ -118,20 +118,20 @@ These models do **not** support full power-off using 3.3V. Instead, GPIO26 must 
 
 **Using the Power Button for Safe Shutdown**
 
-After the shutdown configuration is completed, you can safely power off the PiCar-X using the Fusion HAT power button.
+After the shutdown configuration is completed, you can safely power off the PiCar-X using the Fusion HAT+ power button.
 
 * **Soft Shutdown (Recommended)**
 
   * Press and hold the power button for **2 seconds**.  
   * The two power LEDs will flash rapidly.  
-  * Release the button → Fusion HAT triggers Raspberry Pi shutdown.  
-  * Once the shutdown is complete, Fusion HAT will cut power automatically.  
+  * Release the button → Fusion HAT+ triggers Raspberry Pi shutdown.  
+  * Once the shutdown is complete, Fusion HAT+ will cut power automatically.  
   * This protects your SD card and files.
 
 * **Hard Shutdown (Emergency Only)**
 
   * If the system becomes unresponsive, press and hold the power button for **5+ seconds**.  
-  * Fusion HAT will force power-off.  
+  * Fusion HAT+ will force power-off.  
   * Warning: This may corrupt the SD card or system files. Use only when necessary.
 
 .. end_install_fusion_hat

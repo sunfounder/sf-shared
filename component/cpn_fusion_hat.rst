@@ -31,6 +31,10 @@ Compact in size yet rich in functionality, the Fusion HAT+ integrates four motor
 
 The board accepts a 6.0V to 8.4V power input via a 3-pin XH2.54 connector. It includes two power indicator LEDs for monitoring system status, a user-programmable LED for custom signaling, and a convenient onboard buttons for immediate function testing or input simulation—making development and debugging more efficient and user-friendly.
 
+.. |link_fusion_hat| raw:: html
+
+    <a href="https://docs.sunfounder.com/projects/fusion-hat/en/latest/" target="_blank">SunFounder Fusion HAT+</a>
+
 For detailed instructions, please refer to: |link_fusion_hat|.
 
 Pinpal
@@ -41,14 +45,14 @@ Pinpal
     :align: center
 
 PinPal is a small PCB board designed by SunFounder with Raspberry Pi pin labels.  
-You can place it directly onto the pin header of the Fusion HAT, making it easy to identify each pin’s function clearly and quickly while building your project.  
+You can place it directly onto the pin header of the Fusion HAT+, making it easy to identify each pin’s function clearly and quickly while building your project.  
 This helps reduce mistakes and speeds up wiring.
 
 .. image:: img/pinpal_fusion_hat.png
     :width: 80%
     :align: center
 
-Some pins on PinPal are **not recommended for direct use** because they are already used by the Fusion HAT or share functions that may cause conflicts.
+Some pins on PinPal are **not recommended for direct use** because they are already used by the Fusion HAT+ or share functions that may cause conflicts.
 
 
 #. **SDA / SCL — I2C (GPIO2 / GPIO3)**
@@ -64,7 +68,7 @@ Some pins on PinPal are **not recommended for direct use** because they are alre
 #. **TXD / RXD — UART (GPIO14 / GPIO15)**
 
    * Raspberry Pi’s main UART pins.  
-   * Fusion HAT includes another UART header, sharing the same pins—**choose only one**.
+   * Fusion HAT+ includes another UART header, sharing the same pins—**choose only one**.
 
    .. image:: img/pinpal_uart.png
        :width: 80%
@@ -72,7 +76,7 @@ Some pins on PinPal are **not recommended for direct use** because they are alre
 
 #. **GPIO 17 / 4 / 27 / 22 — General GPIO**
 
-   * Fusion HAT provides an extra set of these pins, but they map to the same Raspberry Pi GPIOs.  
+   * Fusion HAT+ provides an extra set of these pins, but they map to the same Raspberry Pi GPIOs.  
    * **Use only one group** to avoid conflicts.
 
    .. image:: img/pinpal_gpio.png
@@ -81,7 +85,7 @@ Some pins on PinPal are **not recommended for direct use** because they are alre
 
 #. **MOSI / MISO / SCLK / CE0 / GPIO6 — SPI Pins**
 
-   * Fusion HAT provides another SPI header.  
+   * Fusion HAT+ provides another SPI header.  
    * The RGB (WS2812) connector uses the MOSI pin.  
    * **Use only one SPI group** to prevent conflicts.
 
@@ -136,7 +140,7 @@ Some pins on PinPal are **not recommended for direct use** because they are alre
 #. **ID_SD / ID_SC — HAT EEPROM Pins**
 
    These pins are reserved for the Raspberry Pi HAT EEPROM, which stores board identification data.  
-   Fusion HAT uses these pins for its onboard EEPROM, so **ID_SD (GPIO0) and ID_SC (GPIO1) must not be used for any other purpose**.
+   Fusion HAT+ uses these pins for its onboard EEPROM, so **ID_SD (GPIO0) and ID_SC (GPIO1) must not be used for any other purpose**.
 
 
    .. image:: img/pinpal_eeprom.png
