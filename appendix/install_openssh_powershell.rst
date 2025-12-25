@@ -1,43 +1,43 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Ciao, benvenuto nella community di SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts su Facebook! Approfondisci Raspberry Pi, Arduino ed ESP32 insieme agli altri appassionati.
 
-    **Why Join?**
+    **Perché unirsi?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Supporto esperto**: Risolvi i problemi post-vendita e le sfide tecniche con l'aiuto della nostra community e del nostro team.
+    - **Impara e condividi**: Scambia suggerimenti e tutorial per migliorare le tue competenze.
+    - **Anteprime esclusive**: Ottieni l'accesso anticipato agli annunci di nuovi prodotti e anteprime.
+    - **Sconti speciali**: Approfitta di sconti esclusivi sui nostri prodotti più recenti.
+    - **Promozioni festive e giveaway**: Partecipa a giveaway e promozioni per le festività.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Sei pronto a esplorare e creare con noi? Clicca su [|link_sf_facebook|] e unisciti oggi stesso!
 
 .. _openssh_powershell:
 
-Install OpenSSH via PowerShell
-------------------------------
+Installare OpenSSH tramite PowerShell
+------------------------------------
 
-If you see the following error when running ``ssh <username>@<hostname>.local`` or ``ssh <username>@<IP>``:
+Se vedi il seguente errore quando esegui ``ssh <username>@<hostname>.local`` oppure ``ssh <username>@<IP>``:
 
 .. code-block::
 
     ssh: The term 'ssh' is not recognized as the name of a cmdlet, function, script file, or operable program.
 
-It means your Windows system does not have OpenSSH installed.  
-Follow the steps below to install it manually.
+Significa che il tuo sistema Windows non ha OpenSSH installato.  
+Segui i passaggi seguenti per installarlo manualmente.
 
-#. Open the Windows Start Menu, type **powershell**, right-click **Windows PowerShell**, and select **Run as administrator**.
+#. Apri il menu Start di Windows, digita **powershell**, fai clic con il tasto destro su **Windows PowerShell** e seleziona **Esegui come amministratore**.
 
    .. image:: /_shared/appendix/img/powershell_ssh.png
       :align: center
 
-#. Install the OpenSSH Client:
+#. Installa il client OpenSSH:
 
    .. code-block:: bash
 
       Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
 
-#. After installation, you should see output similar to:
+#. Dopo l’installazione, dovresti vedere un output simile a:
 
    .. code-block::
 
@@ -45,13 +45,13 @@ Follow the steps below to install it manually.
         Online        : True
         RestartNeeded : False
 
-#. Verify the installation:
+#. Verifica l’installazione:
 
    .. code-block:: bash
 
       Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'
 
-#. If OpenSSH is installed, the output will include:
+#. Se OpenSSH è installato, l’output includerà:
 
    .. code-block::
 
@@ -61,10 +61,10 @@ Follow the steps below to install it manually.
         State : NotPresent
 
    .. warning::
-      If ``Installed`` does not appear, your Windows system may be too old.  
-      In this case, we recommend using a third-party SSH tool. See: :ref:`login_windows`
+      Se ``Installed`` non appare, il tuo sistema Windows potrebbe essere troppo vecchio.  
+      In questo caso, consigliamo di utilizzare uno strumento SSH di terze parti. Vedi: :ref:`login_windows`
 
-#. Close PowerShell, reopen it (no need to run as administrator this time), and use the ``ssh`` command to log in:
+#. Chiudi PowerShell, riaprilo (questa volta non è necessario eseguirlo come amministratore) e utilizza il comando ``ssh`` per accedere:
 
    .. code-block:: bash
 

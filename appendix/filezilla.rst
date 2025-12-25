@@ -1,57 +1,61 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Ciao, benvenuto nella community di SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts su Facebook! Approfondisci Raspberry Pi, Arduino ed ESP32 insieme agli altri appassionati.
 
-    **Why Join?**
+    **Perché unirsi?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Supporto esperto**: Risolvi i problemi post-vendita e le sfide tecniche con l'aiuto della nostra community e del nostro team.
+    - **Impara e condividi**: Scambia suggerimenti e tutorial per migliorare le tue competenze.
+    - **Anteprime esclusive**: Ottieni l'accesso anticipato agli annunci di nuovi prodotti e anteprime.
+    - **Sconti speciali**: Approfitta di sconti esclusivi sui nostri prodotti più recenti.
+    - **Promozioni festive e giveaway**: Partecipa a giveaway e promozioni per le festività.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Sei pronto a esplorare e creare con noi? Clicca su [|link_sf_facebook|] e unisciti oggi stesso!
 
 .. _filezilla:
 
-FileZilla Software
+Software FileZilla
 ==================
 
 .. image:: /_shared/appendix/img/filezilla_icon.png
    :width: 20%
 
-File Transfer Protocol (FTP) is commonly used to transfer files between computers over a network.  
-**FileZilla** is an open-source client that supports FTP, FTPS, and **SFTP** (recommended for Raspberry Pi).  
-With FileZilla, you can easily upload files (such as images, audio, and scripts) from your computer to the Raspberry Pi, or download files from the Pi back to your computer.
+Il File Transfer Protocol (FTP) è comunemente utilizzato per trasferire file tra computer tramite una rete.  
+**FileZilla** è un client open-source che supporta FTP, FTPS e **SFTP** (consigliato per Raspberry Pi).  
+Con FileZilla puoi caricare facilmente file (come immagini, audio e script) dal tuo computer al Raspberry Pi, oppure scaricare file dal Pi al tuo computer.
 
-Download FileZilla
-------------------
+Scaricare FileZilla
+-------------------
 
-#. Visit the |shared_link_filezilla| official website and download **FileZilla Client** for your operating system.
+.. |shared_link_filezilla| raw:: html
 
-#. Install and launch the program.
+    <a href="https://filezilla-project.org/" target="_blank">FileZilla</a> 
+
+#. Visita il sito ufficiale |shared_link_filezilla| e scarica **FileZilla Client** per il tuo sistema operativo.
+
+#. Installa e avvia il programma.
 
    .. image:: /_shared/appendix/img/filezilla_install.png
 
-#. Open FileZilla and enter the following information:
+#. Apri FileZilla e inserisci le seguenti informazioni:
 
-   * **Host:** ``<hostname>.local`` or the Raspberry Pi’s IP address  
-   * **Username:** your Pi username  
-   * **Password:** the password set in Raspberry Pi Imager  
-   * **Port:** ``22`` (for SFTP)
-   * Click **Quickconnect** (or press **Enter**) to establish a connection.
+   * **Host:** ``<hostname>.local`` oppure l’indirizzo IP del Raspberry Pi  
+   * **Username:** il nome utente del tuo Pi  
+   * **Password:** la password impostata in Raspberry Pi Imager  
+   * **Port:** ``22`` (per SFTP)
+   * Clicca su **Quickconnect** (oppure premi **Invio**) per stabilire la connessione.
 
    .. image:: /_shared/appendix/img/filezilla_connect.png
       :align: center
 
-#. Once connected, the left panel shows your **local files**, and the right panel shows the **Raspberry Pi files**.
+#. Una volta connesso, il pannello di sinistra mostra i **file locali**, mentre il pannello di destra mostra i **file del Raspberry Pi**.
 
     .. image:: /_shared/appendix/img/filezilla_in.png
        :align: center
 
-#. You can:
+#. Puoi:
 
-   * **Upload** a file: drag from the left panel → right panel  
-   * **Download** a file: drag from the right panel → left panel  
+   * **Caricare** un file: trascina dal pannello di sinistra → pannello di destra  
+   * **Scaricare** un file: trascina dal pannello di destra → pannello di sinistra  
 
-   FileZilla will immediately start the transfer, and the status will appear in the panel at the bottom.
+   FileZilla avvierà immediatamente il trasferimento e lo stato verrà mostrato nel pannello inferiore.
