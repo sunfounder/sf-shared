@@ -13,7 +13,7 @@
     👉 Prêt à explorer et à créer avec nous ? Cliquez sur [|link_sf_facebook|] et rejoignez-nous dès aujourd'hui !
 
 De quoi avez-vous encore besoin ?
-===============================
+=============================================
 
 Avant de commencer à utiliser ce kit, préparons le matériel essentiel.
 

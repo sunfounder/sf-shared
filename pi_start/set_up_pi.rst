@@ -61,8 +61,9 @@ Si vous avez un écran
 
 
 ----------------------------------
+
 Si vous n’avez pas d’écran (Headless)
-----------------------------------
+-----------------------------------------------
 
 Sans écran, vous pouvez configurer et vous connecter à votre Raspberry Pi à distance.  
 C’est la méthode la plus pratique pour la plupart des utilisateurs.
