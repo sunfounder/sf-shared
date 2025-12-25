@@ -1,21 +1,21 @@
 .. note::
 
-    ¡Hola, bienvenido a la comunidad de entusiastas de SunFounder Raspberry Pi & Arduino & ESP32 en Facebook! Sumérgete más en Raspberry Pi, Arduino y ESP32 con otros entusiastas.
+    ¡Hola! Bienvenido a la comunidad de entusiastas de SunFounder Raspberry Pi, Arduino y ESP32 en Facebook. Sumérgete en el mundo de Raspberry Pi, Arduino y ESP32 con otros entusiastas.
 
     **¿Por qué unirse?**
 
-    - **Soporte experto**: Resuelve problemas postventa y desafíos técnicos con la ayuda de nuestra comunidad y equipo.
+    - **Soporte experto**: Resuelve problemas post-venta y desafíos técnicos con la ayuda de nuestra comunidad y equipo.
     - **Aprender y compartir**: Intercambia consejos y tutoriales para mejorar tus habilidades.
-    - **Previsualizaciones exclusivas**: Obtén acceso temprano a anuncios de nuevos productos y adelantos exclusivos.
+    - **Avances exclusivos**: Obtén acceso anticipado a nuevos anuncios de productos y adelantos.
     - **Descuentos especiales**: Disfruta de descuentos exclusivos en nuestros productos más nuevos.
     - **Promociones y sorteos festivos**: Participa en sorteos y promociones festivas.
 
-    👉 ¿Listo para explorar y crear con nosotros? Haz clic en [|link_sf_facebook|] y únete hoy mismo.
+    👉 ¿Listo para explorar y crear con nosotros? Haz clic en [|link_sf_facebook|] y únete hoy mismo!
 
 .. _openssh_powershell:
 
 Instalar OpenSSH mediante PowerShell
-====================================
+-----------------------------------------------
 
 Si ves el siguiente error al ejecutar ``ssh <username>@<hostname>.local`` o ``ssh <username>@<IP>``:
 
@@ -26,7 +26,7 @@ Si ves el siguiente error al ejecutar ``ssh <username>@<hostname>.local`` o ``ss
 Significa que tu sistema Windows no tiene OpenSSH instalado.  
 Sigue los pasos a continuación para instalarlo manualmente.
 
-#. Abre el Menú Inicio de Windows, escribe **powershell**, haz clic derecho en **Windows PowerShell** y selecciona **Run as administrator** (Ejecutar como administrador).
+#. Abre el Menú Inicio de Windows, escribe **powershell**, haz clic derecho en **Windows PowerShell** y selecciona **Ejecutar como administrador**.
 
    .. image:: /_shared/appendix/img/powershell_ssh.png
       :align: center
@@ -37,7 +37,7 @@ Sigue los pasos a continuación para instalarlo manualmente.
 
       Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
 
-#. Tras la instalación, deberías ver una salida similar a:
+#. Después de la instalación, deberías ver una salida similar a:
 
    .. code-block::
 
@@ -61,10 +61,10 @@ Sigue los pasos a continuación para instalarlo manualmente.
         State : NotPresent
 
    .. warning::
-      Si ``Installed`` no aparece, es posible que tu sistema Windows sea demasiado antiguo.  
-      En ese caso, recomendamos usar una herramienta SSH de terceros. Consulta: :ref:`login_windows`
+      Si no aparece ``Installed``, es posible que tu sistema Windows sea demasiado antiguo.  
+      En este caso, recomendamos usar una herramienta SSH de terceros. Consulta: :ref:`login_windows`
 
-#. Cierra PowerShell, vuelve a abrirlo (esta vez no es necesario usar administrador) y utiliza el comando ``ssh`` para iniciar sesión:
+#. Cierra PowerShell, vuelve a abrirlo (esta vez no es necesario ejecutarlo como administrador) y usa el comando ``ssh`` para iniciar sesión:
 
    .. code-block:: bash
 
@@ -72,5 +72,4 @@ Sigue los pasos a continuación para instalarlo manualmente.
 
    .. image:: /_shared/appendix/img/powershell_login.png
       :align: center
-
 

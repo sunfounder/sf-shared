@@ -23,8 +23,7 @@ Capacitor
 El capacitor se refiere a la cantidad de carga almacenada bajo una diferencia de 
 potencial dada, denotada como C, y la unidad internacional es el faradio (F). 
 En términos generales, las cargas eléctricas se mueven bajo la influencia de un campo eléctrico. 
-Cuando hay un medio entre conductores, el movimiento de las cargas eléctricas se ve obstaculizado
- y estas se acumulan en los conductores, resultando en una acumulación de carga.
+Cuando hay un medio entre conductores, el movimiento de las cargas eléctricas se ve obstaculizado y estas se acumulan en los conductores, resultando en una acumulación de carga.
 
 La cantidad de carga almacenada se llama capacitancia. Debido a que los capacitores son uno 
 de los componentes electrónicos más utilizados en equipos electrónicos, se emplean ampliamente 

@@ -25,9 +25,7 @@ La idea básica de un joystick es traducir el movimiento de una palanca en infor
 electrónica que una computadora puede procesar.
 
 Para comunicar un rango completo de movimiento a la computadora, un joystick necesita medir 
-la posición de la palanca en dos ejes: el eje X (de izquierda a derecha) y el eje Y
- (de arriba a abajo). Al igual que en la geometría básica, las coordenadas X-Y determinan 
- exactamente la posición de la palanca.
+la posición de la palanca en dos ejes: el eje X (de izquierda a derecha) y el eje Y (de arriba a abajo). Al igual que en la geometría básica, las coordenadas X-Y determinan exactamente la posición de la palanca.
 
 Para determinar la ubicación de la palanca, el sistema de control del joystick simplemente 
 monitorea la posición de cada eje. El diseño convencional de joystick analógico hace esto 

@@ -13,21 +13,23 @@
     👉 ¿Listo para explorar y crear con nosotros? Haz clic en [|link_sf_facebook|] y únete hoy mismo.
 
 
-.. _install_all_modules:
+.. _install_all_modules_fusion_hat:
 
-Configurar la Alimentación e Instalar el Software (Importante)
+Configurar Energía e Instalar Software (Importante)
 ================================================================
 
-En este capítulo instalarás el software relacionado, configurarás el audio, establecerás una gestión segura de energía y aprenderás cómo manejar los apagados correctamente.
+En este capítulo, instalarás el software relacionado, configurarás el audio, establecerás una gestión segura de la energía y aprenderás cómo manejar los apagados.
+
+.. start_install_fusion_hat
 
 .. _install_fusion_hat:
 
 Instalar el módulo ``fusion-hat``
 ----------------------------------
 
-Para este kit, todas las funciones GPIO se gestionan a través del Fusion HAT. Por lo tanto, debes usar la biblioteca correspondiente ``fusion-hat`` para acceder y controlarlas.
+Para este kit, todas las funcionalidades GPIO se gestionan a través del Fusion HAT+. Por lo tanto, necesitas usar la biblioteca ``fusion-hat`` que lo acompaña para acceder y controlar dichas funciones.
 
-Ejecuta el siguiente comando en la terminal para instalar el módulo ``fusion-hat``:
+Ejecuta el siguiente comando en la terminal para instalar el módulo ``fusion-hat``.
 
    .. raw:: html
 
@@ -37,10 +39,14 @@ Ejecuta el siguiente comando en la terminal para instalar el módulo ``fusion-ha
 
       curl -sSL https://raw.githubusercontent.com/sunfounder/sunfounder-installer-scripts/main/install-fusion-hat.sh | sudo bash
 
+.. |shared_link_fusion_hat| raw:: html
+
+    <a href="https://docs.sunfounder.com/projects/fusion-hat/en/latest/" target="_blank">Fusion HAT+</a>
+
 .. note:: Para más detalles sobre fusion-hat, consulta |shared_link_fusion_hat|.
 
 
-Cuando finalice la instalación, reinicia la Raspberry Pi. Luego ejecuta el script de configuración de audio:
+Después de que la instalación finalice, reinicia la Raspberry Pi. Luego ejecuta el script de configuración de audio:
 
    .. raw:: html
 
@@ -50,24 +56,24 @@ Cuando finalice la instalación, reinicia la Raspberry Pi. Luego ejecuta el scri
 
       sudo /opt/setup_fusion_hat_audio.sh
 
-Esto completa el proceso de instalación del software para el Fusion HAT.
+Esto completa el proceso de instalación del software para el Fusion HAT+.
 
-Configurar y Usar el Apagado Seguro
+Configurar y Usar Apagado Seguro
 -----------------------------------
 
-El Fusion HAT depende de la señal de apagado de la Raspberry Pi para gestionar completamente la alimentación del sistema.  
+El Fusion HAT+ depende de la señal de apagado de la Raspberry Pi para gestionar completamente la alimentación del sistema.  
 Para garantizar un proceso de apagado seguro y confiable, debes **configurar el comportamiento de apagado** según el modelo de tu Raspberry Pi y luego usar correctamente el **botón de encendido**.
 
 **Para Raspberry Pi 5 y 4B**
 
-Estos modelos admiten un apagado completo. El Fusion HAT monitorea la línea de 3.3V para detectar el estado de energía de la Pi.
+Estos modelos admiten el apagado completo después del cierre del sistema. El Fusion HAT+ supervisa la línea de 3.3V para detectar el estado de energía de la Raspberry Pi.
 
 1. Coloca el jumper en **RPI_STATE → Pi3V3**.
 
    .. image:: /_shared/pi_start/img/state_3v3.jpg
       :width: 400
 
-2. Edita la configuración del EEPROM manualmente:
+2. Edita manualmente la configuración del EEPROM:
 
    .. code-block::
 
@@ -81,11 +87,11 @@ Estos modelos admiten un apagado completo. El Fusion HAT monitorea la línea de 
 
    .. image:: /_shared/pi_start/img/run_power_off.png
 
-5. Guarda los cambios. Se te pedirá reiniciar para que la nueva configuración surta efecto.
+5. Guarda los cambios. Se te pedirá reiniciar para que la nueva configuración entre en vigor.
 
 **Para Raspberry Pi Zero 2W, 3B, 3B+**
 
-Estos modelos **no** admiten apagado completo usando 3.3V. En su lugar, se debe configurar el GPIO26 como indicador de estado de apagado.
+Estos modelos **no** admiten el apagado completo usando 3.3V. En su lugar, el GPIO26 debe configurarse como indicador del estado de apagado.
 
 1. Coloca el jumper en **RPI_STATE → IO26**.
 
@@ -98,7 +104,7 @@ Estos modelos **no** admiten apagado completo usando 3.3V. En su lugar, se debe 
 
       sudo nano /boot/firmware/config.txt
 
-3. Agrega la siguiente línea al final para establecer el GPIO26 como bajo en apagado y alto al encender:
+3. Agrega la siguiente línea al final para configurar el GPIO26 en bajo durante el apagado y en alto al encender:
 
    .. code-block::
 
@@ -110,20 +116,22 @@ Estos modelos **no** admiten apagado completo usando 3.3V. En su lugar, se debe 
 
       sudo reboot
 
-**Uso del Botón de Encendido para Apagado Seguro**
+**Uso del Botón de Encendido para un Apagado Seguro**
 
-Una vez completada la configuración de apagado, puedes apagar el PiCar-X de forma segura usando el botón de encendido del Fusion HAT.
+Después de completar la configuración de apagado, puedes apagar de forma segura el PiCar-X usando el botón de encendido del Fusion HAT+.
 
 * **Apagado Suave (Recomendado)**
 
   * Mantén presionado el botón de encendido durante **2 segundos**.  
   * Los dos LED de alimentación parpadearán rápidamente.  
-  * Suelta el botón → Fusion HAT iniciará el apagado de la Raspberry Pi.  
-  * Una vez que finalice el apagado, Fusion HAT cortará la alimentación automáticamente.  
-  * Esto protege tu tarjeta SD y tus archivos.
+  * Suelta el botón → el Fusion HAT+ inicia el apagado de la Raspberry Pi.  
+  * Una vez que el apagado se completa, el Fusion HAT+ cortará la alimentación automáticamente.  
+  * Esto protege tu tarjeta SD y los archivos.
 
 * **Apagado Forzado (Solo Emergencias)**
 
-  * Si el sistema no responde, mantén presionado el botón durante **más de 5 segundos**.  
-  * Fusion HAT forzará el apagado inmediato.  
-  * Advertencia: Esto puede dañar la tarjeta SD o corromper archivos del sistema. Úsalo solo cuando sea estrictamente necesario.
+  * Si el sistema no responde, mantén presionado el botón de encendido durante **5 segundos o más**.  
+  * El Fusion HAT+ forzará el corte de energía.  
+  * Advertencia: esto puede dañar la tarjeta SD o los archivos del sistema. Úsalo solo cuando sea absolutamente necesario.
+
+.. end_install_fusion_hat
