@@ -1,54 +1,60 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Bonjour, bienvenue dans la communauté des passionnés de Raspberry Pi, Arduino et ESP32 de SunFounder sur Facebook ! Plongez dans l'univers de Raspberry Pi, Arduino et ESP32 avec d'autres passionnés.
 
-    **Why Join?**
+    **Pourquoi nous rejoindre ?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Support d'experts** : Résolvez des problèmes après-vente et des défis techniques grâce à l'aide de notre communauté et de notre équipe.
+    - **Apprendre et partager** : Échangez des astuces et des tutoriels pour améliorer vos compétences.
+    - **Aperçus exclusifs** : Obtenez un accès anticipé aux annonces de nouveaux produits et aux avant-premières.
+    - **Réductions exclusives** : Profitez de réductions spéciales sur nos derniers produits.
+    - **Promotions et cadeaux festifs** : Participez à des concours et promotions festifs.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Prêt à explorer et à créer avec nous ? Cliquez sur [|link_sf_facebook|] et rejoignez-nous dès aujourd'hui !
 
 .. _login_windows:
 
 PuTTY
 =========================
 
-PuTTY is a simple and reliable SSH client for Windows users to remotely access the Raspberry Pi.  
+PuTTY est un client SSH simple et fiable pour les utilisateurs Windows, permettant d’accéder à distance au Raspberry Pi.  
 
-#. Download PuTTY from |shared_link_putty| and install it on your computer.
+
+.. |shared_link_putty| raw:: html
+
+    <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>" target="_blank">PuTTY</a> 
+
+
+#. Téléchargez PuTTY depuis |shared_link_putty| et installez-le sur votre ordinateur.
 
    .. image:: /_shared/appendix/img/putty_download.png
       :width: 70%
 
 
-#. Open PuTTY and prepare the connection:
+#. Ouvrez PuTTY et préparez la connexion :
 
-   * Enter your Raspberry Pi’s **hostname or IP address** in **Host Name**.
-   * Set the **Port** to ``22``.
-   * Click **Open** to connect.
+   * Saisissez le **nom d’hôte ou l’adresse IP** de votre Raspberry Pi dans **Host Name**.
+   * Définissez le **Port** sur ``22``.
+   * Cliquez sur **Open** pour vous connecter.
 
 
    .. image:: /_shared/appendix/img/putty_open.png
       :width: 70%
    
-#. If a security warning appears on first use, click **Accept** to continue.
+#. Si un avertissement de sécurité apparaît lors de la première utilisation, cliquez sur **Accept** pour continuer.
 
    .. image:: /_shared/appendix/img/putty_accept.png
       :width: 70%
 
-#. Log in to the Raspberry Pi:
+#. Connectez-vous au Raspberry Pi :
 
-   * When you see **login as:**, enter the username you set in **Raspberry Pi Imager**.
-   * Enter your password (it will not appear while typing—this is normal).
-   * After logging in, the terminal is ready for you to enter commands and operate your Raspberry Pi remotely.
+   * Lorsque **login as:** s’affiche, saisissez le nom d’utilisateur que vous avez défini dans **Raspberry Pi Imager**.
+   * Entrez votre mot de passe (il ne s’affichera pas pendant la saisie — c’est normal).
+   * Après la connexion, le terminal est prêt pour que vous puissiez entrer des commandes et utiliser votre Raspberry Pi à distance.
 
    .. image:: /_shared/appendix/img/putty_login.png
       :width: 70%
 
 .. note::
 
-    If PuTTY shows **inactive**, the connection was lost and needs to be reconnected.
+    Si PuTTY affiche **inactive**, la connexion a été perdue et doit être rétablie.

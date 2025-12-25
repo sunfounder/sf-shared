@@ -1,92 +1,92 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Bonjour, bienvenue dans la communauté des passionnés de Raspberry Pi, Arduino et ESP32 de SunFounder sur Facebook ! Plongez dans l'univers de Raspberry Pi, Arduino et ESP32 avec d'autres passionnés.
 
-    **Why Join?**
+    **Pourquoi nous rejoindre ?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Support d'experts** : Résolvez les problèmes après-vente et les défis techniques avec l'aide de notre communauté et de notre équipe.
+    - **Apprendre et partager** : Échangez des conseils et des tutoriels pour améliorer vos compétences.
+    - **Aperçus exclusifs** : Accédez en avant-première aux annonces de nouveaux produits et à des aperçus exclusifs.
+    - **Réductions spéciales** : Profitez de réductions exclusives sur nos nouveaux produits.
+    - **Promotions et cadeaux festifs** : Participez à des concours et à des promotions festives.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Prêt à explorer et à créer avec nous ? Cliquez sur [|link_sf_facebook|] et rejoignez-nous dès aujourd'hui !
 
-What Else Do You Need?
+De quoi avez-vous encore besoin ?
 ===============================
 
-Before we start playing with this kit, let’s prepare the essential hardware.
+Avant de commencer à utiliser ce kit, préparons le matériel essentiel.
 
-Required Components
+Composants requis
 ------------------------------
 
 * **Raspberry Pi**
 
-  The Raspberry Pi acts as the **brain**, handling all computing, sensing, and control tasks.  
+  Le Raspberry Pi agit comme le **cerveau**, prenant en charge toutes les tâches de calcul, de détection et de contrôle.  
   
-  * **Compatible models**: Raspberry Pi 5, Raspberry Pi 4, 3, or Raspberry Pi Zero 2W  
+  * **Modèles compatibles** : Raspberry Pi 5, Raspberry Pi 4, 3 ou Raspberry Pi Zero 2W  
 
   .. image:: /_shared/pi_start/img/need_pi.jpg
 
   
-* **Power Adapter**
+* **Adaptateur d’alimentation**
 
-  Prepare a suitable power supply based on your Raspberry Pi model:
+  Préparez une alimentation adaptée en fonction de votre modèle de Raspberry Pi :
 
   .. image:: /_shared/pi_start/img/need_power.png
     :width: 400
 
-  - **Raspberry Pi 5**: 5V 5A USB-C (recommended: official 27W PD power supply).  
-  - **Raspberry Pi 4**: 5V 3A USB-C.  
-  - **Raspberry Pi 3B/3B+**: 5V 2.5A Micro-USB.  
-  - **Raspberry Pi Zero 2W**: 5V 2A Micro-USB.
+  - **Raspberry Pi 5** : 5 V 5 A USB-C (recommandé : alimentation officielle PD 27 W).  
+  - **Raspberry Pi 4** : 5 V 3 A USB-C.  
+  - **Raspberry Pi 3B / 3B+** : 5 V 2,5 A Micro-USB.  
+  - **Raspberry Pi Zero 2W** : 5 V 2 A Micro-USB.
 
-  Using a stable power source helps prevent undervoltage and ensures reliable operation.
+  L’utilisation d’une source d’alimentation stable permet d’éviter les problèmes de sous-tension et d’assurer un fonctionnement fiable.
 
-* **Micro SD Card**
+* **Carte microSD**
 
-  The Raspberry Pi does not have a built-in hard drive. It boots and stores all files on a **Micro SD card**.  
+  Le Raspberry Pi ne dispose pas de disque dur intégré. Il démarre et stocke tous les fichiers sur une **carte microSD**.  
   
   .. image:: /_shared/pi_start/img/need_sd.jpg
     :width: 200
 
-  * Minimum: **16GB**  
-  * Recommended: **32GB** for better stability  
-  * Brand: Use reliable options such as **SanDisk** or **Samsung** to avoid read/write errors  
+  * Minimum : **16 Go**  
+  * Recommandé : **32 Go** pour une meilleure stabilité  
+  * Marque : utilisez des options fiables telles que **SanDisk** ou **Samsung** afin d’éviter les erreurs de lecture/écriture  
   
-Optional Components
+
+Composants optionnels
 ------------------------
 
-Although not strictly required, the following peripherals will greatly improve your learning and debugging experience:
+Bien que non strictement indispensables, les périphériques suivants amélioreront grandement votre expérience d’apprentissage et de débogage :
 
-* **Monitor (HDMI or TV)** 
+* **Écran (HDMI ou TV)** 
 
-  For beginners, we strongly recommend a display with an HDMI input, so you can easily configure Raspberry Pi OS and run graphical programs.  
+  Pour les débutants, nous recommandons vivement un écran disposant d’une entrée HDMI, afin de pouvoir configurer facilement Raspberry Pi OS et exécuter des programmes graphiques.  
 
   .. image:: /_shared/pi_start/img/need_screen.png
     :width: 400
 
-* **HDMI Cable (Standard / Mini / Micro)**
+* **Câble HDMI (standard / mini / micro)**
  
-  Different Raspberry Pi models use different HDMI connectors, be sure to check your Pi model and prepare the correct cable. 
+  Les différents modèles de Raspberry Pi utilisent différents connecteurs HDMI. Assurez-vous de vérifier votre modèle de Pi et de préparer le câble approprié. 
   
-  * **Raspberry Pi 4 / 5**: Micro HDMI  
-  * **Raspberry Pi 3**: Standard HDMI  
-  * **Raspberry Pi Zero 2W**: Mini HDMI 
+  * **Raspberry Pi 4 / 5** : Micro HDMI  
+  * **Raspberry Pi 3** : HDMI standard  
+  * **Raspberry Pi Zero 2W** : Mini HDMI  
 
   .. image:: /_shared/pi_start/img/need_hdmi.png
     :width: 400
 
-* **Keyboard & Mouse**
+* **Clavier et souris**
 
-  Very useful during the initial setup of Raspberry Pi OS. Later, you may switch to remote access (SSH/VNC), but for beginners we recommend preparing a basic USB or wireless set.  
+  Très utiles lors de la configuration initiale de Raspberry Pi OS. Par la suite, vous pourrez passer à un accès à distance (SSH/VNC), mais pour les débutants, nous recommandons de prévoir un ensemble USB ou sans fil de base.  
 
   .. image:: /_shared/pi_start/img/need_keyboard_mouse.png
     :width: 500
  
 
-**Tips for Preparation**
+**Conseils de préparation**
 
-* If you purchased this kit, most accessories are included, but you still need to prepare the Raspberry Pi board, Micro SD card, and power adapter separately.  
-* Not sure what to buy? The most stable and universal choice is: **Raspberry Pi 4/5 (2GB) + Official Power Supply + 32GB Micro SD card**.  
-
+* Si vous avez acheté ce kit, la plupart des accessoires sont inclus, mais vous devez tout de même préparer séparément la carte Raspberry Pi, la carte microSD et l’adaptateur d’alimentation.  
+* Vous ne savez pas quoi acheter ? Le choix le plus stable et universel est : **Raspberry Pi 4/5 (2 Go) + alimentation officielle + carte microSD de 32 Go**.  

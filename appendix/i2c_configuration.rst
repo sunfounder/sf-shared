@@ -1,106 +1,106 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Bonjour, bienvenue dans la communauté des passionnés de Raspberry Pi, Arduino et ESP32 de SunFounder sur Facebook ! Plongez dans l'univers de Raspberry Pi, Arduino et ESP32 avec d'autres passionnés.
 
-    **Why Join?**
+    **Pourquoi nous rejoindre ?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Support d'experts** : Résolvez des problèmes après-vente et des défis techniques grâce à l'aide de notre communauté et de notre équipe.
+    - **Apprendre et partager** : Échangez des astuces et des tutoriels pour améliorer vos compétences.
+    - **Aperçus exclusifs** : Obtenez un accès anticipé aux annonces de nouveaux produits et aux avant-premières.
+    - **Réductions exclusives** : Profitez de réductions spéciales sur nos derniers produits.
+    - **Promotions et cadeaux festifs** : Participez à des concours et promotions festifs.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Prêt à explorer et à créer avec nous ? Cliquez sur [|link_sf_facebook|] et rejoignez-nous dès aujourd'hui !
 
 .. _i2c_config:
 
-I²C Configuration
+Configuration I²C
 =================
 
-Follow the steps below to enable and test the I²C interface on your Raspberry Pi.  
-These instructions apply to Raspberry Pi 5, 4, 3, and Zero 2W.
+Suivez les étapes ci-dessous pour activer et tester l’interface I²C sur votre Raspberry Pi.  
+Ces instructions s’appliquent aux Raspberry Pi 5, 4, 3 et Zero 2W.
 
-Enable the I²C Interface
+Activer l’interface I²C
 ------------------------
 
-#. Open a terminal on your computer (Windows: **PowerShell**; macOS/Linux: **Terminal**) and connect to your Raspberry Pi:
+#. Ouvrez un terminal sur votre ordinateur (Windows : **PowerShell** ; macOS/Linux : **Terminal**) et connectez-vous à votre Raspberry Pi :
 
    .. code-block:: bash
 
-      ssh <username>@<hostname>.local
+      ssh <nom_utilisateur>@<nom_hôte>.local
 
-   or:
+   ou :
 
    .. code-block:: bash
 
-      ssh <username>@<ip_address>
+      ssh <nom_utilisateur>@<adresse_ip>
 
-#. Open the Raspberry Pi configuration tool:
+#. Ouvrez l’outil de configuration du Raspberry Pi :
 
    .. code-block:: bash
 
       sudo raspi-config
 
-#. Select **Interfacing Options** and press **Enter**.
+#. Sélectionnez **Interfacing Options** et appuyez sur **Entrée**.
 
    .. image:: /_shared/appendix/img/ssh_interface.png
       :align: center
 
-#. Select **I2C**.
+#. Sélectionnez **I2C**.
 
    .. image:: img/ssh_i2c_i2c.png
       :align: center
 
-#. Choose **<Yes>**, then **<Ok> → <Finish>** to apply the changes.  
-   If prompted, reboot your Raspberry Pi.
+#. Choisissez **<Yes>**, puis **<Ok> → <Finish>** pour appliquer les modifications.  
+   Si demandé, redémarrez votre Raspberry Pi.
 
    .. image:: img/ssh_i2c_yes.png
       :align: center
 
 
-Check I²C Kernel Modules
-------------------------
+Vérifier les modules noyau I²C
+------------------------------
 
-#. Run the following command:
+#. Exécutez la commande suivante :
 
    .. code-block:: bash
 
       lsmod | grep i2c
 
-#. If I²C is enabled, you will see modules such as:
+#. Si I²C est activé, vous verrez des modules tels que :
 
    .. code-block:: text
 
       i2c_dev        6276    0
       i2c_bcm2708    4121    0
 
-#. If nothing appears, reboot the system:
+#. Si rien ne s’affiche, redémarrez le système :
 
    .. code-block:: bash
 
       sudo reboot
 
 
-Install i2c-tools
------------------
+Installer i2c-tools
+-------------------
 
-#. Install the utilities required for scanning and testing I²C devices:
+#. Installez les utilitaires nécessaires pour analyser et tester les périphériques I²C :
 
    .. code-block:: bash
 
       sudo apt install i2c-tools
 
 
-Detect Connected I²C Devices
-----------------------------
+Détecter les périphériques I²C connectés
+----------------------------------------
 
-#. Scan the I²C bus:
+#. Analysez le bus I²C :
 
    .. code-block:: bash
 
       i2cdetect -y 1
 
-#. Example output:
+#. Exemple de sortie :
 
    .. code-block:: text
 
@@ -115,18 +115,18 @@ Detect Connected I²C Devices
       60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
       70: -- -- -- -- -- -- -- --
 
-#. If a device is connected, its address (e.g., **0x48**) will appear in the table.
+#. Si un périphérique est connecté, son adresse (par exemple **0x48**) apparaîtra dans le tableau.
 
 
-Install the Python I²C Library
-------------------------------
+Installer la bibliothèque Python I²C
+------------------------------------
 
-#. Install the ``python3-smbus2`` package:
+#. Installez le paquet ``python3-smbus2`` :
 
    .. code-block:: bash
 
       sudo apt install python3-smbus2
 
-   The ``smbus2`` library provides all the functions required to communicate with I²C devices in Python.
+   La bibliothèque ``smbus2`` fournit toutes les fonctions nécessaires pour communiquer avec des périphériques I²C en Python.
 
-Your Raspberry Pi is now fully configured and ready to communicate with I²C devices.
+Votre Raspberry Pi est maintenant entièrement configuré et prêt à communiquer avec des périphériques I²C.

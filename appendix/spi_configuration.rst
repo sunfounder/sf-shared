@@ -1,97 +1,94 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi, Arduino, and ESP32 Enthusiasts Community on Facebook!  
-    Join fellow makers to explore, learn, and create together.
+    Bonjour, bienvenue dans la communauté des passionnés de Raspberry Pi, Arduino et ESP32 de SunFounder sur Facebook ! Plongez dans l'univers de Raspberry Pi, Arduino et ESP32 avec d'autres passionnés.
 
-    **Why Join?**
+    **Pourquoi nous rejoindre ?**
 
-    - **Expert Support** — Get help with post-sale issues and technical challenges.
-    - **Learn & Share** — Exchange tutorials, tips, and hands-on experiences.
-    - **Exclusive Previews** — Get early access to new product announcements.
-    - **Special Discounts** — Enjoy members-only offers on new products.
-    - **Giveaways & Events** — Join festive promotions and prize draws.
+    - **Support d'experts** : Résolvez des problèmes après-vente et des défis techniques grâce à l'aide de notre communauté et de notre équipe.
+    - **Apprendre et partager** : Échangez des astuces et des tutoriels pour améliorer vos compétences.
+    - **Aperçus exclusifs** : Obtenez un accès anticipé aux annonces de nouveaux produits et aux avant-premières.
+    - **Réductions exclusives** : Profitez de réductions spéciales sur nos derniers produits.
+    - **Promotions et cadeaux festifs** : Participez à des concours et promotions festifs.
 
-    👉 Click |link_sf_facebook| to join the community!
+    👉 Prêt à explorer et à créer avec nous ? Cliquez sur [|link_sf_facebook|] et rejoignez-nous dès aujourd'hui !
 
 
 .. _spi_configuration:
 
-SPI Configuration
+Configuration SPI
 =================
 
-Follow the steps below to enable and verify the SPI interface on your Raspberry Pi.  
-These instructions apply to Raspberry Pi 5, 4, 3, and Zero 2W.
+Suivez les étapes ci-dessous pour activer et vérifier l’interface SPI sur votre Raspberry Pi.  
+Ces instructions s’appliquent aux Raspberry Pi 5, 4, 3 et Zero 2W.
 
-Enable the SPI Interface
+Activer l’interface SPI
 ------------------------
 
-#. Open a terminal on your computer (Windows: **PowerShell**; macOS/Linux: **Terminal**) and connect to your Raspberry Pi:
+#. Ouvrez un terminal sur votre ordinateur (Windows : **PowerShell** ; macOS/Linux : **Terminal**) et connectez-vous à votre Raspberry Pi :
 
    .. code-block:: bash
 
-      ssh <username>@<hostname>.local
+      ssh <nom_utilisateur>@<nom_hôte>.local
 
-   or:
+   ou :
 
    .. code-block:: bash
 
-      ssh <username>@<ip_address>
+      ssh <nom_utilisateur>@<adresse_ip>
 
-#. Open the Raspberry Pi configuration tool:
+#. Ouvrez l’outil de configuration du Raspberry Pi :
 
    .. code-block:: bash
 
       sudo raspi-config
 
-#. Select **Interfacing Options** and press **Enter**.
+#. Sélectionnez **Interfacing Options** et appuyez sur **Entrée**.
 
    .. image:: /_shared/appendix/img/ssh_interface.png
       :align: center
 
-#. Select **SPI**.
+#. Sélectionnez **SPI**.
 
    .. image:: img/ssh_spi_spi.png
       :align: center
 
-#. Choose **<Yes>**, then **<Ok> → <Finish>** to apply the changes. If prompted, reboot your Raspberry Pi.
+#. Choisissez **<Yes>**, puis **<Ok> → <Finish>** pour appliquer les modifications. Si nécessaire, redémarrez votre Raspberry Pi.
 
    .. image:: img/ssh_spi_enable.png
       :align: center
 
 
-Verify SPI Interface
----------------------
+Vérifier l’interface SPI
+------------------------
 
-#. Check whether the SPI device nodes exist:
+#. Vérifiez si les périphériques SPI existent :
 
    .. code-block:: bash
 
       ls /dev/sp*
 
-#. If the SPI interface is enabled, the output will include:
+#. Si l’interface SPI est activée, la sortie inclura :
 
    .. code-block:: text
 
       /dev/spidev0.0
       /dev/spidev0.1
 
-   * If these devices appear, SPI is active and ready to use.  
-   * If not, reboot your Raspberry Pi and check again.
+   * Si ces périphériques apparaissent, SPI est actif et prêt à être utilisé.  
+   * Dans le cas contraire, redémarrez votre Raspberry Pi et vérifiez à nouveau.
 
 
-Install spidev (Python SPI Library)
------------------------------------
+Installer spidev (bibliothèque SPI pour Python)
+-----------------------------------------------
 
-#. Install the ``spidev`` package to use SPI in Python:
+#. Installez le paquet ``spidev`` pour utiliser SPI en Python :
 
    .. code-block:: bash
 
       sudo apt install python3-spidev
 
-   The ``spidev`` library provides access to SPI devices through the ``/dev/spidevX.Y`` interface.
+   La bibliothèque ``spidev`` permet d’accéder aux périphériques SPI via l’interface ``/dev/spidevX.Y``.
 
 ----------------------
 
-Your Raspberry Pi is now configured to communicate with SPI devices using both command-line tools and Python.
-
-
+Votre Raspberry Pi est maintenant configuré pour communiquer avec des périphériques SPI, à la fois via les outils en ligne de commande et en Python.
