@@ -70,9 +70,6 @@ Después de construir el circuito según el diagrama anterior, conecta el cable 
     :width: 400
     :align: center
 
-Si tu altavoz no emite sonido, puede ser porque la Raspberry Pi ha seleccionado la salida de audio incorrecta (por defecto es HDMI), necesitas :ref:`change_audio_output` a **Auriculares**.
-
-Si sientes que el volumen de los altavoces es muy bajo, puedes :ref:`adjust_volume`.
 
 .. **Ejemplo**
 
