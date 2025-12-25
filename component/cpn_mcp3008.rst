@@ -45,17 +45,17 @@ Nach dem vollständigen Übertragen des 10-Bit-Digitalwertes schließt der MCP30
 
 .. image:: img/MCP3008detail.png
 
-**Beispiele**
+.. **Beispiele**
 
-* :ref:`2.1.7_c_mcp3008` (C-Projekt)
-* :ref:`2.2.1_c_mcp3008` (C-Projekt)
-* :ref:`2.2.2_c_mcp3008` (C-Projekt)
-* :ref:`3.1.4_c_mcp3008` (C-Projekt)
-* :ref:`3.1.5_c_mcp3008` (C-Projekt)
-* :ref:`3.1.7_c_mcp3008` (C-Projekt)
-* :ref:`2.1.7_py_mcp3008` (Python-Projekt)
-* :ref:`2.2.1_py_mcp3008` (Python-Projekt)
-* :ref:`2.2.2_py_mcp3008` (Python-Projekt)
-* :ref:`4.1.10_py_mcp3008` (Python-Projekt)
-* :ref:`4.1.11_py_mcp3008` (Python-Projekt)
-* :ref:`4.1.13_py_mcp3008` (Python-Projekt)
+.. * :ref:`2.1.7_c_mcp3008` (C-Projekt)
+.. * :ref:`2.2.1_c_mcp3008` (C-Projekt)
+.. * :ref:`2.2.2_c_mcp3008` (C-Projekt)
+.. * :ref:`3.1.4_c_mcp3008` (C-Projekt)
+.. * :ref:`3.1.5_c_mcp3008` (C-Projekt)
+.. * :ref:`3.1.7_c_mcp3008` (C-Projekt)
+.. * :ref:`2.1.7_py_mcp3008` (Python-Projekt)
+.. * :ref:`2.2.1_py_mcp3008` (Python-Projekt)
+.. * :ref:`2.2.2_py_mcp3008` (Python-Projekt)
+.. * :ref:`4.1.10_py_mcp3008` (Python-Projekt)
+.. * :ref:`4.1.11_py_mcp3008` (Python-Projekt)
+.. * :ref:`4.1.13_py_mcp3008` (Python-Projekt)

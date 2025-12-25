@@ -12,81 +12,81 @@
 
     👉 Sind Sie bereit, mit uns zu erkunden und zu erschaffen? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
-Was benötigen Sie sonst noch?
-===============================
+Was wird sonst noch benötigt?
+=============================
 
-Bevor wir mit diesem Kit loslegen, bereiten wir zunächst die wichtigsten Hardwarekomponenten vor.
+Bevor wir mit diesem Kit loslegen, bereiten wir zunächst die notwendige Hardware vor.
 
-Benötigte Komponenten
-------------------------------
+Erforderliche Komponenten
+-------------------------
 
 * **Raspberry Pi**
 
-  Der Raspberry Pi dient als **Gehirn** des Systems und übernimmt alle Rechen-, Sensor- und Steueraufgaben.
+  Der Raspberry Pi fungiert als das **Gehirn** und übernimmt alle Rechen-, Sensor- und Steuerungsaufgaben.  
   
   .. image:: /_shared/pi_start/img/need_pi.jpg
 
   * **Kompatible Modelle**: Raspberry Pi 5, Raspberry Pi 4, 3 oder Raspberry Pi Zero 2W  
-  * **Minimum**: **2 GB RAM** — ausreichend für alle Standard-Python-Projekte sowie für die Nutzung **onlinebasierter KI-Dienste** wie OpenAI Whisper, TTS oder LLMs.  
-  * **Empfohlen**: **4 GB RAM oder mehr** — sorgt für flüssigere Leistung, insbesondere wenn **lokale KI-Modelle** (z. B. Vosk-Spracherkennung, Piper TTS oder leichte LLMs) parallel zu Kamera-Streaming und Steuerungsaufgaben laufen.  
+  * **Minimum**: **2 GB RAM** — ausreichend für alle gängigen Python-Projekte sowie für die Nutzung von **Online-KI-Diensten** wie OpenAI Whisper, TTS oder LLMs.  
+  * **Empfohlen**: **4 GB RAM oder mehr** — sorgt für eine flüssigere Performance beim gleichzeitigen Einsatz von **lokalen KI-Modellen** (z. B. Vosk Spracherkennung, Piper TTS oder leichte LLMs), Kamerastreaming und Steuerungsaufgaben.  
+  
 
+* **Netzteil**
 
-* **Netzadapter**
-
-  Dieses Kit enthält ein **18650-Akkupack** sowie ein **Fusion HAT** mit integrierter Ladeelektronik.
+  Dieses Kit enthält ein **18650-Akkupack** und ein **Fusion HAT+**-Board mit integrierter Ladeschaltung.
   
   .. image:: /_shared/pi_start/img/need_power.png
-     :width: 400
+    :width: 400
 
-  * Für das Laden wird ein **5V-3A-Netzteil** empfohlen, z. B. der offizielle **Raspberry Pi 15W USB-C Adapter**.  
-  * Alternativ können **USB-C Power Delivery (PD)** oder **QC 2.0 Schnellladegeräte** verwendet werden.  
-  * Eine vollständige Ladung dauert typischerweise etwa **2 Stunden** (von 0 % auf 100 %).  
+  * Zum Laden wird ein **5 V 3 A Netzteil** empfohlen, z. B. das offizielle **Raspberry Pi 15 W USB-C-Netzteil**.  
+  * Alternativ können Sie auch ein **USB-C Power Delivery (PD)-Ladegerät** oder ein **QC-2.0-Schnellladegerät** verwenden.  
+  * Eine vollständige Ladung dauert in der Regel etwa **2 Stunden** (von 0 % auf 100 %).  
 
 
 * **Micro-SD-Karte**
 
-  Der Raspberry Pi besitzt kein internes Laufwerk. Er startet und speichert alle Daten auf einer **Micro-SD-Karte**.
+  Der Raspberry Pi besitzt keine eingebaute Festplatte. Er startet und speichert alle Dateien auf einer **Micro-SD-Karte**.  
   
   .. image:: /_shared/pi_start/img/need_sd.jpg
-     :width: 200
+    :width: 200
 
   * Minimum: **16 GB**  
   * Empfohlen: **32 GB** für bessere Stabilität  
-  * Marke: Verwenden Sie zuverlässige Hersteller wie **SanDisk** oder **Samsung**, um Lese-/Schreibfehler zu vermeiden  
+  * Marke: Verwenden Sie zuverlässige Marken wie **SanDisk** oder **Samsung**, um Lese-/Schreibfehler zu vermeiden  
   
+
 Optionale Komponenten
-------------------------
+---------------------
 
-Diese Komponenten sind nicht zwingend notwendig, verbessern jedoch Ihr Lern- und Debugging-Erlebnis erheblich:
+Diese Komponenten sind nicht zwingend erforderlich, verbessern jedoch das Lern- und Debugging-Erlebnis erheblich:
 
-* **Monitor (HDMI oder Fernseher)**
+* **Monitor (HDMI oder TV)** 
 
-  Für Anfänger empfehlen wir dringend ein Display mit HDMI-Eingang, um Raspberry Pi OS leichter einzurichten und grafische Anwendungen auszuführen.
+  Für Einsteiger empfehlen wir dringend einen Bildschirm mit HDMI-Eingang, um Raspberry Pi OS einfach einzurichten und grafische Programme auszuführen.  
 
   .. image:: /_shared/pi_start/img/need_screen.png
-     :width: 400
+    :width: 400
 
 * **HDMI-Kabel (Standard / Mini / Micro)**
  
-  Da verschiedene Raspberry-Pi-Modelle unterschiedliche HDMI-Anschlüsse verwenden, stellen Sie sicher, dass Sie das passende Kabel bereithalten.
+  Verschiedene Raspberry-Pi-Modelle verwenden unterschiedliche HDMI-Anschlüsse. Prüfen Sie daher Ihr Modell und bereiten Sie das passende Kabel vor. 
   
-  * **Raspberry Pi 4 / 5**: Micro HDMI  
-  * **Raspberry Pi 3**: Standard HDMI  
-  * **Raspberry Pi Zero 2W**: Mini HDMI 
+  * **Raspberry Pi 4 / 5**: Micro-HDMI  
+  * **Raspberry Pi 3**: Standard-HDMI  
+  * **Raspberry Pi Zero 2W**: Mini-HDMI  
 
   .. image:: /_shared/pi_start/img/need_hdmi.png
-     :width: 400
+    :width: 400
 
 * **Tastatur & Maus**
 
-  Sehr hilfreich während der Ersteinrichtung von Raspberry Pi OS. Später können Sie per SSH/VNC fernzugreifen, doch für Einsteiger ist ein einfaches USB- oder Funktastatur-/Maus-Set empfehlenswert.
+  Besonders hilfreich bei der Ersteinrichtung von Raspberry Pi OS. Später können Sie auf Fernzugriff (SSH/VNC) umsteigen, für Anfänger empfehlen wir jedoch ein einfaches USB- oder kabelloses Set.  
 
   .. image:: /_shared/pi_start/img/need_keyboard_mouse.png
-     :width: 500
+    :width: 500
  
 
 **Tipps zur Vorbereitung**
 
-* Wenn Sie dieses Kit gekauft haben, sind die meisten Zubehörteile bereits enthalten, aber Sie müssen **Raspberry-Pi-Board**, **Micro-SD-Karte** und **Netzteil** separat vorbereiten.  
-* Unsicher, was Sie kaufen sollen? Eine stabile und universelle Empfehlung lautet:  
-  **Raspberry Pi 4 (2 GB) + offizielles Netzteil + 32 GB Micro-SD-Karte**.
+* Wenn Sie dieses Kit gekauft haben, sind die meisten Zubehörteile enthalten. Sie müssen jedoch den Raspberry-Pi-Board, die Micro-SD-Karte und das Netzteil separat vorbereiten.  
+* Unsicher, was Sie kaufen sollen? Die stabilste und universellste Kombination ist: **Raspberry Pi 4 (2 GB) + offizielles Netzteil + 32 GB Micro-SD-Karte**.  

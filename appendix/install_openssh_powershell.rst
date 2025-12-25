@@ -17,14 +17,14 @@
 OpenSSH über PowerShell installieren
 ------------------------------------
 
-Wenn beim Ausführen von ``ssh <username>@<hostname>.local`` oder ``ssh <username>@<IP>`` der folgende Fehler angezeigt wird:
+Wenn beim Ausführen von ``ssh <username>@<hostname>.local`` oder ``ssh <username>@<IP>`` der folgende Fehler erscheint:
 
 .. code-block::
 
     ssh: The term 'ssh' is not recognized as the name of a cmdlet, function, script file, or operable program.
 
 bedeutet dies, dass auf Ihrem Windows-System OpenSSH nicht installiert ist.  
-Folgen Sie den untenstehenden Schritten, um es manuell zu installieren.
+Befolgen Sie die folgenden Schritte, um es manuell zu installieren.
 
 #. Öffnen Sie das Windows-Startmenü, geben Sie **powershell** ein, klicken Sie mit der rechten Maustaste auf **Windows PowerShell** und wählen Sie **Als Administrator ausführen**.
 
@@ -37,7 +37,7 @@ Folgen Sie den untenstehenden Schritten, um es manuell zu installieren.
 
       Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
 
-#. Nach der Installation sollten Sie eine Ausgabe ähnlich der folgenden sehen:
+#. Nach der Installation sollten Sie eine ähnliche Ausgabe sehen:
 
    .. code-block::
 
@@ -61,10 +61,10 @@ Folgen Sie den untenstehenden Schritten, um es manuell zu installieren.
         State : NotPresent
 
    .. warning::
-      Wenn ``Installed`` nicht angezeigt wird, ist Ihr Windows-System möglicherweise zu alt.  
-      In diesem Fall empfehlen wir die Verwendung eines Drittanbieter-SSH-Tools. Siehe: :ref:`login_windows`
+      Wenn ``Installed`` nicht erscheint, ist Ihr Windows-System möglicherweise zu alt.  
+      In diesem Fall empfehlen wir die Verwendung eines SSH-Tools eines Drittanbieters. Siehe: :ref:`login_windows`
 
-#. Schließen Sie PowerShell, öffnen Sie es erneut (diesmal nicht als Administrator), und verwenden Sie den ``ssh``-Befehl, um sich anzumelden:
+#. Schließen Sie PowerShell, öffnen Sie sie erneut (diesmal ohne Administratorrechte) und verwenden Sie den Befehl ``ssh``, um sich anzumelden:
 
    .. code-block:: bash
 

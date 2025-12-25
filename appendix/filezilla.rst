@@ -15,17 +15,21 @@
 .. _filezilla:
 
 FileZilla Software
-==================
+============================
 
 .. image:: /_shared/appendix/img/filezilla_icon.png
    :width: 20%
 
 Das File Transfer Protocol (FTP) wird häufig verwendet, um Dateien über ein Netzwerk zwischen Computern zu übertragen.  
-**FileZilla** ist ein Open-Source-Client, der FTP, FTPS und **SFTP** (für Raspberry Pi empfohlen) unterstützt.  
-Mit FileZilla können Sie ganz einfach Dateien (z. B. Bilder, Audio oder Skripte) von Ihrem Computer auf den Raspberry Pi hochladen oder Dateien vom Pi auf Ihren Computer herunterladen.
+**FileZilla** ist ein Open-Source-Client, der FTP, FTPS und **SFTP** unterstützt (für Raspberry Pi empfohlen).  
+Mit FileZilla können Sie Dateien (z. B. Bilder, Audio-Dateien und Skripte) einfach von Ihrem Computer auf den Raspberry Pi hochladen oder Dateien vom Pi zurück auf Ihren Computer herunterladen.
 
-Download FileZilla
-------------------
+FileZilla herunterladen
+-----------------------
+
+.. |shared_link_filezilla| raw:: html
+
+    <a href="https://filezilla-project.org/" target="_blank">FileZilla</a> 
 
 #. Besuchen Sie die offizielle Website |shared_link_filezilla| und laden Sie den **FileZilla Client** für Ihr Betriebssystem herunter.
 
@@ -33,25 +37,25 @@ Download FileZilla
 
    .. image:: /_shared/appendix/img/filezilla_install.png
 
-#. Öffnen Sie FileZilla und geben Sie folgende Informationen ein:
+#. Öffnen Sie FileZilla und geben Sie die folgenden Informationen ein:
 
    * **Host:** ``<hostname>.local`` oder die IP-Adresse des Raspberry Pi  
    * **Benutzername:** Ihr Pi-Benutzername  
-   * **Passwort:** das in Raspberry Pi Imager gesetzte Passwort  
-   * **Port:** ``22`` (für SFTP)  
+   * **Passwort:** Das in Raspberry Pi Imager festgelegte Passwort  
+   * **Port:** ``22`` (für SFTP)
    * Klicken Sie auf **Quickconnect** (oder drücken Sie **Enter**), um die Verbindung herzustellen.
 
    .. image:: /_shared/appendix/img/filezilla_connect.png
       :align: center
 
-#. Nach dem Verbinden zeigt das linke Panel Ihre **lokalen Dateien**, und das rechte Panel die **Dateien auf dem Raspberry Pi**.
+#. Nach der Verbindung zeigt das linke Fenster Ihre **lokalen Dateien**, und das rechte Fenster die **Dateien des Raspberry Pi** an.
 
     .. image:: /_shared/appendix/img/filezilla_in.png
        :align: center
 
 #. Sie können:
 
-   * **Eine Datei hochladen:** per Drag & Drop vom linken Panel → rechtes Panel  
-   * **Eine Datei herunterladen:** per Drag & Drop vom rechten Panel → linkes Panel  
+   * Eine Datei **hochladen**: Ziehen Sie sie vom linken Fenster → ins rechte Fenster  
+   * Eine Datei **herunterladen**: Ziehen Sie sie vom rechten Fenster → ins linke Fenster  
 
-   FileZilla startet den Transfer sofort, und der Status erscheint im unteren Bereich des Fensters.
+   FileZilla startet die Übertragung sofort, und der Status wird im unteren Bereich des Fensters angezeigt.

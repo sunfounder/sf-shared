@@ -36,7 +36,7 @@ SPI-Schnittstelle aktivieren
 
       ssh <username>@<ip_address>
 
-#. Öffnen Sie das Konfigurationstool des Raspberry Pi:
+#. Öffnen Sie das Raspberry-Pi-Konfigurationstool:
 
    .. code-block:: bash
 
@@ -52,8 +52,8 @@ SPI-Schnittstelle aktivieren
    .. image:: img/ssh_spi_spi.png
       :align: center
 
-#. Wählen Sie **<Yes>**, dann **<Ok> → <Finish>**, um die Änderungen zu übernehmen.  
-   Falls Sie dazu aufgefordert werden, starten Sie Ihren Raspberry Pi neu.
+#. Wählen Sie **<Yes>**, anschließend **<Ok> → <Finish>**, um die Änderungen zu übernehmen.  
+   Starten Sie den Raspberry Pi neu, falls Sie dazu aufgefordert werden.
 
    .. image:: img/ssh_spi_enable.png
       :align: center
@@ -62,7 +62,7 @@ SPI-Schnittstelle aktivieren
 SPI-Schnittstelle überprüfen
 ----------------------------
 
-#. Prüfen Sie, ob die SPI-Geräte vorhanden sind:
+#. Prüfen Sie, ob die SPI-Gerätedateien vorhanden sind:
 
    .. code-block:: bash
 
@@ -76,7 +76,7 @@ SPI-Schnittstelle überprüfen
       /dev/spidev0.1
 
    * Wenn diese Geräte angezeigt werden, ist SPI aktiv und einsatzbereit.  
-   * Wenn nicht, starten Sie Ihren Raspberry Pi neu und prüfen Sie erneut.
+   * Falls nicht, starten Sie Ihren Raspberry Pi neu und prüfen Sie erneut.
 
 
 spidev installieren (Python-SPI-Bibliothek)
@@ -88,8 +88,8 @@ spidev installieren (Python-SPI-Bibliothek)
 
       sudo apt install python3-spidev
 
-   Die Bibliothek ``spidev`` bietet Zugriff auf SPI-Geräte über die ``/dev/spidevX.Y``-Schnittstelle.
+   Die Bibliothek ``spidev`` ermöglicht den Zugriff auf SPI-Geräte über die Schnittstelle ``/dev/spidevX.Y``.
 
 ----------------------
 
-Ihr Raspberry Pi ist nun konfiguriert und bereit, über SPI sowohl mit Kommandozeilenwerkzeugen als auch mit Python zu kommunizieren.
+Ihr Raspberry Pi ist nun so konfiguriert, dass er über Kommandozeilen-Tools und Python mit SPI-Geräten kommunizieren kann.

@@ -12,83 +12,81 @@
 
     👉 Sind Sie bereit, mit uns zu erkunden und zu erschaffen? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
-Was benötigen Sie sonst noch?
-===============================
+Was wird sonst noch benötigt?
+=============================
 
-Bevor wir mit diesem Kit beginnen, bereiten wir zunächst die wichtigsten Hardwarekomponenten vor.
+Bevor wir mit diesem Kit loslegen, bereiten wir zunächst die notwendige Hardware vor.
 
-Benötigte Komponenten
-------------------------------
+Erforderliche Komponenten
+-------------------------
 
 * **Raspberry Pi**
 
-  Der Raspberry Pi fungiert als **Gehirn** des Systems und übernimmt alle Rechen-, Sensor- und Steueraufgaben.
+  Der Raspberry Pi fungiert als das **Gehirn** und übernimmt alle Rechen-, Sensor- und Steuerungsaufgaben.  
   
   * **Kompatible Modelle**: Raspberry Pi 5, Raspberry Pi 4, 3 oder Raspberry Pi Zero 2W  
 
   .. image:: /_shared/pi_start/img/need_pi.jpg
 
+  
+* **Netzteil**
 
-* **Netzadapter**
-
-  Bereiten Sie ein geeignetes Netzteil vor, abhängig von Ihrem Raspberry-Pi-Modell:
+  Bereiten Sie ein geeignetes Netzteil entsprechend Ihrem Raspberry-Pi-Modell vor:
 
   .. image:: /_shared/pi_start/img/need_power.png
-     :width: 400
+    :width: 400
 
-  - **Raspberry Pi 5**: 5V 5A USB-C (empfohlen: offizielles 27W-PD-Netzteil)  
-  - **Raspberry Pi 4**: 5V 3A USB-C  
-  - **Raspberry Pi 3B/3B+**: 5V 2.5A Micro-USB  
-  - **Raspberry Pi Zero 2W**: 5V 2A Micro-USB  
+  - **Raspberry Pi 5**: 5 V 5 A USB-C (empfohlen: offizielles 27-W-PD-Netzteil).  
+  - **Raspberry Pi 4**: 5 V 3 A USB-C.  
+  - **Raspberry Pi 3B/3B+**: 5 V 2,5 A Micro-USB.  
+  - **Raspberry Pi Zero 2W**: 5 V 2 A Micro-USB.
 
-  Eine stabile Stromversorgung verhindert Unterspannung und sorgt für einen zuverlässigen Betrieb.
-
+  Die Verwendung einer stabilen Stromversorgung hilft, Unterspannung zu vermeiden und einen zuverlässigen Betrieb sicherzustellen.
 
 * **Micro-SD-Karte**
 
-  Der Raspberry Pi besitzt kein integriertes Laufwerk. Er startet und speichert alle Daten auf einer **Micro-SD-Karte**.
+  Der Raspberry Pi besitzt keine eingebaute Festplatte. Er startet und speichert alle Dateien auf einer **Micro-SD-Karte**.  
   
   .. image:: /_shared/pi_start/img/need_sd.jpg
-     :width: 200
+    :width: 200
 
   * Minimum: **16 GB**  
-  * Empfohlen: **32 GB** für mehr Stabilität  
-  * Marke: Verwenden Sie zuverlässige Hersteller wie **SanDisk** oder **Samsung**, um Lese-/Schreibfehler zu vermeiden  
+  * Empfohlen: **32 GB** für bessere Stabilität  
+  * Marke: Verwenden Sie zuverlässige Marken wie **SanDisk** oder **Samsung**, um Lese-/Schreibfehler zu vermeiden  
   
 
 Optionale Komponenten
-------------------------
+---------------------
 
-Diese Komponenten sind nicht zwingend erforderlich, verbessern jedoch das Lernen und Debuggen erheblich:
+Diese Komponenten sind nicht zwingend erforderlich, verbessern jedoch das Lern- und Debugging-Erlebnis erheblich:
 
-* **Monitor (HDMI oder Fernseher)** 
+* **Monitor (HDMI oder TV)** 
 
-  Für Anfänger empfehlen wir ein Display mit HDMI-Eingang, um Raspberry Pi OS einfacher einzurichten und grafische Programme auszuführen.
+  Für Einsteiger empfehlen wir dringend einen Bildschirm mit HDMI-Eingang, damit Sie Raspberry Pi OS einfach einrichten und grafische Programme ausführen können.  
 
   .. image:: /_shared/pi_start/img/need_screen.png
-     :width: 400
+    :width: 400
 
 * **HDMI-Kabel (Standard / Mini / Micro)**
  
-  Verschiedene Raspberry-Pi-Modelle verwenden unterschiedliche HDMI-Anschlüsse – prüfen Sie daher Ihr Modell und bereiten Sie das passende Kabel vor.
+  Verschiedene Raspberry-Pi-Modelle verwenden unterschiedliche HDMI-Anschlüsse. Prüfen Sie daher Ihr Pi-Modell und bereiten Sie das passende Kabel vor. 
   
-  * **Raspberry Pi 4 / 5**: Micro HDMI  
-  * **Raspberry Pi 3**: Standard HDMI  
-  * **Raspberry Pi Zero 2W**: Mini HDMI
+  * **Raspberry Pi 4 / 5**: Micro-HDMI  
+  * **Raspberry Pi 3**: Standard-HDMI  
+  * **Raspberry Pi Zero 2W**: Mini-HDMI  
 
   .. image:: /_shared/pi_start/img/need_hdmi.png
-     :width: 400
+    :width: 400
 
 * **Tastatur & Maus**
 
-  Sehr nützlich bei der Ersteinrichtung von Raspberry Pi OS. Später können Sie per SSH/VNC fernzugreifen, aber für Einsteiger empfehlen wir eine einfache USB- oder Funktastatur mit Maus.
+  Besonders hilfreich bei der Ersteinrichtung von Raspberry Pi OS. Später können Sie auf Fernzugriff (SSH/VNC) umsteigen, für Anfänger empfehlen wir jedoch ein einfaches USB- oder kabelloses Set.  
 
   .. image:: /_shared/pi_start/img/need_keyboard_mouse.png
-     :width: 500
-
+    :width: 500
+ 
 
 **Tipps zur Vorbereitung**
 
-* Wenn Sie dieses Kit gekauft haben, sind die meisten Zubehörteile enthalten, aber **Raspberry-Pi-Board**, **Micro-SD-Karte** und **Netzteil** müssen separat vorbereitet werden.  
-* Unsicher, was Sie kaufen sollen? Eine stabile und universelle Empfehlung lautet:  
-  **Raspberry Pi 4/5 (2 GB) + offizielles Netzteil + 32-GB-Micro-SD-Karte**.
+* Wenn Sie dieses Kit gekauft haben, sind die meisten Zubehörteile enthalten. Sie müssen jedoch den Raspberry-Pi-Board, die Micro-SD-Karte und das Netzteil separat vorbereiten.  
+* Unsicher, was Sie kaufen sollen? Die stabilste und universellste Wahl ist: **Raspberry Pi 4/5 (2 GB) + offizielles Netzteil + 32 GB Micro-SD-Karte**.  

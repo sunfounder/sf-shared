@@ -35,7 +35,7 @@ I²C-Schnittstelle aktivieren
 
       ssh <username>@<ip_address>
 
-#. Öffnen Sie das Konfigurationstool des Raspberry Pi:
+#. Öffnen Sie das Raspberry-Pi-Konfigurationstool:
 
    .. code-block:: bash
 
@@ -51,15 +51,15 @@ I²C-Schnittstelle aktivieren
    .. image:: img/ssh_i2c_i2c.png
       :align: center
 
-#. Wählen Sie **<Yes>**, dann **<Ok> → <Finish>**, um die Änderungen zu übernehmen.  
-   Falls Sie dazu aufgefordert werden, starten Sie Ihren Raspberry Pi neu.
+#. Wählen Sie **<Yes>**, anschließend **<Ok> → <Finish>**, um die Änderungen zu übernehmen.  
+   Starten Sie den Raspberry Pi neu, falls Sie dazu aufgefordert werden.
 
    .. image:: img/ssh_i2c_yes.png
       :align: center
 
 
-I²C-Kernelmodule prüfen
------------------------
+I²C-Kernel-Module überprüfen
+----------------------------
 
 #. Führen Sie den folgenden Befehl aus:
 
@@ -67,14 +67,14 @@ I²C-Kernelmodule prüfen
 
       lsmod | grep i2c
 
-#. Wenn I²C aktiviert ist, sehen Sie Module wie:
+#. Wenn I²C aktiviert ist, sehen Sie Module wie zum Beispiel:
 
    .. code-block:: text
 
       i2c_dev        6276    0
       i2c_bcm2708    4121    0
 
-#. Falls nichts angezeigt wird, starten Sie das System neu:
+#. Wenn nichts angezeigt wird, starten Sie das System neu:
 
    .. code-block:: bash
 
@@ -84,7 +84,7 @@ I²C-Kernelmodule prüfen
 i2c-tools installieren
 ----------------------
 
-#. Installieren Sie die Dienstprogramme zum Scannen und Testen von I²C-Geräten:
+#. Installieren Sie die Dienstprogramme, die zum Scannen und Testen von I²C-Geräten erforderlich sind:
 
    .. code-block:: bash
 
@@ -115,7 +115,7 @@ Angeschlossene I²C-Geräte erkennen
       60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
       70: -- -- -- -- -- -- -- --
 
-#. Wenn ein Gerät angeschlossen ist, erscheint seine Adresse (z. B. **0x48**) in der Tabelle.
+#. Wenn ein Gerät angeschlossen ist, erscheint dessen Adresse (z. B. **0x48**) in der Tabelle.
 
 
 Python-I²C-Bibliothek installieren
@@ -127,6 +127,6 @@ Python-I²C-Bibliothek installieren
 
       sudo apt install python3-smbus2
 
-   Die Bibliothek ``smbus2`` stellt alle erforderlichen Funktionen zur Kommunikation mit I²C-Geräten in Python bereit.
+   Die Bibliothek ``smbus2`` stellt alle Funktionen bereit, die für die Kommunikation mit I²C-Geräten in Python erforderlich sind.
 
 Ihr Raspberry Pi ist nun vollständig konfiguriert und bereit für die Kommunikation mit I²C-Geräten.

@@ -14,41 +14,41 @@
 
 .. _setup_pi:
 
-Richten Sie Ihren Raspberry Pi ein
-==================================
+Raspberry Pi einrichten
+====================================
 
-Um mit dem Programmieren und Steuern Ihres Raspberry Pi zu beginnen, müssen Sie zunächst Zugriff auf ihn erhalten.  
+Um mit der Programmierung und Steuerung Ihres Raspberry Pi zu beginnen, müssen Sie zunächst darauf zugreifen.  
 Diese Anleitung beschreibt zwei gängige Methoden:
 
 * Verwendung von Monitor, Tastatur und Maus  
-* Headless-Setup (ohne Bildschirm) für den Fernzugriff  
+* Einrichtung einer Headless-Verbindung (ohne Bildschirm) für den Fernzugriff  
 
 .. note::
 
-   Der auf dem Roboter installierte Raspberry Pi Zero 2W lässt sich nur schwer an einen Bildschirm anschließen.  
-   Wir empfehlen daher das **Headless-Setup**.
+   Der auf dem Roboter installierte Raspberry Pi Zero 2W lässt sich nur schwer mit einem Bildschirm verbinden.  
+   Wir empfehlen daher die **Headless-Einrichtung**.
 
 -------------------------
 
 Wenn Sie einen Bildschirm haben
-------------------------------------------
+----------------------------------------
 
-**Benötigte Komponenten**
+**Erforderliche Komponenten**
 
-* Raspberry Pi  
-* Offizielles Netzteil  
-* Micro-SD-Karte  
+* Raspberry Pi
+* Offizielles Netzteil
+* MicroSD-Karte
 * HDMI-Kabel  
-  (Für Raspberry Pi 4/5 verwenden Sie **HDMI0**, den Anschluss in der Nähe des Stromanschlusses.)  
-* Monitor  
-* Tastatur und Maus  
+  (Für Raspberry Pi 4/5 verwenden Sie **HDMI0**, den Anschluss nahe am Stromanschluss.)
+* Monitor
+* Tastatur und Maus
 
 **Schritte**
 
-#. Stecken Sie die microSD-Karte in Ihren Raspberry Pi.
+#. Stecken Sie die MicroSD-Karte in Ihren Raspberry Pi.
 #. Schließen Sie Tastatur, Maus und Monitor an.
-#. Schalten Sie Ihren Raspberry Pi ein.
-#. Nach dem Booten erscheint der Desktop von Raspberry Pi OS.
+#. Schalten Sie den Raspberry Pi ein.
+#. Nach dem Start erscheint der Desktop von Raspberry Pi OS. 
 
    .. image:: /_shared/pi_start/img/plug_screen_trixie.png
       :width: 80%
@@ -57,33 +57,33 @@ Wenn Sie einen Bildschirm haben
 #. Öffnen Sie ein **Terminal**, um Befehle einzugeben.
 
    .. image:: /_shared/pi_start/img/open_terminal.png
-      :width: 60%
+      :width: 80%
       :align: center
 
 
 ----------------------------------
 
 Wenn Sie keinen Bildschirm haben (Headless)
-------------------------------------------------------------
+------------------------------------------------------
 
-Ohne Monitor können Sie Ihren Raspberry Pi vollständig per Fernzugriff konfigurieren und steuern.  
-Dies ist für die meisten Benutzer die bequemste Methode.
+Ohne Monitor können Sie Ihren Raspberry Pi aus der Ferne konfigurieren und sich anmelden.  
+Dies ist für die meisten Nutzer die bequemste Methode.
 
-**Benötigte Komponenten**
+**Erforderliche Komponenten**
 
-* Raspberry Pi  
-* Offizielles Netzteil  
-* Micro-SD-Karte  
-* Ein Computer im selben Netzwerk  
+* Raspberry Pi
+* Offizielles Netzteil
+* MicroSD-Karte
+* Ein Computer im selben Netzwerk
 
 **Tipps**
 
-* Stellen Sie sicher, dass Sie alle Einstellungen aus :ref:`imager_custom` im Raspberry Pi Imager vorgenommen haben.
-* Raspberry Pi und Computer müssen sich im selben lokalen Netzwerk befinden.
-* Für maximale Stabilität nutzen Sie Ethernet, sofern verfügbar.
+* Stellen Sie sicher, dass Sie bei der Installation des Systems mit Raspberry Pi Imager alle in :ref:`imager_custom` beschriebenen Einstellungen vorgenommen haben.
+* Achten Sie darauf, dass sich Ihr Raspberry Pi und Ihr Computer im selben lokalen Netzwerk befinden.
+* Für die beste Stabilität verwenden Sie nach Möglichkeit eine Ethernet-Verbindung.
 
 
-**Verbindung über SSH herstellen**
+**Verbindung über SSH**
 
 #. Öffnen Sie ein Terminal auf Ihrem Computer (Windows: **PowerShell**; macOS/Linux: **Terminal**) und verbinden Sie sich mit Ihrem Raspberry Pi:
 
@@ -93,18 +93,18 @@ Dies ist für die meisten Benutzer die bequemste Methode.
       # Beispiel:
       ssh daisy@pi.local
 
-2. Alternativ können Sie die IP-Adresse Ihres Raspberry Pi über die DHCP-Liste Ihres Routers herausfinden und sich damit verbinden:
+2. Alternativ können Sie die IP-Adresse Ihres Raspberry Pi in der DHCP-Liste Ihres Routers ermitteln und sich wie folgt verbinden:
 
    .. code-block:: bash
 
-      ssh <username>@<IP address>
+      ssh <username>@<IP-Adresse>
       # Beispiel:
       ssh daisy@192.168.1.42
 
-3. Beim ersten Login geben Sie ``yes`` ein, um das SSH-Zertifikat zu akzeptieren.
+3. Geben Sie bei der ersten Anmeldung ``yes`` ein, um das SSH-Zertifikat zu bestätigen.
 
 4. Geben Sie das Passwort ein, das Sie im Raspberry Pi Imager festgelegt haben.  
-   (Während der Eingabe wird nichts angezeigt — das ist normal.)
+   (Während der Eingabe wird nichts angezeigt – das ist normal.)
 
 5. Nach der Anmeldung haben Sie vollständigen Zugriff auf die Kommandozeile.
 
@@ -117,31 +117,36 @@ Dies ist für die meisten Benutzer die bequemste Methode.
 
 * **ssh: Could not resolve hostname ...**
 
-  * Stellen Sie sicher, dass der Hostname korrekt ist.  
-  * Versuchen Sie die Verbindung über die IP-Adresse des Raspberry Pi.  
+  * Stellen Sie sicher, dass der Hostname korrekt ist.
+  * Versuchen Sie die Verbindung über die IP-Adresse des Raspberry Pi.
 
 * **The term 'ssh' is not recognized... (Windows)**
 
-  * OpenSSH ist nicht installiert. Installieren Sie es manuell oder nutzen Sie einen SSH-Client eines Drittanbieters.  
-  * Siehe :ref:`openssh_powershell` oder :ref:`login_windows`.  
+  * OpenSSH ist nicht installiert. Installieren Sie es manuell oder verwenden Sie einen SSH-Client eines Drittanbieters.  
+  * Siehe :ref:`openssh_powershell` oder :ref:`login_windows`.
 
 * **Permission denied (publickey,password)**
 
-  * Vergewissern Sie sich, dass Sie Benutzername und Passwort verwenden, die im Raspberry Pi Imager erstellt wurden.  
+  * Vergewissern Sie sich, dass Sie den im Raspberry Pi Imager erstellten Benutzernamen und das Passwort verwenden.
 
 * **Connection refused**
 
-  * Warten Sie 1–2 Minuten nach dem Einschalten.  
-  * Stellen Sie sicher, dass SSH im Raspberry Pi Imager aktiviert wurde.  
+  * Warten Sie 1–2 Minuten nach dem Einschalten.
+  * Prüfen Sie, ob SSH im Raspberry Pi Imager aktiviert wurde.
 
 --------------------------------
 
-Grafische Fernzugriffsmöglichkeiten
--------------------------------------
+Grafische Fernzugriffsoptionen
+---------------------------------
+
+.. |shared_link_rpi_connect| raw:: html
+
+    <a href="https://www.raspberrypi.com/documentation/services/connect.html" target="_blank">Raspberry Pi Connect</a> 
 
 Wenn Sie eine grafische Oberfläche bevorzugen:
 
-* :ref:`remote_desktop`: Aktivieren Sie **VNC (Virtual Network Computing)** für einen vollständigen Desktopzugriff.
-* |shared_link_rpi_connect|: Verwenden Sie Raspberry Pi Connect für sicheren Fernzugriff von überall direkt im Browser.
+* :ref:`remote_desktop`: Aktivieren Sie **VNC (Virtual Network Computing)** für eine vollständige Desktop-Erfahrung auf Ihrem Raspberry Pi.
 
-Jetzt können Sie Ihren Raspberry Pi ohne Monitor steuern – entweder über SSH für die Kommandozeile oder über VNC / Raspberry Pi Connect für eine grafische Desktop-Erfahrung.
+* |shared_link_rpi_connect|: Verwenden Sie Raspberry Pi Connect für sicheren Fernzugriff von überall aus, direkt im Browser. 
+
+Nun können Sie Ihren Raspberry Pi auch ohne Monitor steuern – entweder über SSH für Kommandozeilenoperationen oder mit VNC bzw. Raspberry Pi Connect für eine grafische Desktop-Oberfläche.
