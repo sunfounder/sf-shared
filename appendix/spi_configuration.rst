@@ -16,13 +16,13 @@
 .. _spi_configuration:
 
 Configurazione SPI
-=================
+==============================
 
 Segui i passaggi seguenti per abilitare e verificare l’interfaccia SPI sul tuo Raspberry Pi.  
 Queste istruzioni si applicano a Raspberry Pi 5, 4, 3 e Zero 2W.
 
 Abilitare l’interfaccia SPI
---------------------------
+--------------------------------------
 
 #. Apri un terminale sul tuo computer (Windows: **PowerShell**; macOS/Linux: **Terminal**) e collegati al tuo Raspberry Pi:
 

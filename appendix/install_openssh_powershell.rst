@@ -15,7 +15,7 @@
 .. _openssh_powershell:
 
 Installare OpenSSH tramite PowerShell
-------------------------------------
+-----------------------------------------------
 
 Se vedi il seguente errore quando esegui ``ssh <username>@<hostname>.local`` oppure ``ssh <username>@<IP>``:
 

@@ -29,7 +29,7 @@ La sezione seguente spiega come abilitare VNC sul tuo Raspberry Pi e come colleg
 -----------------
 
 Abilitare il servizio VNC
-------------------------
+--------------------------------------
 
 RealVNC Server è preinstallato su Raspberry Pi OS, ma è **disabilitato per impostazione predefinita**.  
 Deve essere abilitato tramite lo strumento di configurazione.

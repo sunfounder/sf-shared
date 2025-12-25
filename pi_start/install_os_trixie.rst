@@ -31,7 +31,7 @@ Questa guida spiega come farlo utilizzando **Raspberry Pi Imager** in modo sempl
 -------------------
 
 **1. Installare Raspberry Pi Imager**
-------------------------------------
+------------------------------------------
 
 .. |shared_link_rpi_imager| raw:: html
 

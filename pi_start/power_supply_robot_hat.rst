@@ -13,7 +13,7 @@
     👉 Sei pronto a esplorare e creare con noi? Clicca su [|link_sf_facebook|] e unisciti oggi stesso!
 
 Alimentazione per Raspberry Pi (Importante)
-==========================================
+======================================================
 
 Ricarica
 --------
