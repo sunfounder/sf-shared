@@ -1,91 +1,93 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
-What Else Do You Need?
-===============================
+他に何が必要ですか？
+====================
 
-Before we start playing with this kit, let’s prepare the essential hardware.
+このキットを使い始める前に、必要なハードウェアを準備しましょう。
 
-Required Components
-------------------------------
+必須コンポーネント
+------------------
 
 * **Raspberry Pi**
 
-  The Raspberry Pi acts as the **brain**, handling all computing, sensing, and control tasks.  
+  Raspberry Pi は **頭脳** として機能し、すべての計算、センシング、制御タスクを処理します。  
   
   .. image:: /_shared/pi_start/img/need_pi.jpg
 
-  * **Compatible models**: Raspberry Pi 5, Raspberry Pi 4, 3, or Raspberry Pi Zero 2W  
-  * **Minimum**: **2GB RAM** — sufficient for all standard python projects and for using **online AI services** such as OpenAI Whisper, TTS, or LLMs.  
-  * **Recommended**: **4GB RAM or more** — ensures smoother performance when running **local AI models** (e.g., Vosk speech recognition, Piper TTS, or lightweight LLMs) alongside camera streaming and control tasks.  
+  * **対応モデル**：Raspberry Pi 5、Raspberry Pi 4、3、Raspberry Pi Zero 2W  
+  * **最小構成**： **2GB RAM** — 標準的な Python プロジェクトや、OpenAI Whisper、TTS、LLM などの **オンライン AI サービス** を使用するには十分です。  
+  * **推奨構成**： **4GB RAM 以上** — カメラのストリーミングや制御タスクと同時に、**ローカル AI モデル** （例：Vosk 音声認識、Piper TTS、軽量 LLM）を実行する場合でも、よりスムーズに動作します。  
   
 
-* **Power Adapter**
+* **電源アダプター**
 
-  This kit comes with an **18650 battery pack** and a **Fusion HAT** board featuring a built-in charging circuit.
+  本キットには **18650 バッテリーパック** と、充電回路を内蔵した **Fusion HAT+** ボードが付属しています。
   
   .. image:: /_shared/pi_start/img/need_power.png
     :width: 400
 
-  * For charging, it is recommended to use a **5V 3A power supply**, such as the official **Raspberry Pi 15W USB-C adapter**.  
-  * You may also use a **USB-C Power Delivery (PD) charger** or a **QC 2.0 fast charger**.  
-  * A full charge typically takes about **2 hours** (from 0% to 100%).  
+  * 充電には、公式の **Raspberry Pi 15W USB-C アダプター** などの **5V 3A 電源** を推奨します。  
+  * **USB-C Power Delivery（PD）充電器** や **QC 2.0 急速充電器** も使用できます。  
+  * フル充電には通常 **約 2 時間** （0% → 100%）かかります。  
 
 
-* **Micro SD Card**
+* **Micro SD カード**
 
-  The Raspberry Pi does not have a built-in hard drive. It boots and stores all files on a **Micro SD card**.  
+  Raspberry Pi には内蔵ハードドライブがありません。起動およびすべてのファイル保存は **Micro SD カード** 上で行われます。  
   
   .. image:: /_shared/pi_start/img/need_sd.jpg
     :width: 200
 
-  * Minimum: **16GB**  
-  * Recommended: **32GB** for better stability  
-  * Brand: Use reliable options such as **SanDisk** or **Samsung** to avoid read/write errors  
+  * 最小容量： **16GB**  
+  * 推奨容量：安定性向上のため **32GB**  
+  * ブランド：読み書きエラーを避けるため、**SanDisk** や **Samsung** など信頼性の高い製品を使用してください。  
   
-Optional Components
+
+オプションコンポーネント
 ------------------------
 
-Although not strictly required, the following peripherals will greatly improve your learning and debugging experience:
+必須ではありませんが、以下の周辺機器を用意すると、学習やデバッグがより快適になります。
 
-* **Monitor (HDMI or TV)** 
+* **モニター（HDMI 対応ディスプレイまたは TV）** 
 
-  For beginners, we strongly recommend a display with an HDMI input, so you can easily configure Raspberry Pi OS and run graphical programs.  
+  初心者には、HDMI 入力を備えたディスプレイを強く推奨します。Raspberry Pi OS の設定や、グラフィカルなプログラムの実行が簡単になります。  
 
   .. image:: /_shared/pi_start/img/need_screen.png
     :width: 400
 
-* **HDMI Cable (Standard / Mini / Micro)**
+* **HDMI ケーブル（標準 / Mini / Micro）**
  
-  Different Raspberry Pi models use different HDMI connectors, be sure to check your Pi model and prepare the correct cable. 
+  Raspberry Pi のモデルによって使用する HDMI コネクタが異なります。お使いの Pi に対応した正しいケーブルを準備してください。 
   
-  * **Raspberry Pi 4 / 5**: Micro HDMI  
-  * **Raspberry Pi 3**: Standard HDMI  
-  * **Raspberry Pi Zero 2W**: Mini HDMI 
+  * **Raspberry Pi 4 / 5**：Micro HDMI  
+  * **Raspberry Pi 3**：標準 HDMI  
+  * **Raspberry Pi Zero 2W**：Mini HDMI  
 
   .. image:: /_shared/pi_start/img/need_hdmi.png
     :width: 400
 
-* **Keyboard & Mouse**
+* **キーボード & マウス**
 
-  Very useful during the initial setup of Raspberry Pi OS. Later, you may switch to remote access (SSH/VNC), but for beginners we recommend preparing a basic USB or wireless set.  
+  Raspberry Pi OS の初期設定時に非常に便利です。後から SSH や VNC によるリモートアクセスに切り替えることもできますが、初心者の方には USB またはワイヤレスの基本セットを用意することをおすすめします。  
 
   .. image:: /_shared/pi_start/img/need_keyboard_mouse.png
     :width: 500
  
 
-**Tips for Preparation**
+**準備に関するヒント**
 
-* If you purchased this kit, most accessories are included, but you still need to prepare the Raspberry Pi board, Micro SD card, and power adapter separately.  
-* Not sure what to buy? The most stable and universal choice is: **Raspberry Pi 4 (2GB) + Official Power Supply + 32GB Micro SD card**.  
+* このキットを購入した場合、多くのアクセサリーは同梱されていますが、Raspberry Pi 本体、Micro SD カード、電源アダプターは別途用意する必要があります。  
+* 何を選べばよいか分からない場合、最も安定して汎用的な構成は次のとおりです：  
+  **Raspberry Pi 4（2GB）＋ 公式電源アダプター ＋ 32GB Micro SD カード**  

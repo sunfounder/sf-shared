@@ -1,54 +1,60 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _login_windows:
 
 PuTTY
 =========================
 
-PuTTY is a simple and reliable SSH client for Windows users to remotely access the Raspberry Pi.  
+PuTTY は、Windows ユーザーが Raspberry Pi にリモートアクセスするための、シンプルで信頼性の高い SSH クライアントです。
 
-#. Download PuTTY from |shared_link_putty| and install it on your computer.
+
+.. |shared_link_putty| raw:: html
+
+    <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>" target="_blank">PuTTY</a> 
+
+
+#. |shared_link_putty| から PuTTY をダウンロードし、コンピュータにインストールします。
 
    .. image:: /_shared/appendix/img/putty_download.png
       :width: 70%
 
 
-#. Open PuTTY and prepare the connection:
+#. PuTTY を起動し、接続の準備をします。
 
-   * Enter your Raspberry Pi’s **hostname or IP address** in **Host Name**.
-   * Set the **Port** to ``22``.
-   * Click **Open** to connect.
+   * **Host Name** に Raspberry Pi の **ホスト名または IP アドレス** を入力します。
+   * **Port** を ``22`` に設定します。
+   * **Open** をクリックして接続します。
 
 
    .. image:: /_shared/appendix/img/putty_open.png
       :width: 70%
    
-#. If a security warning appears on first use, click **Accept** to continue.
+#. 初回使用時にセキュリティ警告が表示された場合は、**Accept** をクリックして続行します。
 
    .. image:: /_shared/appendix/img/putty_accept.png
       :width: 70%
 
-#. Log in to the Raspberry Pi:
+#. Raspberry Pi にログインします。
 
-   * When you see **login as:**, enter the username you set in **Raspberry Pi Imager**.
-   * Enter your password (it will not appear while typing—this is normal).
-   * After logging in, the terminal is ready for you to enter commands and operate your Raspberry Pi remotely.
+   * **login as:** と表示されたら、**Raspberry Pi Imager** で設定したユーザー名を入力します。
+   * パスワードを入力します（入力中は表示されませんが、正常な動作です）。
+   * ログイン後、ターミナルが使用可能になり、Raspberry Pi をリモートで操作するためのコマンドを入力できます。
 
    .. image:: /_shared/appendix/img/putty_login.png
       :width: 70%
 
 .. note::
 
-    If PuTTY shows **inactive**, the connection was lost and needs to be reconnected.
+    PuTTY に **inactive** と表示された場合、接続が切断されているため、再接続する必要があります。

@@ -1,83 +1,87 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _install_os:
 
-Installing the Operating System
-===================================
+オペレーティングシステムのインストール
+=======================================
 
 .. start_imager
 
-Before using your Raspberry Pi, you need to install **Raspberry Pi OS** onto a microSD card.  
-This guide explains how to do that using **Raspberry Pi Imager** in a simple, beginner-friendly way.
+Raspberry Pi を使用する前に、microSD カードに **Raspberry Pi OS** をインストールする必要があります。  
+このガイドでは、**Raspberry Pi Imager** を使用して、初心者にも分かりやすい方法でインストールする手順を説明します。
 
-**Required Components**
+**必要なもの**
 
-* A computer (Windows, macOS, or Linux)
-* A microSD card (16GB or larger; recommended brands: SanDisk, Samsung)
-* A microSD card reader
+* コンピュータ（Windows、macOS、または Linux）
+* microSD カード（16GB 以上；推奨ブランド：SanDisk、Samsung）
+* microSD カードリーダー
 
 -------------------
 
-**1. Install Raspberry Pi Imager**
--------------------------------------------
+**1. Raspberry Pi Imager をインストールする**
+----------------------------------------------
 
-#. Visit the official Raspberry Pi Imager download page: |shared_link_rpi_imager|. Download the correct installer for your operating system.
+.. |shared_link_rpi_imager| raw:: html
+
+    <a href="https://www.raspberrypi.com/software/" target="_blank">Raspberry Pi Imager</a>   
+
+#. Raspberry Pi Imager の公式ダウンロードページ |shared_link_rpi_imager| にアクセスし、お使いのオペレーティングシステムに合ったインストーラをダウンロードします。
 
    .. image:: /_shared/pi_start/img/imager_download.png
       :width: 70%
 
-#. Follow the installation prompts (language, install path, confirmation). After installation, launch **Raspberry Pi Imager** from your desktop or applications menu.
+#. インストール手順（言語、インストール先、確認など）に従って進めます。インストール完了後、デスクトップまたはアプリケーションメニューから **Raspberry Pi Imager** を起動します。
 
    .. image:: /_shared/pi_start/img/imager_install.png
       :width: 90%
 
 -------------------
 
-**2. Install the OS to the microSD Card**
-------------------------------------------------
+**2. microSD カードに OS を書き込む**
+--------------------------------------------
 
-#. Insert your microSD card into your computer using a card reader. Back up any important data before proceeding.
+1. カードリーダーを使用して、microSD カードをコンピュータに挿入します。作業を続行する前に、重要なデータは必ずバックアップしてください。
 
    .. image:: /_shared/pi_start/img/insert_sd.png
       :width: 90%
 
-#. When Raspberry Pi Imager opens, you will see the **Device** page. Select your Raspberry Pi model from the list (e.g., Raspberry Pi 5, 4, 3, or Zero 2W).
+2. Raspberry Pi Imager を起動すると **Device** 画面が表示されます。リストから使用する Raspberry Pi のモデル（例：Raspberry Pi 5、4、3、Zero 2W）を選択します。
 
    .. image:: /_shared/pi_start/img/imager_device.png
       :width: 90%
 
    .. end_imager
 
-#. Go to the **OS** section and choose the recommended **Raspberry Pi OS (64-bit)** option.
+3. **OS** セクションに移動し、推奨されている **Raspberry Pi OS (64-bit)** を選択します。
 
    .. image:: /_shared/pi_start/img/imager_os.png
       :width: 90%
 
    .. start_choose_os
 
-#. In the **Storage** section, select your microSD card. For safety, unplug other USB drives so only the SD card appears in the list.
+4. **Storage** セクションで、使用する microSD カードを選択します。安全のため、他の USB ドライブは取り外し、SD カードのみが一覧に表示されるようにしてください。
 
    .. image:: /_shared/pi_start/img/imager_storage.png
       :width: 90%
 
-#. Click **Next** to continue to the customization step.
+5. **Next** をクリックして、カスタマイズ設定のステップに進みます。
 
    .. note::
 
-      * If you will connect a monitor, keyboard, and mouse directly to your Raspberry Pi, you may click **SKIP CUSTOMISATION**.  
-      * If you plan to set up the Raspberry Pi *headless* (Wi-Fi remote access), you must complete the customization settings.
+      * モニター、キーボード、マウスを Raspberry Pi に直接接続する場合は、**SKIP CUSTOMISATION** をクリックしてもかまいません。  
+      * Raspberry Pi を **ヘッドレス** （Wi-Fi 経由のリモートアクセス）でセットアップする場合は、必ずカスタマイズ設定を行ってください。
 
    .. image:: /_shared/pi_start/img/imager_custom_skip.png
       :width: 90%
@@ -86,104 +90,102 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
 
 .. _imager_custom:
 
-**3. OS Customization Settings**
-------------------------------------------
+**3. OS カスタマイズ設定**
+--------------------------
 
-#. **Set Hostname**
+#. **ホスト名の設定**
 
-   * Give your Raspberry Pi a unique hostname.  
-   * You can connect to it later using ``hostname.local``.
+   * Raspberry Pi に一意のホスト名を設定します。  
+   * 後で ``hostname.local`` を使用して接続できます。
 
    .. image:: /_shared/pi_start/img/imager_custom_hostname.png
       :width: 90%
 
-#. **Set Localisation**
+#. **ローカリゼーションの設定**
 
-   * Choose your capital city.
-   * Imager will auto-complete the time zone and keyboard layout based on your selection, though you can adjust them if needed. Select Next.
+   * お住まいの地域の主要都市を選択します。
+   * 選択内容に基づいて、タイムゾーンとキーボードレイアウトが自動設定されますが、必要に応じて変更できます。 **Next** を選択してください。
    
    .. image:: /_shared/pi_start/img/imager_custom_local.png
       :width: 90%
 
-#. **Set Username & Password**
+#. **ユーザー名とパスワードの設定**
 
-   Create a user account for your Raspberry Pi.
+   Raspberry Pi 用のユーザーアカウントを作成します。
    
    .. image:: /_shared/pi_start/img/imager_custom_user.png
       :width: 90%
 
-#. **Configure Wi-Fi**
+#. **Wi-Fi の設定**
 
-   * Enter your Wi-Fi **SSID** (network name) and **password**.  
-   * Your Raspberry Pi will automatically connect on first boot.
+   * Wi-Fi の **SSID** （ネットワーク名）と **パスワード** を入力します。  
+   * 初回起動時に Raspberry Pi が自動的に接続されます。
    
    .. image:: /_shared/pi_start/img/imager_custom_wifi.png
       :width: 90%
 
-#. **Enable SSH (Optional but Recommended)**
+#. **SSH を有効化（任意・推奨）**
 
-   * Enabling SSH allows you to remotely log in from your computer.  
-   * You may log in using your username/password or configure SSH keys.
+   * SSH を有効にすると、コンピュータからリモートでログインできます。  
+   * ユーザー名／パスワードでのログイン、または SSH キーの設定が可能です。
    
    .. image:: /_shared/pi_start/img/imager_custom_ssh.png
       :width: 90%
 
-#. **Enable Raspberry Pi Connect (Optional)**
+#. **Raspberry Pi Connect を有効化（任意）**
 
-
-   Raspberry Pi Connect allows you to access your Raspberry Pi desktop from a web browser.
+   Raspberry Pi Connect を使用すると、Web ブラウザから Raspberry Pi のデスクトップにアクセスできます。
    
-   * Turn on **Raspberry Pi Connect**, then click **OPEN RASPBERRY PI CONNECT**.
+   * **Raspberry Pi Connect** をオンにし、**OPEN RASPBERRY PI CONNECT** をクリックします。
    
      .. image:: /_shared/pi_start/img/imager_custom_connect.png
         :width: 90%
 
-   * The Raspberry Pi Connect website will open in your default browser. Log in to your Raspberry Pi ID account, or sign up if you don’t have one yet.
+   * デフォルトのブラウザで Raspberry Pi Connect の Web サイトが開きます。Raspberry Pi ID アカウントでログインするか、まだ持っていない場合は新規登録してください。
 
      .. image:: /_shared/pi_start/img/imager_custom_open.png
         :width: 90%
 
-   * On the **New auth key** page, create your one-time auth key. 
+   * **New auth key** ページで、ワンタイム認証キーを作成します。
       
-      * If your Raspberry Pi ID account isn’t part of any organisation, select **Create auth key and launch Raspberry Pi Imager**.
-      * If you belong to one or more organisations, choose one, then create the key and launch Imager.
-      * Make sure to power on your Raspberry Pi and connect it to the internet before the key expires.
+      * Raspberry Pi ID アカウントがどの組織にも属していない場合は、**Create auth key and launch Raspberry Pi Imager** を選択します。
+      * 1 つ以上の組織に属している場合は、組織を選択してからキーを作成し、Imager を起動します。
+      * キーの有効期限が切れる前に、Raspberry Pi の電源を入れ、インターネットに接続されていることを確認してください。
    
      .. image:: /_shared/pi_start/img/imager_custom_authkey.png
         :width: 90%
    
-   * Your browser may ask to open Raspberry Pi Imager — allow it.
+   * ブラウザから Raspberry Pi Imager を開くかどうか確認された場合は、許可してください。
 
-     * Imager will open on the Raspberry Pi Connect tab, showing the authentication token.
-     * If the token doesn’t transfer automatically, open the **Having trouble?** section on the Raspberry Pi Connect page, copy the token, and paste it into Imager manually.
+     * Imager は Raspberry Pi Connect タブで起動し、認証トークンが表示されます。
+     * トークンが自動的に転送されない場合は、Raspberry Pi Connect ページの **Having trouble?** セクションを開き、トークンをコピーして Imager に手動で貼り付けてください。
 
      .. image:: /_shared/pi_start/img/imager_custom_connect_token.png
         :width: 90%
 
 -------------------
 
-**4. Write the OS Image**
+**4. OS イメージを書き込む**
 
-
-#. Review all settings and click **WRITE**.
+#. すべての設定を確認し、**WRITE** をクリックします。
 
    .. image:: /_shared/pi_start/img/imager_writing.png
       :width: 90%
 
-#. If the card already contains data, Raspberry Pi Imager will show a warning that all data on the device will be erased. Double-check that you selected the correct drive, then click **I UNDERSTAND, ERASE AND WRITE** to continue.
+#. カードに既存のデータがある場合、デバイス上のすべてのデータが消去されるという警告が表示されます。正しいドライブが選択されていることを確認し、**I UNDERSTAND, ERASE AND WRITE** をクリックして続行します。
 
    .. image:: /_shared/pi_start/img/imager_erase.png
       :width: 90%
 
-#. Wait for the writing and verification to finish. When it is done, Raspberry Pi Imager will show **Write complete!** and a summary of your choices. The storage device will be ejected automatically so you can remove it safely.
-
+#. 書き込みと検証が完了するまで待ちます。完了すると、Raspberry Pi Imager に **Write complete!** と選択内容の概要が表示されます。ストレージデバイスは自動的に安全に取り外されます。
 
    .. image:: /_shared/pi_start/img/imager_finish.png
         :width: 90%
 
-#. Remove the microSD card and insert it into the slot on the underside of your Raspberry Pi. Your Raspberry Pi is now ready to boot with the new OS!
+#. microSD カードを取り外し、Raspberry Pi の底面にあるスロットに挿入します。これで、新しい OS で Raspberry Pi を起動する準備が整いました。
 
    .. image:: /_shared/pi_start/img/os_sd_to_pi.jpg
         :width: 70%
 
    .. end_choose_os
+

@@ -1,92 +1,93 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
-What Else Do You Need?
-===============================
+他に何が必要ですか？
+====================
 
-Before we start playing with this kit, let’s prepare the essential hardware.
+このキットで遊び始める前に、必要な基本ハードウェアを準備しましょう。
 
-Required Components
-------------------------------
+必須コンポーネント
+------------------
 
 * **Raspberry Pi**
 
-  The Raspberry Pi acts as the **brain**, handling all computing, sensing, and control tasks.  
+  Raspberry Pi は **頭脳** として機能し、すべての計算、センシング、制御タスクを処理します。  
   
-  * **Compatible models**: Raspberry Pi 5, Raspberry Pi 4, 3, or Raspberry Pi Zero 2W  
+  * **対応モデル**：Raspberry Pi 5、Raspberry Pi 4、3、Raspberry Pi Zero 2W  
 
   .. image:: /_shared/pi_start/img/need_pi.jpg
 
   
-* **Power Adapter**
+* **電源アダプター**
 
-  Prepare a suitable power supply based on your Raspberry Pi model:
+  使用する Raspberry Pi のモデルに応じて、適切な電源を用意してください。
 
   .. image:: /_shared/pi_start/img/need_power.png
     :width: 400
 
-  - **Raspberry Pi 5**: 5V 5A USB-C (recommended: official 27W PD power supply).  
-  - **Raspberry Pi 4**: 5V 3A USB-C.  
-  - **Raspberry Pi 3B/3B+**: 5V 2.5A Micro-USB.  
-  - **Raspberry Pi Zero 2W**: 5V 2A Micro-USB.
+  - **Raspberry Pi 5**：5V 5A USB-C（推奨：公式 27W PD 電源アダプター）  
+  - **Raspberry Pi 4**：5V 3A USB-C  
+  - **Raspberry Pi 3B/3B+**：5V 2.5A Micro-USB  
+  - **Raspberry Pi Zero 2W**：5V 2A Micro-USB  
 
-  Using a stable power source helps prevent undervoltage and ensures reliable operation.
+  安定した電源を使用することで、低電圧による問題を防ぎ、安定した動作を確保できます。
 
-* **Micro SD Card**
+* **Micro SD カード**
 
-  The Raspberry Pi does not have a built-in hard drive. It boots and stores all files on a **Micro SD card**.  
+  Raspberry Pi には内蔵ハードドライブがありません。起動およびすべてのファイル保存は **Micro SD カード** 上で行われます。  
   
   .. image:: /_shared/pi_start/img/need_sd.jpg
     :width: 200
 
-  * Minimum: **16GB**  
-  * Recommended: **32GB** for better stability  
-  * Brand: Use reliable options such as **SanDisk** or **Samsung** to avoid read/write errors  
+  * 最小容量： **16GB**  
+  * 推奨容量：安定性向上のため **32GB**  
+  * ブランド：読み書きエラーを避けるため、**SanDisk** や **Samsung** など信頼性の高い製品を使用してください。  
   
-Optional Components
+
+オプションコンポーネント
 ------------------------
 
-Although not strictly required, the following peripherals will greatly improve your learning and debugging experience:
+必須ではありませんが、以下の周辺機器を用意すると、学習やデバッグ体験が大きく向上します。
 
-* **Monitor (HDMI or TV)** 
+* **モニター（HDMI 対応ディスプレイまたは TV）** 
 
-  For beginners, we strongly recommend a display with an HDMI input, so you can easily configure Raspberry Pi OS and run graphical programs.  
+  初心者の方には、HDMI 入力を備えたディスプレイを強くおすすめします。Raspberry Pi OS の設定や、グラフィカルなプログラムの実行が容易になります。  
 
   .. image:: /_shared/pi_start/img/need_screen.png
     :width: 400
 
-* **HDMI Cable (Standard / Mini / Micro)**
+* **HDMI ケーブル（標準 / Mini / Micro）**
  
-  Different Raspberry Pi models use different HDMI connectors, be sure to check your Pi model and prepare the correct cable. 
+  Raspberry Pi のモデルによって使用する HDMI コネクタが異なります。お使いの Pi のモデルを確認し、適切なケーブルを準備してください。 
   
-  * **Raspberry Pi 4 / 5**: Micro HDMI  
-  * **Raspberry Pi 3**: Standard HDMI  
-  * **Raspberry Pi Zero 2W**: Mini HDMI 
+  * **Raspberry Pi 4 / 5**：Micro HDMI  
+  * **Raspberry Pi 3**：標準 HDMI  
+  * **Raspberry Pi Zero 2W**：Mini HDMI  
 
   .. image:: /_shared/pi_start/img/need_hdmi.png
     :width: 400
 
-* **Keyboard & Mouse**
+* **キーボード & マウス**
 
-  Very useful during the initial setup of Raspberry Pi OS. Later, you may switch to remote access (SSH/VNC), but for beginners we recommend preparing a basic USB or wireless set.  
+  Raspberry Pi OS の初期設定時に非常に役立ちます。後からリモートアクセス（SSH/VNC）に切り替えることもできますが、初心者の方には基本的な USB またはワイヤレスのセットを用意することをおすすめします。  
 
   .. image:: /_shared/pi_start/img/need_keyboard_mouse.png
     :width: 500
  
 
-**Tips for Preparation**
+**準備のヒント**
 
-* If you purchased this kit, most accessories are included, but you still need to prepare the Raspberry Pi board, Micro SD card, and power adapter separately.  
-* Not sure what to buy? The most stable and universal choice is: **Raspberry Pi 4/5 (2GB) + Official Power Supply + 32GB Micro SD card**.  
-
+* このキットを購入した場合、多くのアクセサリーは同梱されていますが、Raspberry Pi 本体、Micro SD カード、電源アダプターは別途用意する必要があります。  
+* どれを購入すればよいか分からない場合、最も安定して汎用性の高い構成は次のとおりです：  
+  **Raspberry Pi 4/5（2GB）＋ 公式電源アダプター ＋ 32GB Micro SD カード**  

@@ -1,41 +1,41 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _blynk_mobile:
 
-How to use Blynk on mobile device?
-==================================
+モバイル端末で Blynk を使う方法
+===============================
 
 .. note::
 
-    As datastreams can only be created in Blynk on the web, you will need to reference different projects to create datastreams on the web, then follow the tutorial below to create widgets in Blynk on your mobile device.
+    データストリームは Blynk の Web 上でのみ作成できるため、まず Web で別のプロジェクトを参照してデータストリームを作成し、その後、以下のチュートリアルに従ってモバイル端末の Blynk でウィジェットを作成する必要があります。
 
 
-#. Open Google Play or APP Store on your mobile device and search for "Blynk IoT" (not Blynk(legacy)) to download.
-#. After opening the APP, login in, this account should be the same as the account used on the web client.
-#. Then go to **Dashboard** (if you don't have one, create one) and you will see that the **Dashboard** for mobile and web are independent of each other.
+#. モバイル端末で Google Play または App Store を開き、「Blynk IoT」（Blynk（レガシー）ではありません）を検索してダウンロードします。
+#. アプリを開いたらログインします。このアカウントは、Web クライアントで使用しているアカウントと同一である必要があります。
+#. 次に **Dashboard** に移動します（まだない場合は作成してください）。モバイル用と Web 用の **Dashboard** は互いに独立していることが確認できます。
 
     .. image:: img/APP_1.jpg
 
-#. Click **Edit** Icon.
-#. Click on the blank area. 
-#. Choose the same widget as on the web page, such as select a **Joystick** widget.
+#. **Edit** アイコンをクリックします。
+#. 空白エリアをクリックします。
+#. Web ページと同じウィジェットを選択します。例えば **Joystick** ウィジェットを選択します。
 
     .. image:: img/APP_2.jpg
 
-#. Now you will see a **Joystick** widget appear in the blank area, click on it.
-#. **Joystick** Settings will appear, select the **Xvalue** and **Yvalue** datastreams you just set in the web page. Note that each widget corresponds to a different datastream in each project.
-#. Go back to the **Dashboard** page and you can operate the **Joystick** when you want.
+#. 空白エリアに **Joystick** ウィジェットが表示されるので、それをクリックします。
+#. **Joystick** の設定画面が表示されます。Web ページで設定した **Xvalue** と **Yvalue** のデータストリームを選択します。なお、各ウィジェットは、各プロジェクト内の異なるデータストリームに対応している点に注意してください。
+#. **Dashboard** ページに戻ると、必要に応じて **Joystick** を操作できるようになります。
 
     .. image:: img/APP_3.jpg

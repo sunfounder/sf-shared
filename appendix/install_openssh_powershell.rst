@@ -1,43 +1,44 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _openssh_powershell:
 
-Install OpenSSH via PowerShell
-------------------------------
+PowerShell から OpenSSH をインストールする
+-----------------------------------------------------------
 
-If you see the following error when running ``ssh <username>@<hostname>.local`` or ``ssh <username>@<IP>``:
+``ssh <username>@<hostname>.local`` または ``ssh <username>@<IP>`` を実行した際に、次のエラーが表示される場合があります。
 
 .. code-block::
 
     ssh: The term 'ssh' is not recognized as the name of a cmdlet, function, script file, or operable program.
 
-It means your Windows system does not have OpenSSH installed.  
-Follow the steps below to install it manually.
+これは、Windows システムに OpenSSH がインストールされていないことを意味します。  
+以下の手順に従って、手動でインストールしてください。
 
-#. Open the Windows Start Menu, type **powershell**, right-click **Windows PowerShell**, and select **Run as administrator**.
+#. Windows のスタートメニューを開き、**powershell** と入力します。  
+   **Windows PowerShell** を右クリックし、**管理者として実行** を選択します。
 
    .. image:: /_shared/appendix/img/powershell_ssh.png
       :align: center
 
-#. Install the OpenSSH Client:
+#. OpenSSH クライアントをインストールします。
 
    .. code-block:: bash
 
       Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
 
-#. After installation, you should see output similar to:
+#. インストール後、次のような出力が表示されます。
 
    .. code-block::
 
@@ -45,13 +46,13 @@ Follow the steps below to install it manually.
         Online        : True
         RestartNeeded : False
 
-#. Verify the installation:
+#. インストールを確認します。
 
    .. code-block:: bash
 
       Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'
 
-#. If OpenSSH is installed, the output will include:
+#. OpenSSH が正しくインストールされていれば、次のような出力が含まれます。
 
    .. code-block::
 
@@ -61,10 +62,11 @@ Follow the steps below to install it manually.
         State : NotPresent
 
    .. warning::
-      If ``Installed`` does not appear, your Windows system may be too old.  
-      In this case, we recommend using a third-party SSH tool. See: :ref:`login_windows`
+      ``Installed`` が表示されない場合、Windows のバージョンが古い可能性があります。  
+      その場合は、サードパーティ製の SSH ツールを使用することを推奨します。詳細は :ref:`login_windows` を参照してください。
 
-#. Close PowerShell, reopen it (no need to run as administrator this time), and use the ``ssh`` command to log in:
+#. PowerShell を閉じてから再度開きます（今回は管理者として実行する必要はありません）。  
+   その後、 ``ssh`` コマンドを使用してログインします。
 
    .. code-block:: bash
 
@@ -72,4 +74,3 @@ Follow the steps below to install it manually.
 
    .. image:: /_shared/appendix/img/powershell_login.png
       :align: center
-
