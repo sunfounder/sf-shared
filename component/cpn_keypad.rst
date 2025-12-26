@@ -1,38 +1,38 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _cpn_keypad:
 
-Keypad
+キーパッド
 ========================
 
-A keypad is a rectangular array of 12 or 16 OFF-(ON) buttons. 
-Their contacts are accessed via a header suitable for connection with a ribbon cable or insertion into a printed circuit board. 
-In some keypads, each button connects with a separate contact in the header, while all the buttons share a common ground.
+キーパッドは12個または16個のOFF-(ON)ボタンから成る矩形の配列です。
+各ボタンの接点は、リボンケーブルの接続やプリント基板への挿入に適したヘッダーを介してアクセスされます。
+一部のキーパッドでは、各ボタンがヘッダー内の個々の接点に接続され、すべてのボタンが共通のグラウンドを共有しています。
 
 .. image:: img/keypad314.png
 
-More often, the buttons are matrix encoded, meaning that each of them bridges a unique pair of conductors in a matrix. 
-This configuration is suitable for polling by a microcontroller, which can be programmed to send an output pulse to each of the four horizontal wires in turn. 
-During each pulse, it checks the remaining four vertical wires in sequence, to determine which one, if any, is carrying a signal. 
-Pullup or pulldown resistors should be added to the input wires to prevent the inputs of the microcontroller from behaving unpredictably when no signal is present.
+よくあるケースでは、ボタンはマトリックスでエンコードされ、各ボタンがマトリックス内の一意の導体ペアをブリッジします。
+この配置は、マイクロコントローラによるポーリングに適しており、それぞれの4つの水平なワイヤに順番に出力パルスを送るようプログラムできます。
+各パルス中に、残りの4本の垂直ワイヤを順番にチェックし、どれが信号を伝えているのかを特定します。
+信号が存在しない場合にマイクロコントローラの入力が不安定にならないように、プルアップまたはプルダウン抵抗器を入力ワイヤに追加すべきです。
 
-.. **Example**
+**例**
 
-.. * :ref:`2.1.8_c` (C Project)
-.. * :ref:`3.1.8_c` (C Project)
-.. * :ref:`3.1.11_c` (C Project)
-.. * :ref:`2.1.8_py` (Python Project)
-.. * :ref:`4.1.14_py` (Python Project)
-.. * :ref:`4.1.17_py` (Python Project)
+* :ref:`2.1.8_c` (Cプロジェクト)
+* :ref:`3.1.8_c` (Cプロジェクト)
+* :ref:`3.1.11_c` (Cプロジェクト)
+* :ref:`2.1.8_py` (Pythonプロジェクト)
+* :ref:`4.1.14_py` (Pythonプロジェクト)
+* :ref:`4.1.17_py` (Pythonプロジェクト)

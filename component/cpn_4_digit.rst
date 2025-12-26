@@ -1,63 +1,48 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _cpn_4_digit:
 
-4-Digit 7-Segment Display
+4桁7セグメントディスプレイ
 ==================================
 
-4-Digit 7-segment display consists of four 7- segment displays working
-together.
+4桁7セグメントディスプレイは、4つの7セグメントディスプレイが連動して動作するものです。
 
 .. image:: img/4-digit-sche.png
 
-The 4-digtal 7-segment display works independently. It uses the
-principle of human visual persistence to quickly display the characters
-of each 7-segment in a loop to form continuous strings.
+各4桁の7セグメントディスプレイは独立して動作します。人間の視覚残像の原理を用いて、各7セグメントの文字をループで高速に表示し、連続した文字列を形成します。
 
-For example, when "1234" is displayed on the display, "1" is displayed
-on the first 7-segment, and "234" is not displayed. After a period of
-time, the second 7-segment shows "2", the 1st 3th 4th of 7-segment does
-not show, and so on, the four digital display show in turn. This process
-is very short (typically 5ms), and because of the optical afterglow
-effect and the principle of visual residue, we can see four characters
-at the same time.
+例えば、「1234」と表示される場合、最初の7セグメントには「1」が、それ以外の「234」は表示されません。一定時間後、2番目の7セグメントが「2」を表示し、1番目・3番目・4番目の7セグメントは何も表示しません。このように4つの数字が順番に表示されます。このプロセスは非常に短く（通常5ms）、視覚残像と光の残光効果により、4つの文字を同時に見ることができます。
 
 .. image:: img/image78.png
 
+**表示コード**
 
-**Display Codes**
-
-To help you get to know how 7-segment displays(Common Anode) display
-Numbers, we have drawn the following table. Numbers are the number 0-F
-displayed on the 7-segment display; (DP) GFEDCBA refers to the
-corresponding LED set to 0 or 1, For example, 11000000 means that DP and
-G are set to 1, while others are set to 0. Therefore, the number 0 is
-displayed on the 7-segment display, while HEX Code corresponds to
-hexadecimal number.
+7セグメントディスプレイ（共通アノード）が数字をどのように表示するのかを理解するために、以下の表を作成しました。数字は0-Fが7セグメントディスプレイで表示され、「(DP)GFEDCBA」は対応するLEDが0または1に設定されていることを示します。例えば、11000000はDPとGが1に設定され、他は0に設定されているため、7セグメントディスプレイには0が表示されます。
 
 .. image:: img/common_anode.png
 
-.. **Example**
+**例**
 
-.. * :ref:`1.1.5_c` (C Project)
-.. * :ref:`3.1.1_c` (C Project)
-.. * :ref:`3.1.6_c` (C Project)
-.. * :ref:`3.1.12_c` (C Project)
-.. * :ref:`1.1.5_py` (Python Project)
-.. * :ref:`4.1.3_py` (Pyhton Project)
-.. * :ref:`4.1.7_py` (Pyhton Project)
-.. * :ref:`4.1.12_py` (Pyhton Project)
-.. * :ref:`4.1.18_py` (Pyhton Project)
+* :ref:`1.1.5_c` (Cプロジェクト)
+* :ref:`3.1.1_c` (Cプロジェクト)
+* :ref:`3.1.6_c` (Cプロジェクト)
+* :ref:`3.1.12_c` (Cプロジェクト)
+* :ref:`1.1.5_py` (Pythonプロジェクト)
+* :ref:`4.1.3_py` (Pythonプロジェクト)
+* :ref:`4.1.7_py` (Pythonプロジェクト)
+* :ref:`4.1.12_py` (Pythonプロジェクト)
+* :ref:`4.1.18_py` (Pythonプロジェクト)
+
 

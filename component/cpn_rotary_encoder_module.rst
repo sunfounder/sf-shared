@@ -1,43 +1,42 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _cpn_rotary_encoder:
 
-Rotary Encoder Module
-=============================
+ロータリーエンコーダモジュール
+===============================
 
 .. image:: img/rotary_encoder_pic.png
     :width: 300
     :align: center
 
-A rotary encoder is a position sensor that converts the rotation of a knob into an output signal, indicating the direction in which the knob is turned.
+回転エンコーダは、ノブの回転を出力信号に変換し、どの方向にノブが回されたかを示す位置センサーです。
 
-Rotary encoders are digital versions of potentiometers, offering greater versatility. They can rotate continuously, while potentiometers have limited rotation. Potentiometers indicate exact knob position, while rotary encoders show changes in position.
+回転エンコーダはポテンショメータのデジタル版で、より多様な用途に対応しています。ポテンショメータは回転に制限がありますが、回転エンコーダは連続して回転できます。ポテンショメータは正確なノブ位置を示しますが、回転エンコーダは位置の変化を示します。
 
-There are mainly two types of rotary encoders: absolute and incremental (relative) encoders. An incremental one is used in this kit.
+回転エンコーダには主に2種類あります：絶対エンコーダとインクリメンタル（相対）エンコーダです。このキットではインクリメンタルエンコーダが使用されています。
 
-Incremental encoders produce two-phase square waves, with a 90-degree phase difference commonly referred to as the A and B channels.
+インクリメンタルエンコーダは、AチャンネルとBチャンネルとして一般に呼ばれる、90度の位相差を持つ2相の方形波を生成します。
 
-As illustrated below, when channel A transitions from a high level to a low level, if channel B is at a high level, it indicates that the rotary encoder is rotating clockwise (CW); if at that moment channel B is at a low level, it means the rotation is counterclockwise (CCW). Therefore, by reading the value of channel B when channel A is at a low level, we can determine the direction in which the rotary encoder rotates.
-
+以下に示すように、チャンネルAが高レベルから低レベルへと移行する際に、チャンネルBが高レベルにある場合、回転エンコーダが時計回り（CW）に回転していることを示します；その時にチャンネルBが低レベルにある場合は、反時計回り（CCW）の回転を意味します。したがって、チャンネルAが低レベルにある時にチャンネルBの値を読むことで、回転エンコーダの回転方向を判定できます。
 
 
 .. image:: img/image206.png
     :width: 600
     :align: center
-	
-.. **Example**
 
-.. * :ref:`2.1.6_c` (C Project)
-.. * :ref:`2.1.6_py` (Python Project)
+**例**
+
+* :ref:`2.1.6_c` （Cプロジェクト）
+* :ref:`2.1.6_py` （Pythonプロジェクト）

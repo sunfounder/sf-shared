@@ -1,48 +1,47 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _cpn_buzzer:
 
-Buzzer
+ブザー
 =======
 
 .. image:: img/buzzer.png
     :width: 600
 
-As a type of electronic buzzer with an integrated structure, buzzers, which are supplied by DC power, are widely used in computers, printers, photocopiers, alarms, electronic toys, automotive electronic devices, telephones, timers and other electronic products or voice devices. 
+一体型の電子ブザーとして、直流電源で動作するブザーは、コンピュータ、プリンタ、コピー機、警報機、電子玩具、自動車用電子機器、電話、タイマーなど、多くの電子製品や音声デバイスで広く使用されています。
 
-Buzzers can be categorized as active and passive ones (see the following picture). Turn the buzzer so that its pins are facing up, and the buzzer with a green circuit board is a passive buzzer, while the one enclosed with a black tape is an active one.
+ブザーはアクティブ型とパッシブ型に分類できます（下の画像参照）。ピンが上になるようにブザーを回転させると、緑の基板を持つブザーがパッシブ型で、黒テープで覆われたものがアクティブ型です。
 
-The difference between an active buzzer and a passive buzzer: 
+アクティブ型とパッシブ型の違い：
 
-An active buzzer has a built-in oscillating source, so it will make sounds when electrified. But a passive buzzer does not have such source, so it will not beep if DC signals are used; instead, you need to use square waves whose frequency is between 2K and 5K to drive it. The active buzzer is often more expensive than the passive one because of multiple built-in oscillating circuits.
+アクティブ型ブザーは内蔵の発振源を持っているため、通電すると音が鳴ります。一方で、パッシブ型ブザーはそのような発振源がないため、直流信号では鳴らない。代わりに2K～5Kの周波数の矩形波を用いて駆動する必要があります。複数の発振回路を内蔵しているため、アクティブ型ブザーはパッシブ型よりも高価です。
 
-The following is the electrical symbol of a buzzer. It has two pins with positive and negative poles. With a + in the surface represents the anode and the other is the cathode. 
+次はブザーの電気記号です。正極と負極の2つのピンを持っています。表面に＋が表示されている方がアノードで、反対側がカソードです。
 
 .. image:: img/buzzer_symbol.png
     :width: 150
 
-You can check the pins of the buzzer, the longer one is the anode and the shorter one is the cathode. Please don’t mix them up when connecting, otherwise the buzzer will not make sound. 
+ブザーのピンを確認すると、長い方がアノードで短い方がカソードです。接続する際に間違えないように注意してください。そうでないと、ブザーは音を鳴らしません。
 
-`Buzzer - Wikipedia <https://en.wikipedia.org/wiki/Buzzer>`_
+`ブザー - Wikipedia <https://en.wikipedia.org/wiki/Buzzer>`_
 
-.. **Example**
+**例**
 
-.. * :ref:`1.2.1_c` (C Project)
-.. * :ref:`1.2.2_c` (C Project)
-.. * :ref:`1.2.1_py` (Python Project)
-.. * :ref:`1.2.2_py` (Python Project)
-.. * :ref:`1.13_scratch` (Scratch Project)
-.. * :ref:`1.14_scratch` (Scratch Project)
-
+* :ref:`1.2.1_c` （Cプロジェクト）
+* :ref:`1.2.2_c` （Cプロジェクト）
+* :ref:`1.2.1_py` （Pythonプロジェクト）
+* :ref:`1.2.2_py` （Pythonプロジェクト）
+* :ref:`1.13_scratch` （Scratchプロジェクト）
+* :ref:`1.14_scratch` （Scratchプロジェクト）

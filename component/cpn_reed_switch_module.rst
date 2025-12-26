@@ -1,49 +1,51 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _cpn_reed_switch:
 
-Reed Switch Module
-======================
+リードスイッチモジュール
+==========================
 
 .. image:: img/reed_switch.png
     :width: 300
     :align: center
 
-* Using normally open type reed switch.
-* Comparator output, clean signal, good waveform, strong driving ability, more than 15mA.
-* Working voltage: 3.3V-5V
-* Output form: digital switch output (0 and 1).
-* With fixed bolt holes for easy installation.
-* Small board PCB size: 3.2cm x 1.4cm.
-* Use wide voltage LM393 comparator.
+* 通常開型のリードスイッチを使用。
+* コンパレータ出力は、クリーンな信号、優れた波形、強力な駆動力（15mA以上）。
+* 動作電圧：3.3V～5V
+* 出力形式：デジタルスイッチ出力（0および1）。
+* 簡単な取り付けのための固定ボルト穴付き。
+* 小型のPCBサイズ：3.2cm x 1.4cm。
+* 広範な電圧で動作するLM393コンパレータを採用。
 
-The reed switch module consists of a reed switch, potentiometer, LM393 comparator, LED, etc. The internal circuit is shown below, when the magnet is close to the module, it will be on, and the module will output low level; when there is no magnetism, it will be off, and output high level. Reed switch and magnet induction distance should be within 1.5cm, beyond will not be sensitive or no trigger phenomenon, you can also adjust the sensitivity through the potentiometer on the module.
-    
+このリードスイッチモジュールは、リードスイッチ、ポテンショメーター、LM393コンパレータ、LEDなどで構成されています。下図はその内部回路で、磁石がモジュールに近づくとオンになり、低レベルを出力します。磁気がない場合はオフとなり、高レベルを出力します。リードスイッチと磁石の感応距離は1.5cm以内でなければならず、それ以上の距離では感度がなくなるかトリガーが発生しない場合があります。モジュール上のポテンショメーターで感度を調整することもできます。
+
 .. image:: img/reedswitch_sche.jpg
     :width: 600
     :align: center
 
-Reed switch, also known as a magnetic switch or reed switch.
+リードスイッチ、または磁気スイッチとも呼ばれます。
 
-It has two internal metal reeds, sealed in a glass tube, which is filled with inert gas. Normally the two reeds overlap each other, but are separated by a gap, and the circuit is broken. When there is a magnetic object close to the two reeds will produce a mutual attraction of the magnetic force, which will be sucked together, the circuit is connected. Therefore, the reed switch can be used to make a magnetic sensor.
-        
+内部には二つの金属製のリードがあり、これらは不活性ガスで満たされたガラス管で密封されています。通常、これらのリードは重なっていますが、隙間によって分離され、回路は開いています。磁気オブジェクトが近づくと、両方のリードに磁力による相互引力が発生し、吸い寄せられて回路が閉じます。そのため、リードスイッチは磁気センサーを作成するために使用することができます。
+
 .. image:: img/HowItWorksReed.jpg
 
-.. **Example**
+**例**
 
-.. * :ref:`2.2.4_c` (C Project)
-.. * :ref:`2.2.4_py` (Python Project)
-.. * :ref:`4.1.6_py` (Python Project)
-.. * :ref:`1.6_scratch` (Scratch Project)
+* :ref:`2.2.4_c` （Cプロジェクト）
+* :ref:`2.2.4_py` （Pythonプロジェクト）
+* :ref:`4.1.6_py` （Pythonプロジェクト）
+* :ref:`1.6_scratch` （Scratchプロジェクト）
+
+

@@ -1,16 +1,16 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _cpn_led:
 
@@ -20,27 +20,26 @@ LED
 .. image:: img/LED.png
     :width: 400
 
-Semiconductor light-emitting diode is a type of component which can turn electric energy into light energy via PN junctions. By wavelength, it can be categorized into laser diode, infrared light-emitting diode and visible light-emitting diode which is usually known as light-emitting diode (LED). 
-                    
-Diode has unidirectional conductivity, so the current flow will be as the arrow indicates in figure circuit symbol. You can only provide the anode with a positive power and the cathode with a negative. Thus the LED will light up. 
+半導体発光ダイオードは、PN接合を通じて電気エネルギーを光エネルギーに変換する種類のコンポーネントです。波長によって、レーザーダイオード、赤外線発光ダイオード、そして一般にLEDとして知られる可視光発光ダイオードに分類できます。
+
+ダイオードは一方向の導電性を持っており、回路記号の矢印が示す方向に電流が流れます。アノードに正の電力を、カソードに負の電力を供給すると、LEDが点灯します。
 
 .. image:: img/led_symbol.png
 
+LEDには2つのピンがあります。長い方がアノードで、短い方がカソードです。逆に接続しないよう注意が必要です。LEDには定格の順方向電圧降下があるため、供給電圧がこの降下を上回り、LEDが焼き切れる可能性があるため、直接回路に接続することはできません。赤、黄、緑のLEDの順方向電圧は1.8V、白のLEDは2.6Vです。ほとんどのLEDは最大電流20mAまで耐えられるので、直列に電流制限抵抗を接続する必要があります。
 
-An LED has two pins. The longer one is the anode, and shorter one, the cathode. Pay attention not to connect them inversely. There is fixed forward voltage drop in the LED, so it cannot be connected with the circuit directly because the supply voltage can outweigh this drop and cause the LED to be burnt. The forward voltage of the red, yellow, and green LED is 1.8 V and that of the white one is 2.6 V. Most LEDs can withstand a maximum current of 20 mA, so we need to connect a current limiting resistor in series.                   
+抵抗値の計算式は以下の通りです：
 
-The formula of the resistance value is as follows:
+    R = (Vsupply - VD) / I
 
-    R = (Vsupply – VD)/I
+ここで、 **R** は電流制限抵抗の抵抗値、 **Vsupply** は供給電圧、 **VD** は電圧降下、 **I** はLEDの動作電流を指します。
 
-**R** stands for the resistance value of the current limiting resistor, **Vsupply** for voltage supply, **VD** for voltage drop and **I** for the working current of the LED.
+LEDについての詳細はこちら：`LED - Wikipedia <https://en.wikipedia.org/wiki/Light-emitting_diode>`_。
 
-Here is the detailed introduction for the LED: `LED - Wikipedia <https://en.wikipedia.org/wiki/Light-emitting_diode>`_.
+**例**
 
-.. **Example**
-
-.. * :ref:`1.1.1_c` (C Project)
-.. * :ref:`3.1.6_c` (C Project)
-.. * :ref:`1.1.1_py` (Python Project)
-.. * :ref:`4.1.12_py` (Python Project)
-.. * :ref:`1.1_scratch` (Scratch Project)
+* :ref:`1.1.1_c` （Cプロジェクト）
+* :ref:`3.1.6_c` （Cプロジェクト）
+* :ref:`1.1.1_py` （Pythonプロジェクト）
+* :ref:`4.1.12_py` （Pythonプロジェクト）
+* :ref:`1.1_scratch` （Scratchプロジェクト）

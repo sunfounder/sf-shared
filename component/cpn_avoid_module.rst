@@ -1,20 +1,20 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _cpn_avoid_module:
 
-Obstacle Avoidance Module
+障害物回避モジュール
 ===========================================
 
 
@@ -22,25 +22,18 @@ Obstacle Avoidance Module
    :width: 400
    :align: center
 
-The IR obstacle avoidance module has strong adaptability to environmental light, it has a pair of infrared transmitting and receiving tubes.
+このIR障害物回避モジュールは、環境光に対する適応性が高く、赤外線の送受信チューブのペアを備えています。
 
-The transmitting tube emits infrared frequency, when the detection direction encounters an obstacle, the infrared radiation is received by the receiving tube, 
-after the comparator circuit processing, the green indicator will light up and output low level signal.
+送信チューブから赤外線周波数が発せられ、検出方向に障害物がある場合、赤外線は受信チューブで受け取られます。コンパレータ回路の処理を受けた後、緑色のインジケーターが点灯し、低レベルの信号を出力します。
 
-The detection distance can be adjusted by potentiometer, the effective distance range 2-30cm.
+可変抵抗で検出距離を調整でき、有効距離は2～30cmです。
 
 .. image:: img/IR_module.png
     :width: 600
     :align: center
 
-.. **Example**
+**例**
 
-.. * :ref:`2.2.5_c` (C Project)
-.. * :ref:`2.2.5_py` (Python Project)
-.. * :ref:`1.11_scratch` (Scratch Project)
-
-
-
-
-
-
+* :ref:`2.2.5_c` (Cプロジェクト)
+* :ref:`2.2.5_py` (Pythonプロジェクト)
+* :ref:`1.11_scratch` (Scratchプロジェクト)

@@ -1,56 +1,50 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _cpn_ultrasonic_sensor:
 
-Ultrasonic Module
+超音波モジュール
 ================================
 
 .. image:: img/ultrasonic_pic.png
     :width: 400
     :align: center
 
-Ultrasonic ranging module provides 2cm - 400cm non-contact measurement function, and the ranging accuracy can reach to 3mm. 
-It can ensure that the signal is stable within 5m, and the signal is gradually weakened after 5m, till the 7m position disappears.
+この超音波測距モジュールは、非接触で2cmから400cmまでの距離を測定する機能を提供し、測定精度は3mmに達することができます。
+信号は5m以内では安定しており、5mを超えると徐々に弱まり、7m地点で消失します。
 
-The module includes ultrasonic transmitters, receiver and control circuit. The basic principles are as follows:
+モジュールは超音波送信機、受信機、および制御回路を含んでいます。基本的な原理は以下のとおりです：
 
-#. Use an IO flip-flop to process a high level signal of at least 10us.
+1. 最低10usの高レベル信号を処理するためにIOフリップフロップを使用します。
+   
+2. モジュールは自動的に8つの40kHzのパルスを送信し、パルス信号が戻るかどうかを検出します。
 
-#. The module automatically sends eight 40khz and detects if there is a pulse signal return.
+3. 信号が戻ると、高レベルを通過して、高出力IOの持続時間は、超音波の送信から戻りまでの時間です。ここで、テスト距離 = （高時間 x 音速（340 m / s））/ 2。
 
-#. If the signal returns, passing the high level, the high output IO duration is the time from the transmission of the ultrasonic wave to the return of it. Here, test distance = (high time x sound speed (340 m / s) / 2.
-
-
-
-The timing diagram is shown below. 
+タイミングダイアグラムは下に示されています。
 
 .. image:: img/ultrasonic228.png
 
-You only need to supply a short 10us pulse for the trigger input to start the ranging, and then the module
-will send out an 8 cycle burst of ultrasound at 40 kHz and raise its
-echo. You can calculate the range through the time interval between
-sending trigger signal and receiving echo signal.
+測距を開始するには、トリガー入力に短い10usのパルスを供給するだけで十分です。その後、モジュールは40kHzで8サイクルの超音波バーストを送出し、そのエコーを高めます。
+トリガーシグナルの送信とエコーシグナルの受信との間の時間間隔を通じて、距離を計算することができます。
 
-Formula: us / 58 = centimeters or us / 148 =inch; or: the range = high
-level time \* velocity (340M/S) / 2; you are suggested to use
-measurement cycle over 60ms in order to prevent signal collisions of
-trigger signal and the echo signal.
+公式：us / 58 = センチメートルまたは us / 148 = インチ；または：距離 = 高レベル時間 * 速度（340M/S）/ 2；トリガーシグナルとエコーシグナルの信号衝突を防ぐために、60ms以上の測定周期を使用することを推奨します。
 
-.. **Example**
+**例**
 
-.. * :ref:`2.2.8_c` (C Project)
-.. * :ref:`3.1.3_c` (C Project)
-.. * :ref:`2.2.8_py` (Python Project)
-.. * :ref:`4.1.9_py` (Python Project)
+* :ref:`2.2.8_c` (C プロジェクト)
+* :ref:`3.1.3_c` (C プロジェクト)
+* :ref:`2.2.8_py` (Python プロジェクト)
+* :ref:`4.1.9_py` (Python プロジェクト)
+

@@ -1,38 +1,38 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _cpn_touch_switch:
 
-Touch Switch Module
+タッチスイッチモジュール
 ==================================
 
 .. image:: img/touch168.png
     :width: 300
     :align: center
 
-Touch switch module works by detecting a change in capacitance due to influence of an external object. The touch plate is covered with insulating material, and the user does not come in contact with the electrical circuit.
+タッチスイッチモジュールは、外部物体の影響によって生じる容量変化を検出して動作します。タッチプレートは絶縁材で覆われており、ユーザーは電気回路に接触しません。
 
-A capacitive touch switch has different layers—top insulating face plate followed by touch plate, another insulating layer and then ground plate.
+容量性タッチスイッチにはいくつかの層があります。上部の絶縁フェースプレート、その下にタッチプレート、さらに絶縁層、最後に接地プレートが続きます。
 
 .. image:: img/touch169.jpeg
 
-In practice, a capacitive sensor can be made on a double-sided PCB by regarding one side as the touch sensor and the opposite side as ground plate of the capacitor. When power is applied across these plates, the two plates get charged. In equilibrium state, the plates have the same voltage as the power source.
+実際には、容量センサーは両面PCBの一方をタッチセンサーとし、反対側をキャパシタの接地プレートとして作成できます。これらのプレートに電力がかかると、両方のプレートが充電されます。平衡状態では、プレートは電源と同じ電圧を持っています。
 
-The touch detector circuit has an oscillator whose frequency is dependent on capacitance of the touchpad. When a finger is moved close to the touchpad, additional capacitance causes frequency of this internal oscillator to change. The detector circuit tracks oscillator frequency at timed intervals, and when the shift crosses the threshold change, the circuit triggers a key-press event.
+タッチ検出回路には、タッチパッドの容量に依存するオシレータがあります。指がタッチパッドに近づくと、追加の容量がこの内部オシレータの周波数を変えます。検出回路は定期的にオシレータの周波数を追跡し、シフトが閾値を超えた場合、キー押下イベントがトリガーされます。
 
-.. **Example**
+**例**
 
-.. * :ref:`2.1.3_c` (C Project)
-.. * :ref:`2.1.3_py` (Python Project)
-.. * :ref:`1.9_scratch` (Scratch Project)
+* :ref:`2.1.3_c` (C プロジェクト)
+* :ref:`2.1.3_py` (Python プロジェクト)
+* :ref:`1.9_scratch` (Scratch プロジェクト)

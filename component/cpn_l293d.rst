@@ -1,44 +1,44 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _cpn_l293d:
 
-L293D 
+L293D
 =================
 
-L293D is a 4-channel motor driver integrated by chip with high voltage and high current. 
-It's designed to connect to standard DTL, TTL logic level, and drive inductive loads (such as relay coils, DC, Stepper Motors) and power switching transistors etc. 
-DC Motors are devices that turn DC electrical energy into mechanical energy. They are widely used in electrical drive for their superior speed regulation performance.
+L293Dは、高電圧・高電流仕様の4チャンネルモータードライバーICです。
+このICは、標準的なDTL、TTLロジックレベルに接続でき、誘導性負荷（例えばリレーコイル、直流モーター、ステッピングモーター）やパワースイッチングトランジスタなどを駆動するよう設計されています。
+直流モーターは、直流電力を機械エネルギーに変換するデバイスであり、優れた速度制御性能から広く電動駆動に使用されています。
 
-See the figure of pins below. L293D has two pins (Vcc1 and Vcc2) for power supply. 
-Vcc2 is used to supply power for the motor, while Vcc1 to supply for the chip. Since a small-sized DC motor is used here, connect both pins to +5V.
+下の図はL293Dのピン配置です。L293Dには、電源供給用の2つのピン（Vcc1およびVcc2）があります。
+Vcc2はモーターへの電源供給に使用され、Vcc1はIC自体への供給に使用されます。ここでは小型のDCモーターが使用されるため、両方のピンを+5Vに接続します。
 
 .. image:: img/l293d111.png
 
-The following is the internal structure of L293D. 
-Pin EN is an enable pin and only works with high level; A stands for input and Y for output. 
-You can see the relationship among them at the right bottom. 
-When pin EN is High level, if A is High, Y outputs high level; if A is Low, Y outputs Low level. When pin EN is Low level, the L293D does not work.
+以下は、L293Dの内部構造です。
+ピンENは、有効化ピンで高レベルでのみ動作します；Aは入力を、Yは出力を表します。
+それらの関係性は右下で見ることができます。
+ピンENが高レベルの場合、Aが高いとYも高レベルを出力します；Aが低いと、Yは低レベルを出力します。ピンENが低レベルの場合、L293Dは動作しません。
 
 .. image:: img/l293d334.png
 
-* `L293D Datasheet <https://www.ti.com/lit/ds/symlink/l293d.pdf?ts=1627004062301&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FL293D>`_
+* `L293D データシート <https://www.ti.com/lit/ds/symlink/l293d.pdf?ts=1627004062301&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FL293D>`_
 
-.. **Example**
+**例**
 
-.. * :ref:`1.3.1_c` (C Project)
-.. * :ref:`3.1.4_c` (C Project)
-.. * :ref:`1.3.1_py` (Python Project)
-.. * :ref:`4.1.10_py` (Python Project)
-.. * :ref:`1.17_scratch` (Scratch Project)
+* :ref:`1.3.1_c` （Cプロジェクト）
+* :ref:`3.1.4_c` （Cプロジェクト）
+* :ref:`1.3.1_py` （Pythonプロジェクト）
+* :ref:`4.1.10_py` （Pythonプロジェクト）
+* :ref:`1.17_scratch` （Scratchプロジェクト）

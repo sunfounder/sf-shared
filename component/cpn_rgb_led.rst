@@ -1,16 +1,16 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _cpn_rgb_led:
 
@@ -19,26 +19,29 @@ RGB LED
 
 .. image:: img/rgb_led.png
     :width: 100
-    
-RGB LEDs emit light in various colors. An RGB LED packages three LEDs of red, green, and blue into a transparent or semitransparent plastic shell. It can display various colors by changing the input voltage of the three pins and superimpose them, which, according to statistics, can create 16,777,216 different colors. 
+
+RGB LEDは多種多様な色の光を発することができます。赤、緑、青の3つのLEDを透明または半透明のプラスチックケースにパッケージしています。3つのピンの入力電圧を変えて重ね合わせることで、統計によると1677万7216色の異なる色を生成できます。
 
 .. image:: img/rgb_light.png
     :width: 600
 
-RGB LEDs can be categorized into common anode and common cathode ones. In this kit, the latter is used. The **common cathode**, or CC, means to connect the cathodes of the three LEDs. After you connect it with GND and plug in the three pins, the LED will flash the corresponding color. 
+RGB LEDには共通アノードと共通カソードの2種類があります。このキットでは後者が使用されています。 **共通カソード（CC）** とは、3つのLEDのカソードを接続することです。GNDに接続し、3つのピンに差し込むと、LEDは対応する色で点滅します。
 
-Its circuit symbol is shown as figure.
+その回路記号は以下の図のように示されています。
 
 .. image:: img/rgb_symbol.png
     :width: 300
 
-An RGB LED has 4 pins: the longest one is GND; the others are Red, Green and Blue. Touch its plastic shell and you will find a cut. The pin closest to the cut is the first pin, marked as Red, then GND, Green and Blue in turn. 
+RGB LEDには4つのピンがあります：最も長いものがGNDで、残りは赤、緑、青です。プラスチックケースに触れると切り込みがあります。この切り込みに最も近いピンが最初のピンであり、それは赤にマークされています。次にGND、緑、青が続きます。
 
 .. image:: img/rgb_pin.jpg
     :width: 200
 
-.. **Example**
+**例**
 
-.. * :ref:`1.1.2_c` (C Project)
-.. * :ref:`1.1.2_py` (Python Project)
-.. * :ref:`1.2_scratch` (Scratch Project)
+* :ref:`1.1.2_c` （Cプロジェクト）
+* :ref:`1.1.2_py` （Pythonプロジェクト）
+* :ref:`1.2_scratch` （Scratchプロジェクト）
+
+
+

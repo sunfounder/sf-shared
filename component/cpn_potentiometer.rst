@@ -1,60 +1,57 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _cpn_potentiometer:
 
-Potentiometer
-===============
+ポテンショメータ
+=================
 
 .. image:: img/potentiometer.png
     :align: center
     :width: 150
 
-Potentiometer is also a resistance component with 3 terminals and its resistance value can be adjusted according to some regular variation. 
+ポテンショメータは、3端子を有する可変抵抗素子です。定められた規則に従い、抵抗値が調整可能です。
 
-Potentiometers come in various shapes, sizes, and values, but they all have the following things in common:
+各種のポテンショメータが存在しますが、以下の特性は共通しています：
 
-* They have three terminals (or connection points).
-* They have a knob, screw, or slider that can be moved to vary the resistance between the middle terminal and either one of the outer terminals.
-* The resistance between the middle terminal and either one of the outer terminals varies from 0 Ω to the maximum resistance of the pot as the knob, screw, or slider is moved.
+* 3つの端子（または接続点）があります。
+* ノブ、ねじ、またはスライダーがあり、これを動かすことで中央の端子と外側の端子の一方との抵抗値を変化させます。
+* ノブ、ねじ、またはスライダーを動かすことで、中央の端子と外側の端子の一方との抵抗値は0Ωから最大抵抗値まで変わります。
 
-Here is the circuit symbol of potentiometer. 
+以下はポテンショメータの回路記号です。
 
 .. image:: img/potentiometer_symbol.png
     :align: center
     :width: 400
 
+回路内でのポテンショメータの機能は以下の通りです：
 
-The functions of the potentiometer in the circuit are as follows: 
+#. 電圧分割器として使用
+    ポテンショメータは連続的に調整可能な抵抗です。軸またはスライドハンドルを調整すると、可動接点が抵抗体上をスライドします。この時点で、ポテンショメータに適用された電圧と、可動アームが回転した角度または移動した距離に応じて、電圧が出力されます。
 
-#. Serving as a voltage divider
+#. リオスタットとして使用
+    ポテンショメータをリオスタットとして使用する場合、中央のピンと他の2ピンのうちの1つを回路に接続します。これにより、可動接点が移動する範囲内で、スムーズかつ連続的に抵抗値が変わります。
 
-    Potentiometer is a continuously adjustable resistor. When you adjust the shaft or sliding handle of the potentiometer, the movable contact will slide on the resistor.  At this point, a voltage can be output depending on the voltage applied onto the potentiometer and the angle the movable arm has rotated to or the travel it has made. 
+#. 電流コントローラーとして使用
+    ポテンショメータが電流コントローラーとして機能する場合、スライド接点端子は出力端子の一つとして接続されなければなりません。
 
-#. Serving as a rheostat
+詳細はこちらを参照してください： `Potentiometer - Wikipedia <https://en.wikipedia.org/wiki/Potentiometer>`_
 
-    When the potentiometer is used as a rheostat, connect the middle pin and one of the other 2 pins in the circuit. Thus you can get a smoothly and continuously changed resistance value within the travel of the moving contact. 
+**例**
 
-#. Serving as a current controller
+* :ref:`2.1.7_c` (Cプロジェクト)
+* :ref:`2.1.7_py` (Pythonプロジェクト)
 
-    When the potentiometer acts as a current controller, the sliding contact terminal must be connected as one of the output terminals.
-
-If you want to know more about potentiometer, refer to: `Potentiometer - Wikipedia <https://en.wikipedia.org/wiki/Potentiometer>`_
-
-.. **Example**
-
-.. * :ref:`2.1.7_c` (C Project)
-.. * :ref:`2.1.7_py` (Python Project)
 
 

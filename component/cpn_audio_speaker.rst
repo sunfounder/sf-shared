@@ -1,83 +1,88 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _cpn_audio_speaker:
 
-Audio Module and Speaker
-===========================
+オーディオモジュールとスピーカー
+=================================
 
-**Audio Amplifier Module**
+**オーディオアンプモジュール**
 
 .. image:: img/audio_module.jpg
     :width: 500
     :align: center
 
-Audio Amplifier Module contains a HXJ8002 audio power amplifier chip. This chip is a power amplifier with low power supply, that can provide 3W average audio power for a 3Ω BTL load with low harmonic distortion (under 10% threshold distortion at 1KHz) from a 5V DC power supply. This chip can amplify audio signals without any coupling capacitors or bootstrap capacitors.
+オーディオアンプモジュールは、HXJ8002オーディオパワーアンプチップを搭載しています。このチップは、低電源で平均3Wのオーディオパワーを3ΩのBTL負荷に供給できるパワーアンプです。波形歪は1KHzで10%以下です。直流5V電源から動作します。このチップは、カップリングコンデンサーやブートストラップコンデンサーを使用せずにオーディオ信号を増幅できます。
 
-The module can be supplied by a 2.0V up to 5.5V DC with 10mA operating current (0.6uA for typical standby current) power source and produce a powerful amplified sound into a 3Ω, 4Ω, or 8Ω impedance speaker. This module has an improved pop and clicks circuitry for reducing significantly the transition nose at the powering on and off moment. Tiny size besides high efficiency and low power supplying make it applicable in widely portable and battery-powered projects and microcontrollers.  
-
+このモジュールは、2.0V～5.5Vの直流電源で動作し、オペレーティング電流は10mA（スタンバイ電流は通常0.6uA）です。3Ω、4Ω、または8Ωのインピーダンスのスピーカーに強力な増幅音を出力します。電源投入と切断時の遷移ノイズを大幅に低減する改善されたポップとクリックの回路を備えています。その高効率と低電源供給により、広範なポータブルプロジェクトやマイクロコントローラーで適用可能です。
 
 * **IC**: HXJ8002
-* **Input Voltage**: 2V ~ 5.5V
-* **Standby Mode Current**: 0.6uA (typical value)
-* **Output Power**: 3W (3Ω load) , 2.5W (4Ω load) , 1.5W (8Ω load)
-* **Output Speaker Impedance**: 3Ω, 4Ω, 8Ω
-* **Size**: 19.8mm x 14.2mm
+* **入力電圧**: 2V ~ 5.5V
+* **スタンバイモード電流**: 0.6uA（典型値）
+* **出力パワー**: 3W（3Ω負荷）、2.5W（4Ω負荷）、1.5W（8Ω負荷）
+* **スピーカーの出力インピーダンス**: 3Ω、4Ω、8Ω
+* **サイズ**: 19.8mm x 14.2mm
 
-**Speaker**
+**スピーカー**
 
 .. image:: img/speaker_pic.png
     :width: 300
     :align: center
 
-* **Size**: 20x30x7mm
-* **Impedance**：8ohm
-* **Rate Input Power**: 1.5W 
-* **Max Input Power**: 2.0W
-* **Wire Length**: 10cm
+* **サイズ**: 20x30x7mm
+* **インピーダンス**: 8ohm
+* **定格入力パワー**: 1.5W 
+* **最大入力パワー**: 2.0W
+* **ワイヤー長**: 10cm
 
 .. image:: img/2030_speaker.png
 
-The size chart is as follows：
+サイズ表は以下の通りです：
 
-* :download:`2030 Speaker Datasheet <https://github.com/sunfounder/sf-pdf/raw/master/datasheet/2030-speaker-datasheet.pdf>`
+* :download:`2030スピーカーデータシート <https://github.com/sunfounder/sf-pdf/raw/master/datasheet/2030-speaker-datasheet.pdf>`
 
-**Audio Cable**
+**オーディオケーブル**
 
 .. image:: img/audio_cable_pic2.png
     :width: 500
     :align: center
 
-This is a 3.5mm male audio cable with a total length of 43cm. it has 3 connectors, red for the left channel, white for the right channel, and GND in the middle.
+これは全長43cmの3.5mmオスオーディオケーブルであり、3つのコネクタがあります。赤が左チャンネル、白が右チャンネル、中央がGNDです。
 
-**Circuit**
+**回路**
 
 .. image:: img/4.1.4fritzing.png
 
-After building the circuit according to the above diagram, then plug the audio cable into the Raspberry Pi's 3.5mm audio jack.
+上記の図に従って回路を組み立てた後、オーディオケーブルをRaspberry Piの3.5mmオーディオジャックに挿入します。
 
 .. image:: img/audio4.png
     :width: 400
     :align: center
 
-.. **Example**
+もしスピーカーから音が出ない場合、Raspberry Piが誤ってオーディオ出力を選択している可能性があります（デフォルトはHDMIです）。その場合は、 :ref:`オーディオ出力の変更` して **ヘッドフォン** に設定する必要があります。
 
-.. * :ref:`3.1.3_py` (Python Project)
-.. * :ref:`3.1.4_py` (Python Project)
-.. * :ref:`4.1.2_py` (Python Project)
-.. * :ref:`4.1.3_py` (Python Project)
-.. * :ref:`4.1.5_py` (Python Project)
-.. * :ref:`1.8_scratch` (Scratch Project)
-.. * :ref:`1.9_scratch` (Scratch Project)
-.. * :ref:`1.10_scratch` (Scratch Project)
+音量が低すぎると感じた場合は、 :ref:`音量調整` できます。
+
+**例**
+
+* :ref:`3.1.3_py` （Pythonプロジェクト）
+* :ref:`3.1.4_py` （Pythonプロジェクト）
+* :ref:`4.1.2_py` （Pythonプロジェクト）
+* :ref:`4.1.3_py` （Pythonプロジェクト）
+* :ref:`4.1.5_py` （Pythonプロジェクト）
+* :ref:`1.8_scratch` （Scratchプロジェクト）
+* :ref:`1.9_scratch` （Scratchプロジェクト）
+* :ref:`1.10_scratch` （Scratchプロジェクト）
+
+

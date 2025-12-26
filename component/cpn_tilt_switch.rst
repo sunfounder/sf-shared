@@ -1,39 +1,42 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _cpn_tilt_switch:
 
-Tilt Switch
+傾斜スイッチ
 =============================
 
 .. image:: img/tilt_switch.png
     :width: 80
     :align: center
 
-The tilt switch used here is a ball one with a metal ball inside. It is used to detect inclinations of a small angle.
+こちらで使用される傾斜スイッチは、内部に金属製のボールが入っているタイプです。小角度の傾斜を検出するために用います。
 
-The principle is very simple. When the switch is tilted in a certain angle, the ball inside rolls down and touches the two contacts connected to the pins outside, thus triggering circuits. Otherwise the ball will stay away from the contacts, thus breaking the circuits.
+動作原理は非常に単純です。スイッチが特定の角度で傾くと、内部のボールが転がり下って外部のピンに接続された２つの接点に触れ、回路が作動します。そうでない場合、ボールは接点から離れて回路が開きます。
 
 .. image:: img/tilt_symbol.png
     :width: 600
 
-* `SW520D Tilt Switch Datasheet <https://www.tme.com/Document/f1e6cedd8cb7feeb250b353b6213ec6c/SW-520D.pdf>`_
+* `SW520D 傾斜スイッチ データシート <https://www.tme.com/Document/f1e6cedd8cb7feeb250b353b6213ec6c/SW-520D.pdf>`_
 
-.. **Example**
+**例**
 
-.. * :ref:`2.1.5_c` (C Project)
-.. * :ref:`3.1.12_c` (C Project)
-.. * :ref:`2.1.5_py` (Python Project)
-.. * :ref:`4.1.18_py` (Python Project)
-.. * :ref:`1.3_scratch` (Scratch Project)
+* :ref:`2.1.5_c` (C プロジェクト)
+* :ref:`3.1.12_c` (C プロジェクト)
+* :ref:`2.1.5_py` (Python プロジェクト)
+* :ref:`4.1.18_py` (Python プロジェクト)
+* :ref:`1.3_scratch` (Scratch プロジェクト)
+
+
+

@@ -1,56 +1,54 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
 .. _cpn_transistor:
 
-Transistor
+トランジスタ
 ============
 
 .. image:: img/npn_pnp.png
     :width: 300
 
-Transistor is a semiconductor device that controls current by current. It functions by amplifying weak signal to larger amplitude signal and is also used for non-contact switch. 
+トランジスタは、電流によって電流を制御する半導体デバイスです。微弱な信号を高振幅信号に増幅する機能を持ち、非接触スイッチとしても利用されます。
 
-A transistor is a three-layer structure composed of P-type and N-type semiconductors. They form the three regions internally. The thinner in the middle is the base region; the other two are both N-type or P-type ones – the smaller region with intense majority carriers is the emitter region, when the other one is the collector region. This composition enables the transistor to be an amplifier. 
-From these three regions, three poles are generated respectively, which are base (b), emitter (e), and collector (c). They form two P-N junctions, namely, the emitter junction and collection junction. The direction of the arrow in the transistor circuit symbol indicates that of the emitter junction. 
+トランジスタはP型とN型の半導体から成る三層構造です。これらは内部で三つの領域を形成しています。中央の薄い部分がベース領域で、両端のN型またはP型の領域のうち、過剰キャリアが集中する小さい方がエミッタ領域、もう一方がコレクタ領域です。この構造によって、トランジスタは増幅器として機能します。これら三つの領域からそれぞれ三つの極（ベース（b）、エミッタ（e）、コレクタ（c））が形成されます。さらに、エミッタ接合とコレクタ接合という二つのP-N接合が形成されます。回路記号内の矢印の方向はエミッタ接合の方向を示しています。
 
-* `P–N junction - Wikipedia <https://en.wikipedia.org/wiki/P-n_junction>`_
+* `P–N接合 - Wikipedia <https://en.wikipedia.org/wiki/P-n_junction>`_
 
-Based on the semiconductor type, transistors can be divided into two groups, the NPN and PNP ones. From the abbreviation, we can tell that the former is made of two N-type semiconductors and one P-type and that the latter is the opposite. See the figure below. 
+半導体の種類によって、トランジスタはNPNとPNPの二つのグループに分類されます。略称からもわかるように、前者はN型半導体が二つとP型半導体が一つからなり、後者はその逆です。下図を参照してください。
 
 .. note::
-    s8550 is PNP transistor and the s8050 is the NPN one, They look very similar, and we need to check carefully to see their labels.
-
+    s8550はPNP型のトランジスタで、s8050はNPN型です。見た目が非常に似ているため、ラベルを注意深く確認する必要があります。
 
 .. image:: img/transistor_symbol.png
     :width: 600
 
-When a High level signal goes through an NPN transistor, it is energized. But a PNP one needs a Low level signal to manage it. Both types of transistor are frequently used for contactless switches, just like in this experiment.
+NPN型トランジスタを通るときにはハイレベル信号で動作しますが、PNP型はローレベル信号で動作します。いずれも非接触スイッチとしてよく使われています。
 
-Put the label side facing us and the pins facing down. The pins from left to right are emitter(e), base(b), and collector(c).
+ラベル面を自分に向け、ピンを下向きにすると、左から右にエミッタ（e）、ベース（b）、コレクタ（c）となります。
 
 .. image:: img/ebc.png
     :width: 150
 
+* `S8050トランジスタ データシート <https://datasheet4u.com/datasheet-pdf/WeitronTechnology/S8050/pdf.php?id=576670>`_
+* `S8550トランジスタ データシート <https://www.mouser.com/datasheet/2/149/SS8550-118608.pdf>`_
 
-* `S8050 Transistor Datasheet <https://datasheet4u.com/datasheet-pdf/WeitronTechnology/S8050/pdf.php?id=576670>`_
-* `S8550 Transistor Datasheet <https://www.mouser.com/datasheet/2/149/SS8550-118608.pdf>`_
+**例**
 
-.. **Example**
+* :ref:`1.2.1_c` (Cプロジェクト)
+* :ref:`1.3.3_c` (Cプロジェクト)
+* :ref:`1.2.2_py` (Pythonプロジェクト)
+* :ref:`1.3.3_py` (Pythonプロジェクト)
+* :ref:`1.14_scratch` (Scratchプロジェクト)
 
-.. * :ref:`1.2.1_c` (C Project)
-.. * :ref:`1.3.3_c` (C Project)
-.. * :ref:`1.2.2_py` (Python Project)
-.. * :ref:`1.3.3_py` (Python Project)
-.. * :ref:`1.14_scratch` (Scratch Project)
