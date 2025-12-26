@@ -1,97 +1,81 @@
-.. note::
-
-    Hello, welcome to the SunFounder Raspberry Pi, Arduino, and ESP32 Enthusiasts Community on Facebook!  
-    Join fellow makers to explore, learn, and create together.
-
-    **Why Join?**
-
-    - **Expert Support** — Get help with post-sale issues and technical challenges.
-    - **Learn & Share** — Exchange tutorials, tips, and hands-on experiences.
-    - **Exclusive Previews** — Get early access to new product announcements.
-    - **Special Discounts** — Enjoy members-only offers on new products.
-    - **Giveaways & Events** — Join festive promotions and prize draws.
-
-    👉 Click |link_sf_facebook| to join the community!
-
 
 .. _spi_configuration:
 
-SPI Configuration
-=================
+SPI 配置
+===================
 
-Follow the steps below to enable and verify the SPI interface on your Raspberry Pi.  
-These instructions apply to Raspberry Pi 5, 4, 3, and Zero 2W.
+按照以下步骤在你的 Raspberry Pi 上启用并验证 SPI 接口。  
+这些说明适用于 Raspberry Pi 5、4、3 以及 Zero 2W。
 
-Enable the SPI Interface
-------------------------
+启用 SPI 接口
+--------------
 
-#. Open a terminal on your computer (Windows: **PowerShell**; macOS/Linux: **Terminal**) and connect to your Raspberry Pi:
+#. 在你的电脑上打开终端（Windows：**PowerShell**；macOS/Linux：**Terminal**），并连接到 Raspberry Pi：
 
    .. code-block:: bash
 
       ssh <username>@<hostname>.local
 
-   or:
+   或者：
 
    .. code-block:: bash
 
       ssh <username>@<ip_address>
 
-#. Open the Raspberry Pi configuration tool:
+#. 打开 Raspberry Pi 配置工具：
 
    .. code-block:: bash
 
       sudo raspi-config
 
-#. Select **Interfacing Options** and press **Enter**.
+#. 选择 **Interfacing Options**，然后按 **Enter**。
 
    .. image:: /_shared/appendix/img/ssh_interface.png
       :align: center
 
-#. Select **SPI**.
+#. 选择 **SPI**。
 
    .. image:: img/ssh_spi_spi.png
       :align: center
 
-#. Choose **<Yes>**, then **<Ok> → <Finish>** to apply the changes. If prompted, reboot your Raspberry Pi.
+#. 选择 **<Yes>**，然后依次选择 **<Ok> → <Finish>** 以应用更改。如系统提示，请重启 Raspberry Pi。
 
    .. image:: img/ssh_spi_enable.png
       :align: center
 
 
-Verify SPI Interface
----------------------
+验证 SPI 接口
+--------------
 
-#. Check whether the SPI device nodes exist:
+#. 检查 SPI 设备节点是否存在：
 
    .. code-block:: bash
 
       ls /dev/sp*
 
-#. If the SPI interface is enabled, the output will include:
+#. 如果 SPI 接口已启用，输出中将包含：
 
    .. code-block:: text
 
       /dev/spidev0.0
       /dev/spidev0.1
 
-   * If these devices appear, SPI is active and ready to use.  
-   * If not, reboot your Raspberry Pi and check again.
+   * 如果看到这些设备节点，说明 SPI 已启用并可以使用。  
+   * 如果没有显示，请重启 Raspberry Pi 后再次检查。
 
 
-Install spidev (Python SPI Library)
------------------------------------
+安装 spidev（Python SPI 库）
+----------------------------
 
-#. Install the ``spidev`` package to use SPI in Python:
+#. 安装 ``spidev`` 软件包，以便在 Python 中使用 SPI：
 
    .. code-block:: bash
 
       sudo apt install python3-spidev
 
-   The ``spidev`` library provides access to SPI devices through the ``/dev/spidevX.Y`` interface.
+   ``spidev`` 库通过 ``/dev/spidevX.Y`` 接口提供对 SPI 设备的访问。
 
 ----------------------
 
-Your Raspberry Pi is now configured to communicate with SPI devices using both command-line tools and Python.
-
+现在，你的 Raspberry Pi 已完成配置，可以通过命令行工具和 Python 与 SPI 设备进行通信。
 

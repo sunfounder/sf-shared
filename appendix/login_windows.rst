@@ -1,54 +1,47 @@
-.. note::
-
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
-
-    **Why Join?**
-
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
-
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
 .. _login_windows:
 
 PuTTY
 =========================
 
-PuTTY is a simple and reliable SSH client for Windows users to remotely access the Raspberry Pi.  
+PuTTY 是一款简单且可靠的 SSH 客户端，适用于 Windows 用户远程访问 Raspberry Pi。  
 
-#. Download PuTTY from |shared_link_putty| and install it on your computer.
+
+.. |shared_link_putty| raw:: html
+
+    <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>" target="_blank">PuTTY</a> 
+
+
+#. 从 |shared_link_putty| 下载 PuTTY 并在你的电脑上安装。
 
    .. image:: /_shared/appendix/img/putty_download.png
       :width: 70%
 
 
-#. Open PuTTY and prepare the connection:
+#. 打开 PuTTY 并准备连接：
 
-   * Enter your Raspberry Pi’s **hostname or IP address** in **Host Name**.
-   * Set the **Port** to ``22``.
-   * Click **Open** to connect.
+   * 在 **Host Name** 中输入你的 Raspberry Pi 的 **主机名或 IP 地址**。
+   * 将 **Port** 设置为 ``22``。
+   * 点击 **Open** 进行连接。
 
 
    .. image:: /_shared/appendix/img/putty_open.png
       :width: 70%
    
-#. If a security warning appears on first use, click **Accept** to continue.
+#. 如果首次使用时出现安全警告，点击 **Accept** 继续。
 
    .. image:: /_shared/appendix/img/putty_accept.png
       :width: 70%
 
-#. Log in to the Raspberry Pi:
+#. 登录 Raspberry Pi：
 
-   * When you see **login as:**, enter the username you set in **Raspberry Pi Imager**.
-   * Enter your password (it will not appear while typing—this is normal).
-   * After logging in, the terminal is ready for you to enter commands and operate your Raspberry Pi remotely.
+   * 当看到 **login as:** 提示时，输入你在 **Raspberry Pi Imager** 中设置的用户名。
+   * 输入密码（输入时不会显示字符，这是正常现象）。
+   * 登录成功后，终端即可使用，你可以远程输入命令并操作 Raspberry Pi。
 
    .. image:: /_shared/appendix/img/putty_login.png
       :width: 70%
 
 .. note::
 
-    If PuTTY shows **inactive**, the connection was lost and needs to be reconnected.
+    如果 PuTTY 显示 **inactive**，说明连接已断开，需要重新连接。

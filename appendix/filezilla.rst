@@ -1,57 +1,47 @@
-.. note::
-
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
-
-    **Why Join?**
-
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
-
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
 .. _filezilla:
 
-FileZilla Software
-==================
+FileZilla 软件
+===============
 
 .. image:: /_shared/appendix/img/filezilla_icon.png
    :width: 20%
 
-File Transfer Protocol (FTP) is commonly used to transfer files between computers over a network.  
-**FileZilla** is an open-source client that supports FTP, FTPS, and **SFTP** (recommended for Raspberry Pi).  
-With FileZilla, you can easily upload files (such as images, audio, and scripts) from your computer to the Raspberry Pi, or download files from the Pi back to your computer.
+文件传输协议（FTP）通常用于在网络中不同计算机之间传输文件。 **FileZilla** 是一款开源客户端，支持 FTP、FTPS 以及 **SFTP** （推荐用于 Raspberry Pi）。  
+通过 FileZilla，你可以轻松地将文件（如图片、音频和脚本）从电脑上传到 Raspberry Pi，或将文件从 Raspberry Pi 下载到电脑。
 
-Download FileZilla
-------------------
+下载 FileZilla
+---------------
 
-#. Visit the |shared_link_filezilla| official website and download **FileZilla Client** for your operating system.
+.. |shared_link_filezilla| raw:: html
 
-#. Install and launch the program.
+    <a href="https://filezilla-project.org/" target="_blank">FileZilla</a> 
+
+#. 访问 |shared_link_filezilla| 官方网站，下载适用于你操作系统的 **FileZilla Client**。
+
+#. 安装并启动该程序。
 
    .. image:: /_shared/appendix/img/filezilla_install.png
 
-#. Open FileZilla and enter the following information:
+#. 打开 FileZilla，输入以下信息：
 
-   * **Host:** ``<hostname>.local`` or the Raspberry Pi’s IP address  
-   * **Username:** your Pi username  
-   * **Password:** the password set in Raspberry Pi Imager  
-   * **Port:** ``22`` (for SFTP)
-   * Click **Quickconnect** (or press **Enter**) to establish a connection.
+   * **Host：** ``<hostname>.local`` 或 Raspberry Pi 的 IP 地址  
+   * **Username：** 你的 Pi 用户名  
+   * **Password：** 在 Raspberry Pi Imager 中设置的密码  
+   * **Port：** ``22`` （用于 SFTP）
+   * 点击 **Quickconnect** （或按 **Enter**）建立连接。
 
    .. image:: /_shared/appendix/img/filezilla_connect.png
       :align: center
 
-#. Once connected, the left panel shows your **local files**, and the right panel shows the **Raspberry Pi files**.
+#. 连接成功后，左侧面板显示你的 **本地文件**，右侧面板显示 **Raspberry Pi 上的文件**。
 
     .. image:: /_shared/appendix/img/filezilla_in.png
        :align: center
 
-#. You can:
+#. 你可以：
 
-   * **Upload** a file: drag from the left panel → right panel  
-   * **Download** a file: drag from the right panel → left panel  
+   * **上传文件：** 从左侧面板拖拽到右侧面板  
+   * **下载文件：** 从右侧面板拖拽到左侧面板  
 
-   FileZilla will immediately start the transfer, and the status will appear in the panel at the bottom.
+   FileZilla 会立即开始传输，传输状态会显示在底部的状态面板中。

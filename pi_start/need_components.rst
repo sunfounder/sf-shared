@@ -1,92 +1,80 @@
-.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
-
-    **Why Join?**
-
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
-
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
-
-What Else Do You Need?
+还需要准备什么？
 ===============================
 
-Before we start playing with this kit, let’s prepare the essential hardware.
+在开始使用本套件之前，让我们先准备一些必需的硬件。
 
-Required Components
+必备组件
 ------------------------------
 
 * **Raspberry Pi**
 
-  The Raspberry Pi acts as the **brain**, handling all computing, sensing, and control tasks.  
+  Raspberry Pi 充当系统的 **大脑**，负责所有计算、传感和控制任务。  
   
-  * **Compatible models**: Raspberry Pi 5, Raspberry Pi 4, 3, or Raspberry Pi Zero 2W  
+  * **兼容型号**：Raspberry Pi 5、Raspberry Pi 4、3 或 Raspberry Pi Zero 2W  
 
   .. image:: /_shared/pi_start/img/need_pi.jpg
 
   
-* **Power Adapter**
+* **电源适配器**
 
-  Prepare a suitable power supply based on your Raspberry Pi model:
+  请根据你的 Raspberry Pi 型号准备合适的电源：
 
   .. image:: /_shared/pi_start/img/need_power.png
     :width: 400
 
-  - **Raspberry Pi 5**: 5V 5A USB-C (recommended: official 27W PD power supply).  
-  - **Raspberry Pi 4**: 5V 3A USB-C.  
-  - **Raspberry Pi 3B/3B+**: 5V 2.5A Micro-USB.  
-  - **Raspberry Pi Zero 2W**: 5V 2A Micro-USB.
+  - **Raspberry Pi 5**：5V 5A USB-C（推荐使用官方 27W PD 电源）。  
+  - **Raspberry Pi 4**：5V 3A USB-C。  
+  - **Raspberry Pi 3B / 3B+**：5V 2.5A Micro-USB。  
+  - **Raspberry Pi Zero 2W**：5V 2A Micro-USB。
 
-  Using a stable power source helps prevent undervoltage and ensures reliable operation.
+  使用稳定可靠的电源可以避免欠压问题，并确保系统稳定运行。
 
-* **Micro SD Card**
+* **Micro SD 卡**
 
-  The Raspberry Pi does not have a built-in hard drive. It boots and stores all files on a **Micro SD card**.  
+  Raspberry Pi 没有内置硬盘，系统启动以及所有文件都存储在 **Micro SD 卡** 中。  
   
   .. image:: /_shared/pi_start/img/need_sd.jpg
     :width: 200
 
-  * Minimum: **16GB**  
-  * Recommended: **32GB** for better stability  
-  * Brand: Use reliable options such as **SanDisk** or **Samsung** to avoid read/write errors  
+  * 最小容量：**16GB**  
+  * 推荐容量：**32GB**，以获得更好的稳定性  
+  * 品牌建议：使用 **SanDisk**、**Samsung** 等可靠品牌，以避免读写错误  
   
-Optional Components
+
+可选组件
 ------------------------
 
-Although not strictly required, the following peripherals will greatly improve your learning and debugging experience:
+虽然不是必需，但以下外设将大大提升你的学习和调试体验：
 
-* **Monitor (HDMI or TV)** 
+* **显示器（HDMI 显示器或电视）** 
 
-  For beginners, we strongly recommend a display with an HDMI input, so you can easily configure Raspberry Pi OS and run graphical programs.  
+  对于初学者，强烈建议准备一台带 HDMI 接口的显示设备，方便你配置 Raspberry Pi OS 并运行图形化程序。  
 
   .. image:: /_shared/pi_start/img/need_screen.png
     :width: 400
 
-* **HDMI Cable (Standard / Mini / Micro)**
+* **HDMI 线（标准 / Mini / Micro）**
  
-  Different Raspberry Pi models use different HDMI connectors, be sure to check your Pi model and prepare the correct cable. 
+  不同型号的 Raspberry Pi 使用不同类型的 HDMI 接口，请确认你的 Pi 型号并准备正确的线缆。 
   
-  * **Raspberry Pi 4 / 5**: Micro HDMI  
-  * **Raspberry Pi 3**: Standard HDMI  
-  * **Raspberry Pi Zero 2W**: Mini HDMI 
+  * **Raspberry Pi 4 / 5**：Micro HDMI  
+  * **Raspberry Pi 3**：标准 HDMI  
+  * **Raspberry Pi Zero 2W**：Mini HDMI  
 
   .. image:: /_shared/pi_start/img/need_hdmi.png
     :width: 400
 
-* **Keyboard & Mouse**
+* **键盘和鼠标**
 
-  Very useful during the initial setup of Raspberry Pi OS. Later, you may switch to remote access (SSH/VNC), but for beginners we recommend preparing a basic USB or wireless set.  
+  在 Raspberry Pi OS 的初始设置阶段非常有用。之后你可以切换到远程访问（SSH / VNC），但对初学者来说，仍建议准备一套基础的 USB 或无线键盘和鼠标。  
 
   .. image:: /_shared/pi_start/img/need_keyboard_mouse.png
     :width: 500
  
 
-**Tips for Preparation**
+**准备小贴士**
 
-* If you purchased this kit, most accessories are included, but you still need to prepare the Raspberry Pi board, Micro SD card, and power adapter separately.  
-* Not sure what to buy? The most stable and universal choice is: **Raspberry Pi 4/5 (2GB) + Official Power Supply + 32GB Micro SD card**.  
+* 如果你购买的是本套件，大多数配件已经包含，但仍需要单独准备 Raspberry Pi 主板、Micro SD 卡和电源适配器。  
+* 不确定该买什么？最稳定、最通用的选择是：**Raspberry Pi 4/5（2GB）+ 官方电源适配器 + 32GB Micro SD 卡**。  
 

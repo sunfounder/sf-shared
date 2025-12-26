@@ -1,41 +1,27 @@
-.. note::
-
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
-
-    **Why Join?**
-
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
-
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
 .. _blynk_mobile:
 
-How to use Blynk on mobile device?
-==================================
+如何在移动设备上使用 Blynk？
+==============================
 
 .. note::
 
-    As datastreams can only be created in Blynk on the web, you will need to reference different projects to create datastreams on the web, then follow the tutorial below to create widgets in Blynk on your mobile device.
+    由于数据流（Datastreams）只能在 Blynk 的网页端创建，你需要参考不同的项目，先在网页端创建数据流，然后再按照下面的教程，在移动设备上的 Blynk 中创建控件（Widgets）。
 
-
-#. Open Google Play or APP Store on your mobile device and search for "Blynk IoT" (not Blynk(legacy)) to download.
-#. After opening the APP, login in, this account should be the same as the account used on the web client.
-#. Then go to **Dashboard** (if you don't have one, create one) and you will see that the **Dashboard** for mobile and web are independent of each other.
+#. 在你的移动设备上打开 Google Play 或 App Store，搜索 “Blynk IoT”（不是 Blynk（legacy））并下载安装。
+#. 打开 APP 后登录，登录账号需与网页端使用的账号相同。
+#. 然后进入 **Dashboard**（如果还没有，请先创建一个），你会发现移动端和网页端的 **Dashboard** 是彼此独立的。
 
     .. image:: img/APP_1.jpg
 
-#. Click **Edit** Icon.
-#. Click on the blank area. 
-#. Choose the same widget as on the web page, such as select a **Joystick** widget.
+#. 点击 **Edit** 图标。
+#. 点击空白区域。
+#. 选择与网页端相同的控件，例如选择一个 **Joystick** 控件。
 
     .. image:: img/APP_2.jpg
 
-#. Now you will see a **Joystick** widget appear in the blank area, click on it.
-#. **Joystick** Settings will appear, select the **Xvalue** and **Yvalue** datastreams you just set in the web page. Note that each widget corresponds to a different datastream in each project.
-#. Go back to the **Dashboard** page and you can operate the **Joystick** when you want.
+#. 此时你会看到一个 **Joystick** 控件出现在空白区域中，点击该控件。
+#. 会弹出 **Joystick** 设置界面，选择你之前在网页端设置的 **Xvalue** 和 **Yvalue** 数据流。请注意，每个控件在每个项目中都对应不同的数据流。
+#. 返回 **Dashboard** 页面，此时你就可以随时操作 **Joystick** 了。
 
     .. image:: img/APP_3.jpg

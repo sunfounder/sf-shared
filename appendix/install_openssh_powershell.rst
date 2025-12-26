@@ -1,43 +1,30 @@
-.. note::
-
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
-
-    **Why Join?**
-
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
-
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
 .. _openssh_powershell:
 
-Install OpenSSH via PowerShell
-------------------------------
+通过 PowerShell 安装 OpenSSH
+----------------------------
 
-If you see the following error when running ``ssh <username>@<hostname>.local`` or ``ssh <username>@<IP>``:
+如果在运行 ``ssh <username>@<hostname>.local`` 或 ``ssh <username>@<IP>`` 时看到如下错误：
 
 .. code-block::
 
     ssh: The term 'ssh' is not recognized as the name of a cmdlet, function, script file, or operable program.
 
-It means your Windows system does not have OpenSSH installed.  
-Follow the steps below to install it manually.
+这意味着你的 Windows 系统尚未安装 OpenSSH。  
+请按照以下步骤手动安装。
 
-#. Open the Windows Start Menu, type **powershell**, right-click **Windows PowerShell**, and select **Run as administrator**.
+#. 打开 Windows 开始菜单，输入 **powershell**，右键点击 **Windows PowerShell**，选择 **以管理员身份运行**。
 
    .. image:: /_shared/appendix/img/powershell_ssh.png
       :align: center
 
-#. Install the OpenSSH Client:
+#. 安装 OpenSSH 客户端：
 
    .. code-block:: bash
 
       Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
 
-#. After installation, you should see output similar to:
+#. 安装完成后，你应该会看到类似如下的输出：
 
    .. code-block::
 
@@ -45,13 +32,13 @@ Follow the steps below to install it manually.
         Online        : True
         RestartNeeded : False
 
-#. Verify the installation:
+#. 验证安装是否成功：
 
    .. code-block:: bash
 
       Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'
 
-#. If OpenSSH is installed, the output will include:
+#. 如果 OpenSSH 已正确安装，输出中将包含：
 
    .. code-block::
 
@@ -61,10 +48,10 @@ Follow the steps below to install it manually.
         State : NotPresent
 
    .. warning::
-      If ``Installed`` does not appear, your Windows system may be too old.  
-      In this case, we recommend using a third-party SSH tool. See: :ref:`login_windows`
+      如果没有显示 ``Installed``，说明你的 Windows 系统版本可能过旧。  
+      在这种情况下，建议使用第三方 SSH 工具。请参见：:ref:`login_windows`
 
-#. Close PowerShell, reopen it (no need to run as administrator this time), and use the ``ssh`` command to log in:
+#. 关闭 PowerShell，然后重新打开（这次无需以管理员身份运行），并使用 ``ssh`` 命令登录：
 
    .. code-block:: bash
 
@@ -72,4 +59,5 @@ Follow the steps below to install it manually.
 
    .. image:: /_shared/appendix/img/powershell_login.png
       :align: center
+
 

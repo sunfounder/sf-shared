@@ -1,106 +1,93 @@
-.. note::
-
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
-
-    **Why Join?**
-
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
-
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
 .. _i2c_config:
 
-I²C Configuration
-=================
+I²C 配置
+=============
 
-Follow the steps below to enable and test the I²C interface on your Raspberry Pi.  
-These instructions apply to Raspberry Pi 5, 4, 3, and Zero 2W.
+按照以下步骤在你的 Raspberry Pi 上启用并测试 I²C 接口。  
+这些说明适用于 Raspberry Pi 5、4、3 以及 Zero 2W。
 
-Enable the I²C Interface
-------------------------
+启用 I²C 接口
+--------------
 
-#. Open a terminal on your computer (Windows: **PowerShell**; macOS/Linux: **Terminal**) and connect to your Raspberry Pi:
+#. 在你的电脑上打开终端（Windows：**PowerShell**；macOS/Linux：**Terminal**），并连接到 Raspberry Pi：
 
    .. code-block:: bash
 
       ssh <username>@<hostname>.local
 
-   or:
+   或者：
 
    .. code-block:: bash
 
       ssh <username>@<ip_address>
 
-#. Open the Raspberry Pi configuration tool:
+#. 打开 Raspberry Pi 配置工具：
 
    .. code-block:: bash
 
       sudo raspi-config
 
-#. Select **Interfacing Options** and press **Enter**.
+#. 选择 **Interfacing Options**，然后按 **Enter**。
 
    .. image:: /_shared/appendix/img/ssh_interface.png
       :align: center
 
-#. Select **I2C**.
+#. 选择 **I2C**。
 
    .. image:: img/ssh_i2c_i2c.png
       :align: center
 
-#. Choose **<Yes>**, then **<Ok> → <Finish>** to apply the changes.  
-   If prompted, reboot your Raspberry Pi.
+#. 选择 **<Yes>**，然后依次选择 **<Ok> → <Finish>** 以应用更改。  
+   如果系统提示，请重启 Raspberry Pi。
 
    .. image:: img/ssh_i2c_yes.png
       :align: center
 
 
-Check I²C Kernel Modules
-------------------------
+检查 I²C 内核模块
+------------------
 
-#. Run the following command:
+#. 运行以下命令：
 
    .. code-block:: bash
 
       lsmod | grep i2c
 
-#. If I²C is enabled, you will see modules such as:
+#. 如果 I²C 已启用，你会看到类似下面的模块：
 
    .. code-block:: text
 
       i2c_dev        6276    0
       i2c_bcm2708    4121    0
 
-#. If nothing appears, reboot the system:
+#. 如果没有任何输出，请重启系统：
 
    .. code-block:: bash
 
       sudo reboot
 
 
-Install i2c-tools
------------------
+安装 i2c-tools
+---------------
 
-#. Install the utilities required for scanning and testing I²C devices:
+#. 安装用于扫描和测试 I²C 设备的工具：
 
    .. code-block:: bash
 
       sudo apt install i2c-tools
 
 
-Detect Connected I²C Devices
-----------------------------
+检测已连接的 I²C 设备
+----------------------
 
-#. Scan the I²C bus:
+#. 扫描 I²C 总线：
 
    .. code-block:: bash
 
       i2cdetect -y 1
 
-#. Example output:
+#. 示例输出：
 
    .. code-block:: text
 
@@ -115,18 +102,18 @@ Detect Connected I²C Devices
       60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
       70: -- -- -- -- -- -- -- --
 
-#. If a device is connected, its address (e.g., **0x48**) will appear in the table.
+#. 如果有设备连接，其地址（例如 **0x48**）将显示在表格中。
 
 
-Install the Python I²C Library
-------------------------------
+安装 Python I²C 库
+------------------
 
-#. Install the ``python3-smbus2`` package:
+#. 安装 ``python3-smbus2`` 软件包：
 
    .. code-block:: bash
 
       sudo apt install python3-smbus2
 
-   The ``smbus2`` library provides all the functions required to communicate with I²C devices in Python.
+   ``smbus2`` 库提供了在 Python 中与 I²C 设备通信所需的全部函数。
 
-Your Raspberry Pi is now fully configured and ready to communicate with I²C devices.
+现在，你的 Raspberry Pi 已完成配置，可以与 I²C 设备进行通信了。

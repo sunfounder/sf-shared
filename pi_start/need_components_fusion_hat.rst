@@ -1,91 +1,79 @@
-.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
-
-    **Why Join?**
-
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
-
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
-
-What Else Do You Need?
+还需要准备什么？
 ===============================
 
-Before we start playing with this kit, let’s prepare the essential hardware.
+在开始使用本套件之前，我们需要先准备一些必要的硬件。
 
-Required Components
+必备组件
 ------------------------------
 
 * **Raspberry Pi**
 
-  The Raspberry Pi acts as the **brain**, handling all computing, sensing, and control tasks.  
+  Raspberry Pi 充当整个系统的 **大脑**，负责所有的计算、传感和控制任务。  
   
   .. image:: /_shared/pi_start/img/need_pi.jpg
 
-  * **Compatible models**: Raspberry Pi 5, Raspberry Pi 4, 3, or Raspberry Pi Zero 2W  
-  * **Minimum**: **2GB RAM** — sufficient for all standard python projects and for using **online AI services** such as OpenAI Whisper, TTS, or LLMs.  
-  * **Recommended**: **4GB RAM or more** — ensures smoother performance when running **local AI models** (e.g., Vosk speech recognition, Piper TTS, or lightweight LLMs) alongside camera streaming and control tasks.  
+  * **兼容型号**：Raspberry Pi 5、Raspberry Pi 4、3 或 Raspberry Pi Zero 2W  
+  * **最低配置**： **2GB 内存** —— 足以运行所有标准 Python 项目，以及使用 **在线 AI 服务**，如 OpenAI Whisper、TTS 或 LLM。  
+  * **推荐配置**： **4GB 或更高内存** —— 在同时运行 **本地 AI 模型**（如 Vosk 语音识别、Piper TTS 或轻量级 LLM）、摄像头视频流和控制任务时，可获得更流畅的性能。  
   
 
-* **Power Adapter**
+* **电源适配器**
 
-  This kit comes with an **18650 battery pack** and a **Fusion HAT** board featuring a built-in charging circuit.
+  本套件配备了 **18650 电池盒** 和带有内置充电电路的 **Fusion HAT+** 扩展板。
   
   .. image:: /_shared/pi_start/img/need_power.png
     :width: 400
 
-  * For charging, it is recommended to use a **5V 3A power supply**, such as the official **Raspberry Pi 15W USB-C adapter**.  
-  * You may also use a **USB-C Power Delivery (PD) charger** or a **QC 2.0 fast charger**.  
-  * A full charge typically takes about **2 hours** (from 0% to 100%).  
+  * 充电时，建议使用 **5V 3A 电源适配器**，例如官方的 **Raspberry Pi 15W USB-C 电源**。  
+  * 也可以使用 **USB-C Power Delivery（PD）充电器** 或 **QC 2.0 快充充电器**。  
+  * 从 0% 充至 100% 通常需要大约 **2 小时**。  
 
 
-* **Micro SD Card**
+* **Micro SD 卡**
 
-  The Raspberry Pi does not have a built-in hard drive. It boots and stores all files on a **Micro SD card**.  
+  Raspberry Pi 没有内置硬盘，系统启动和所有文件都存储在 **Micro SD 卡** 中。  
   
   .. image:: /_shared/pi_start/img/need_sd.jpg
     :width: 200
 
-  * Minimum: **16GB**  
-  * Recommended: **32GB** for better stability  
-  * Brand: Use reliable options such as **SanDisk** or **Samsung** to avoid read/write errors  
+  * 最小容量：**16GB**  
+  * 推荐容量：**32GB**，稳定性更好  
+  * 品牌建议：选择 **SanDisk** 或 **Samsung** 等可靠品牌，以避免读写错误  
   
-Optional Components
+
+可选组件
 ------------------------
 
-Although not strictly required, the following peripherals will greatly improve your learning and debugging experience:
+虽然不是必需，但以下外设可以显著提升你的学习和调试体验：
 
-* **Monitor (HDMI or TV)** 
+* **显示器（HDMI 显示器或电视）**
 
-  For beginners, we strongly recommend a display with an HDMI input, so you can easily configure Raspberry Pi OS and run graphical programs.  
+  对于初学者，强烈建议准备一台带 HDMI 接口的显示器，方便配置 Raspberry Pi OS 并运行图形界面程序。  
 
   .. image:: /_shared/pi_start/img/need_screen.png
     :width: 400
 
-* **HDMI Cable (Standard / Mini / Micro)**
+* **HDMI 线（标准 / Mini / Micro）**
  
-  Different Raspberry Pi models use different HDMI connectors, be sure to check your Pi model and prepare the correct cable. 
+  不同型号的 Raspberry Pi 使用不同类型的 HDMI 接口，请根据你的 Pi 型号准备合适的线缆。 
   
-  * **Raspberry Pi 4 / 5**: Micro HDMI  
-  * **Raspberry Pi 3**: Standard HDMI  
-  * **Raspberry Pi Zero 2W**: Mini HDMI 
+  * **Raspberry Pi 4 / 5**：Micro HDMI  
+  * **Raspberry Pi 3**：标准 HDMI  
+  * **Raspberry Pi Zero 2W**：Mini HDMI  
 
   .. image:: /_shared/pi_start/img/need_hdmi.png
     :width: 400
 
-* **Keyboard & Mouse**
+* **键盘和鼠标**
 
-  Very useful during the initial setup of Raspberry Pi OS. Later, you may switch to remote access (SSH/VNC), but for beginners we recommend preparing a basic USB or wireless set.  
+  在 Raspberry Pi OS 的初始设置阶段非常有用。后续你可以切换到远程访问（SSH / VNC），但对于初学者，建议先准备一套基础的 USB 或无线键鼠。  
 
   .. image:: /_shared/pi_start/img/need_keyboard_mouse.png
     :width: 500
  
 
-**Tips for Preparation**
+**准备小贴士**
 
-* If you purchased this kit, most accessories are included, but you still need to prepare the Raspberry Pi board, Micro SD card, and power adapter separately.  
-* Not sure what to buy? The most stable and universal choice is: **Raspberry Pi 4 (2GB) + Official Power Supply + 32GB Micro SD card**.  
+* 如果你购买的是本套件，大多数配件已经包含，但仍需要另外准备 Raspberry Pi 主板、Micro SD 卡和电源适配器。  
+* 不确定该买什么？最稳定、最通用的组合是：**Raspberry Pi 4（2GB）+ 官方电源适配器 + 32GB Micro SD 卡**。  
