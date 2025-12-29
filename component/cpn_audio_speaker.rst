@@ -71,17 +71,14 @@ Après avoir construit le circuit selon le schéma ci-dessus, branchez le câble
     :width: 400
     :align: center
 
-Si votre haut-parleur ne produit aucun son, cela peut être dû au fait que le Raspberry Pi a sélectionné la mauvaise sortie audio (par défaut, c'est HDMI). Vous devez :ref:`changer_sortie_audio` pour **Casque**.
 
-Si vous trouvez que le volume des haut-parleurs est trop bas, vous pouvez :ref:`ajuster_volume`.
+.. **Exemple**
 
-**Exemple**
-
-* :ref:`3.1.3_py` (Projet Python)
-* :ref:`3.1.4_py` (Projet Python)
-* :ref:`4.1.2_py` (Projet Python)
-* :ref:`4.1.3_py` (Projet Python)
-* :ref:`4.1.5_py` (Projet Python)
-* :ref:`1.8_scratch` (Projet Scratch)
-* :ref:`1.9_scratch` (Projet Scratch)
-* :ref:`1.10_scratch` (Projet Scratch)
+.. * :ref:`3.1.3_py` (Projet Python)
+.. * :ref:`3.1.4_py` (Projet Python)
+.. * :ref:`4.1.2_py` (Projet Python)
+.. * :ref:`4.1.3_py` (Projet Python)
+.. * :ref:`4.1.5_py` (Projet Python)
+.. * :ref:`1.8_scratch` (Projet Scratch)
+.. * :ref:`1.9_scratch` (Projet Scratch)
+.. * :ref:`1.10_scratch` (Projet Scratch)
