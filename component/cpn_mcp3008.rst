@@ -17,38 +17,45 @@
 MCP3008
 ==============
 
-MCP3008 is a 10-bit successive approximation analog-to-digital converter (ADC) with 8 input channels and an SPI (Serial Peripheral Interface) communication protocol. It is capable of interfacing with a microcontroller to convert analog input signals into digital data for further processing.
+Le MCP3008 est un convertisseur analogique‑numérique (CAN) à approximation successive sur 10 bits, avec 8 canaux d’entrée et un protocole de communication SPI (Serial Peripheral Interface).  
+Il peut être interfacé avec un microcontrôleur pour convertir des signaux d’entrée analogiques en données numériques pour un traitement ultérieur.
 
 .. image:: img/MCP3008.jpg
       :width: 40%
 
-**Sequence of Operation**
+**Séquence de fonctionnement**
 
-A conversion on the MCP3008 begins by setting the CS (chip select) pin low, which activates communication with the device. The microcontroller then sends a 3-byte control stream via the SPI interface to specify the configuration and select the input channel.
+Une conversion sur le MCP3008 commence par la mise à l’état bas de la broche CS (chip select), ce qui active la communication avec le composant.  
+Le microcontrôleur envoie ensuite un flux de commande de 3 octets via l’interface SPI pour spécifier la configuration et sélectionner le canal d’entrée.
 
-The first byte sent contains the start bit and the single/differential selection bit. The next bits indicate which of the 8 channels (CH0–CH7) to read from. Data is shifted into the device on each rising edge of the SPI clock (SCLK), and the conversion result is returned simultaneously.
+Le premier octet envoyé contient le bit de démarrage et le bit de sélection simple/différentiel.  
+Les bits suivants indiquent lequel des 8 canaux (CH0–CH7) doit être lu.  
+Les données sont transférées dans le composant à chaque front montant de l’horloge SPI (SCLK), et le résultat de la conversion est renvoyé simultanément.
 
-A short delay is included internally for the selected input channel to settle before conversion begins. The MCP3008 then performs a 10-bit analog-to-digital conversion using a sample-and-hold circuit and a successive approximation register (SAR) comparator.
+Un court délai interne est appliqué afin de stabiliser le canal d’entrée sélectionné avant de commencer la conversion.  
+Le MCP3008 effectue ensuite une conversion analogique‑numérique sur 10 bits à l’aide d’un circuit d’échantillonnage et de maintien et d’un comparateur à registre d’approximation successive (SAR).
 
-The conversion result is transmitted back to the microcontroller through the MISO (Master In Slave Out) line. The most significant bit (MSB) of the 10-bit result is sent first, followed by the remaining bits. The microcontroller reads the result over the SPI bus during this time.
+Le résultat de la conversion est transmis au microcontrôleur via la ligne MISO (Master In Slave Out).  
+Le bit de poids fort (MSB) du résultat sur 10 bits est envoyé en premier, suivi des bits restants.  
+Le microcontrôleur lit le résultat via le bus SPI pendant cette transmission.
 
-After the full 10-bit digital value is shifted out, the MCP3008 completes the cycle and waits for the next command.
+Après que la valeur numérique complète sur 10 bits a été transmise, le MCP3008 termine le cycle et attend la prochaine commande.
 
-* `MCP3008 series Datasheet <https://www.alldatasheet.com/datasheet-pdf/view/304558/MICROCHIP/MCP3008-ISLASHP.html>`_
+* `Fiche technique de la série MCP3008 <https://www.alldatasheet.com/datasheet-pdf/view/304558/MICROCHIP/MCP3008-ISLASHP.html>`_
 
 .. image:: img/MCP3008detail.png
 
-.. **Example**
+**Example**
 
-.. * :ref:`2.1.7_c_mcp3008` (C Project)
-.. * :ref:`2.2.1_c_mcp3008` (C Project)
-.. * :ref:`2.2.2_c_mcp3008` (C Project)
-.. * :ref:`3.1.4_c_mcp3008` (C Project)
-.. * :ref:`3.1.5_c_mcp3008` (C Project)
-.. * :ref:`3.1.7_c_mcp3008` (C Project)
-.. * :ref:`2.1.7_py_mcp3008` (Python Project)
-.. * :ref:`2.2.1_py_mcp3008` (Pyhton Project)
-.. * :ref:`2.2.2_py_mcp3008` (Pyhton Project)
-.. * :ref:`4.1.10_py_mcp3008` (Pyhton Project)
-.. * :ref:`4.1.11_py_mcp3008` (Pyhton Project)
-.. * :ref:`4.1.13_py_mcp3008` (Pyhton Project)
+* :ref:`2.1.7_c_mcp3008` (C Project)
+* :ref:`2.2.1_c_mcp3008` (C Project)
+* :ref:`2.2.2_c_mcp3008` (C Project)
+* :ref:`3.1.4_c_mcp3008` (C Project)
+* :ref:`3.1.5_c_mcp3008` (C Project)
+* :ref:`3.1.7_c_mcp3008` (C Project)
+* :ref:`2.1.7_py_mcp3008` (Python Project)
+* :ref:`2.2.1_py_mcp3008` (Pyhton Project)
+* :ref:`2.2.2_py_mcp3008` (Pyhton Project)
+* :ref:`4.1.10_py_mcp3008` (Pyhton Project)
+* :ref:`4.1.11_py_mcp3008` (Pyhton Project)
+* :ref:`4.1.13_py_mcp3008` (Pyhton Project)
