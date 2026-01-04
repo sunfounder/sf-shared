@@ -17,8 +17,6 @@
 Installing the Operating System
 ===================================
 
-.. start_imager
-
 Before using your Raspberry Pi, you need to install **Raspberry Pi OS** onto a microSD card.  
 This guide explains how to do that using **Raspberry Pi Imager** in a simple, beginner-friendly way.
 
@@ -30,9 +28,10 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
 
 -------------------
 
+.. start_install_imager
+
 1. Install Raspberry Pi Imager
 -------------------------------------------
-
 
 .. |shared_link_rpi_imager| raw:: html
 
@@ -40,13 +39,15 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
 
 #. Visit the official Raspberry Pi Imager download page: |shared_link_rpi_imager|. Download the correct installer for your operating system.
 
-   .. image:: /_shared/pi_start/img/imager_download.png
+   .. image:: /_shared/pironman5/img/imager_download.png
       :width: 70%
 
 #. Follow the installation prompts (language, install path, confirmation). After installation, launch **Raspberry Pi Imager** from your desktop or applications menu.
 
-   .. image:: /_shared/pi_start/img/imager_install.png
+   .. image:: /_shared/pironman5/img/imager_install.png
       :width: 90%
+
+.. end_install_imager
 
 -------------------
 
@@ -55,27 +56,25 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
 
 1. Insert your microSD card into your computer using a card reader. Back up any important data before proceeding.
 
-   .. image:: /_shared/pi_start/img/insert_sd.png
+   .. image:: /_shared/pironman5/img/insert_sd.png
       :width: 90%
 
-2. When Raspberry Pi Imager opens, you will see the **Device** page. Select your Raspberry Pi model from the list (e.g., Raspberry Pi 5, 4, 3, or Zero 2W).
+2. When Raspberry Pi Imager opens, you will see the **Device** page. Select your Raspberry Pi 5 model from the list.
 
-   .. image:: /_shared/pi_start/img/imager_device.png
+   .. image:: /_shared/pironman5/img/imager_device.png
       :width: 90%
-
-   .. end_imager
 
 3. Go to the **OS** section and choose the recommended **Raspberry Pi OS (64-bit)** option.
 
-   .. image:: /_shared/pi_start/img/imager_os.png
+   .. image:: /_shared/pironman5/img/imager_os.png
       :width: 90%
-
-   .. start_choose_os
 
 4. In the **Storage** section, select your microSD card. 
 
-   .. image:: /_shared/pi_start/img/imager_storage.png
+   .. image:: /_shared/pironman5/img/imager_storage.png
       :width: 90%
+
+   .. start_install_os
 
 5. Click **Next** to continue to the customization step.
 
@@ -84,22 +83,15 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
       * If you will connect a monitor, keyboard, and mouse directly to your Raspberry Pi, you may click **SKIP CUSTOMISATION**.  
       * If you plan to set up the Raspberry Pi *headless* (Wi-Fi remote access), you must complete the customization settings.
 
-   .. image:: /_shared/pi_start/img/imager_custom_skip.png
+   .. image:: /_shared/pironman5/img/imager_custom_skip.png
       :width: 90%
-
--------------------
-
-.. _imager_custom:
-
-3. OS Customization Settings
-------------------------------------------
 
 #. **Set Hostname**
 
    * Give your Raspberry Pi a unique hostname.  
    * You can connect to it later using ``hostname.local``.
 
-   .. image:: /_shared/pi_start/img/imager_custom_hostname.png
+   .. image:: /_shared/pironman5/img/imager_custom_hostname.png
       :width: 90%
 
 #. **Set Localisation**
@@ -107,14 +99,14 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    * Choose your capital city.
    * Imager will auto-complete the time zone and keyboard layout based on your selection, though you can adjust them if needed. Select Next.
    
-   .. image:: /_shared/pi_start/img/imager_custom_local.png
+   .. image:: /_shared/pironman5/img/imager_custom_local.png
       :width: 90%
 
 #. **Set Username & Password**
 
    Create a user account for your Raspberry Pi.
    
-   .. image:: /_shared/pi_start/img/imager_custom_user.png
+   .. image:: /_shared/pironman5/img/imager_custom_user.png
       :width: 90%
 
 #. **Configure Wi-Fi**
@@ -122,7 +114,7 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    * Enter your Wi-Fi **SSID** (network name) and **password**.  
    * Your Raspberry Pi will automatically connect on first boot.
    
-   .. image:: /_shared/pi_start/img/imager_custom_wifi.png
+   .. image:: /_shared/pironman5/img/imager_custom_wifi.png
       :width: 90%
 
 #. **Enable SSH (Optional but Recommended)**
@@ -130,7 +122,7 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    * Enabling SSH allows you to remotely log in from your computer.  
    * You may log in using your username/password or configure SSH keys.
    
-   .. image:: /_shared/pi_start/img/imager_custom_ssh.png
+   .. image:: /_shared/pironman5/img/imager_custom_ssh.png
       :width: 90%
 
 #. **Enable Raspberry Pi Connect (Optional)**
@@ -140,12 +132,12 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    
    * Turn on **Raspberry Pi Connect**, then click **OPEN RASPBERRY PI CONNECT**.
    
-     .. image:: /_shared/pi_start/img/imager_custom_connect.png
+     .. image:: /_shared/pironman5/img/imager_custom_connect.png
         :width: 90%
 
    * The Raspberry Pi Connect website will open in your default browser. Log in to your Raspberry Pi ID account, or sign up if you don’t have one yet.
 
-     .. image:: /_shared/pi_start/img/imager_custom_open.png
+     .. image:: /_shared/pironman5/img/imager_custom_open.png
         :width: 90%
 
    * On the **New auth key** page, create your one-time auth key. 
@@ -154,7 +146,7 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
       * If you belong to one or more organisations, choose one, then create the key and launch Imager.
       * Make sure to power on your Raspberry Pi and connect it to the internet before the key expires.
    
-     .. image:: /_shared/pi_start/img/imager_custom_authkey.png
+     .. image:: /_shared/pironman5/img/imager_custom_authkey.png
         :width: 90%
    
    * Your browser may ask to open Raspberry Pi Imager — allow it.
@@ -162,34 +154,30 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
      * Imager will open on the Raspberry Pi Connect tab, showing the authentication token.
      * If the token doesn’t transfer automatically, open the **Having trouble?** section on the Raspberry Pi Connect page, copy the token, and paste it into Imager manually.
 
-     .. image:: /_shared/pi_start/img/imager_custom_connect_token.png
+     .. image:: /_shared/pironman5/img/imager_custom_connect_token.png
         :width: 90%
-
--------------------
-
-4. Write the OS Image
------------------------------
-
 
 #. Review all settings and click **WRITE**.
 
-   .. image:: /_shared/pi_start/img/imager_writing.png
+   .. image:: /_shared/pironman5/img/imager_writing.png
       :width: 90%
 
 #. If the card already contains data, Raspberry Pi Imager will show a warning that all data on the device will be erased. Double-check that you selected the correct drive, then click **I UNDERSTAND, ERASE AND WRITE** to continue.
 
-   .. image:: /_shared/pi_start/img/imager_erase.png
+   .. image:: /_shared/pironman5/img/imager_erase.png
       :width: 90%
 
 #. Wait for the writing and verification to finish. When it is done, Raspberry Pi Imager will show **Write complete!** and a summary of your choices. The storage device will be ejected automatically so you can remove it safely.
 
 
-   .. image:: /_shared/pi_start/img/imager_finish.png
+   .. image:: /_shared/pironman5/img/imager_finish.png
         :width: 90%
+
+   .. end_install_os
 
 #. Remove the microSD card and insert it into the slot on the underside of your Raspberry Pi. Your Raspberry Pi is now ready to boot with the new OS!
 
-   .. image:: /_shared/pi_start/img/os_sd_to_pi.jpg
+   .. image:: /_shared/pironman5/img/os_sd_to_pi.jpg
         :width: 70%
 
-   .. end_choose_os
+   
