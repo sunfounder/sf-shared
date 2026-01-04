@@ -30,7 +30,7 @@ In this chapter, you will learn how to install the operating systems. All the in
     .. toctree::
         :maxdepth: 1
 
-        install_raspberry_os
+        install_rpi_os_max
         install_the_other_os
         install_umbrel
 
