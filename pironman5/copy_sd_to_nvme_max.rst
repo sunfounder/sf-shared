@@ -12,7 +12,7 @@
 
     👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
-.. _copy_sd_to_nvme_rpi:
+.. _copy_sd_to_nvme_rpi_max:
 
 Copying the OS from a Micro SD Card to an NVMe SSD
 ==================================================================
@@ -121,7 +121,7 @@ If your Micro SD card has a desktop version of the system installed, you can use
    :start-after: start_install_os
    :end-before: end_install_os
 
-.. _configure_boot_ssd:
+.. _configure_boot_ssd_max:
 
 3. Configure boot from the SSD
 ---------------------------------------

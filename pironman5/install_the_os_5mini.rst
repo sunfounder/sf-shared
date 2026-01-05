@@ -12,7 +12,7 @@
 
     👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
-.. _install_the_os:
+.. _install_the_os_5mini:
 
 3. Installing the Operating System
 =======================================

@@ -31,9 +31,10 @@ If you are using an NVMe SSD and have an adapter to connect the NVMe SSD to your
    :start-after: start_install_imager
    :end-before: end_install_imager
 
-.. _update_bootloader_5:
-
 .. start_update_bootloader
+
+.. _update_bootloader:
+
 
 2. Update the Bootloader
 --------------------------------
