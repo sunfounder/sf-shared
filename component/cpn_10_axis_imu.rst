@@ -18,7 +18,7 @@
 10 Axis IMU module
 ============================
 
-.. image:: img/gy87.png
+.. image:: img/10_axis.png
     :align: center
     :width: 40%
 
