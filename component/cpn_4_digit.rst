@@ -45,15 +45,15 @@ HEX corrisponde al numero esadecimale.
 
 .. image:: img/common_anode.png
 
-**Esempio**
+.. **Esempio**
 
-* :ref:`1.1.5_c` (C Project)
-* :ref:`3.1.1_c` (C Project)
-* :ref:`3.1.6_c` (C Project)
-* :ref:`3.1.12_c` (C Project)
-* :ref:`1.1.5_py` (Python Project)
-* :ref:`4.1.3_py` (Pyhton Project)
-* :ref:`4.1.7_py` (Pyhton Project)
-* :ref:`4.1.12_py` (Pyhton Project)
-* :ref:`4.1.18_py` (Pyhton Project)
+.. * :ref:`1.1.5_c` (C Project)
+.. * :ref:`3.1.1_c` (C Project)
+.. * :ref:`3.1.6_c` (C Project)
+.. * :ref:`3.1.12_c` (C Project)
+.. * :ref:`1.1.5_py` (Python Project)
+.. * :ref:`4.1.3_py` (Pyhton Project)
+.. * :ref:`4.1.7_py` (Pyhton Project)
+.. * :ref:`4.1.12_py` (Pyhton Project)
+.. * :ref:`4.1.18_py` (Pyhton Project)
 

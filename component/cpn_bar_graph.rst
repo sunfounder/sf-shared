@@ -33,10 +33,10 @@ Generalmente, il lato con l'etichetta è l'anodo e l'altro lato è il catodo.
 
 .. image:: img/led_bar_sche.png
 
-**Esempio**
+.. **Esempio**
 
-* :ref:`1.1.3_c` (C Project)
-* :ref:`3.1.5_c` (C Project)
-* :ref:`1.1.3_py` (Python Project)
-* :ref:`4.1.11_py` (Python Project)
-* :ref:`1.12_scratch` (Scratch Project)
+.. * :ref:`1.1.3_c` (C Project)
+.. * :ref:`3.1.5_c` (C Project)
+.. * :ref:`1.1.3_py` (Python Project)
+.. * :ref:`4.1.11_py` (Python Project)
+.. * :ref:`1.12_scratch` (Scratch Project)

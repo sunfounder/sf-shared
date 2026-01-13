@@ -30,8 +30,8 @@ Se il fascio di luce tra l'emettitore e il ricevitore viene interrotto da un ost
 
 .. image:: img/speed_sensor2.png
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`2.2.6_c` (C Project)
-* :ref:`2.2.6_py` (Python Project)
-* :ref:`1.7_scratch` (Scratch Project)
+.. * :ref:`2.2.6_c` (C Project)
+.. * :ref:`2.2.6_py` (Python Project)
+.. * :ref:`1.7_scratch` (Scratch Project)

@@ -50,15 +50,15 @@ La retroilluminazione può essere attivata tramite un cappuccio a ponticello; sc
 * **Potenziometro**: Serve per regolare il contrasto (la chiarezza del testo visualizzato), che aumenta in senso orario e diminuisce in senso antiorario.
 
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`1.1.7_c` (C Project)
-* :ref:`3.1.3_c` (C Project)
-* :ref:`3.1.7_c` (C Project)
-* :ref:`3.1.8_c` (C Project)
-* :ref:`3.1.11_c` (C Project)
-* :ref:`1.1.7_py` (Python Project)
-* :ref:`4.1.9_py` (Python Project)
-* :ref:`4.1.13_py` (Python Project)
-* :ref:`4.1.14_py` (Python Project)
-* :ref:`4.1.17_py` (Python Project)
+.. * :ref:`1.1.7_c` (C Project)
+.. * :ref:`3.1.3_c` (C Project)
+.. * :ref:`3.1.7_c` (C Project)
+.. * :ref:`3.1.8_c` (C Project)
+.. * :ref:`3.1.11_c` (C Project)
+.. * :ref:`1.1.7_py` (Python Project)
+.. * :ref:`4.1.9_py` (Python Project)
+.. * :ref:`4.1.13_py` (Python Project)
+.. * :ref:`4.1.14_py` (Python Project)
+.. * :ref:`4.1.17_py` (Python Project)

@@ -41,10 +41,10 @@ La corrente fluisce dal terminale positivo della batteria attraverso il circuito
 Ma a causa delle due interruzioni nel commutatore, questo flusso si inverte a metà di ogni rotazione completa.
 Questa inversione continua converte essenzialmente l'alimentazione DC della batteria in AC, permettendo all'armatura di sperimentare la coppia nella direzione giusta al momento giusto per mantenere la rotazione.
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`1.3.1_c` (C Project)
-* :ref:`3.1.4_c` (C Project)
-* :ref:`1.3.1_py` (Python Project)
-* :ref:`4.1.10_py` (Python Project)
-* :ref:`1.17_scratch` (Scratch Project)
+.. * :ref:`1.3.1_c` (C Project)
+.. * :ref:`3.1.4_c` (C Project)
+.. * :ref:`1.3.1_py` (Python Project)
+.. * :ref:`4.1.10_py` (Python Project)
+.. * :ref:`1.17_scratch` (Scratch Project)

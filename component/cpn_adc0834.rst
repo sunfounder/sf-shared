@@ -63,17 +63,17 @@ allo stream di dati con MSB per primo.
 
 * `ADC0831 series Datasheet <https://www.ti.com/lit/ds/symlink/adc0831-n.pdf>`_
 
-**Esempio**
+.. **Esempio**
 
-* :ref:`2.1.7_c` (C Project)
-* :ref:`2.2.1_c` (C Project)
-* :ref:`2.2.2_c` (C Project)
-* :ref:`3.1.4_c` (C Project)
-* :ref:`3.1.5_c` (C Project)
-* :ref:`3.1.7_c` (C Project)
-* :ref:`2.1.7_py` (Python Project)
-* :ref:`2.2.1_py` (Pyhton Project)
-* :ref:`2.2.2_py` (Pyhton Project)
-* :ref:`4.1.10_py` (Pyhton Project)
-* :ref:`4.1.11_py` (Pyhton Project)
-* :ref:`4.1.13_py` (Pyhton Project)
+.. * :ref:`2.1.7_c` (C Project)
+.. * :ref:`2.2.1_c` (C Project)
+.. * :ref:`2.2.2_c` (C Project)
+.. * :ref:`3.1.4_c` (C Project)
+.. * :ref:`3.1.5_c` (C Project)
+.. * :ref:`3.1.7_c` (C Project)
+.. * :ref:`2.1.7_py` (Python Project)
+.. * :ref:`2.2.1_py` (Pyhton Project)
+.. * :ref:`2.2.2_py` (Pyhton Project)
+.. * :ref:`4.1.10_py` (Pyhton Project)
+.. * :ref:`4.1.11_py` (Pyhton Project)
+.. * :ref:`4.1.13_py` (Pyhton Project)

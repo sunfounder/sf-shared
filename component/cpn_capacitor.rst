@@ -39,12 +39,12 @@ Sui condensatori ceramici sono presenti etichette 103 o 104, che rappresentano i
 
     1F=10^3mF=10^6uF=10^9nF=10^12pF
 
-**Esempio**
+.. **Esempio**
 
-* :ref:`2.1.2_c` (C Project)
-* :ref:`2.1.4_c` (C Project)
-* :ref:`3.1.9_c` (C Project)
-* :ref:`2.1.2_py` (Python Project)
-* :ref:`4.1.15_py` (Python Project)
-* :ref:`1.8_scratch` (scratch Project)
+.. * :ref:`2.1.2_c` (C Project)
+.. * :ref:`2.1.4_c` (C Project)
+.. * :ref:`3.1.9_c` (C Project)
+.. * :ref:`2.1.2_py` (Python Project)
+.. * :ref:`4.1.15_py` (Python Project)
+.. * :ref:`1.8_scratch` (scratch Project)
 

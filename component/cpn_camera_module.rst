@@ -65,12 +65,12 @@ Se il filo FFC è installato correttamente, sarà dritto e non si staccherà tir
    Non installare la fotocamera con l'alimentazione accesa, potrebbe danneggiare il modulo.
 
    
-**Esempio**
+.. **Esempio**
 
-* :ref:`3.1.1_py` (Python Project)
-* :ref:`3.1.2_py` (Python Project)
-* :ref:`4.1.1_py` (Python Project)
-* :ref:`4.1.4_py` (Python Project)
-* :ref:`4.1.5_py` (Python Project)
-* :ref:`1.10_scratch` (Scratch Project)
-* :ref:`1.18_scratch` (Scratch Project)
+.. * :ref:`3.1.1_py` (Python Project)
+.. * :ref:`3.1.2_py` (Python Project)
+.. * :ref:`4.1.1_py` (Python Project)
+.. * :ref:`4.1.4_py` (Python Project)
+.. * :ref:`4.1.5_py` (Python Project)
+.. * :ref:`1.10_scratch` (Scratch Project)
+.. * :ref:`1.18_scratch` (Scratch Project)

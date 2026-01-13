@@ -44,9 +44,9 @@ Pertanto, l'interruttore reed può essere utilizzato per realizzare un sensore m
         
 .. image:: img/HowItWorksReed.jpg
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`2.2.4_c` (C Project)
-* :ref:`2.2.4_py` (Python Project)
-* :ref:`4.1.6_py` (Python Project)
-* :ref:`1.6_scratch` (Scratch Project)
+.. * :ref:`2.2.4_c` (C Project)
+.. * :ref:`2.2.4_py` (Python Project)
+.. * :ref:`4.1.6_py` (Python Project)
+.. * :ref:`1.6_scratch` (Scratch Project)

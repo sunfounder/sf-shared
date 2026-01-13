@@ -97,7 +97,7 @@ e l'intervallo è + / - 250°/ s:
 
 **Velocità angolare lungo l'asse X = (16384 / 65536 \* 500)°/s** **=125°/s**
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`2.2.9_c` (C Project)
-* :ref:`2.2.9_py` (Python Project)
+.. * :ref:`2.2.9_c` (C Project)
+.. * :ref:`2.2.9_py` (Python Project)

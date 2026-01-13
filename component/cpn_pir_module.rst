@@ -50,10 +50,10 @@ Scegli modalità diverse utilizzando il cappuccio a ponticello.
 
 * **L**: Modalità di trigger non ripetibile, emette un livello alto quando rileva il corpo umano. Dopo il ritardo, l'uscita cambierà automaticamente da livello alto a livello basso.
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`2.2.7_c` (C Project)
-* :ref:`2.2.7_py` (Python Project)
-* :ref:`4.1.4_py` (Python Project)
-* :ref:`1.5_scratch` (Scratch Project)
+.. * :ref:`2.2.7_c` (C Project)
+.. * :ref:`2.2.7_py` (Python Project)
+.. * :ref:`4.1.4_py` (Python Project)
+.. * :ref:`1.5_scratch` (Scratch Project)
 

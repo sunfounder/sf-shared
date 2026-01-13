@@ -37,10 +37,10 @@ La formula per calcolare il valore della resistenza è la seguente:
 
 Qui trovi una presentazione dettagliata sull'LED: `LED - Wikipedia <https://en.wikipedia.org/wiki/Light-emitting_diode>`_.
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`1.1.1_c` (C Project)
-* :ref:`3.1.6_c` (C Project)
-* :ref:`1.1.1_py` (Python Project)
-* :ref:`4.1.12_py` (Python Project)
-* :ref:`1.1_scratch` (Scratch Project)
+.. * :ref:`1.1.1_c` (C Project)
+.. * :ref:`3.1.6_c` (C Project)
+.. * :ref:`1.1.1_py` (Python Project)
+.. * :ref:`4.1.12_py` (Python Project)
+.. * :ref:`1.1_scratch` (Scratch Project)

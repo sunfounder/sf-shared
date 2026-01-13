@@ -32,9 +32,9 @@ In pratica, un sensore capacitivo può essere realizzato su un PCB a doppia facc
 Il circuito del rilevatore di sfioramento contiene un oscillatore la cui frequenza dipende dalla capacità del touchpad. Quando un dito si avvicina al touchpad, la capacità aggiuntiva provoca un cambiamento nella frequenza di questo oscillatore interno. Il circuito rilevatore traccia la frequenza dell'oscillatore a intervalli regolari e, quando lo spostamento supera la soglia di cambiamento, il circuito attiva un evento di pressione del tasto.
 
 
-**Esempi**
+.. **Esempi**
 
 
-* :ref:`2.1.3_c` (C Project)
-* :ref:`2.1.3_py` (Python Project)
-* :ref:`1.9_scratch` (Scratch Project)
+.. * :ref:`2.1.3_c` (C Project)
+.. * :ref:`2.1.3_py` (Python Project)
+.. * :ref:`1.9_scratch` (Scratch Project)

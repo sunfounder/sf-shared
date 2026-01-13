@@ -54,8 +54,8 @@ richiedendo meno cablaggio. È possibile scegliere tra la modalità SPI, I2C e U
 (simile a RS232), il che aiuta a ridurre il numero di connessioni, risparmiare spazio 
 sulla scheda PCB (dimensioni ridotte) e ridurre i costi.
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`2.2.10_c` (C Project)
-* :ref:`2.2.10_py` (Python Project)
-* :ref:`4.1.19_py` (Python Project)
+.. * :ref:`2.2.10_c` (C Project)
+.. * :ref:`2.2.10_py` (Python Project)
+.. * :ref:`4.1.19_py` (Python Project)

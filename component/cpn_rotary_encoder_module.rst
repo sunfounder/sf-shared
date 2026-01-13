@@ -37,8 +37,8 @@ Come illustrato di seguito, quando il canale A passa da un livello alto a un liv
     :width: 600
     :align: center
 	
-**Esempi**
+.. **Esempi**
 
 
-* :ref:`2.1.6_c` (C Project)
-* :ref:`2.1.6_py` (Python Project)
+.. * :ref:`2.1.6_c` (C Project)
+.. * :ref:`2.1.6_py` (Python Project)

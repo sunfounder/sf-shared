@@ -35,10 +35,10 @@ Quando il pin EN è ad alto livello, se A è alto, Y emette livello alto; se A �
 
 * `L293D Datasheet <https://www.ti.com/lit/ds/symlink/l293d.pdf?ts=1627004062301&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FL293D>`_
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`1.3.1_c` (C Project)
-* :ref:`3.1.4_c` (C Project)
-* :ref:`1.3.1_py` (Python Project)
-* :ref:`4.1.10_py` (Python Project)
-* :ref:`1.17_scratch` (Scratch Project)
+.. * :ref:`1.3.1_c` (C Project)
+.. * :ref:`3.1.4_c` (C Project)
+.. * :ref:`1.3.1_py` (Python Project)
+.. * :ref:`4.1.10_py` (Python Project)
+.. * :ref:`1.17_scratch` (Scratch Project)

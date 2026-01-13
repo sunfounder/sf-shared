@@ -41,9 +41,9 @@ Un'interfaccia seriale a 4 fili si connette a tutti i µPs comuni. Le singole ci
 
 * `MAX7219 Datasheet <https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf>`_
 
-**Esempio**
+.. **Esempio**
 
-* :ref:`1.1.6_c` (C Project)
-* :ref:`3.1.12_c` (C Project)
-* :ref:`1.1.6_py` (Python Project)
-* :ref:`4.1.19_py` (Python Project)
+.. * :ref:`1.1.6_c` (C Project)
+.. * :ref:`3.1.12_c` (C Project)
+.. * :ref:`1.1.6_py` (Python Project)
+.. * :ref:`4.1.19_py` (Python Project)

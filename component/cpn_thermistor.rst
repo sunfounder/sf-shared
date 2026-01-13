@@ -53,11 +53,11 @@ Converti questa formula TK = 1/(ln(RT/RN)/B + 1/TN) per ottenere la temperatura 
 
 Questa relazione è una formula empirica. È accurata solo quando temperatura e resistenza rientrano nell'intervallo di validità.
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`2.2.2_c` (C Project)
-* :ref:`3.1.4_c` (C Project)
-* :ref:`3.1.7_c` (C Project)
-* :ref:`2.2.2_py` (Python Project)
-* :ref:`4.1.10_py` (Python Project)
-* :ref:`4.1.13_py` (Python Project)
+.. * :ref:`2.2.2_c` (C Project)
+.. * :ref:`3.1.4_c` (C Project)
+.. * :ref:`3.1.7_c` (C Project)
+.. * :ref:`2.2.2_py` (Python Project)
+.. * :ref:`4.1.10_py` (Python Project)
+.. * :ref:`4.1.13_py` (Python Project)

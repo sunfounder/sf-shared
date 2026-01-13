@@ -34,11 +34,11 @@ Il simbolo del circuito dell'interruttore a scorrimento è mostrato qui sotto. I
     :width: 200
     :align: center
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`2.1.4_c` (C Project)
-* :ref:`3.1.9_c` (C Project)
-* :ref:`2.1.4_py` (Python Project)
-* :ref:`4.1.15_py` (Python Project)
-* :ref:`1.15_scratch` (Scratch Project)
+.. * :ref:`2.1.4_c` (C Project)
+.. * :ref:`3.1.9_c` (C Project)
+.. * :ref:`2.1.4_py` (Python Project)
+.. * :ref:`4.1.15_py` (Python Project)
+.. * :ref:`1.15_scratch` (Scratch Project)
 

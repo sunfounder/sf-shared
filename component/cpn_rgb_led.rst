@@ -37,8 +37,8 @@ Un LED RGB ha 4 pin: il più lungo è GND; gli altri sono Rosso, Verde e Blu. To
 .. image:: img/rgb_pin.jpg
     :width: 200
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`1.1.2_c` (C Project)
-* :ref:`1.1.2_py` (Python Project)
-* :ref:`1.2_scratch` (Scratch Project)
+.. * :ref:`1.1.2_c` (C Project)
+.. * :ref:`1.1.2_py` (Python Project)
+.. * :ref:`1.2_scratch` (Scratch Project)

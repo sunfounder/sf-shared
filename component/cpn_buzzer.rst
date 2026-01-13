@@ -37,12 +37,12 @@ Puoi controllare i pin del cicalino: il più lungo è l'anodo e il più corto è
 
 `Buzzer - Wikipedia <https://en.wikipedia.org/wiki/Buzzer>`_
 
-**Esempio**
+.. **Esempio**
 
-* :ref:`1.2.1_c` (C Project)
-* :ref:`1.2.2_c` (C Project)
-* :ref:`1.2.1_py` (Python Project)
-* :ref:`1.2.2_py` (Python Project)
-* :ref:`1.13_scratch` (Scratch Project)
-* :ref:`1.14_scratch` (Scratch Project)
+.. * :ref:`1.2.1_c` (C Project)
+.. * :ref:`1.2.2_c` (C Project)
+.. * :ref:`1.2.1_py` (Python Project)
+.. * :ref:`1.2.2_py` (Python Project)
+.. * :ref:`1.13_scratch` (Scratch Project)
+.. * :ref:`1.14_scratch` (Scratch Project)
 

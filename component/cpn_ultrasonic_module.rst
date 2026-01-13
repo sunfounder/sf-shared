@@ -45,9 +45,9 @@ Formula: us / 58 = centimetri o us / 148 = pollici; oppure: la distanza = tempo 
 alto \* velocità (340M/S) / 2; si consiglia di utilizzare un ciclo di misurazione superiore 
 a 60ms per evitare collisioni tra il segnale di trigger e quello di eco.
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`2.2.8_c` (C Project)
-* :ref:`3.1.3_c` (C Project)
-* :ref:`2.2.8_py` (Python Project)
-* :ref:`4.1.9_py` (Python Project)
+.. * :ref:`2.2.8_c` (C Project)
+.. * :ref:`3.1.3_c` (C Project)
+.. * :ref:`2.2.8_py` (Python Project)
+.. * :ref:`4.1.9_py` (Python Project)

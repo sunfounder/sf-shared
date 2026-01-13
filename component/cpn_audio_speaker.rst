@@ -70,13 +70,13 @@ Dopo aver costruito il circuito secondo il diagramma sopra riportato, inserisci 
     :width: 400
     :align: center
 
-**Esempio**
+.. **Esempio**
 
-* :ref:`3.1.3_py` (Python Project)
-* :ref:`3.1.4_py` (Python Project)
-* :ref:`4.1.2_py` (Python Project)
-* :ref:`4.1.3_py` (Python Project)
-* :ref:`4.1.5_py` (Python Project)
-* :ref:`1.8_scratch` (Scratch Project)
-* :ref:`1.9_scratch` (Scratch Project)
-* :ref:`1.10_scratch` (Scratch Project)
+.. * :ref:`3.1.3_py` (Python Project)
+.. * :ref:`3.1.4_py` (Python Project)
+.. * :ref:`4.1.2_py` (Python Project)
+.. * :ref:`4.1.3_py` (Python Project)
+.. * :ref:`4.1.5_py` (Python Project)
+.. * :ref:`1.8_scratch` (Scratch Project)
+.. * :ref:`1.9_scratch` (Scratch Project)
+.. * :ref:`1.10_scratch` (Scratch Project)

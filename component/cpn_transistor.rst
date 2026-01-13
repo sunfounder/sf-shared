@@ -44,10 +44,10 @@ Posiziona il lato con l'etichetta verso di te e i pin rivolti verso il basso. I 
 * `S8050 Transistor Datasheet <https://datasheet4u.com/datasheet-pdf/WeitronTechnology/S8050/pdf.php?id=576670>`_
 * `S8550 Transistor Datasheet <https://www.mouser.com/datasheet/2/149/SS8550-118608.pdf>`_
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`1.2.1_c` (C Project)
-* :ref:`1.3.3_c` (C Project)
-* :ref:`1.2.2_py` (Python Project)
-* :ref:`1.3.3_py` (Python Project)
-* :ref:`1.14_scratch` (Scratch Project)
+.. * :ref:`1.2.1_c` (C Project)
+.. * :ref:`1.3.3_c` (C Project)
+.. * :ref:`1.2.2_py` (Python Project)
+.. * :ref:`1.3.3_py` (Python Project)
+.. * :ref:`1.14_scratch` (Scratch Project)

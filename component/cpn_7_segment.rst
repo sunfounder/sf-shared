@@ -50,7 +50,7 @@ mentre il Codice HEX corrisponde al numero esadecimale.
 
 .. image:: img/segment_code.png
 
-**Esempio**
+.. **Esempio**
 
-* :ref:`1.1.4_c` (C Project)
-* :ref:`1.1.4_py` (Python Project)
+.. * :ref:`1.1.4_c` (C Project)
+.. * :ref:`1.1.4_py` (Python Project)

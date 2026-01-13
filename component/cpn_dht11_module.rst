@@ -33,8 +33,8 @@ Quindi l'host riceve il segnale di risposta e inizia a ricevere i dati di umidit
 
 * `DHT11 Datasheet <https://components101.com/sites/default/files/component_datasheet/DHT11-Temperature-Sensor.pdf>`_
 
-**Esempio**
+.. **Esempio**
 
 
-* :ref:`2.2.3_c` (C Project)
-* :ref:`2.2.3_py` (Python Project)
+.. * :ref:`2.2.3_c` (C Project)
+.. * :ref:`2.2.3_py` (Python Project)

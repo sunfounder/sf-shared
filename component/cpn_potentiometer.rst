@@ -51,9 +51,9 @@ Le funzioni del potenziometro nel circuito sono le seguenti:
 
 Se desideri saperne di più sul potenziometro, fai riferimento a: `Potenziometro - Wikipedia <https://en.wikipedia.org/wiki/Potentiometer>`_
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`2.1.7_c` (C Project)
-* :ref:`2.1.7_py` (Python Project)
+.. * :ref:`2.1.7_c` (C Project)
+.. * :ref:`2.1.7_py` (Python Project)
 
 

@@ -36,13 +36,13 @@ Poiché il pin 1 è collegato al pin 2, e il pin 3 al pin 4, quando il pulsante 
     :width: 600
     :align: center
 
-**Esempio**
+.. **Esempio**
 
-* :ref:`2.1.1_c` (C Project)
-* :ref:`3.1.4_c` (C Project)
-* :ref:`3.1.13_c` (C Project)
-* :ref:`2.1.1_py` (Python Project)
-* :ref:`4.1.2_py` (Python Project)
-* :ref:`4.1.10_py` (Python Project)
-* :ref:`1.4_scratch` (Scratch Project)
+.. * :ref:`2.1.1_c` (C Project)
+.. * :ref:`3.1.4_c` (C Project)
+.. * :ref:`3.1.13_c` (C Project)
+.. * :ref:`2.1.1_py` (Python Project)
+.. * :ref:`4.1.2_py` (Python Project)
+.. * :ref:`4.1.10_py` (Python Project)
+.. * :ref:`1.4_scratch` (Scratch Project)
 

@@ -34,11 +34,11 @@ Quando viene inviato un impulso a un servo inferiore a 1,5 ms, il servo ruota in
     :width: 600
     :align: center
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`1.3.2_c` (C Project)
-* :ref:`3.1.2_c` (C Project)
-* :ref:`1.3.2_py` (Python Project)
-* :ref:`4.1.8_py` (Python Project)
+.. * :ref:`1.3.2_c` (C Project)
+.. * :ref:`3.1.2_c` (C Project)
+.. * :ref:`1.3.2_py` (Python Project)
+.. * :ref:`4.1.8_py` (Python Project)
 
 

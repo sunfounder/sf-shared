@@ -64,7 +64,7 @@ tirato verso l'alto verso i contatti normalmente chiusi sotto la forza della mol
 In questo modo, l'accensione e lo spegnimento del relè possono controllare lo stato
 di un circuito di carico.
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`1.3.3_c` (C Project)
-* :ref:`1.3.3_py` (Python Project)
+.. * :ref:`1.3.3_c` (C Project)
+.. * :ref:`1.3.3_py` (Python Project)

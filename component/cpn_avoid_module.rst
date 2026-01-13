@@ -32,11 +32,11 @@ La distanza di rilevamento può essere regolata tramite un potenziometro, con un
     :width: 600
     :align: center
 
-**Esempio**
+.. **Esempio**
 
-* :ref:`2.2.5_c` (C Project)
-* :ref:`2.2.5_py` (Python Project)
-* :ref:`1.11_scratch` (Scratch Project)
+.. * :ref:`2.2.5_c` (C Project)
+.. * :ref:`2.2.5_py` (Python Project)
+.. * :ref:`1.11_scratch` (Scratch Project)
 
 
 

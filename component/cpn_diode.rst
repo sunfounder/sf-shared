@@ -54,7 +54,7 @@ Questo diodo è un dispositivo a semiconduttore che presenta un'elevata resisten
 
 
 
-**Esempio**
+.. **Esempio**
 
-* :ref:`1.3.3_c` (C Project)
-* :ref:`1.3.3_py` (Python Project)
+.. * :ref:`1.3.3_c` (C Project)
+.. * :ref:`1.3.3_py` (Python Project)

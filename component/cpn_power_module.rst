@@ -39,10 +39,10 @@ Puoi semplicemente collegarlo alla breadboard per fornire alimentazione. Fornisc
 * Dimensioni: 53mm x 33mm (L x P)
 
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`1.3.1_c` (C Project)
-* :ref:`3.1.4_c` (C Project)
-* :ref:`1.3.1_py` (Python Project)
-* :ref:`4.1.10_py` (Python Project)
-* :ref:`1.17_scratch` (Scratch Project)
+.. * :ref:`1.3.1_c` (C Project)
+.. * :ref:`3.1.4_c` (C Project)
+.. * :ref:`1.3.1_py` (Python Project)
+.. * :ref:`4.1.10_py` (Python Project)
+.. * :ref:`1.17_scratch` (Scratch Project)

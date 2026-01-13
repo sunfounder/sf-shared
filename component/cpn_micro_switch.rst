@@ -51,8 +51,8 @@ Quando il pistone è premuto o attivato:
 
 .. image:: img/micro_switch1.png
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`2.1.2_c` (C Project)
-* :ref:`2.1.2_py` (Python Project)
-* :ref:`1.8_scratch` (Scratch Project)
+.. * :ref:`2.1.2_c` (C Project)
+.. * :ref:`2.1.2_py` (Python Project)
+.. * :ref:`1.8_scratch` (Scratch Project)

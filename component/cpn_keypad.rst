@@ -28,11 +28,11 @@ Questa configurazione è ideale per il polling da parte di un microcontrollore, 
 Durante ogni impulso, controlla in sequenza i restanti quattro fili verticali per determinare quale, se presente, sta trasmettendo un segnale.
 Si dovrebbero aggiungere resistenze di pull-up o pull-down ai fili di ingresso per evitare che gli ingressi del microcontrollore si comportino in modo imprevedibile quando non è presente alcun segnale.
 
-**Esempi**
+.. **Esempi**
 
-* :ref:`2.1.8_c` (C Project)
-* :ref:`3.1.8_c` (C Project)
-* :ref:`3.1.11_c` (C Project)
-* :ref:`2.1.8_py` (Python Project)
-* :ref:`4.1.14_py` (Python Project)
-* :ref:`4.1.17_py` (Python Project)
+.. * :ref:`2.1.8_c` (C Project)
+.. * :ref:`3.1.8_c` (C Project)
+.. * :ref:`3.1.11_c` (C Project)
+.. * :ref:`2.1.8_py` (Python Project)
+.. * :ref:`4.1.14_py` (Python Project)
+.. * :ref:`4.1.17_py` (Python Project)

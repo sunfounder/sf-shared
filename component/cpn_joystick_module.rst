@@ -33,9 +33,9 @@ Il joystick ha anche un ingresso digitale che si attiva quando il joystick viene
     :align: center
     :width: 600
 	
-**Esempi**
+.. **Esempi**
 
-* :ref:`2.1.9_c` (C Project)
-* :ref:`3.1.7_c` (C Project)
-* :ref:`2.1.9_py` (Python Project)
-* :ref:`4.1.13_py` (Python Project)
+.. * :ref:`2.1.9_c` (C Project)
+.. * :ref:`3.1.7_c` (C Project)
+.. * :ref:`2.1.9_py` (Python Project)
+.. * :ref:`4.1.13_py` (Python Project)
