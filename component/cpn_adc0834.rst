@@ -55,17 +55,17 @@ MSB en premier.
 
 * `Fiche technique de la série ADC0831 <https://www.ti.com/lit/ds/symlink/adc0831-n.pdf>`_
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.1.7_c` (Projet C)
-* :ref:`2.2.1_c` (Projet C)
-* :ref:`2.2.2_c` (Projet C)
-* :ref:`3.1.4_c` (Projet C)
-* :ref:`3.1.5_c` (Projet C)
-* :ref:`3.1.7_c` (Projet C)
-* :ref:`2.1.7_py` (Projet Python)
-* :ref:`2.2.1_py` (Projet Python)
-* :ref:`2.2.2_py` (Projet Python)
-* :ref:`4.1.10_py` (Projet Python)
-* :ref:`4.1.11_py` (Projet Python)
-* :ref:`4.1.13_py` (Projet Python)
+.. * :ref:`2.1.7_c` (Projet C)
+.. * :ref:`2.2.1_c` (Projet C)
+.. * :ref:`2.2.2_c` (Projet C)
+.. * :ref:`3.1.4_c` (Projet C)
+.. * :ref:`3.1.5_c` (Projet C)
+.. * :ref:`3.1.7_c` (Projet C)
+.. * :ref:`2.1.7_py` (Projet Python)
+.. * :ref:`2.2.1_py` (Projet Python)
+.. * :ref:`2.2.2_py` (Projet Python)
+.. * :ref:`4.1.10_py` (Projet Python)
+.. * :ref:`4.1.11_py` (Projet Python)
+.. * :ref:`4.1.13_py` (Projet Python)

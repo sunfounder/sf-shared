@@ -40,11 +40,11 @@ Il y a des étiquettes 103 ou 104 sur les condensateurs céramiques, qui représ
 
     1F=10^3mF=10^6uF=10^9nF=10^12pF
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.1.2_c` (Projet C)
-* :ref:`2.1.4_c` (Projet C)
-* :ref:`3.1.9_c` (Projet C)
-* :ref:`2.1.2_py` (Projet Python)
-* :ref:`4.1.15_py` (Projet Python)
-* :ref:`1.8_scratch` (Projet Scratch)
+.. * :ref:`2.1.2_c` (Projet C)
+.. * :ref:`2.1.4_c` (Projet C)
+.. * :ref:`3.1.9_c` (Projet C)
+.. * :ref:`2.1.2_py` (Projet Python)
+.. * :ref:`4.1.15_py` (Projet Python)
+.. * :ref:`1.8_scratch` (Projet Scratch)

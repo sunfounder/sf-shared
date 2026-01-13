@@ -34,9 +34,9 @@ Lorsqu'une impulsion est envoyée à un servo qui est inférieure à 1,5 ms, le 
     :width: 600
     :align: center
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`1.3.2_c` (Projet C)
-* :ref:`3.1.2_c` (Projet C)
-* :ref:`1.3.2_py` (Projet Python)
-* :ref:`4.1.8_py` (Projet Python)
+.. * :ref:`1.3.2_c` (Projet C)
+.. * :ref:`3.1.2_c` (Projet C)
+.. * :ref:`1.3.2_py` (Projet Python)
+.. * :ref:`4.1.8_py` (Projet Python)

@@ -32,8 +32,8 @@ En pratique, un capteur capacitif peut être fabriqué sur un circuit imprimé d
 
 Le circuit détecteur tactile possède un oscillateur dont la fréquence dépend de la capacité du pavé tactile. Lorsqu'un doigt s'approche du pavé tactile, la capacité supplémentaire provoque un changement de fréquence de cet oscillateur interne. Le circuit de détection suit la fréquence de l'oscillateur à des intervalles réguliers et, lorsque le décalage dépasse le seuil de changement, le circuit déclenche un événement de pression de touche.
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.1.3_c` (Projet C)
-* :ref:`2.1.3_py` (Projet Python)
-* :ref:`1.9_scratch` (Projet Scratch)
+.. * :ref:`2.1.3_c` (Projet C)
+.. * :ref:`2.1.3_py` (Projet Python)
+.. * :ref:`1.9_scratch` (Projet Scratch)

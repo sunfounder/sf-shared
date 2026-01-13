@@ -28,11 +28,11 @@ Cette configuration est adaptée à l'interrogation par un microcontrôleur, qui
 Pendant chaque impulsion, il vérifie les quatre fils verticaux restants en séquence pour déterminer lequel, le cas échéant, transporte un signal. 
 Des résistances de pull-up ou pull-down doivent être ajoutées aux fils d'entrée pour éviter que les entrées du microcontrôleur ne se comportent de manière imprévisible en l'absence de signal.
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.1.8_c` (Projet C)
-* :ref:`3.1.8_c` (Projet C)
-* :ref:`3.1.11_c` (Projet C)
-* :ref:`2.1.8_py` (Projet Python)
-* :ref:`4.1.14_py` (Projet Python)
-* :ref:`4.1.17_py` (Projet Python)
+.. * :ref:`2.1.8_c` (Projet C)
+.. * :ref:`3.1.8_c` (Projet C)
+.. * :ref:`3.1.11_c` (Projet C)
+.. * :ref:`2.1.8_py` (Projet Python)
+.. * :ref:`4.1.14_py` (Projet Python)
+.. * :ref:`4.1.17_py` (Projet Python)

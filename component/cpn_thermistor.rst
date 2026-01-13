@@ -53,12 +53,12 @@ Convertissez cette formule TK=1/(ln(RT/RN)/B+1/TN) pour obtenir la température 
 
 Cette relation est une formule empirique. Elle est précise uniquement lorsque la température et la résistance sont dans la plage effective.
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.2.2_c` (Projet C)
-* :ref:`3.1.4_c` (Projet C)
-* :ref:`3.1.7_c` (Projet C)
-* :ref:`2.2.2_py` (Projet Python)
-* :ref:`4.1.10_py` (Projet Python)
-* :ref:`4.1.13_py` (Projet Python)
+.. * :ref:`2.2.2_c` (Projet C)
+.. * :ref:`3.1.4_c` (Projet C)
+.. * :ref:`3.1.7_c` (Projet C)
+.. * :ref:`2.2.2_py` (Projet Python)
+.. * :ref:`4.1.10_py` (Projet Python)
+.. * :ref:`4.1.13_py` (Projet Python)
 

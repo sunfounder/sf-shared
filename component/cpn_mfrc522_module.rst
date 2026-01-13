@@ -53,8 +53,8 @@ moins de câblage. Vous pouvez choisir entre les modes SPI, I2C et UART série (
 ce qui permet de réduire les connexions, d'économiser de l'espace sur la carte PCB (plus petite 
 taille) et de réduire les coûts.
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.2.10_c` (Projet C)
-* :ref:`2.2.10_py` (Projet Python)
-* :ref:`4.1.19_py` (Projet Python)
+.. * :ref:`2.2.10_c` (Projet C)
+.. * :ref:`2.2.10_py` (Projet Python)
+.. * :ref:`4.1.19_py` (Projet Python)

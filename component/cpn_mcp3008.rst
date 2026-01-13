@@ -45,17 +45,17 @@ Après que la valeur numérique complète sur 10 bits a été transmise, le MC
 
 .. image:: img/MCP3008detail.png
 
-**Example**
+.. **Example**
 
-* :ref:`2.1.7_c_mcp3008` (C Project)
-* :ref:`2.2.1_c_mcp3008` (C Project)
-* :ref:`2.2.2_c_mcp3008` (C Project)
-* :ref:`3.1.4_c_mcp3008` (C Project)
-* :ref:`3.1.5_c_mcp3008` (C Project)
-* :ref:`3.1.7_c_mcp3008` (C Project)
-* :ref:`2.1.7_py_mcp3008` (Python Project)
-* :ref:`2.2.1_py_mcp3008` (Pyhton Project)
-* :ref:`2.2.2_py_mcp3008` (Pyhton Project)
-* :ref:`4.1.10_py_mcp3008` (Pyhton Project)
-* :ref:`4.1.11_py_mcp3008` (Pyhton Project)
-* :ref:`4.1.13_py_mcp3008` (Pyhton Project)
+.. * :ref:`2.1.7_c_mcp3008` (C Project)
+.. * :ref:`2.2.1_c_mcp3008` (C Project)
+.. * :ref:`2.2.2_c_mcp3008` (C Project)
+.. * :ref:`3.1.4_c_mcp3008` (C Project)
+.. * :ref:`3.1.5_c_mcp3008` (C Project)
+.. * :ref:`3.1.7_c_mcp3008` (C Project)
+.. * :ref:`2.1.7_py_mcp3008` (Python Project)
+.. * :ref:`2.2.1_py_mcp3008` (Pyhton Project)
+.. * :ref:`2.2.2_py_mcp3008` (Pyhton Project)
+.. * :ref:`4.1.10_py_mcp3008` (Pyhton Project)
+.. * :ref:`4.1.11_py_mcp3008` (Pyhton Project)
+.. * :ref:`4.1.13_py_mcp3008` (Pyhton Project)

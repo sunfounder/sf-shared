@@ -30,10 +30,10 @@ Le principe est très simple. Lorsque l'interrupteur est incliné à un certain 
 
 * `SW520D Tilt Switch Datasheet <https://www.tme.com/Document/f1e6cedd8cb7feeb250b353b6213ec6c/SW-520D.pdf>`_
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.1.5_c` (Projet C)
-* :ref:`3.1.12_c` (Projet C)
-* :ref:`2.1.5_py` (Projet Python)
-* :ref:`4.1.18_py` (Projet Python)
-* :ref:`1.3_scratch` (Projet Scratch)
+.. * :ref:`2.1.5_c` (Projet C)
+.. * :ref:`3.1.12_c` (Projet C)
+.. * :ref:`2.1.5_py` (Projet Python)
+.. * :ref:`4.1.18_py` (Projet Python)
+.. * :ref:`1.3_scratch` (Projet Scratch)

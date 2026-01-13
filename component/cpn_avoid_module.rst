@@ -34,8 +34,8 @@ La distance de détection peut être ajustée par un potentiomètre, avec une pl
     :width: 600
     :align: center
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.2.5_c` (Projet C)
-* :ref:`2.2.5_py` (Projet Python)
-* :ref:`1.11_scratch` (Projet Scratch)
+.. * :ref:`2.2.5_c` (Projet C)
+.. * :ref:`2.2.5_py` (Projet Python)
+.. * :ref:`1.11_scratch` (Projet Scratch)

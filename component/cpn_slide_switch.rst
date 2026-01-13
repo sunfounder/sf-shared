@@ -35,10 +35,10 @@ Le symbole de circuit de l'interrupteur à glissière est montré ci-dessous. La
     :width: 200
     :align: center
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.1.4_c` (Projet C)
-* :ref:`3.1.9_c` (Projet C)
-* :ref:`2.1.4_py` (Projet Python)
-* :ref:`4.1.15_py` (Projet Python)
-* :ref:`1.15_scratch` (Projet Scratch)
+.. * :ref:`2.1.4_c` (Projet C)
+.. * :ref:`3.1.9_c` (Projet C)
+.. * :ref:`2.1.4_py` (Projet Python)
+.. * :ref:`4.1.15_py` (Projet Python)
+.. * :ref:`1.15_scratch` (Projet Scratch)

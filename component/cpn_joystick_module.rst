@@ -33,9 +33,9 @@ Le joystick dispose également d'une entrée numérique qui est activée lorsque
     :align: center
     :width: 600
 	
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.1.9_c` (Projet C)
-* :ref:`3.1.7_c` (Projet C)
-* :ref:`2.1.9_py` (Projet Python)
-* :ref:`4.1.13_py` (Projet Python)
+.. * :ref:`2.1.9_c` (Projet C)
+.. * :ref:`3.1.7_c` (Projet C)
+.. * :ref:`2.1.9_py` (Projet Python)
+.. * :ref:`4.1.13_py` (Projet Python)

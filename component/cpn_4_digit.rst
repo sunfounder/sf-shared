@@ -45,15 +45,15 @@ correspond au nombre hexadécimal.
 
 .. image:: img/common_anode.png
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`1.1.5_c` (Projet C)
-* :ref:`3.1.1_c` (Projet C)
-* :ref:`3.1.6_c` (Projet C)
-* :ref:`3.1.12_c` (Projet C)
-* :ref:`1.1.5_py` (Projet Python)
-* :ref:`4.1.3_py` (Projet Python)
-* :ref:`4.1.7_py` (Projet Python)
-* :ref:`4.1.12_py` (Projet Python)
-* :ref:`4.1.18_py` (Projet Python)
+.. * :ref:`1.1.5_c` (Projet C)
+.. * :ref:`3.1.1_c` (Projet C)
+.. * :ref:`3.1.6_c` (Projet C)
+.. * :ref:`3.1.12_c` (Projet C)
+.. * :ref:`1.1.5_py` (Projet Python)
+.. * :ref:`4.1.3_py` (Projet Python)
+.. * :ref:`4.1.7_py` (Projet Python)
+.. * :ref:`4.1.12_py` (Projet Python)
+.. * :ref:`4.1.18_py` (Projet Python)
 

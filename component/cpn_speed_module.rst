@@ -30,8 +30,8 @@ Si le faisceau lumineux entre l'émetteur et le récepteur est interrompu par un
 
 .. image:: img/speed_sensor2.png
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.2.6_c` (Projet C)
-* :ref:`2.2.6_py` (Projet Python)
-* :ref:`1.7_scratch` (Projet Scratch)
+.. * :ref:`2.2.6_c` (Projet C)
+.. * :ref:`2.2.6_py` (Projet Python)
+.. * :ref:`1.7_scratch` (Projet Scratch)

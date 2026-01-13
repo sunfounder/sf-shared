@@ -41,10 +41,10 @@ Il contient deux lames métalliques internes, scellées dans un tube en verre re
         
 .. image:: img/HowItWorksReed.jpg
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.2.4_c` (Projet C)
-* :ref:`2.2.4_py` (Projet Python)
-* :ref:`4.1.6_py` (Projet Python)
-* :ref:`1.6_scratch` (Projet Scratch)
+.. * :ref:`2.2.4_c` (Projet C)
+.. * :ref:`2.2.4_py` (Projet Python)
+.. * :ref:`4.1.6_py` (Projet Python)
+.. * :ref:`1.6_scratch` (Projet Scratch)
 

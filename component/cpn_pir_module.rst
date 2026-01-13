@@ -50,9 +50,9 @@ Choisir différents modes en utilisant le cavalier.
 
 * **L** : Mode de déclenchement non répétable, émet un niveau haut lorsqu'il détecte un corps humain. Après le délai, la sortie passera automatiquement du niveau haut au niveau bas.
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.2.7_c` (Projet C)
-* :ref:`2.2.7_py` (Projet Python)
-* :ref:`4.1.4_py` (Projet Python)
-* :ref:`1.5_scratch` (Projet Scratch)
+.. * :ref:`2.2.7_c` (Projet C)
+.. * :ref:`2.2.7_py` (Projet Python)
+.. * :ref:`4.1.4_py` (Projet Python)
+.. * :ref:`1.5_scratch` (Projet Scratch)

@@ -95,7 +95,7 @@ et la plage est de +/- 250°/s :
 
 **Vitesse angulaire le long de l'axe X = (16384 / 65536 \* 500)°/s** **=125°/s**
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.2.9_c` (Projet C)
-* :ref:`2.2.9_py` (Projet Python)
+.. * :ref:`2.2.9_c` (Projet C)
+.. * :ref:`2.2.9_py` (Projet Python)

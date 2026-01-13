@@ -45,10 +45,10 @@ Formule : μs / 58 = centimètres ou μs / 148 = pouces ; ou : la portée = temp
 un cycle de mesure supérieur à 60 ms afin de prévenir les collisions de
 signal entre le signal de déclenchement et le signal d'écho.
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.2.8_c` (Projet C)
-* :ref:`3.1.3_c` (Projet C)
-* :ref:`2.2.8_py` (Projet Python)
-* :ref:`4.1.9_py` (Projet Python)
+.. * :ref:`2.2.8_c` (Projet C)
+.. * :ref:`3.1.3_c` (Projet C)
+.. * :ref:`2.2.8_py` (Projet Python)
+.. * :ref:`4.1.9_py` (Projet Python)
 

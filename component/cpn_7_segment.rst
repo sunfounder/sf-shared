@@ -36,8 +36,8 @@ Pour vous aider à comprendre comment les affichages à 7 segments (Cathode Comm
 
 .. image:: img/segment_code.png
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`1.1.4_c` (Projet C)
-* :ref:`1.1.4_py` (Projet Python)
+.. * :ref:`1.1.4_c` (Projet C)
+.. * :ref:`1.1.4_py` (Projet Python)
 

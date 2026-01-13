@@ -36,11 +36,11 @@ La formule de la valeur de la résistance est la suivante :
 
 Voici une introduction détaillée pour la LED : `LED - Wikipédia <https://en.wikipedia.org/wiki/Light-emitting_diode>`_.
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`1.1.1_c` (Projet C)
-* :ref:`3.1.6_c` (Projet C)
-* :ref:`1.1.1_py` (Projet Python)
-* :ref:`4.1.12_py` (Projet Python)
-* :ref:`1.1_scratch` (Projet Scratch)
+.. * :ref:`1.1.1_c` (Projet C)
+.. * :ref:`3.1.6_c` (Projet C)
+.. * :ref:`1.1.1_py` (Projet Python)
+.. * :ref:`4.1.12_py` (Projet Python)
+.. * :ref:`1.1_scratch` (Projet Scratch)
 

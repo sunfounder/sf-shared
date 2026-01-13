@@ -33,7 +33,7 @@ Voici le symbole électronique du photorésistor.
 
 * `Photoresistor - Wikipedia <https://en.wikipedia.org/wiki/Photoresistor#:~:text=A%20photoresistor%20(also%20known%20as,on%20the%20component's%20sensitive%20surface>`_
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.2.1_c` (Projet C)
-* :ref:`2.2.1_py` (Projet Python)
+.. * :ref:`2.2.1_c` (Projet C)
+.. * :ref:`2.2.1_py` (Projet Python)

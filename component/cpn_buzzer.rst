@@ -37,12 +37,12 @@ Vous pouvez vérifier les broches du buzzer, la plus longue est l'anode et la pl
 
 `Buzzer - Wikipedia <https://en.wikipedia.org/wiki/Buzzer>`_
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`1.2.1_c` (Projet C)
-* :ref:`1.2.2_c` (Projet C)
-* :ref:`1.2.1_py` (Projet Python)
-* :ref:`1.2.2_py` (Projet Python)
-* :ref:`1.13_scratch` (Projet Scratch)
-* :ref:`1.14_scratch` (Projet Scratch)
+.. * :ref:`1.2.1_c` (Projet C)
+.. * :ref:`1.2.2_c` (Projet C)
+.. * :ref:`1.2.1_py` (Projet Python)
+.. * :ref:`1.2.2_py` (Projet Python)
+.. * :ref:`1.13_scratch` (Projet Scratch)
+.. * :ref:`1.14_scratch` (Projet Scratch)
 

@@ -32,7 +32,7 @@ Ensuite, l'hôte reçoit le signal de réponse et commence à recevoir les donn�
 
 * `DHT11 Datasheet <https://components101.com/sites/default/files/component_datasheet/DHT11-Temperature-Sensor.pdf>`_
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.2.3_c` (Projet C)
-* :ref:`2.2.3_py` (Projet Python)
+.. * :ref:`2.2.3_c` (Projet C)
+.. * :ref:`2.2.3_py` (Projet Python)

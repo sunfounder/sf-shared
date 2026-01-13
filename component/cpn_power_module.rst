@@ -38,10 +38,10 @@ Vous pouvez simplement le brancher sur la breadboard pour alimenter le circuit. 
 * LED d'alimentation intégrée
 * Dimensions : 53mm x 33mm (L x l)
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`1.3.1_c` (Projet C)
-* :ref:`3.1.4_c` (Projet C)
-* :ref:`1.3.1_py` (Projet Python)
-* :ref:`4.1.10_py` (Projet Python)
-* :ref:`1.17_scratch` (Projet Scratch)
+.. * :ref:`1.3.1_c` (Projet C)
+.. * :ref:`3.1.4_c` (Projet C)
+.. * :ref:`1.3.1_py` (Projet Python)
+.. * :ref:`4.1.10_py` (Projet Python)
+.. * :ref:`1.17_scratch` (Projet Scratch)

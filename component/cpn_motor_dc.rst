@@ -41,10 +41,10 @@ Le courant circule de la borne positive de la batterie à travers le circuit, pa
 Mais en raison des deux fentes dans le collecteur, ce flux s'inverse à mi-chemin de chaque rotation complète.
 Cette inversion continue convertit essentiellement l'alimentation en courant continu de la batterie en courant alternatif, permettant à l'armature de subir un couple dans la bonne direction au bon moment pour maintenir la rotation.
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`1.3.1_c` (Projet C)
-* :ref:`3.1.4_c` (Projet C)
-* :ref:`1.3.1_py` (Projet Python)
-* :ref:`4.1.10_py` (Projet Python)
-* :ref:`1.17_scratch` (Projet Scratch)
+.. * :ref:`1.3.1_c` (Projet C)
+.. * :ref:`3.1.4_c` (Projet C)
+.. * :ref:`1.3.1_py` (Projet Python)
+.. * :ref:`4.1.10_py` (Projet Python)
+.. * :ref:`1.17_scratch` (Projet Scratch)

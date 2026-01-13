@@ -49,7 +49,7 @@ Cette diode est un dispositif à semi-conducteur qui présente une très haute r
 
 * `Zener diode - Wikipedia <https://en.wikipedia.org/wiki/Zener_diode>`_
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`1.3.3_c` (Projet C)
-* :ref:`1.3.3_py` (Projet Python)
+.. * :ref:`1.3.3_c` (Projet C)
+.. * :ref:`1.3.3_py` (Projet Python)

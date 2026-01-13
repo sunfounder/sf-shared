@@ -37,9 +37,9 @@ Une LED RVB a 4 broches : la plus longue est la masse (GND); les autres sont Rou
 .. image:: img/rgb_pin.jpg
     :width: 200
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`1.1.2_c` (Projet en C)
-* :ref:`1.1.2_py` (Projet en Python)
-* :ref:`1.2_scratch` (Projet en Scratch)
+.. * :ref:`1.1.2_c` (Projet en C)
+.. * :ref:`1.1.2_py` (Projet en Python)
+.. * :ref:`1.2_scratch` (Projet en Scratch)
 

@@ -63,7 +63,7 @@ circuit se fait de manière similaire, le contact mobile étant remonté vers le
 contacts normalement fermés sous l'effet du ressort. De cette manière, l'activation 
 et la désactivation du relais peuvent contrôler l'état d'un circuit de charge.
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`1.3.3_c` (Projet C)
-* :ref:`1.3.3_py` (Projet Python)
+.. * :ref:`1.3.3_c` (Projet C)
+.. * :ref:`1.3.3_py` (Projet Python)

@@ -32,10 +32,10 @@ Voici le schéma interne d'un graphique à barres LED. En général, le côté a
 
 .. image:: img/led_bar_sche.png
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`1.1.3_c` (Projet C)
-* :ref:`3.1.5_c` (Projet C)
-* :ref:`1.1.3_py` (Projet Python)
-* :ref:`4.1.11_py` (Projet Python)
-* :ref:`1.12_scratch` (Projet Scratch)
+.. * :ref:`1.1.3_c` (Projet C)
+.. * :ref:`3.1.5_c` (Projet C)
+.. * :ref:`1.1.3_py` (Projet Python)
+.. * :ref:`4.1.11_py` (Projet Python)
+.. * :ref:`1.12_scratch` (Projet Scratch)

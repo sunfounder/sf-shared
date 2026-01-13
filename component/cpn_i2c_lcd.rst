@@ -49,16 +49,16 @@ Le rétroéclairage peut être activé par un cavalier, retirez le cavalier pour
 * **Cavalier** : Le rétroéclairage peut être activé par ce cavalier, retirez ce cavalier pour désactiver le rétroéclairage.
 * **Potentiomètre** : Il est utilisé pour ajuster le contraste (la clarté du texte affiché), qui augmente dans le sens horaire et diminue dans le sens antihoraire.
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`1.1.7_c` (Projet C)
-* :ref:`3.1.3_c` (Projet C)
-* :ref:`3.1.7_c` (Projet C)
-* :ref:`3.1.8_c` (Projet C)
-* :ref:`3.1.11_c` (Projet C)
-* :ref:`1.1.7_py` (Projet Python)
-* :ref:`4.1.9_py` (Projet Python)
-* :ref:`4.1.13_py` (Projet Python)
-* :ref:`4.1.14_py` (Projet Python)
-* :ref:`4.1.17_py` (Projet Python)
+.. * :ref:`1.1.7_c` (Projet C)
+.. * :ref:`3.1.3_c` (Projet C)
+.. * :ref:`3.1.7_c` (Projet C)
+.. * :ref:`3.1.8_c` (Projet C)
+.. * :ref:`3.1.11_c` (Projet C)
+.. * :ref:`1.1.7_py` (Projet Python)
+.. * :ref:`4.1.9_py` (Projet Python)
+.. * :ref:`4.1.13_py` (Projet Python)
+.. * :ref:`4.1.14_py` (Projet Python)
+.. * :ref:`4.1.17_py` (Projet Python)
 

@@ -41,10 +41,10 @@ Une interface série pratique à 4 fils se connecte à tous les µP courants. Le
 
 * `MAX7219 Datasheet <https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf>`_
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`1.1.6_c` (Projet C)
-* :ref:`3.1.12_c` (Projet C)
-* :ref:`1.1.6_py` (Projet Python)
-* :ref:`4.1.19_py` (Projet Python)
+.. * :ref:`1.1.6_c` (Projet C)
+.. * :ref:`3.1.12_c` (Projet C)
+.. * :ref:`1.1.6_py` (Projet Python)
+.. * :ref:`4.1.19_py` (Projet Python)
 

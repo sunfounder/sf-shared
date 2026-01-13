@@ -46,11 +46,11 @@ Placez l'étiquette face à vous et les broches vers le bas. Les broches de gauc
 * `S8050 Transistor Datasheet <https://datasheet4u.com/datasheet-pdf/WeitronTechnology/S8050/pdf.php?id=576670>`_
 * `S8550 Transistor Datasheet <https://www.mouser.com/datasheet/2/149/SS8550-118608.pdf>`_
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`1.2.1_c` (Projet C)
-* :ref:`1.3.3_c` (Projet C)
-* :ref:`1.2.2_py` (Projet Python)
-* :ref:`1.3.3_py` (Projet Python)
-* :ref:`1.14_scratch` (Projet Scratch)
+.. * :ref:`1.2.1_c` (Projet C)
+.. * :ref:`1.3.3_c` (Projet C)
+.. * :ref:`1.2.2_py` (Projet Python)
+.. * :ref:`1.3.3_py` (Projet Python)
+.. * :ref:`1.14_scratch` (Projet Scratch)
 

@@ -50,8 +50,8 @@ Lorsque le poussoir est enfoncé ou commuté.
 
 .. image:: img/micro_switch1.png
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.1.2_c` (Projet C)
-* :ref:`2.1.2_py` (Projet Python)
-* :ref:`1.8_scratch` (Projet Scratch)
+.. * :ref:`2.1.2_c` (Projet C)
+.. * :ref:`2.1.2_py` (Projet Python)
+.. * :ref:`1.8_scratch` (Projet Scratch)

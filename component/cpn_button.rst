@@ -37,14 +37,14 @@ Puisque la broche 1 est connectée à la broche 2 et la broche 3 à la broche 4,
     :width: 600
     :align: center
 
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.1.1_c` (Projet C)
-* :ref:`3.1.4_c` (Projet C)
-* :ref:`3.1.13_c` (Projet C)
-* :ref:`2.1.1_py` (Projet Python)
-* :ref:`4.1.2_py` (Projet Python)
-* :ref:`4.1.10_py` (Projet Python)
-* :ref:`1.4_scratch` (Projet Scratch)
+.. * :ref:`2.1.1_c` (Projet C)
+.. * :ref:`3.1.4_c` (Projet C)
+.. * :ref:`3.1.13_c` (Projet C)
+.. * :ref:`2.1.1_py` (Projet Python)
+.. * :ref:`4.1.2_py` (Projet Python)
+.. * :ref:`4.1.10_py` (Projet Python)
+.. * :ref:`1.4_scratch` (Projet Scratch)
 
 

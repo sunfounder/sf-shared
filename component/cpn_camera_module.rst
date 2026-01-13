@@ -58,13 +58,13 @@ Si le câble FFC est correctement installé, il sera droit et ne se retirera pas
    N'installez pas la caméra avec l'alimentation allumée, cela pourrait endommager votre caméra.
 
    
-**Exemple**
+.. **Exemple**
 
-* :ref:`3.1.1_py` (Projet Python)
-* :ref:`3.1.2_py` (Projet Python)
-* :ref:`4.1.1_py` (Projet Python)
-* :ref:`4.1.4_py` (Projet Python)
-* :ref:`4.1.5_py` (Projet Python)
-* :ref:`1.10_scratch` (Projet Scratch)
-* :ref:`1.18_scratch` (Projet Scratch)
+.. * :ref:`3.1.1_py` (Projet Python)
+.. * :ref:`3.1.2_py` (Projet Python)
+.. * :ref:`4.1.1_py` (Projet Python)
+.. * :ref:`4.1.4_py` (Projet Python)
+.. * :ref:`4.1.5_py` (Projet Python)
+.. * :ref:`1.10_scratch` (Projet Scratch)
+.. * :ref:`1.18_scratch` (Projet Scratch)
 

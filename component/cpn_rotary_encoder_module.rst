@@ -35,8 +35,8 @@ Comme illustré ci-dessous, lorsque le canal A passe d'un niveau haut à un nive
     :width: 600
     :align: center
 	
-**Exemple**
+.. **Exemple**
 
-* :ref:`2.1.6_c` (Projet en C)
-* :ref:`2.1.6_py` (Projet en Python)
+.. * :ref:`2.1.6_c` (Projet en C)
+.. * :ref:`2.1.6_py` (Projet en Python)
 
