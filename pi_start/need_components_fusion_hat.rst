@@ -15,7 +15,7 @@
 
   * **兼容型号**：Raspberry Pi 5、Raspberry Pi 4、3 或 Raspberry Pi Zero 2W  
   * **最低配置**： **2GB 内存** —— 足以运行所有标准 Python 项目，以及使用 **在线 AI 服务**，如 OpenAI Whisper、TTS 或 LLM。  
-  * **推荐配置**： **4GB 或更高内存** —— 在同时运行 **本地 AI 模型**（如 Vosk 语音识别、Piper TTS 或轻量级 LLM）、摄像头视频流和控制任务时，可获得更流畅的性能。  
+  * **推荐配置**： **4GB 或更高内存** —— 在同时运行 **本地 AI 模型** （如 Vosk 语音识别、Piper TTS 或轻量级 LLM）、摄像头视频流和控制任务时，可获得更流畅的性能。  
   
 
 * **电源适配器**
