@@ -44,11 +44,11 @@ NPN型トランジスタを通るときにはハイレベル信号で動作し�
 * `S8050トランジスタ データシート <https://datasheet4u.com/datasheet-pdf/WeitronTechnology/S8050/pdf.php?id=576670>`_
 * `S8550トランジスタ データシート <https://www.mouser.com/datasheet/2/149/SS8550-118608.pdf>`_
 
-**例**
+.. **例**
 
-* :ref:`1.2.1_c` (Cプロジェクト)
-* :ref:`1.3.3_c` (Cプロジェクト)
-* :ref:`1.2.2_py` (Pythonプロジェクト)
-* :ref:`1.3.3_py` (Pythonプロジェクト)
-* :ref:`1.14_scratch` (Scratchプロジェクト)
+.. * :ref:`1.2.1_c` (Cプロジェクト)
+.. * :ref:`1.3.3_c` (Cプロジェクト)
+.. * :ref:`1.2.2_py` (Pythonプロジェクト)
+.. * :ref:`1.3.3_py` (Pythonプロジェクト)
+.. * :ref:`1.14_scratch` (Scratchプロジェクト)
 

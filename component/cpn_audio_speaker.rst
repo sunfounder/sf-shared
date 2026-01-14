@@ -70,15 +70,15 @@
     :width: 400
     :align: center
 
-**例**
+.. **例**
 
-* :ref:`3.1.3_py` （Pythonプロジェクト）
-* :ref:`3.1.4_py` （Pythonプロジェクト）
-* :ref:`4.1.2_py` （Pythonプロジェクト）
-* :ref:`4.1.3_py` （Pythonプロジェクト）
-* :ref:`4.1.5_py` （Pythonプロジェクト）
-* :ref:`1.8_scratch` （Scratchプロジェクト）
-* :ref:`1.9_scratch` （Scratchプロジェクト）
-* :ref:`1.10_scratch` （Scratchプロジェクト）
+.. * :ref:`3.1.3_py` （Pythonプロジェクト）
+.. * :ref:`3.1.4_py` （Pythonプロジェクト）
+.. * :ref:`4.1.2_py` （Pythonプロジェクト）
+.. * :ref:`4.1.3_py` （Pythonプロジェクト）
+.. * :ref:`4.1.5_py` （Pythonプロジェクト）
+.. * :ref:`1.8_scratch` （Scratchプロジェクト）
+.. * :ref:`1.9_scratch` （Scratchプロジェクト）
+.. * :ref:`1.10_scratch` （Scratchプロジェクト）
 
 

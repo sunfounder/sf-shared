@@ -30,13 +30,13 @@
 
 * `SW520D 傾斜スイッチ データシート <https://www.tme.com/Document/f1e6cedd8cb7feeb250b353b6213ec6c/SW-520D.pdf>`_
 
-**例**
+.. **例**
 
-* :ref:`2.1.5_c` (C プロジェクト)
-* :ref:`3.1.12_c` (C プロジェクト)
-* :ref:`2.1.5_py` (Python プロジェクト)
-* :ref:`4.1.18_py` (Python プロジェクト)
-* :ref:`1.3_scratch` (Scratch プロジェクト)
+.. * :ref:`2.1.5_c` (C プロジェクト)
+.. * :ref:`3.1.12_c` (C プロジェクト)
+.. * :ref:`2.1.5_py` (Python プロジェクト)
+.. * :ref:`4.1.18_py` (Python プロジェクト)
+.. * :ref:`1.3_scratch` (Scratch プロジェクト)
 
 
 

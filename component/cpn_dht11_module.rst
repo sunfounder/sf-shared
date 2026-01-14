@@ -30,7 +30,7 @@
 
 * `DHT11データシート <https://components101.com/sites/default/files/component_datasheet/DHT11-Temperature-Sensor.pdf>`_
 
-**例**
+.. **例**
 
-* :ref:`2.2.3_c` (Cプロジェクト)
-* :ref:`2.2.3_py` (Pythonプロジェクト)
+.. * :ref:`2.2.3_c` (Cプロジェクト)
+.. * :ref:`2.2.3_py` (Pythonプロジェクト)

@@ -34,10 +34,10 @@
     :width: 200
     :align: center
 
-**例**
+.. **例**
 
-* :ref:`2.1.4_c` （Cプロジェクト）
-* :ref:`3.1.9_c` （Cプロジェクト）
-* :ref:`2.1.4_py` （Pythonプロジェクト）
-* :ref:`4.1.15_py` （Pythonプロジェクト）
-* :ref:`1.15_scratch` （Scratchプロジェクト）
+.. * :ref:`2.1.4_c` （Cプロジェクト）
+.. * :ref:`3.1.9_c` （Cプロジェクト）
+.. * :ref:`2.1.4_py` （Pythonプロジェクト）
+.. * :ref:`4.1.15_py` （Pythonプロジェクト）
+.. * :ref:`1.15_scratch` （Scratchプロジェクト）

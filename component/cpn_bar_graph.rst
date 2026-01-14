@@ -27,10 +27,10 @@ LEDバーグラフは、電子回路やマイクロコントローラーと接�
 
 .. image:: img/led_bar_sche.png
 
-**例**
+.. **例**
 
-* :ref:`1.1.3_c` （Cプロジェクト）
-* :ref:`3.1.5_c` （Cプロジェクト）
-* :ref:`1.1.3_py` （Pythonプロジェクト）
-* :ref:`4.1.11_py` （Pythonプロジェクト）
-* :ref:`1.12_scratch` （Scratchプロジェクト）
+.. * :ref:`1.1.3_c` （Cプロジェクト）
+.. * :ref:`3.1.5_c` （Cプロジェクト）
+.. * :ref:`1.1.3_py` （Pythonプロジェクト）
+.. * :ref:`4.1.11_py` （Pythonプロジェクト）
+.. * :ref:`1.12_scratch` （Scratchプロジェクト）

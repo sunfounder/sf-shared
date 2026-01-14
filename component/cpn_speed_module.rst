@@ -30,11 +30,11 @@
 
 .. image:: img/speed_sensor2.png
 
-**例**
+.. **例**
 
-* :ref:`2.2.6_c` （Cプロジェクト）
-* :ref:`2.2.6_py` （ Pythonプロジェクト）
-* :ref:`1.7_scratch` （Scratchプロジェクト）
+.. * :ref:`2.2.6_c` （Cプロジェクト）
+.. * :ref:`2.2.6_py` （ Pythonプロジェクト）
+.. * :ref:`1.7_scratch` （Scratchプロジェクト）
 
 
 

@@ -37,11 +37,11 @@ RGB LEDには4つのピンがあります：最も長いものがGNDで、残り
 .. image:: img/rgb_pin.jpg
     :width: 200
 
-**例**
+.. **例**
 
-* :ref:`1.1.2_c` （Cプロジェクト）
-* :ref:`1.1.2_py` （Pythonプロジェクト）
-* :ref:`1.2_scratch` （Scratchプロジェクト）
+.. * :ref:`1.1.2_c` （Cプロジェクト）
+.. * :ref:`1.1.2_py` （Pythonプロジェクト）
+.. * :ref:`1.2_scratch` （Scratchプロジェクト）
 
 
 

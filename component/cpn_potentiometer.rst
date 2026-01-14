@@ -48,10 +48,10 @@
 
 詳細はこちらを参照してください： `Potentiometer - Wikipedia <https://en.wikipedia.org/wiki/Potentiometer>`_
 
-**例**
+.. **例**
 
-* :ref:`2.1.7_c` (Cプロジェクト)
-* :ref:`2.1.7_py` (Pythonプロジェクト)
+.. * :ref:`2.1.7_c` (Cプロジェクト)
+.. * :ref:`2.1.7_py` (Pythonプロジェクト)
 
 
 

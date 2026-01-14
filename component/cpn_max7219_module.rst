@@ -41,12 +41,12 @@ MAX7219は、マイクロプロセッサ（μPs）を最大8桁の7セグメン�
 
 * `MAX7219データシート <https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf>`_
 
-**例**
+.. **例**
 
-* :ref:`1.1.6_c` (Cプロジェクト)
-* :ref:`3.1.12_c` (Cプロジェクト)
-* :ref:`1.1.6_py` (Pythonプロジェクト)
-* :ref:`4.1.19_py` (Pythonプロジェクト)
+.. * :ref:`1.1.6_c` (Cプロジェクト)
+.. * :ref:`3.1.12_c` (Cプロジェクト)
+.. * :ref:`1.1.6_py` (Pythonプロジェクト)
+.. * :ref:`4.1.19_py` (Pythonプロジェクト)
 
 
 

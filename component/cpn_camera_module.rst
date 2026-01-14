@@ -63,13 +63,13 @@ FFCケーブルが正しく取り付けられている場合、それはまっ�
 
 
 
-**例**
+.. **例**
 
-* :ref:`3.1.1_py` （Pythonプロジェクト）
-* :ref:`3.1.2_py` （Pythonプロジェクト）
-* :ref:`4.1.1_py` （Pythonプロジェクト）
-* :ref:`4.1.4_py` （Pythonプロジェクト）
-* :ref:`4.1.5_py` （Pythonプロジェクト）
-* :ref:`1.10_scratch` （Scratchプロジェクト）
-* :ref:`1.18_scratch` （Scratchプロジェクト）
+.. * :ref:`3.1.1_py` （Pythonプロジェクト）
+.. * :ref:`3.1.2_py` （Pythonプロジェクト）
+.. * :ref:`4.1.1_py` （Pythonプロジェクト）
+.. * :ref:`4.1.4_py` （Pythonプロジェクト）
+.. * :ref:`4.1.5_py` （Pythonプロジェクト）
+.. * :ref:`1.10_scratch` （Scratchプロジェクト）
+.. * :ref:`1.18_scratch` （Scratchプロジェクト）
 

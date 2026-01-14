@@ -50,8 +50,8 @@
 
 .. image:: img/micro_switch1.png
 
-**例**
+.. **例**
 
-* :ref:`2.1.2_c` (Cプロジェクト)
-* :ref:`2.1.2_py` (Pythonプロジェクト)
-* :ref:`1.8_scratch` (Scratchプロジェクト)
+.. * :ref:`2.1.2_c` (Cプロジェクト)
+.. * :ref:`2.1.2_py` (Pythonプロジェクト)
+.. * :ref:`1.8_scratch` (Scratchプロジェクト)

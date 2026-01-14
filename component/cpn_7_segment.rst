@@ -36,7 +36,7 @@
 
 .. image:: img/segment_code.png
 
-**例**
+.. **例**
 
-* :ref:`1.1.4_c` (Cプロジェクト)
-* :ref:`1.1.4_py` (Pythonプロジェクト)
+.. * :ref:`1.1.4_c` (Cプロジェクト)
+.. * :ref:`1.1.4_py` (Pythonプロジェクト)

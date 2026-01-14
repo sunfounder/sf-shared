@@ -36,10 +36,10 @@ LEDには2つのピンがあります。長い方がアノードで、短い方�
 
 LEDについての詳細はこちら：`LED - Wikipedia <https://en.wikipedia.org/wiki/Light-emitting_diode>`_。
 
-**例**
+.. **例**
 
-* :ref:`1.1.1_c` （Cプロジェクト）
-* :ref:`3.1.6_c` （Cプロジェクト）
-* :ref:`1.1.1_py` （Pythonプロジェクト）
-* :ref:`4.1.12_py` （Pythonプロジェクト）
-* :ref:`1.1_scratch` （Scratchプロジェクト）
+.. * :ref:`1.1.1_c` （Cプロジェクト）
+.. * :ref:`3.1.6_c` （Cプロジェクト）
+.. * :ref:`1.1.1_py` （Pythonプロジェクト）
+.. * :ref:`4.1.12_py` （Pythonプロジェクト）
+.. * :ref:`1.1_scratch` （Scratchプロジェクト）

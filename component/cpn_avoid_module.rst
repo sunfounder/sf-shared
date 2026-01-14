@@ -32,8 +32,8 @@
     :width: 600
     :align: center
 
-**例**
+.. **例**
 
-* :ref:`2.2.5_c` (Cプロジェクト)
-* :ref:`2.2.5_py` (Pythonプロジェクト)
-* :ref:`1.11_scratch` (Scratchプロジェクト)
+.. * :ref:`2.2.5_c` (Cプロジェクト)
+.. * :ref:`2.2.5_py` (Pythonプロジェクト)
+.. * :ref:`1.11_scratch` (Scratchプロジェクト)

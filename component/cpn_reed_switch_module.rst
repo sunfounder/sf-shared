@@ -41,11 +41,11 @@
 
 .. image:: img/HowItWorksReed.jpg
 
-**例**
+.. **例**
 
-* :ref:`2.2.4_c` （Cプロジェクト）
-* :ref:`2.2.4_py` （Pythonプロジェクト）
-* :ref:`4.1.6_py` （Pythonプロジェクト）
-* :ref:`1.6_scratch` （Scratchプロジェクト）
+.. * :ref:`2.2.4_c` （Cプロジェクト）
+.. * :ref:`2.2.4_py` （Pythonプロジェクト）
+.. * :ref:`4.1.6_py` （Pythonプロジェクト）
+.. * :ref:`1.6_scratch` （Scratchプロジェクト）
 
 

@@ -49,7 +49,7 @@
 
 * `ゼナーダイオード - Wikipedia <https://en.wikipedia.org/wiki/Zener_diode>`_
 
-**例**
+.. **例**
 
-* :ref:`1.3.3_c` (Cプロジェクト)
-* :ref:`1.3.3_py` (Pythonプロジェクト)
+.. * :ref:`1.3.3_c` (Cプロジェクト)
+.. * :ref:`1.3.3_py` (Pythonプロジェクト)

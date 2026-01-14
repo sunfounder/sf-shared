@@ -35,10 +35,10 @@ Vcc2はモーターへの電源供給に使用され、Vcc1はIC自体への供�
 
 * `L293D データシート <https://www.ti.com/lit/ds/symlink/l293d.pdf?ts=1627004062301&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FL293D>`_
 
-**例**
+.. **例**
 
-* :ref:`1.3.1_c` （Cプロジェクト）
-* :ref:`3.1.4_c` （Cプロジェクト）
-* :ref:`1.3.1_py` （Pythonプロジェクト）
-* :ref:`4.1.10_py` （Pythonプロジェクト）
-* :ref:`1.17_scratch` （Scratchプロジェクト）
+.. * :ref:`1.3.1_c` （Cプロジェクト）
+.. * :ref:`3.1.4_c` （Cプロジェクト）
+.. * :ref:`1.3.1_py` （Pythonプロジェクト）
+.. * :ref:`4.1.10_py` （Pythonプロジェクト）
+.. * :ref:`1.17_scratch` （Scratchプロジェクト）
