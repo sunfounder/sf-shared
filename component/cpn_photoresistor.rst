@@ -33,7 +33,7 @@
 
 * `フォトレジスタ - Wikipedia <https://en.wikipedia.org/wiki/Photoresistor#:~:text=A%20photoresistor%20(also%20known%20as,on%20the%20component's%20sensitive%20surface>`_
 
-**例**
+.. **例**
 
-* :ref:`2.2.1_c` （Cプロジェクト）
-* :ref:`2.2.1_py` （Pythonプロジェクト）
+.. * :ref:`2.2.1_c` （Cプロジェクト）
+.. * :ref:`2.2.1_py` （Pythonプロジェクト）
