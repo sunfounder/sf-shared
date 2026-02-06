@@ -47,8 +47,13 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
 
    .. image:: /_shared/pi_start/img/imager_install.png
       :width: 90%
+      
+--------------------------------------
 
--------------------
+.. end_imager
+
+
+.. start_install_os
 
 2. Install the OS to the microSD Card
 ------------------------------------------------
@@ -63,14 +68,14 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    .. image:: /_shared/pi_start/img/imager_device.png
       :width: 90%
 
-   .. end_imager
+.. end_install_os
 
 3. Go to the **OS** section and choose the recommended **Raspberry Pi OS (64-bit)** option.
 
    .. image:: /_shared/pi_start/img/imager_os.png
       :width: 90%
 
-   .. start_choose_os
+.. start_setup_os
 
 4. In the **Storage** section, select your microSD card. 
 
@@ -133,8 +138,9 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    .. image:: /_shared/pi_start/img/imager_custom_ssh.png
       :width: 90%
 
-#. **Enable Raspberry Pi Connect (Optional)**
+.. end_setup_os
 
+#. **Enable Raspberry Pi Connect (Optional)**
 
    Raspberry Pi Connect allows you to access your Raspberry Pi desktop from a web browser.
    
@@ -167,6 +173,8 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
 
 -------------------
 
+.. start_write_os
+
 4. Write the OS Image
 -----------------------------
 
@@ -192,4 +200,4 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    .. image:: /_shared/pi_start/img/os_sd_to_pi.jpg
         :width: 70%
 
-   .. end_choose_os
+   .. end_write_os
