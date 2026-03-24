@@ -12,6 +12,8 @@
 
     👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
+.. start_need_components_fusion_hat
+
 What Else Do You Need?
 ===============================
 
@@ -89,3 +91,5 @@ Although not strictly required, the following peripherals will greatly improve y
 
 * If you purchased this kit, most accessories are included, but you still need to prepare the Raspberry Pi board, Micro SD card, and power adapter separately.  
 * Not sure what to buy? The most stable and universal choice is: **Raspberry Pi 4 (2GB) + Official Power Supply + 32GB Micro SD card**.  
+
+.. end_need_components_fusion_hat

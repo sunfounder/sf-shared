@@ -22,7 +22,7 @@ In this chapter, you’ll install the related software, configure audio, set up 
 
 .. start_install_fusion_hat
 
-.. _install_fusion_hat:
+
 
 Install ``fusion-hat`` module
 ----------------------------------
@@ -57,6 +57,10 @@ After installation completes, reboot the Raspberry Pi. Then execute the audio se
       sudo /opt/setup_fusion_hat_audio.sh
 
 This completes the software installation process for the Fusion HAT+.
+
+.. end_install_fusion_hat
+
+.. start_configure_safe_shutdown
 
 Configure and Use Safe Shutdown
 -----------------------------------
@@ -134,4 +138,4 @@ After the shutdown configuration is completed, you can safely power off the PiCa
   * Fusion HAT+ will force power-off.  
   * Warning: This may corrupt the SD card or system files. Use only when necessary.
 
-.. end_install_fusion_hat
+.. end_configure_safe_shutdown

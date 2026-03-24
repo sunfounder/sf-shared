@@ -30,7 +30,7 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
 
 -------------------
 
-1. Install Raspberry Pi Imager
+Install Raspberry Pi Imager
 -------------------------------------------
 
 
@@ -55,7 +55,7 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
 
 .. start_install_os
 
-2. Install the OS to the microSD Card
+Install the OS to the microSD Card
 ------------------------------------------------
 
 1. Insert your microSD card into your computer using a card reader. Back up any important data before proceeding.
@@ -75,29 +75,32 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    .. image:: /_shared/pi_start/img/imager_os.png
       :width: 90%
 
-.. start_setup_os
+
+.. start_storage
 
 4. In the **Storage** section, select your microSD card. 
 
    .. image:: /_shared/pi_start/img/imager_storage.png
       :width: 90%
 
-5. Click **Next** to continue to the customization step.
-
-   .. note::
-
-      * If you will connect a monitor, keyboard, and mouse directly to your Raspberry Pi, you may click **SKIP CUSTOMISATION**.  
-      * If you plan to set up the Raspberry Pi *headless* (Wi-Fi remote access), you must complete the customization settings.
-
-   .. image:: /_shared/pi_start/img/imager_custom_skip.png
-      :width: 90%
+.. end_storage
 
 -------------------
 
-.. _imager_custom:
 
-3. OS Customization Settings
+
+.. start_cutomization_os
+
+OS Customization Settings
 ------------------------------------------
+
+#. Continue to the customization step.
+
+   * If you will connect a monitor, keyboard, and mouse directly to your Raspberry Pi, you may click **SKIP CUSTOMISATION**.  
+   * If you plan to set up the Raspberry Pi *headless* (Wi-Fi remote access), you must complete the customization settings.
+
+   .. image:: /_shared/pi_start/img/imager_custom_skip.png
+      :width: 90%
 
 #. **Set Hostname**
 
@@ -138,7 +141,9 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
    .. image:: /_shared/pi_start/img/imager_custom_ssh.png
       :width: 90%
 
-.. end_setup_os
+.. end_cutomization_os
+
+.. start_enable_connection
 
 #. **Enable Raspberry Pi Connect (Optional)**
 
@@ -171,11 +176,13 @@ This guide explains how to do that using **Raspberry Pi Imager** in a simple, be
      .. image:: /_shared/pi_start/img/imager_custom_connect_token.png
         :width: 90%
 
+.. end_enable_connection
+
 -------------------
 
 .. start_write_os
 
-4. Write the OS Image
+Write the OS Image
 -----------------------------
 
 
