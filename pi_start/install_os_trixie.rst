@@ -87,9 +87,9 @@ Install the OS to the microSD Card
 
 -------------------
 
-
-
 .. start_cutomization_os
+
+.. _imager_custom:
 
 OS Customization Settings
 ------------------------------------------

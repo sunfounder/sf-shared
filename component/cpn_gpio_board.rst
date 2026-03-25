@@ -13,6 +13,7 @@
     👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
 .. _cpn_gpio_extension_board:
+.. _cpn_gpio_board:
 
 GPIO Extension Board
 =====================
