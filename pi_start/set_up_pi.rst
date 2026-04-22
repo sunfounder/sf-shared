@@ -12,7 +12,7 @@
 
     👉 Sind Sie bereit, mit uns zu erkunden und zu erschaffen? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
-.. _setup_pi:
+.. start_setup_pi
 
 Raspberry Pi einrichten
 ====================================
@@ -27,6 +27,10 @@ Diese Anleitung beschreibt zwei gängige Methoden:
 
    Der auf dem Roboter installierte Raspberry Pi Zero 2W lässt sich nur schwer mit einem Bildschirm verbinden.  
    Wir empfehlen daher die **Headless-Einrichtung**.
+
+.. end_setup_pi
+
+.. start_setup_pi_screen
 
 -------------------------
 
@@ -60,6 +64,9 @@ Wenn Sie einen Bildschirm haben
       :width: 80%
       :align: center
 
+.. end_setup_pi_screen
+
+.. start_setup_pi_headless
 
 ----------------------------------
 
@@ -111,6 +118,14 @@ Dies ist für die meisten Nutzer die bequemste Methode.
    .. image:: /_shared/pi_start/img/ssh_login.png
       :align: center
 
+
+.. end_setup_pi_headless
+
+
+
+
+.. start_setup_pi_troubleshooting
+
 ----------------------
 
 **Fehlerbehebung**
@@ -134,6 +149,10 @@ Dies ist für die meisten Nutzer die bequemste Methode.
   * Warten Sie 1–2 Minuten nach dem Einschalten.
   * Prüfen Sie, ob SSH im Raspberry Pi Imager aktiviert wurde.
 
+.. end_setup_pi_troubleshooting
+
+.. start_setup_pi_remote_desktop
+
 --------------------------------
 
 Grafische Fernzugriffsoptionen
@@ -150,3 +169,5 @@ Wenn Sie eine grafische Oberfläche bevorzugen:
 * |shared_link_rpi_connect|: Verwenden Sie Raspberry Pi Connect für sicheren Fernzugriff von überall aus, direkt im Browser. 
 
 Nun können Sie Ihren Raspberry Pi auch ohne Monitor steuern – entweder über SSH für Kommandozeilenoperationen oder mit VNC bzw. Raspberry Pi Connect für eine grafische Desktop-Oberfläche.
+
+.. end_setup_pi_remote_desktop

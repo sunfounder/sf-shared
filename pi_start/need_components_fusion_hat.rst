@@ -12,6 +12,8 @@
 
     👉 Sind Sie bereit, mit uns zu erkunden und zu erschaffen? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
+.. start_need_components_fusion_hat
+
 Was wird sonst noch benötigt?
 =============================
 
@@ -90,3 +92,6 @@ Diese Komponenten sind nicht zwingend erforderlich, verbessern jedoch das Lern- 
 
 * Wenn Sie dieses Kit gekauft haben, sind die meisten Zubehörteile enthalten. Sie müssen jedoch den Raspberry-Pi-Board, die Micro-SD-Karte und das Netzteil separat vorbereiten.  
 * Unsicher, was Sie kaufen sollen? Die stabilste und universellste Kombination ist: **Raspberry Pi 4 (2 GB) + offizielles Netzteil + 32 GB Micro-SD-Karte**.  
+
+
+.. end_need_components_fusion_hat

@@ -22,7 +22,7 @@ In diesem Kapitel installieren Sie die erforderliche Software, konfigurieren die
 
 .. start_install_fusion_hat
 
-.. _install_fusion_hat:
+
 
 Installation des ``fusion-hat``-Moduls
 --------------------------------------
@@ -60,6 +60,11 @@ Führen Sie anschließend das Audio-Einrichtungsskript aus:
       sudo /opt/setup_fusion_hat_audio.sh
 
 Damit ist die Softwareinstallation für das Fusion HAT+ abgeschlossen.
+
+.. end_install_fusion_hat
+
+.. start_configure_safe_shutdown
+
 
 Sicheres Herunterfahren konfigurieren und verwenden
 ----------------------------------------------------
@@ -139,4 +144,4 @@ Nach Abschluss der Konfiguration können Sie den PiCar-X über den Power-Taster 
   * Das Fusion HAT+ erzwingt ein sofortiges Abschalten.  
   * Warnung: Dies kann die SD-Karte oder Systemdateien beschädigen. Nur verwenden, wenn es unbedingt erforderlich ist.
 
-.. end_install_fusion_hat
+.. end_configure_safe_shutdown

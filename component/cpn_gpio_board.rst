@@ -12,6 +12,7 @@
 
     👉 Sind Sie bereit, mit uns zu erkunden und zu erschaffen? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
+.. _cpn_gpio_extension_board:
 .. _cpn_gpio_board:
 
 GPIO Extension Board
