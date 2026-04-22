@@ -12,6 +12,8 @@
 
     👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
+.. start_need_components_fusion_hat
+
 他に何が必要ですか？
 ====================
 
@@ -91,3 +93,5 @@
 * このキットを購入した場合、多くのアクセサリーは同梱されていますが、Raspberry Pi 本体、Micro SD カード、電源アダプターは別途用意する必要があります。  
 * 何を選べばよいか分からない場合、最も安定して汎用的な構成は次のとおりです：  
   **Raspberry Pi 4（2GB）＋ 公式電源アダプター ＋ 32GB Micro SD カード**  
+
+.. end_need_components_fusion_hat
