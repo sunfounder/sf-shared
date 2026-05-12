@@ -86,9 +86,9 @@ microSDカードへのOSインストール
 
 -------------------
 
-.. _imager_custom:
-
 .. start_cutomization_os
+
+.. _imager_custom:
 
 OSカスタマイズ設定
 ------------------------------------------
