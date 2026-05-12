@@ -84,9 +84,9 @@ Installieren des Betriebssystems auf die microSD-Karte
 
 -------------------
 
-.. _imager_custom:
-
 .. start_cutomization_os
+
+.. _imager_custom:
 
 Anpassungseinstellungen des Betriebssystems
 -----------------------------------------------
