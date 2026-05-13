@@ -1,18 +1,22 @@
-.. _setup_pi:
+.. start_setup_pi
 
 设置你的 Raspberry Pi
 ======================
 
-在开始编程和控制 Raspberry Pi 之前，你需要先能够访问它。  
+在开始编程和控制 Raspberry Pi 之前，你需要先能够访问它。
 本指南介绍两种常见的方法：
 
-* 使用显示器、键盘和鼠标  
-* 使用无屏幕（Headless）的远程访问方式  
+* 使用显示器、键盘和鼠标
+* 使用无屏幕（Headless）的远程访问方式
 
 .. note::
 
-   安装在机器人上的 Raspberry Pi Zero 2W 不方便连接显示器。  
+   安装在机器人上的 Raspberry Pi Zero 2W 不方便连接显示器。
    我们推荐使用 **无屏幕（Headless）配置** 的方式。
+
+.. end_setup_pi
+
+.. start_setup_pi_screen
 
 -------------------------
 如果你有显示器
@@ -45,6 +49,9 @@
       :width: 80%
       :align: center
 
+.. end_setup_pi_screen
+
+.. start_setup_pi_headless
 
 ----------------------------------
 如果你没有显示器（Headless）
@@ -95,6 +102,12 @@
    .. image:: /_shared/pi_start/img/ssh_login.png
       :align: center
 
+.. end_setup_pi_headless
+
+
+.. start_setup_pi_troubleshooting
+
+
 ----------------------
 
 **故障排查**
@@ -118,6 +131,11 @@
   * 上电后等待 1–2 分钟再尝试连接。
   * 确认已在 Raspberry Pi Imager 中启用了 SSH。
 
+.. end_setup_pi_troubleshooting
+
+
+.. start_setup_pi_remote_desktop
+
 --------------------------------
 
 图形化远程访问方式
@@ -133,5 +151,7 @@
 
 * |shared_link_rpi_connect|：使用 Raspberry Pi Connect，通过浏览器从任何地方安全地远程访问你的 Raspberry Pi。 
 
-现在，你无需显示器即可控制 Raspberry Pi：  
+现在，你无需显示器即可控制 Raspberry Pi：
 可以通过 SSH 进行命令行操作，或通过 VNC / Raspberry Pi Connect 使用图形化桌面。
+
+.. end_setup_pi_remote_desktop

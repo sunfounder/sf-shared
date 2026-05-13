@@ -9,7 +9,7 @@
 
 .. start_install_fusion_hat
 
-.. _install_fusion_hat:
+
 
 安装 ``fusion-hat`` 模块
 ----------------------------------
@@ -45,6 +45,9 @@
 
 至此，Fusion HAT+ 的软件安装过程完成。
 
+.. end_install_fusion_hat
+
+.. start_configure_safe_shutdown
 
 配置并使用安全关机
 ---------------------
@@ -123,4 +126,4 @@ Fusion HAT+ 依赖 Raspberry Pi 的关机信号来完成电源的全面管理。
   * Fusion HAT+ 将强制断电。  
   * 警告：此操作可能导致 SD 卡或系统文件损坏，仅在必要时使用。
 
-.. end_install_fusion_hat
+.. end_configure_safe_shutdown

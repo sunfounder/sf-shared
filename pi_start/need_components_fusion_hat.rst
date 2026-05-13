@@ -1,4 +1,6 @@
 
+.. start_need_components_fusion_hat
+
 还需要准备什么？
 ===============================
 
@@ -76,4 +78,6 @@
 **准备小贴士**
 
 * 如果你购买的是本套件，大多数配件已经包含，但仍需要另外准备 Raspberry Pi 主板、Micro SD 卡和电源适配器。  
-* 不确定该买什么？最稳定、最通用的组合是：**Raspberry Pi 4（2GB）+ 官方电源适配器 + 32GB Micro SD 卡**。  
+* 不确定该买什么？最稳定、最通用的组合是：**Raspberry Pi 4（2GB）+ 官方电源适配器 + 32GB Micro SD 卡**。
+
+.. end_need_components_fusion_hat  

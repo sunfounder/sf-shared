@@ -1,5 +1,6 @@
 
 .. _cpn_gpio_extension_board:
+.. _cpn_gpio_board:
 
 GPIO Extension Board
 =====================

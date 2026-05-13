@@ -9,7 +9,7 @@ PuTTY 是一款简单且可靠的 SSH 客户端，适用于 Windows 用户远程
 
 .. |shared_link_putty| raw:: html
 
-    <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>" target="_blank">PuTTY</a> 
+    <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">PuTTY</a> 
 
 
 #. 从 |shared_link_putty| 下载 PuTTY 并在你的电脑上安装。
