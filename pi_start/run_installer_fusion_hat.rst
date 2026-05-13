@@ -22,7 +22,7 @@ En este capítulo, instalarás el software relacionado, configurarás el audio, 
 
 .. start_install_fusion_hat
 
-.. _install_fusion_hat:
+
 
 Instalar el módulo ``fusion-hat``
 ----------------------------------
@@ -57,6 +57,10 @@ Después de que la instalación finalice, reinicia la Raspberry Pi. Luego ejecut
       sudo /opt/setup_fusion_hat_audio.sh
 
 Esto completa el proceso de instalación del software para el Fusion HAT+.
+
+.. end_install_fusion_hat
+
+.. start_configure_safe_shutdown
 
 Configurar y Usar Apagado Seguro
 -----------------------------------
@@ -134,4 +138,4 @@ Después de completar la configuración de apagado, puedes apagar de forma segur
   * El Fusion HAT+ forzará el corte de energía.  
   * Advertencia: esto puede dañar la tarjeta SD o los archivos del sistema. Úsalo solo cuando sea absolutamente necesario.
 
-.. end_install_fusion_hat
+.. end_configure_safe_shutdown
