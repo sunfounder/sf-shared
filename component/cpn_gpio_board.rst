@@ -12,9 +12,8 @@
 
     👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
-.. _cpn_gpio_board:
-
 .. _cpn_gpio_extension_board:
+.. _cpn_gpio_board:
 
 GPIO拡張ボード
 =====================
