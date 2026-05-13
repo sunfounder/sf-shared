@@ -12,6 +12,8 @@
 
     👉 Sei pronto a esplorare e creare con noi? Clicca su [|link_sf_facebook|] e unisciti oggi stesso!
 
+.. start_need_components_fusion_hat
+
 Cos’altro ti serve?
 ===================
 
@@ -89,4 +91,6 @@ Sebbene non siano strettamente necessari, le seguenti periferiche miglioreranno 
 **Suggerimenti per la preparazione**
 
 * Se hai acquistato questo kit, la maggior parte degli accessori è inclusa, ma dovrai comunque procurarti separatamente la scheda Raspberry Pi, la scheda Micro SD e l’alimentatore.  
-* Non sai cosa acquistare? La scelta più stabile e universale è: **Raspberry Pi 4 (2GB) + alimentatore ufficiale + scheda Micro SD da 32GB**.  
+* Non sai cosa acquistare? La scelta più stabile e universale è: **Raspberry Pi 4 (2GB) + alimentatore ufficiale + scheda Micro SD da 32GB**.
+
+.. end_need_components_fusion_hat  
