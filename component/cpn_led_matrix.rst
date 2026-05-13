@@ -12,6 +12,7 @@
 
     👉 Prêt à explorer et à créer avec nous ? Cliquez [|link_sf_facebook|] et rejoignez-nous aujourd'hui !
 
+.. _cpn_led_matrix:
 
 Matrice LED à points
 ======================

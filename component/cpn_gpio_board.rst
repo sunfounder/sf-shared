@@ -13,6 +13,7 @@
     👉 Prêt à explorer et à créer avec nous ? Cliquez [|link_sf_facebook|] et rejoignez-nous aujourd'hui !
 
 .. _cpn_gpio_extension_board:
+.. _cpn_gpio_board:
 
 Carte d'extension GPIO
 ==========================

@@ -22,7 +22,7 @@ Dans ce chapitre, vous allez installer les logiciels associés, configurer l’a
 
 .. start_install_fusion_hat
 
-.. _install_fusion_hat:
+
 
 Installer le module ``fusion-hat``
 ----------------------------------
@@ -57,6 +57,10 @@ Une fois l’installation terminée, redémarrez le Raspberry Pi. Exécutez ensu
       sudo /opt/setup_fusion_hat_audio.sh
 
 Cela termine le processus d’installation logicielle du Fusion HAT+.
+
+.. end_install_fusion_hat
+
+.. start_configure_safe_shutdown
 
 Configurer et utiliser l’arrêt sécurisé
 ---------------------------------------
@@ -134,4 +138,4 @@ Une fois la configuration de l’arrêt terminée, vous pouvez éteindre le PiCa
   * Le Fusion HAT+ forcera la coupure de l’alimentation.  
   * Avertissement : cela peut corrompre la carte SD ou les fichiers système. À utiliser uniquement en cas de nécessité.
 
-.. end_install_fusion_hat
+.. end_configure_safe_shutdown

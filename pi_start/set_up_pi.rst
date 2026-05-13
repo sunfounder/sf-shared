@@ -12,21 +12,25 @@
 
     👉 Prêt à explorer et à créer avec nous ? Cliquez sur [|link_sf_facebook|] et rejoignez-nous dès aujourd'hui !
 
-.. _setup_pi:
+.. start_setup_pi
 
 Configurer votre Raspberry Pi
 =============================
 
-Pour commencer à programmer et à contrôler votre Raspberry Pi, vous devez d’abord y accéder.  
+Pour commencer à programmer et à contrôler votre Raspberry Pi, vous devez d’abord y accéder.
 Ce guide décrit deux méthodes courantes :
 
-* Utiliser un écran, un clavier et une souris  
-* Mettre en place une connexion *headless* (sans écran) pour un accès à distance  
+* Utiliser un écran, un clavier et une souris
+* Mettre en place une connexion *headless* (sans écran) pour un accès à distance
 
 .. note::
 
-   Le Raspberry Pi Zero 2W installé sur le robot n’est pas facile à connecter à un écran.  
+   Le Raspberry Pi Zero 2W installé sur le robot n’est pas facile à connecter à un écran.
    Nous recommandons d’utiliser la méthode de **configuration headless**.
+
+.. end_setup_pi
+
+.. start_setup_pi_screen
 
 -------------------------
 Si vous avez un écran
@@ -59,6 +63,9 @@ Si vous avez un écran
       :width: 80%
       :align: center
 
+.. end_setup_pi_screen
+
+.. start_setup_pi_headless
 
 ----------------------------------
 
@@ -110,6 +117,12 @@ C’est la méthode la plus pratique pour la plupart des utilisateurs.
    .. image:: /_shared/pi_start/img/ssh_login.png
       :align: center
 
+.. end_setup_pi_headless
+
+
+.. start_setup_pi_troubleshooting
+
+
 ----------------------
 
 **Dépannage**
@@ -133,6 +146,11 @@ C’est la méthode la plus pratique pour la plupart des utilisateurs.
   * Attendez 1 à 2 minutes après la mise sous tension.
   * Vérifiez que SSH a bien été activé dans Raspberry Pi Imager.
 
+.. end_setup_pi_troubleshooting
+
+
+.. start_setup_pi_remote_desktop
+
 --------------------------------
 
 Options d’accès graphique à distance
@@ -149,3 +167,5 @@ Si vous préférez une interface graphique :
 * |shared_link_rpi_connect| : utilisez Raspberry Pi Connect pour un accès distant sécurisé depuis n’importe où, directement dans un navigateur. 
 
 Vous pouvez maintenant contrôler votre Raspberry Pi sans écran, soit via SSH pour les opérations en ligne de commande, soit avec VNC / Raspberry Pi Connect pour une expérience de bureau graphique.
+
+.. end_setup_pi_remote_desktop

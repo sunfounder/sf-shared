@@ -22,7 +22,7 @@ PuTTY est un client SSH simple et fiable pour les utilisateurs Windows, permetta
 
 .. |shared_link_putty| raw:: html
 
-    <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>" target="_blank">PuTTY</a> 
+    <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">PuTTY</a> 
 
 
 #. Téléchargez PuTTY depuis |shared_link_putty| et installez-le sur votre ordinateur.

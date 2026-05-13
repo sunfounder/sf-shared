@@ -12,6 +12,8 @@
 
     👉 Prêt à explorer et à créer avec nous ? Cliquez sur [|link_sf_facebook|] et rejoignez-nous dès aujourd'hui !
 
+.. start_need_components_fusion_hat
+
 De quoi avez-vous encore besoin ?
 =============================================
 
@@ -89,4 +91,6 @@ Bien que non strictement indispensables, les périphériques suivants améliorer
 **Conseils de préparation**
 
 * Si vous avez acheté ce kit, la plupart des accessoires sont inclus, mais vous devez tout de même préparer séparément la carte Raspberry Pi, la carte microSD et l’adaptateur d’alimentation.  
-* Vous ne savez pas quoi acheter ? Le choix le plus stable et universel est : **Raspberry Pi 4 (2 Go) + alimentation officielle + carte microSD de 32 Go**.  
+* Vous ne savez pas quoi acheter ? Le choix le plus stable et universel est : **Raspberry Pi 4 (2 Go) + alimentation officielle + carte microSD de 32 Go**.
+
+.. end_need_components_fusion_hat
