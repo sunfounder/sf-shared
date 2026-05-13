@@ -207,4 +207,4 @@ Write the OS Image
    .. image:: /_shared/pi_start/img/os_sd_to_pi.jpg
         :width: 70%
 
-   .. end_write_os
+.. end_write_os
