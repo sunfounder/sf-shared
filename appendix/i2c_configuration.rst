@@ -92,7 +92,7 @@ Instalar i2c-tools
 
 
 Detectar Dispositivos I²C Conectados
-------------------------------------
+--------------------------------------
 
 #. Escanea el bus I²C:
 

@@ -55,7 +55,7 @@ Instalar Raspberry Pi Imager
 .. start_install_os
 
 Instalar el sistema operativo en la tarjeta microSD
-------------------------------------------------
+-----------------------------------------------------
 
 1. Inserta la tarjeta microSD en tu ordenador usando un lector de tarjetas. Haz una copia de seguridad de cualquier dato importante antes de continuar.
 
@@ -91,7 +91,7 @@ Instalar el sistema operativo en la tarjeta microSD
 .. _imager_custom:
 
 Ajustes de personalización del sistema operativo
-------------------------------------------
+--------------------------------------------------
 
 #. Continúa con el paso de personalización.
 
@@ -182,7 +182,7 @@ Ajustes de personalización del sistema operativo
 .. start_write_os
 
 Escribir la imagen del sistema operativo
------------------------------
+------------------------------------------
 
 
 #. Revisa todos los ajustes y haz clic en **WRITE**.

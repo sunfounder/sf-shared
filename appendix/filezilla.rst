@@ -15,7 +15,7 @@
 .. _filezilla:
 
 Software FileZilla
-==================
+====================
 
 .. image:: /_shared/appendix/img/filezilla_icon.png
    :width: 20%
