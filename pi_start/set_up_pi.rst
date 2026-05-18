@@ -15,7 +15,7 @@
 .. start_setup_pi
 
 Set Up Your Raspberry Pi
-========================
+==========================
 
 To begin programming and controlling your Raspberry Pi, you first need to access it.  
 This guide describes two common methods:

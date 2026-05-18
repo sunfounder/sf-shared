@@ -15,7 +15,7 @@
 .. _filezilla:
 
 FileZilla Software
-==================
+====================
 
 .. image:: /_shared/appendix/img/filezilla_icon.png
    :width: 20%
@@ -25,7 +25,7 @@ File Transfer Protocol (FTP) is commonly used to transfer files between computer
 With FileZilla, you can easily upload files (such as images, audio, and scripts) from your computer to the Raspberry Pi, or download files from the Pi back to your computer.
 
 Download FileZilla
-------------------
+--------------------
 
 .. |shared_link_filezilla| raw:: html
 

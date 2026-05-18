@@ -15,7 +15,7 @@
 .. _remote_desktop:
 
 Remote Desktop
-==============
+================
 
 .. |shared_link_realvnc| raw:: html
 
@@ -29,7 +29,7 @@ The following section explains how to enable VNC on your Raspberry Pi and connec
 -----------------
 
 Enable the VNC Service
-----------------------
+------------------------
 
 RealVNC Server is preinstalled on Raspberry Pi OS, but it is **disabled by default**.  
 You must enable it through the configuration tool.
@@ -72,7 +72,7 @@ You must enable it through the configuration tool.
 
 
 Log in with RealVNC® Viewer
----------------------------
+-----------------------------
 
 #. Download and install |shared_link_realvnc| for your operating system.
 

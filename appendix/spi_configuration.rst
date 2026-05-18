@@ -17,13 +17,13 @@
 .. _spi_configuration:
 
 SPI Configuration
-=================
+===================
 
 Follow the steps below to enable and verify the SPI interface on your Raspberry Pi.  
 These instructions apply to Raspberry Pi 5, 4, 3, and Zero 2W.
 
 Enable the SPI Interface
-------------------------
+--------------------------
 
 #. Open a terminal on your computer (Windows: **PowerShell**; macOS/Linux: **Terminal**) and connect to your Raspberry Pi:
 
@@ -80,7 +80,7 @@ Verify SPI Interface
 
 
 Install spidev (Python SPI Library)
------------------------------------
+-------------------------------------
 
 #. Install the ``spidev`` package to use SPI in Python:
 
