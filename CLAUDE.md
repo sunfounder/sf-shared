@@ -32,11 +32,21 @@ Format: `.. _anchor_name:` at column 0. Used for `:ref:\`anchor_name\`` cross-re
 - Some files have dual anchors (e.g., `.. _cpn_gpio_extension_board:` and `.. _cpn_gpio_board:`)
 - pi_start anchors: `.. _install_os:`, `.. _imager_custom:`, `.. _install_all_modules_fusion_hat:`
 
+### Title Underlines
+
+RST titles use `====` (main title) or `----` (subsection) underlines. The underline **must be longer than the title text** — not equal, not shorter. When translating titles, always check and extend the underline accordingly.
+
+- Use `====` for document-level titles, `----` for subsections.
+- After translating a title, count the characters and ensure the underline is at least 2 characters longer.
+- Watch for edge cases: duplicate underline lines (two consecutive `====` lines) should be removed.
+
 ### Community Note
 Most files start with a `.. note::` block. EN files `cpn_ws2812_module.rst` and `cpn_stepper_motor.rst` intentionally omit this.
 
 ### Image Paths
 Use `/_shared/` prefix for build-time resolution. Images are shared across languages.
+
+All language repos must have **identical image files** to the English reference. The English `appendix/img/` (30 files) and `component/img/` (187 files) are the canonical set. When adding images to English, copy them to every other language repo as well.
 
 ### Substitution References
 `|link_sf_facebook|`, `|shared_link_rpi_imager|`, `|shared_link_fusion_hat|`, `|shared_link_rpi_connect|`, `|shared_link_filezilla|`, `|shared_link_putty|`, `|link_fusion_hat|`
@@ -45,7 +55,9 @@ Use `/_shared/` prefix for build-time resolution. Images are shared across langu
 1. Same file names in all repos (67 each)
 2. Same `.. _anchor:` names
 3. Same `.. start_xxx` / `.. end_xxx` tags
-4. Image paths identical (images shared, not translated)
-5. Community notes translated
+4. Image paths in RST files identical (images shared, not translated)
+5. Image files in `appendix/img/` and `component/img/` must be identical to English (copy new images to every language)
+6. Title underlines must be longer than the title — check after translating
+7. Community notes translated
 
 ## File Counts: 67 total (appendix/7 + component/54 + pi_start/6)
