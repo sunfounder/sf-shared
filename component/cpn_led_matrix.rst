@@ -27,7 +27,7 @@ La matrice LED utilizzata in questo kit è di tipo **Anodo Comune (CA)**.
 Puoi identificarla dalla marcatura **“788BS”** stampata sul lato del modulo.
 
 Disposizione dei pin
---------------------
+----------------------
 
 I pin si trovano su entrambi i lati del retro del modulo.  
 Guardando il lato con l’etichetta:

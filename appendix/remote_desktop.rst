@@ -15,7 +15,7 @@
 .. _remote_desktop:
 
 Desktop Remoto
-==============
+================
 
 .. |shared_link_realvnc| raw:: html
 
@@ -72,7 +72,7 @@ Deve essere abilitato tramite lo strumento di configurazione.
 
 
 Accedere con RealVNC® Viewer
-----------------------------
+------------------------------
 
 #. Scarica e installa |shared_link_realvnc| per il tuo sistema operativo.
 
@@ -104,7 +104,7 @@ Questo completa il processo di configurazione di VNC.
 
 
 Note aggiuntive
----------------
+-----------------
 
 * **È richiesta la versione Desktop**
 

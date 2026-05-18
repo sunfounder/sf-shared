@@ -15,12 +15,12 @@
 .. start_need_components_fusion_hat
 
 Cos’altro ti serve?
-===================
+=====================
 
 Prima di iniziare a giocare con questo kit, prepariamo l’hardware essenziale.
 
 Componenti necessari
---------------------
+----------------------
 
 * **Raspberry Pi**
 
@@ -58,7 +58,7 @@ Componenti necessari
   
 
 Componenti opzionali
---------------------
+----------------------
 
 Sebbene non siano strettamente necessari, le seguenti periferiche miglioreranno notevolmente l’esperienza di apprendimento e di debug:
 

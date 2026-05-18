@@ -16,7 +16,7 @@
 .. _install_all_modules_fusion_hat:
 
 Configurare l’alimentazione e installare il software (Importante)
-=================================================================
+===================================================================
 
 In questo capitolo installerai il software necessario, configurerai l’audio, imposterai una gestione sicura dell’alimentazione e imparerai come gestire correttamente lo spegnimento.
 
@@ -25,7 +25,7 @@ In questo capitolo installerai il software necessario, configurerai l’audio, i
 
 
 Installare il modulo ``fusion-hat``
------------------------------------
+-------------------------------------
 
 Per questo kit, tutte le funzionalità GPIO sono gestite tramite la Fusion HAT+.  
 Pertanto, è necessario utilizzare la libreria ``fusion-hat`` dedicata per accedervi e controllarle.
@@ -64,7 +64,7 @@ Questo completa il processo di installazione del software per la Fusion HAT+.
 .. start_configure_safe_shutdown
 
 Configurare e utilizzare lo spegnimento sicuro
-----------------------------------------------
+------------------------------------------------
 
 La Fusion HAT+ si basa sul segnale di spegnimento del Raspberry Pi per gestire completamente l’alimentazione del sistema.  
 Per garantire uno spegnimento sicuro e affidabile, è necessario **configurare il comportamento di spegnimento** in base al modello di Raspberry Pi e poi utilizzare correttamente il **pulsante di alimentazione**.

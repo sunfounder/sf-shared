@@ -16,7 +16,7 @@ Alimentazione per Raspberry Pi (Importante)
 ======================================================
 
 Ricarica
---------
+----------
 
 Inserisci il cavo della batteria. Successivamente, inserisci il cavo USB-C per ricaricare la batteria.  
 Dovrai fornire un caricatore; consigliamo un caricatore da **5V 3A**, ma andrà bene anche un comune caricatore per smartphone.
@@ -31,7 +31,7 @@ Dovrai fornire un caricatore; consigliamo un caricatore da **5V 3A**, ma andrà 
 
 
 Accensione
-----------
+------------
 
 Accendi l’interruttore di alimentazione. Si accenderanno la spia di alimentazione e la spia dell’indicatore del livello della batteria.
 

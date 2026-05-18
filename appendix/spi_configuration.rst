@@ -59,7 +59,7 @@ Abilitare l’interfaccia SPI
 
 
 Verificare l’interfaccia SPI
-----------------------------
+------------------------------
 
 #. Verifica se esistono i nodi del dispositivo SPI:
 
@@ -79,7 +79,7 @@ Verificare l’interfaccia SPI
 
 
 Installare spidev (libreria SPI per Python)
--------------------------------------------
+---------------------------------------------
 
 #. Installa il pacchetto ``spidev`` per utilizzare SPI in Python:
 

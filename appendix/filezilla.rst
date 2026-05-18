@@ -15,7 +15,7 @@
 .. _filezilla:
 
 Software FileZilla
-==================
+====================
 
 .. image:: /_shared/appendix/img/filezilla_icon.png
    :width: 20%
@@ -25,7 +25,7 @@ Il File Transfer Protocol (FTP) è comunemente utilizzato per trasferire file tr
 Con FileZilla puoi caricare facilmente file (come immagini, audio e script) dal tuo computer al Raspberry Pi, oppure scaricare file dal Pi al tuo computer.
 
 Scaricare FileZilla
--------------------
+---------------------
 
 .. |shared_link_filezilla| raw:: html
 

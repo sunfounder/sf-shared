@@ -15,7 +15,7 @@
 .. _blynk_mobile:
 
 Come usare Blynk su un dispositivo mobile?
-==========================================
+============================================
 
 .. note::
 

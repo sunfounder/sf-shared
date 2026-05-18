@@ -16,7 +16,6 @@
 
 MCP3008
 ==============
-==============
 
 MCP3008 è un convertitore analogico-digitale (ADC) a 10 bit a approssimazioni successive con 8 canali di ingresso e un protocollo di comunicazione SPI (Serial Peripheral Interface).  
 È in grado di interfacciarsi con un microcontrollore per convertire segnali di ingresso analogici in dati digitali per un'ulteriore elaborazione.

@@ -15,7 +15,7 @@
 .. start_setup_pi
 
 Configurare il tuo Raspberry Pi
-===============================
+=================================
 
 Per iniziare a programmare e controllare il tuo Raspberry Pi, devi prima accedervi.  
 Questa guida descrive due metodi comuni:
@@ -153,7 +153,7 @@ Questo è il metodo più comodo per la maggior parte degli utenti.
 --------------------------------
 
 Opzioni di accesso remoto grafico
----------------------------------
+-----------------------------------
 
 .. |shared_link_rpi_connect| raw:: html
 
