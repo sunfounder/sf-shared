@@ -15,7 +15,7 @@
 .. _cpn_resistor:
 
 Widerstand
-==========
+============
 
 .. image:: img/resistor.png
     :width: 300

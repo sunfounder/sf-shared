@@ -15,12 +15,12 @@
 .. start_need_components_fusion_hat
 
 Was wird sonst noch benötigt?
-=============================
+===============================
 
 Bevor wir mit diesem Kit loslegen, bereiten wir zunächst die notwendige Hardware vor.
 
 Erforderliche Komponenten
--------------------------
+---------------------------
 
 * **Raspberry Pi**
 
@@ -58,7 +58,7 @@ Erforderliche Komponenten
   
 
 Optionale Komponenten
----------------------
+-----------------------
 
 Diese Komponenten sind nicht zwingend erforderlich, verbessern jedoch das Lern- und Debugging-Erlebnis erheblich:
 

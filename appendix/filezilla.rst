@@ -25,7 +25,7 @@ Das File Transfer Protocol (FTP) wird häufig verwendet, um Dateien über ein Ne
 Mit FileZilla können Sie Dateien (z. B. Bilder, Audio-Dateien und Skripte) einfach von Ihrem Computer auf den Raspberry Pi hochladen oder Dateien vom Pi zurück auf Ihren Computer herunterladen.
 
 FileZilla herunterladen
------------------------
+-------------------------
 
 .. |shared_link_filezilla| raw:: html
 

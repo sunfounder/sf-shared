@@ -15,13 +15,13 @@
 .. _i2c_config:
 
 I²C-Konfiguration
-=================
+===================
 
 Folgen Sie den untenstehenden Schritten, um die I²C-Schnittstelle auf Ihrem Raspberry Pi zu aktivieren und zu testen.  
 Diese Anleitung gilt für Raspberry Pi 5, 4, 3 und Zero 2W.
 
 I²C-Schnittstelle aktivieren
-----------------------------
+------------------------------
 
 #. Öffnen Sie ein Terminal auf Ihrem Computer (Windows: **PowerShell**; macOS/Linux: **Terminal**) und verbinden Sie sich mit Ihrem Raspberry Pi:
 
@@ -59,7 +59,7 @@ I²C-Schnittstelle aktivieren
 
 
 I²C-Kernel-Module überprüfen
-----------------------------
+------------------------------
 
 #. Führen Sie den folgenden Befehl aus:
 
@@ -82,7 +82,7 @@ I²C-Kernel-Module überprüfen
 
 
 i2c-tools installieren
-----------------------
+------------------------
 
 #. Installieren Sie die Dienstprogramme, die zum Scannen und Testen von I²C-Geräten erforderlich sind:
 
@@ -92,7 +92,7 @@ i2c-tools installieren
 
 
 Angeschlossene I²C-Geräte erkennen
-----------------------------------
+------------------------------------
 
 #. Scannen Sie den I²C-Bus:
 
@@ -119,7 +119,7 @@ Angeschlossene I²C-Geräte erkennen
 
 
 Python-I²C-Bibliothek installieren
-----------------------------------
+------------------------------------
 
 #. Installieren Sie das Paket ``python3-smbus2``:
 

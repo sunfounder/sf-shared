@@ -16,13 +16,13 @@
 .. _spi_configuration:
 
 SPI-Konfiguration
-=================
+===================
 
 Folgen Sie den untenstehenden Schritten, um die SPI-Schnittstelle auf Ihrem Raspberry Pi zu aktivieren und zu überprüfen.  
 Diese Anleitung gilt für Raspberry Pi 5, 4, 3 und Zero 2W.
 
 SPI-Schnittstelle aktivieren
-----------------------------
+------------------------------
 
 #. Öffnen Sie ein Terminal auf Ihrem Computer (Windows: **PowerShell**; macOS/Linux: **Terminal**) und verbinden Sie sich mit Ihrem Raspberry Pi:
 
@@ -60,7 +60,7 @@ SPI-Schnittstelle aktivieren
 
 
 SPI-Schnittstelle überprüfen
-----------------------------
+------------------------------
 
 #. Prüfen Sie, ob die SPI-Gerätedateien vorhanden sind:
 
@@ -80,7 +80,7 @@ SPI-Schnittstelle überprüfen
 
 
 spidev installieren (Python-SPI-Bibliothek)
--------------------------------------------
+---------------------------------------------
 
 #. Installieren Sie das Paket ``spidev``, um SPI in Python zu verwenden:
 

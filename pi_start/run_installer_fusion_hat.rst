@@ -25,7 +25,7 @@ In diesem Kapitel installieren Sie die erforderliche Software, konfigurieren die
 
 
 Installation des ``fusion-hat``-Moduls
---------------------------------------
+----------------------------------------
 
 Bei diesem Kit werden alle GPIO-Funktionen über das Fusion HAT+ verwaltet.  
 Daher müssen Sie die zugehörige Bibliothek ``fusion-hat`` verwenden, um auf diese Funktionen zuzugreifen und sie zu steuern.
