@@ -15,7 +15,7 @@
 .. _i2c_config:
 
 Configuration I²C
-=================
+===================
 
 Suivez les étapes ci-dessous pour activer et tester l’interface I²C sur votre Raspberry Pi.  
 Ces instructions s’appliquent aux Raspberry Pi 5, 4, 3 et Zero 2W.
@@ -59,7 +59,7 @@ Activer l’interface I²C
 
 
 Vérifier les modules noyau I²C
-------------------------------
+--------------------------------
 
 #. Exécutez la commande suivante :
 
@@ -82,7 +82,7 @@ Vérifier les modules noyau I²C
 
 
 Installer i2c-tools
--------------------
+---------------------
 
 #. Installez les utilitaires nécessaires pour analyser et tester les périphériques I²C :
 
@@ -92,7 +92,7 @@ Installer i2c-tools
 
 
 Détecter les périphériques I²C connectés
-----------------------------------------
+------------------------------------------
 
 #. Analysez le bus I²C :
 
@@ -119,7 +119,7 @@ Détecter les périphériques I²C connectés
 
 
 Installer la bibliothèque Python I²C
-------------------------------------
+--------------------------------------
 
 #. Installez le paquet ``python3-smbus2`` :
 

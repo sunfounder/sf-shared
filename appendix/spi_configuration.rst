@@ -16,7 +16,7 @@
 .. _spi_configuration:
 
 Configuration SPI
-=================
+===================
 
 Suivez les étapes ci-dessous pour activer et vérifier l’interface SPI sur votre Raspberry Pi.  
 Ces instructions s’appliquent aux Raspberry Pi 5, 4, 3 et Zero 2W.
@@ -59,7 +59,7 @@ Activer l’interface SPI
 
 
 Vérifier l’interface SPI
-------------------------
+--------------------------
 
 #. Vérifiez si les périphériques SPI existent :
 
@@ -79,7 +79,7 @@ Vérifier l’interface SPI
 
 
 Installer spidev (bibliothèque SPI pour Python)
------------------------------------------------
+-------------------------------------------------
 
 #. Installez le paquet ``spidev`` pour utiliser SPI en Python :
 

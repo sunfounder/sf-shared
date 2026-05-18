@@ -15,7 +15,7 @@
 .. _cpn_power_module:
 
 Module d'Alimentation
-=====================
+=======================
 
 Lorsque nous avons besoin d'un courant important pour alimenter un composant, cela peut interférer gravement avec le fonctionnement normal du Raspberry Pi. Par conséquent, nous fournissons une alimentation séparée pour le composant grâce à ce module afin de le faire fonctionner en toute sécurité et de manière stable.
 

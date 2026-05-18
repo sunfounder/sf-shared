@@ -15,7 +15,7 @@
 .. start_setup_pi
 
 Configurer votre Raspberry Pi
-=============================
+===============================
 
 Pour commencer à programmer et à contrôler votre Raspberry Pi, vous devez d’abord y accéder.
 Ce guide décrit deux méthodes courantes :
