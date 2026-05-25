@@ -1,4 +1,4 @@
-
+﻿
 .. _i2c_config:
 
 I²C 配置
@@ -10,7 +10,7 @@ I²C 配置
 启用 I²C 接口
 --------------
 
-#. 在你的电脑上打开终端（Windows：**PowerShell**；macOS/Linux：**Terminal**），并连接到 Raspberry Pi：
+#. 在你的电脑上打开终端（Windows：**PowerShell**\ ；macOS/Linux：**Terminal**\ ），并连接到 Raspberry Pi：
 
    .. code-block:: bash
 
@@ -28,17 +28,17 @@ I²C 配置
 
       sudo raspi-config
 
-#. 选择 **Interfacing Options**，然后按 **Enter**。
+#. 选择 **Interfacing Options**\ ，然后按 **Enter**\ 。
 
    .. image:: /_shared/appendix/img/ssh_interface.png
       :align: center
 
-#. 选择 **I2C**。
+#. 选择 **I2C**\ 。
 
    .. image:: img/ssh_i2c_i2c.png
       :align: center
 
-#. 选择 **<Yes>**，然后依次选择 **<Ok> → <Finish>** 以应用更改。  
+#. 选择 **<Yes>**\ ，然后依次选择 **<Ok> → <Finish>** 以应用更改。  
    如果系统提示，请重启 Raspberry Pi。
 
    .. image:: img/ssh_i2c_yes.png
@@ -102,7 +102,7 @@ I²C 配置
       60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
       70: -- -- -- -- -- -- -- --
 
-#. 如果有设备连接，其地址（例如 **0x48**）将显示在表格中。
+#. 如果有设备连接，其地址（例如 **0x48**\ ）将显示在表格中。
 
 
 安装 Python I²C 库

@@ -1,4 +1,4 @@
-
+﻿
 .. _spi_configuration:
 
 SPI 配置
@@ -10,7 +10,7 @@ SPI 配置
 启用 SPI 接口
 --------------
 
-#. 在你的电脑上打开终端（Windows：**PowerShell**；macOS/Linux：**Terminal**），并连接到 Raspberry Pi：
+#. 在你的电脑上打开终端（Windows：**PowerShell**\ ；macOS/Linux：**Terminal**\ ），并连接到 Raspberry Pi：
 
    .. code-block:: bash
 
@@ -28,17 +28,17 @@ SPI 配置
 
       sudo raspi-config
 
-#. 选择 **Interfacing Options**，然后按 **Enter**。
+#. 选择 **Interfacing Options**\ ，然后按 **Enter**\ 。
 
    .. image:: /_shared/appendix/img/ssh_interface.png
       :align: center
 
-#. 选择 **SPI**。
+#. 选择 **SPI**\ 。
 
    .. image:: img/ssh_spi_spi.png
       :align: center
 
-#. 选择 **<Yes>**，然后依次选择 **<Ok> → <Finish>** 以应用更改。如系统提示，请重启 Raspberry Pi。
+#. 选择 **<Yes>**\ ，然后依次选择 **<Ok> → <Finish>** 以应用更改。如系统提示，请重启 Raspberry Pi。
 
    .. image:: img/ssh_spi_enable.png
       :align: center

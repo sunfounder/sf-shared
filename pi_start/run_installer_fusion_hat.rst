@@ -1,4 +1,4 @@
-
+﻿
 
 .. _install_all_modules_fusion_hat:
 
@@ -31,7 +31,7 @@
     <a href="https://docs.sunfounder.com/projects/fusion-hat/en/latest/" target="_blank">Fusion HAT+</a>
 
 .. note::  
-   有关 fusion-hat 的详细说明，请参考 |shared_link_fusion_hat|。
+   有关 fusion-hat 的详细说明，请参考 |shared_link_fusion_hat|\ 。
 
 安装完成后，请重启 Raspberry Pi。随后执行音频设置脚本：
 
@@ -53,7 +53,7 @@
 ---------------------
 
 Fusion HAT+ 依赖 Raspberry Pi 的关机信号来完成电源的全面管理。  
-为了确保安全、可靠的断电过程，你需要根据 Raspberry Pi 的型号 **配置关机行为**，并正确使用 **电源按钮**。
+为了确保安全、可靠的断电过程，你需要根据 Raspberry Pi 的型号 **配置关机行为**\ ，并正确使用 **电源按钮**\ 。
 
 **适用于 Raspberry Pi 5 和 4B**
 
@@ -70,11 +70,11 @@ Fusion HAT+ 依赖 Raspberry Pi 的关机信号来完成电源的全面管理。
 
       sudo raspi-config
 
-3. 进入 **Advanced Options → A12 Shutdown Behaviour**。
+3. 进入 **Advanced Options → A12 Shutdown Behaviour**\ 。
 
    .. image:: /_shared/pi_start/img/shutdown_behaviour.png
 
-4. 选择 **B1 Full Power Off**。
+4. 选择 **B1 Full Power Off**\ 。
 
    .. image:: /_shared/pi_start/img/run_power_off.png
 
@@ -114,7 +114,7 @@ Fusion HAT+ 依赖 Raspberry Pi 的关机信号来完成电源的全面管理。
 
 * **软关机（推荐）**
 
-  * 长按电源按钮 **2 秒**。  
+  * 长按电源按钮 **2 秒**\ 。  
   * 两个电源指示灯会快速闪烁。  
   * 松开按钮 → Fusion HAT+ 触发 Raspberry Pi 正常关机。  
   * 关机完成后，Fusion HAT+ 会自动切断电源。  
@@ -122,7 +122,7 @@ Fusion HAT+ 依赖 Raspberry Pi 的关机信号来完成电源的全面管理。
 
 * **硬关机（仅限紧急情况）**
 
-  * 当系统无响应时，长按电源按钮 **5 秒以上**。  
+  * 当系统无响应时，长按电源按钮 **5 秒以上**\ 。  
   * Fusion HAT+ 将强制断电。  
   * 警告：此操作可能导致 SD 卡或系统文件损坏，仅在必要时使用。
 

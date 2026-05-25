@@ -29,6 +29,33 @@ Format: `.. _anchor_name:` at column 0. Must match EN exactly.
 ### Community Note
 Chinese repo does NOT use Facebook community notes. Files start directly with anchors or titles.
 
+### Inline Markup Spacing (CJK)
+
+When an RST inline markup **closing** delimiter is immediately followed by a non-ASCII character (CJK, fullwidth punctuation like `：` `（` `。）` etc.), the RST parser may fail to recognize the delimiter end, causing "Inline strong start-string without end-string" warnings.
+
+**Rule**: Insert `\ ` (escaped space) between the closing delimiter and the non-ASCII character.
+
+| Markup | Wrong | Correct |
+|---------|-------|---------|
+| `**bold**` | `**无头模式**（` | `**无头模式**\ （` |
+| `*italic*` | `*斜体*中文` | `*斜体*\ 中文` |
+| `__bold__` | `__text__中文` | `__text__\ 中文` |
+| `\|sub\|` | `\|link\|。` | `\|link\|\ 。` |
+| `` `code` `` | `` `cmd`： `` | `` `cmd`\ ： `` |
+| `:ref:`...`` | `` :ref:`anchor`： `` | `` :ref:`anchor`\ ： `` |
+
+**What NOT to do**:
+- Do NOT add space/`\ ` before the **opening** delimiter
+- Do NOT add space/`\ ` **inside** the markup content
+- If the closing delimiter is already followed by an ASCII space/newline, no fix is needed
+
+**Fix regex** (apply line-by-line, never across newlines — use `[^*\\r\\n]` not `[^*]`):
+```
+Find:    \\*\\*([^*\\r\\n]+?)\\*\\*([^\\x00-\\x7F\\s])
+Replace: **$1**\\ $2
+```
+Similarly for `|text|`, `` `text` ``, ` ``text`` `, `__text__`, and single `*text*` (with negative lookbehind for `**`).
+
 ### Image Paths
 Identical to EN (images are shared, not translated).
 

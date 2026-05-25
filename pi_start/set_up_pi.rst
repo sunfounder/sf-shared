@@ -1,4 +1,4 @@
-.. start_setup_pi
+﻿.. start_setup_pi
 
 设置你的 Raspberry Pi
 ======================
@@ -28,7 +28,7 @@
 * 官方电源适配器
 * MicroSD 卡
 * HDMI 线  
-  （对于 Raspberry Pi 4/5，请使用 **HDMI0**，即最靠近电源接口的那个端口）
+  （对于 Raspberry Pi 4/5，请使用 **HDMI0**\ ，即最靠近电源接口的那个端口）
 * 显示器
 * 键盘和鼠标
 
@@ -76,7 +76,7 @@
 
 **通过 SSH 连接**
 
-#. 在你的电脑上打开终端（Windows：**PowerShell**；macOS/Linux：**Terminal**），并连接到 Raspberry Pi：
+#. 在你的电脑上打开终端（Windows：**PowerShell**\ ；macOS/Linux：**Terminal**\ ），并连接到 Raspberry Pi：
 
    .. code-block:: bash
 
@@ -120,7 +120,7 @@
 * **The term 'ssh' is not recognized...（Windows）**
 
   * 未安装 OpenSSH。请手动安装，或使用第三方 SSH 客户端。  
-  * 参见 :ref:`openssh_powershell` 或 :ref:`login_windows`。
+  * 参见 :ref:`openssh_powershell` 或 :ref:`login_windows`\ 。
 
 * **Permission denied (publickey,password)**
 
@@ -147,9 +147,9 @@
 
 如果你更偏好图形界面：
 
-* :ref:`remote_desktop`：启用 **VNC（虚拟网络计算）**，以获得完整的 Raspberry Pi 桌面体验。
+* :ref:`remote_desktop`\ ：启用 **VNC（虚拟网络计算）**\ ，以获得完整的 Raspberry Pi 桌面体验。
 
-* |shared_link_rpi_connect|：使用 Raspberry Pi Connect，通过浏览器从任何地方安全地远程访问你的 Raspberry Pi。 
+* |shared_link_rpi_connect|\ ：使用 Raspberry Pi Connect，通过浏览器从任何地方安全地远程访问你的 Raspberry Pi。 
 
 现在，你无需显示器即可控制 Raspberry Pi：
 可以通过 SSH 进行命令行操作，或通过 VNC / Raspberry Pi Connect 使用图形化桌面。

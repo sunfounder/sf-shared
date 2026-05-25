@@ -1,4 +1,4 @@
-
+﻿
 .. _cpn_audio_speaker:
 
 Audio Module and Speaker
@@ -29,7 +29,7 @@ The module can be supplied by a 2.0V up to 5.5V DC with 10mA operating current (
     :align: center
 
 * **Size**: 20x30x7mm
-* **Impedance**：8ohm
+* **Impedance**\ ：8ohm
 * **Rate Input Power**: 1.5W 
 * **Max Input Power**: 2.0W
 * **Wire Length**: 10cm

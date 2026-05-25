@@ -1,4 +1,4 @@
-
+﻿
 还需要准备什么？
 ===============================
 
@@ -9,9 +9,9 @@
 
 * **Raspberry Pi**
 
-  Raspberry Pi 充当系统的 **大脑**，负责所有计算、传感和控制任务。  
+  Raspberry Pi 充当系统的 **大脑**\ ，负责所有计算、传感和控制任务。  
   
-  * **兼容型号**：Raspberry Pi 5、Raspberry Pi 4、3 或 Raspberry Pi Zero 2W  
+  * **兼容型号**\ ：Raspberry Pi 5、Raspberry Pi 4、3 或 Raspberry Pi Zero 2W  
 
   .. image:: /_shared/pi_start/img/need_pi.jpg
 
@@ -23,10 +23,10 @@
   .. image:: /_shared/pi_start/img/need_power.png
     :width: 400
 
-  - **Raspberry Pi 5**：5V 5A USB-C（推荐使用官方 27W PD 电源）。  
-  - **Raspberry Pi 4**：5V 3A USB-C。  
-  - **Raspberry Pi 3B / 3B+**：5V 2.5A Micro-USB。  
-  - **Raspberry Pi Zero 2W**：5V 2A Micro-USB。
+  - **Raspberry Pi 5**\ ：5V 5A USB-C（推荐使用官方 27W PD 电源）。  
+  - **Raspberry Pi 4**\ ：5V 3A USB-C。  
+  - **Raspberry Pi 3B / 3B+**\ ：5V 2.5A Micro-USB。  
+  - **Raspberry Pi Zero 2W**\ ：5V 2A Micro-USB。
 
   使用稳定可靠的电源可以避免欠压问题，并确保系统稳定运行。
 
@@ -38,8 +38,8 @@
     :width: 200
 
   * 最小容量：**16GB**  
-  * 推荐容量：**32GB**，以获得更好的稳定性  
-  * 品牌建议：使用 **SanDisk**、**Samsung** 等可靠品牌，以避免读写错误  
+  * 推荐容量：**32GB**\ ，以获得更好的稳定性  
+  * 品牌建议：使用 **SanDisk**\ 、**Samsung** 等可靠品牌，以避免读写错误  
   
 
 可选组件
@@ -58,9 +58,9 @@
  
   不同型号的 Raspberry Pi 使用不同类型的 HDMI 接口，请确认你的 Pi 型号并准备正确的线缆。 
   
-  * **Raspberry Pi 4 / 5**：Micro HDMI  
-  * **Raspberry Pi 3**：标准 HDMI  
-  * **Raspberry Pi Zero 2W**：Mini HDMI  
+  * **Raspberry Pi 4 / 5**\ ：Micro HDMI  
+  * **Raspberry Pi 3**\ ：标准 HDMI  
+  * **Raspberry Pi Zero 2W**\ ：Mini HDMI  
 
   .. image:: /_shared/pi_start/img/need_hdmi.png
     :width: 400
@@ -76,5 +76,5 @@
 **准备小贴士**
 
 * 如果你购买的是本套件，大多数配件已经包含，但仍需要单独准备 Raspberry Pi 主板、Micro SD 卡和电源适配器。  
-* 不确定该买什么？最稳定、最通用的选择是：**Raspberry Pi 4/5（2GB）+ 官方电源适配器 + 32GB Micro SD 卡**。  
+* 不确定该买什么？最稳定、最通用的选择是：**Raspberry Pi 4/5（2GB）+ 官方电源适配器 + 32GB Micro SD 卡**\ 。  
 

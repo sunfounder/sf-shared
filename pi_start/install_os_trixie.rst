@@ -1,4 +1,4 @@
-.. _install_os:
+﻿.. _install_os:
 
 安装操作系统
 ===================
@@ -23,12 +23,12 @@
 
     <a href="https://www.raspberrypi.com/software/" target="_blank">Raspberry Pi Imager</a>
 
-#. 访问 Raspberry Pi Imager 官方下载页面：|shared_link_rpi_imager|，下载适用于你操作系统的安装程序。
+#. 访问 Raspberry Pi Imager 官方下载页面：|shared_link_rpi_imager|\ ，下载适用于你操作系统的安装程序。
 
    .. image:: /_shared/pi_start/img/imager_download.png
       :width: 70%
 
-#. 按照安装提示完成安装（语言、安装路径、确认等）。安装完成后，从桌面或应用程序菜单中启动 **Raspberry Pi Imager**。
+#. 按照安装提示完成安装（语言、安装路径、确认等）。安装完成后，从桌面或应用程序菜单中启动 **Raspberry Pi Imager**\ 。
 
    .. image:: /_shared/pi_start/img/imager_install.png
       :width: 90%
@@ -55,7 +55,7 @@
 
 .. end_install_os
 
-3. 进入 **OS** 选项，选择推荐的 **Raspberry Pi OS (64-bit)**。
+3. 进入 **OS** 选项，选择推荐的 **Raspberry Pi OS (64-bit)**\ 。
 
    .. image:: /_shared/pi_start/img/imager_os.png
       :width: 90%
@@ -81,8 +81,8 @@
 
 #. 进入自定义设置步骤。
 
-   * 如果你将直接为 Raspberry Pi 连接显示器、键盘和鼠标，可以点击 **SKIP CUSTOMISATION**。
-   * 如果你计划以 **无头模式**（通过 Wi-Fi 远程访问）设置 Raspberry Pi，则必须完成自定义设置。
+   * 如果你将直接为 Raspberry Pi 连接显示器、键盘和鼠标，可以点击 **SKIP CUSTOMISATION**\ 。
+   * 如果你计划以 **无头模式**\ （通过 Wi-Fi 远程访问）设置 Raspberry Pi，则必须完成自定义设置。
 
    .. image:: /_shared/pi_start/img/imager_custom_skip.png
       :width: 90%
@@ -112,7 +112,7 @@
 
 #. **配置 Wi-Fi**
 
-   * 输入你的 Wi-Fi **SSID**（网络名称）和 **密码**。
+   * 输入你的 Wi-Fi **SSID**\ （网络名称）和 **密码**\ 。
    * Raspberry Pi 在首次启动时会自动连接该网络。
 
    .. image:: /_shared/pi_start/img/imager_custom_wifi.png
@@ -134,7 +134,7 @@
 
    Raspberry Pi Connect 允许你通过网页浏览器访问 Raspberry Pi 的桌面。
 
-   * 打开 **Raspberry Pi Connect**，然后点击 **OPEN RASPBERRY PI CONNECT**。
+   * 打开 **Raspberry Pi Connect**\ ，然后点击 **OPEN RASPBERRY PI CONNECT**\ 。
 
      .. image:: /_shared/pi_start/img/imager_custom_connect.png
         :width: 90%
@@ -146,7 +146,7 @@
 
    * 在 **New auth key** 页面中，创建一次性授权密钥。
 
-      * 如果你的 Raspberry Pi ID 账户不属于任何组织，选择 **Create auth key and launch Raspberry Pi Imager**。
+      * 如果你的 Raspberry Pi ID 账户不属于任何组织，选择 **Create auth key and launch Raspberry Pi Imager**\ 。
       * 如果你属于一个或多个组织，请选择其中一个，然后创建密钥并启动 Imager。
       * 请确保在密钥过期之前，给 Raspberry Pi 上电并连接到互联网。
 
@@ -171,7 +171,7 @@
 -----------------------------
 
 
-#. 检查所有设置无误后，点击 **WRITE**。
+#. 检查所有设置无误后，点击 **WRITE**\ 。
 
    .. image:: /_shared/pi_start/img/imager_writing.png
       :width: 90%

@@ -1,4 +1,4 @@
-
+﻿
 .. _remote_desktop:
 
 远程桌面
@@ -9,7 +9,7 @@
     <a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank">RealVNC® Viewer</a>   
 
 你可以从另一台电脑远程访问并控制 Raspberry Pi 的桌面。  
-推荐的方法是 **VNC**，它在 Raspberry Pi OS 中得到官方支持，能够提供稳定、一致的桌面体验。
+推荐的方法是 **VNC**\ ，它在 Raspberry Pi OS 中得到官方支持，能够提供稳定、一致的桌面体验。
 
 以下内容将介绍如何在 Raspberry Pi 上启用 VNC，并使用 |shared_link_realvnc| 进行连接。
 
@@ -18,10 +18,10 @@
 启用 VNC 服务
 --------------
 
-RealVNC Server 已预装在 Raspberry Pi OS 中，但 **默认是关闭的**。  
+RealVNC Server 已预装在 Raspberry Pi OS 中，但 **默认是关闭的**\ 。  
 你需要通过配置工具将其启用。
 
-#. 在你的电脑上打开终端（Windows：**PowerShell**；macOS/Linux：**Terminal**），并连接到 Raspberry Pi：
+#. 在你的电脑上打开终端（Windows：**PowerShell**\ ；macOS/Linux：**Terminal**\ ），并连接到 Raspberry Pi：
 
    .. code-block:: bash
 
@@ -42,17 +42,17 @@ RealVNC Server 已预装在 Raspberry Pi OS 中，但 **默认是关闭的**。
    .. image:: /_shared/appendix/img/ssh_raspi_config.png
 
 
-#. 选择 **Interfacing Options**，然后按 **Enter**。
+#. 选择 **Interfacing Options**\ ，然后按 **Enter**\ 。
 
    .. image:: /_shared/appendix/img/ssh_interface.png
 
 
-#. 选择 **VNC**。
+#. 选择 **VNC**\ 。
 
    .. image:: /_shared/appendix/img/ssh_vnc_vnc.png
 
 
-#. 选择 **Yes**，然后依次点击 **OK**，最后选择 **Finish** 退出。
+#. 选择 **Yes**\ ，然后依次点击 **OK**\ ，最后选择 **Finish** 退出。
 
    .. image:: /_shared/appendix/img/ssh_vnc_enable.png
 
@@ -61,17 +61,17 @@ RealVNC Server 已预装在 Raspberry Pi OS 中，但 **默认是关闭的**。
 使用 RealVNC® Viewer 登录
 --------------------------
 
-#. 下载并安装适用于你操作系统的 |shared_link_realvnc|。
+#. 下载并安装适用于你操作系统的 |shared_link_realvnc|\ 。
 
    .. image:: /_shared/appendix/img/ssh_vnc_download.png
 
 
-#. 打开 **RealVNC Viewer**，输入 Raspberry Pi 的 IP 地址或 ``<hostname>.local``，然后按 **Enter**。
+#. 打开 **RealVNC Viewer**\ ，输入 Raspberry Pi 的 IP 地址或 ``<hostname>.local``\ ，然后按 **Enter**\ 。
 
    .. image:: /_shared/appendix/img/ssh_vnc_login.png
 
 
-#. 输入 Raspberry Pi 的 **用户名** 和 **密码**，然后选择 **OK**。
+#. 输入 Raspberry Pi 的 **用户名** 和 **密码**\ ，然后选择 **OK**\ 。
 
    .. note::
 
@@ -96,7 +96,7 @@ RealVNC Server 已预装在 Raspberry Pi OS 中，但 **默认是关闭的**。
 * **需要桌面版系统**
 
   * VNC 需要 Raspberry Pi 运行完整的桌面版 Raspberry Pi OS。  
-  * 如果你使用的是 **Raspberry Pi OS Lite**，请手动安装 VNC Server：``sudo apt install realvnc-vnc-server``
+  * 如果你使用的是 **Raspberry Pi OS Lite**\ ，请手动安装 VNC Server：``sudo apt install realvnc-vnc-server``
 
 
 * **网络性能建议**

@@ -1,4 +1,4 @@
-
+﻿
 .. _blynk_mobile:
 
 如何在移动设备上使用 Blynk？
@@ -10,7 +10,7 @@
 
 #. 在你的移动设备上打开 Google Play 或 App Store，搜索 “Blynk IoT”（不是 Blynk（legacy））并下载安装。
 #. 打开 APP 后登录，登录账号需与网页端使用的账号相同。
-#. 然后进入 **Dashboard**（如果还没有，请先创建一个），你会发现移动端和网页端的 **Dashboard** 是彼此独立的。
+#. 然后进入 **Dashboard**\ （如果还没有，请先创建一个），你会发现移动端和网页端的 **Dashboard** 是彼此独立的。
 
     .. image:: img/APP_1.jpg
 

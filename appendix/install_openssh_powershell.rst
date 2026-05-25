@@ -1,4 +1,4 @@
-
+﻿
 .. _openssh_powershell:
 
 通过 PowerShell 安装 OpenSSH
@@ -13,7 +13,7 @@
 这意味着你的 Windows 系统尚未安装 OpenSSH。  
 请按照以下步骤手动安装。
 
-#. 打开 Windows 开始菜单，输入 **powershell**，右键点击 **Windows PowerShell**，选择 **以管理员身份运行**。
+#. 打开 Windows 开始菜单，输入 **powershell**\ ，右键点击 **Windows PowerShell**\ ，选择 **以管理员身份运行**\ 。
 
    .. image:: /_shared/appendix/img/powershell_ssh.png
       :align: center
@@ -48,7 +48,7 @@
         State : NotPresent
 
    .. warning::
-      如果没有显示 ``Installed``，说明你的 Windows 系统版本可能过旧。  
+      如果没有显示 ``Installed``\ ，说明你的 Windows 系统版本可能过旧。  
       在这种情况下，建议使用第三方 SSH 工具。请参见：:ref:`login_windows`
 
 #. 关闭 PowerShell，然后重新打开（这次无需以管理员身份运行），并使用 ``ssh`` 命令登录：

@@ -1,4 +1,4 @@
-
+﻿
 .. _login_windows:
 
 PuTTY
@@ -20,8 +20,8 @@ PuTTY 是一款简单且可靠的 SSH 客户端，适用于 Windows 用户远程
 
 #. 打开 PuTTY 并准备连接：
 
-   * 在 **Host Name** 中输入你的 Raspberry Pi 的 **主机名或 IP 地址**。
-   * 将 **Port** 设置为 ``22``。
+   * 在 **Host Name** 中输入你的 Raspberry Pi 的 **主机名或 IP 地址**\ 。
+   * 将 **Port** 设置为 ``22``\ 。
    * 点击 **Open** 进行连接。
 
 
@@ -44,4 +44,4 @@ PuTTY 是一款简单且可靠的 SSH 客户端，适用于 Windows 用户远程
 
 .. note::
 
-    如果 PuTTY 显示 **inactive**，说明连接已断开，需要重新连接。
+    如果 PuTTY 显示 **inactive**\ ，说明连接已断开，需要重新连接。
