@@ -1,14 +1,14 @@
-.. note::
+﻿.. note::
 
     こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32愛好家コミュニティへようこそ！Facebook上でRaspberry Pi、Arduino、ESP32についてもっと深く掘り下げ、他の愛好家と交流しましょう。
 
     **参加する理由は？**
 
-    - **エキスパートサポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
-    - **学び＆共有**：ヒントやチュートリアルを交換してスキルを向上させましょう。
-    - **独占的なプレビュー**：新製品の発表や先行プレビューに早期アクセスしましょう。
-    - **特別割引**：最新製品の独占割引をお楽しみください。
-    - **祭りのプロモーションとギフト**：ギフトや祝日のプロモーションに参加しましょう。
+    - **エキスパートサポート**\ ：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学び＆共有**\ ：ヒントやチュートリアルを交換してスキルを向上させましょう。
+    - **独占的なプレビュー**\ ：新製品の発表や先行プレビューに早期アクセスしましょう。
+    - **特別割引**\ ：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとギフト**\ ：ギフトや祝日のプロモーションに参加しましょう。
 
     👉 私たちと一緒に探索し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして今すぐ参加しましょう！
 
@@ -28,9 +28,9 @@
   
   .. image:: /_shared/pi_start/img/need_pi.jpg
 
-  * **対応モデル**：Raspberry Pi 5、Raspberry Pi 4、3、Raspberry Pi Zero 2W  
-  * **最小構成**： **2GB RAM** — 標準的な Python プロジェクトや、OpenAI Whisper、TTS、LLM などの **オンライン AI サービス** を使用するには十分です。  
-  * **推奨構成**： **4GB RAM 以上** — カメラのストリーミングや制御タスクと同時に、**ローカル AI モデル** （例：Vosk 音声認識、Piper TTS、軽量 LLM）を実行する場合でも、よりスムーズに動作します。  
+  * **対応モデル**\ ：Raspberry Pi 5、Raspberry Pi 4、3、Raspberry Pi Zero 2W  
+  * **最小構成**\ ： **2GB RAM** — 標準的な Python プロジェクトや、OpenAI Whisper、TTS、LLM などの **オンライン AI サービス** を使用するには十分です。  
+  * **推奨構成**\ ： **4GB RAM 以上** — カメラのストリーミングや制御タスクと同時に、**\ ローカル AI モデル** （例：Vosk 音声認識、Piper TTS、軽量 LLM）を実行する場合でも、よりスムーズに動作します。  
   
 
 * **電源アダプター**
@@ -73,9 +73,9 @@
  
   Raspberry Pi のモデルによって使用する HDMI コネクタが異なります。お使いの Pi に対応した正しいケーブルを準備してください。 
   
-  * **Raspberry Pi 4 / 5**：Micro HDMI  
-  * **Raspberry Pi 3**：標準 HDMI  
-  * **Raspberry Pi Zero 2W**：Mini HDMI  
+  * **Raspberry Pi 4 / 5**\ ：Micro HDMI  
+  * **Raspberry Pi 3**\ ：標準 HDMI  
+  * **Raspberry Pi Zero 2W**\ ：Mini HDMI  
 
   .. image:: /_shared/pi_start/img/need_hdmi.png
     :width: 400

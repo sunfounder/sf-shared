@@ -1,4 +1,4 @@
-.. note::
+﻿.. note::
 
     こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebookへようこそ！他の愛好家と一緒に、Raspberry Pi、Arduino、ESP32の世界により深く入り込みましょう。
 
@@ -37,7 +37,7 @@ Raspberry Pi Imagerのインストール
 
     <a href="https://www.raspberrypi.com/software/" target="_blank">Raspberry Pi Imager</a>   
 
-#. 公式Raspberry Pi Imagerダウンロードページ（|shared_link_rpi_imager|）にアクセスします。お使いのオペレーティングシステムに適したインストーラーをダウンロードしてください。
+#. 公式Raspberry Pi Imagerダウンロードページ（|shared_link_rpi_imager|\ ）にアクセスします。お使いのオペレーティングシステムに適したインストーラーをダウンロードしてください。
 
    .. image:: /_shared/pi_start/img/imager_download.png
       :width: 70%
@@ -96,7 +96,7 @@ OSカスタマイズ設定
 #. カスタマイズ手順に進みます。
 
    * モニター、キーボード、マウスをRaspberry Piに直接接続する場合は、**SKIP CUSTOMISATION** をクリックしてください。
-   * Raspberry Piを*ヘッドレス*（Wi-Fiリモートアクセス）でセットアップする予定の場合は、カスタマイズ設定を完了する必要があります。
+   * Raspberry Piを*\ ヘッドレス*\ （Wi-Fiリモートアクセス）でセットアップする予定の場合は、カスタマイズ設定を完了する必要があります。
 
    .. image:: /_shared/pi_start/img/imager_custom_skip.png
       :width: 90%
@@ -126,7 +126,7 @@ OSカスタマイズ設定
 
 #. **Wi-Fiの設定**
 
-   * Wi-Fiの **SSID**（ネットワーク名）と **パスワード** を入力します。
+   * Wi-Fiの **SSID**\ （ネットワーク名）と **パスワード** を入力します。
    * Raspberry Piは初回起動時に自動的に接続します。
 
    .. image:: /_shared/pi_start/img/imager_custom_wifi.png
