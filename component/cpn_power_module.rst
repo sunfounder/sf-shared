@@ -1,35 +1,33 @@
-
 .. _cpn_power_module:
 
-Power Supply Module
+电源供电模块
 =====================
 
-When we need a large current to drive a component, which will severely interfere with the normal work of Raspberry Pi. Therefore, we separately supply power for the component by this module to make it run safely and steadily.
+当我们需要大电流驱动元件时，这会严重干扰 Raspberry Pi 的正常工作。因此，我们通过此模块为元件单独供电，使其安全稳定地运行。
 
-You can just plug it in the breadboard to supply power. It provides a voltage of 3.3V and 5V, and you can connect either via a jumper cap included.
+你只需将其插入面包板即可供电。它提供 3.3V 和 5V 电压，你可以通过随附的跳线帽选择连接。
 
 .. image:: img/power_supply.png
     :width: 500
     :align: center
 
-**Features and specifications**
+**特性与规格**
 
-* Input voltage: 6.5 - 12V
-* Two Independent Channel
-* Output voltage: 5V, 3.3V (adjustable via jumpers. 0V, 3.3V, and 5V configuration)
-* Output current: Maximum output current 700mA
-* Onboard berg male header for GND, 5V, 3.3V output
-* ON-OFF Switch available.
-* USB (Type-A) input available.
-* DC Barrel Jack input available.
-* Onboard power LED
-* Dimension: 53mm x 33mm (L x W)
+* 输入电压：6.5 - 12V
+* 双独立通道
+* 输出电压：5V、3.3V（可通过跳线调节，支持 0V、3.3V 和 5V 配置）
+* 输出电流：最大输出电流 700mA
+* 板载 GND、5V、3.3V 输出排针
+* 带 ON-OFF 开关
+* 支持 USB（Type-A）输入
+* 支持 DC 圆头插座输入
+* 板载电源 LED 指示灯
+* 尺寸：53mm x 33mm（长 x 宽）
 
+.. **示例**
 
-.. **Example**
-
-.. * :ref:`1.3.1_c` (C Project)
-.. * :ref:`3.1.4_c` (C Project)
-.. * :ref:`1.3.1_py` (Python Project)
-.. * :ref:`4.1.10_py` (Python Project)
-.. * :ref:`1.17_scratch` (Scratch Project)
+.. * :ref:`1.3.1_c` （C 项目）
+.. * :ref:`3.1.4_c` （C 项目）
+.. * :ref:`1.3.1_py` （Python 项目）
+.. * :ref:`4.1.10_py` （Python 项目）
+.. * :ref:`1.17_scratch` （Scratch 项目）

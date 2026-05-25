@@ -1,25 +1,24 @@
-
 .. _cpn_joystick:
 
-Joystick Module
+摇杆模块
 =======================
 
 .. image:: img/joystick_pic.png
     :align: center
     :width: 600
 
-The basic idea of a joystick is to translate the movement of a stick into electronic information that a computer can process.
+摇杆的基本概念是将摇杆的运动转换为计算机可以处理的电子信息。
 
-In order to communicate a full range of motion to the computer, a joystick needs to measure the stick’s position on two axes – the X-axis (left to right) and the Y-axis (up and down). Just as in basic geometry, the X-Y coordinates pinpoint the stick’s position exactly.
+为了向计算机传达完整的运动范围，摇杆需要测量其在两个轴上的位置——X 轴（左右）和 Y 轴（上下）。如同基础几何学一样，X-Y 坐标精确定位了摇杆的位置。
 
-To determine the location of the stick, the joystick control system simply monitors the position of each shaft. The conventional analog joystick design does this with two potentiometers, or variable resistors.
+为了确定摇杆的位置，摇杆控制系统只需监测每个轴的位置。传统的模拟摇杆设计通过两个电位器（可变电阻器）来实现。
 
-The joystick also has a digital input that is actuated when the joystick is pressed down.
+摇杆还带有一个数字输入，当摇杆被按下时触发。
 
 .. image:: img/joystick318.png
     :align: center
     :width: 600
-	
+
 .. **Example**
 
 .. * :ref:`2.1.9_c` (C Project)

@@ -1,19 +1,18 @@
-
 .. _cpn_speed_sensor:
 
-Speed Sensor Module
+速度传感器模块
 ========================
 
 .. image:: img/speed_sensor1.png
     :width: 300
     :align: center
 
-The speed sensor consists of two parts: a transmitter and a receiver. The transmitter emits light, which then enters the receiver.
+速度传感器由两部分组成：发射器和接收器。发射器发出光线，光线随后进入接收器。
 
-If the light beam between the emitter and receiver is interrupted by an obstacle, the receiver will not detect the incident light, then the D0 pin will output low level.
+如果发射器和接收器之间的光束被物体遮挡，接收器将检测不到入射光，则 D0 引脚输出低电平。
 
 .. note::
-    The A0 pin on this module is empty and there is no circuit.
+    该模块上的 A0 引脚为空，无电路连接。
 
 .. image:: img/speed_sensor2.png
 

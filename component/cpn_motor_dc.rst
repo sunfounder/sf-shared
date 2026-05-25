@@ -1,37 +1,35 @@
-
 .. _cpn_motor:
 
-DC Motor
+直流电机
 ===================
 
 .. image:: img/image114.jpeg
     :align: center
 
-This is a 3V DC motor. When you give a high level and a low level to each of the 2 terminals, it will rotate.
+这是一个 3V 直流电机。当你给两个端子分别提供高电平和低电平时，它就会旋转。
 
-* **Size**: 25*20*15MM
-* **Operation Voltage**: 1-6V
-* **Free-run Current** (3V): 70m
-* **A Free-run Speed** (3V): 13000RPM
-* **Stall Current** (3V): 800mA
-* **Shaft Diameter**: 2mm
+* **尺寸**\ ：25*20*15MM
+* **工作电压**\ ：1-6V
+* **空载电流**\ （3V）：70mA
+* **空载转速**\ （3V）：13000RPM
+* **堵转电流**\ （3V）：800mA
+* **轴径**\ ：2mm
 
-Direct current (DC) motor is a continuous actuator that converts electrical energy into mechanical energy. DC motors make rotary pumps, fans, compressors, impellers, and other devices work by producing continuous angular rotation.
+直流电机是一种将电能转换为机械能的连续执行器。直流电机通过产生连续的角度旋转来使旋转泵、风扇、压缩机、叶轮和其他设备工作。
 
-A DC motor consists of two parts, the fixed part of the motor called the **stator** and the internal part of the motor called the **rotor** (or **armature** of a DC motor) that rotates to produce motion.
-The key to generating motion is to position the armature within the magnetic field of the permanent magnet (whose field extends from the north pole to the south pole). The interaction of the magnetic field and the moving charged particles (the current-carrying wire generates the magnetic field) produces the torque that rotates the armature.
+直流电机由两部分组成：电机的固定部分称为**定子**，电机内部旋转并产生运动的部分称为**转子**（或直流电机的**电枢**）。产生运动的关键是将电枢置于永磁体的磁场中（其磁场从北极延伸到南极）。磁场与运动带电粒子（载流导线产生磁场）的相互作用产生使电枢旋转的转矩。
 
 .. image:: img/motor_sche.png
     :align: center
 
-Current flows from the positive terminal of the battery through the circuit, through the copper brushes to the commutator, and then to the armature.
-But because of the two gaps in the commutator, this flow reverses halfway through each complete rotation.
-This continuous reversal essentially converts the DC power from the battery to AC, allowing the armature to experience torque in the right direction at the right time to maintain rotation.
+电流从电池正极流过电路，经过碳刷到换向器，然后到电枢。
+但由于换向器上的两个间隙，这种电流流向在每次完整旋转中会反转一次。
+这种连续反转实质上是将电池的直流电转换为交流电，使电枢在正确的时间以正确的方向承受转矩，从而维持旋转。
 
-.. **Example**
+.. **示例**
 
-.. * :ref:`1.3.1_c` (C Project)
-.. * :ref:`3.1.4_c` (C Project)
-.. * :ref:`1.3.1_py` (Python Project)
-.. * :ref:`4.1.10_py` (Python Project)
-.. * :ref:`1.17_scratch` (Scratch Project)
+.. * :ref:`1.3.1_c` （C 项目）
+.. * :ref:`3.1.4_c` （C 项目）
+.. * :ref:`1.3.1_py` （Python 项目）
+.. * :ref:`4.1.10_py` （Python 项目）
+.. * :ref:`1.17_scratch` （Scratch 项目）

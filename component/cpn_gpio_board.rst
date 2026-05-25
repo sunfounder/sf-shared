@@ -1,35 +1,30 @@
-
 .. _cpn_gpio_extension_board:
 .. _cpn_gpio_board:
 
-GPIO Extension Board
+GPIO 扩展板
 =====================
 
-Before starting to learn the commands, you first need to know more about
-the pins of the Raspberry Pi, which is key to the subsequent study.
+在开始学习命令之前，你首先需要进一步了解 Raspberry Pi 的引脚，这是后续学习的关键。
 
-We can easily lead out pins of the Raspberry Pi to breadboard by GPIO
-Extension Board to avoid GPIO damage caused by frequent plugging in or
-out. This is our 40-pin GPIO Extension Board and GPIO cable for
-Raspberry Pi model B+, 2 model B and 3, 4 model B.
+我们可以通过 GPIO 扩展板将 Raspberry Pi 的引脚轻松引出到面包板上，以避免因频繁插拔导致的 GPIO 损坏。这是我们为 Raspberry Pi 型号 B+、2 型号 B 和 3、4 型号 B 准备的 40 针 GPIO 扩展板及 GPIO 排线。
 
 .. image:: img/image32.png
     :align: center
 
-**Pin Number**
+**引脚编号**
 
-The pins of Raspberry Pi have three kinds of ways to name and they are wiringPi, BCM and Board.
+Raspberry Pi 的引脚有三种命名方式：wiringPi、BCM 和 Board。
 
-Among these naming methods, 40-pin GPIO Extension board uses the naming method, BCM. But for some special pins, such as I2C port and SPI port, they use the Name that comes with themselves. 
+在这些命名方式中，40 针 GPIO 扩展板使用的是 BCM 命名方式。但对于一些特殊引脚，如 I2C 端口和 SPI 端口，则使用其自身的名称。
 
-The following table shows us the naming methods of WiringPi, Board and the intrinsic Name of each pin on GPIO Extension board. For example, for the GPIO17, the Board naming method of it is 11, the wiringPi naming method is 0, and the intrinsic naming method of it is GPIO0.
+下表展示了 WiringPi、Board 以及 GPIO 扩展板上每个引脚的本源名称的命名方式。例如，对于 GPIO17，Board 命名方式为 11，wiringPi 命名方式为 0，其本源名称为 GPIO0。
 
 .. note::
 
-    1) In C Language, what is used is the naming method WiringPi.
-    
-    2) In Python Language, the applied naming methods are **Board** and **BCM**, and the function ``GPIO.setmode()`` is used to set them.
+    1) 在 C 语言中使用的是 WiringPi 命名方式。
 
-    3) In Scratch 3 and Processing, the applied naming method is **BCM**.
+    2) 在 Python 语言中，使用的命名方式是 **Board** 和 **BCM**\ ，并通过 ``GPIO.setmode()`` 函数进行设置。
+
+    3) 在 Scratch 3 和 Processing 中，使用的命名方式是 **BCM**\ 。
 
 .. image:: img/gpio_board.png

@@ -1,26 +1,25 @@
-
 .. _cpn_buzzer:
 
-Buzzer
+蜂鸣器
 =======
 
 .. image:: img/buzzer.png
     :width: 600
 
-As a type of electronic buzzer with an integrated structure, buzzers, which are supplied by DC power, are widely used in computers, printers, photocopiers, alarms, electronic toys, automotive electronic devices, telephones, timers and other electronic products or voice devices. 
+蜂鸣器是一种结构一体化的电子蜂鸣器，采用直流电源供电，广泛应用于计算机、打印机、复印机、报警器、电子玩具、汽车电子设备、电话、定时器及其他电子产品或语音设备中。
 
-Buzzers can be categorized as active and passive ones (see the following picture). Turn the buzzer so that its pins are facing up, and the buzzer with a green circuit board is a passive buzzer, while the one enclosed with a black tape is an active one.
+蜂鸣器可分为有源和无源两种（见下图）。将蜂鸣器引脚朝上翻转，绿色电路板的是无源蜂鸣器，黑色胶体封装的是有源蜂鸣器。
 
-The difference between an active buzzer and a passive buzzer: 
+有源蜂鸣器和无源蜂鸣器的区别：
 
-An active buzzer has a built-in oscillating source, so it will make sounds when electrified. But a passive buzzer does not have such source, so it will not beep if DC signals are used; instead, you need to use square waves whose frequency is between 2K and 5K to drive it. The active buzzer is often more expensive than the passive one because of multiple built-in oscillating circuits.
+有源蜂鸣器内部含有振荡源，因此通电后会发出声音。而无源蜂鸣器内部没有振荡源，使用直流信号时不会发声；需要使用频率在 2K 到 5K 之间的方波来驱动。有源蜂鸣器由于内置了多个振荡电路，通常比无源蜂鸣器更贵。
 
-The following is the electrical symbol of a buzzer. It has two pins with positive and negative poles. With a + in the surface represents the anode and the other is the cathode. 
+以下是蜂鸣器的电气符号。它有两个引脚，分为正极和负极。表面标有 "+" 的为正极，另一极为负极。
 
 .. image:: img/buzzer_symbol.png
     :width: 150
 
-You can check the pins of the buzzer, the longer one is the anode and the shorter one is the cathode. Please don’t mix them up when connecting, otherwise the buzzer will not make sound. 
+您可以检查蜂鸣器的引脚，较长的是正极，较短的是负极。连接时请不要接反，否则蜂鸣器不会发声。
 
 `Buzzer - Wikipedia <https://en.wikipedia.org/wiki/Buzzer>`_
 
@@ -32,4 +31,3 @@ You can check the pins of the buzzer, the longer one is the anode and the shorte
 .. * :ref:`1.2.2_py` (Python Project)
 .. * :ref:`1.13_scratch` (Scratch Project)
 .. * :ref:`1.14_scratch` (Scratch Project)
-

@@ -1,43 +1,40 @@
-
 .. _cpn_resistor:
 
-Resistor
+电阻
 ============
 
 .. image:: img/resistor.png
     :width: 300
 
-Resistor is an electronic element that can limit the branch current. 
-A fixed resistor is a kind of resistor whose resistance cannot be changed, while that of a potentiometer or a variable resistor can be adjusted. 
+电阻是一种可以限制支路电流的电子元件。固定电阻是一种阻值不可改变的电阻器，而电位器或可变电阻器的阻值可以调节。
 
-Two generally used circuit symbols for resistor. Normally, the resistance is marked on it. So if you see these symbols in a circuit, it stands for a resistor. 
+电阻的两种常用电路符号。通常，其阻值会标记在上面。因此，如果你在电路中看到这些符号，它们代表电阻。
 
 .. image:: img/resistor_symbol.png
     :width: 400
 
-**Ω** is the unit of resistance and the larger units include KΩ, MΩ, etc. 
-Their relationship can be shown as follows: 1 MΩ=1000 KΩ, 1 KΩ = 1000 Ω. Normally, the value of resistance is marked on it. 
+**Ω** 是电阻的单位，更大的单位包括 KΩ、MΩ 等。它们的关系如下：1 MΩ = 1000 KΩ，1 KΩ = 1000 Ω。通常，阻值会标记在电阻上。
 
-When using a resistor, we need to know its resistance first. Here are two methods: you can observe the bands on the resistor, or use a multimeter to measure the resistance. You are recommended to use the first method as it is more convenient and faster. 
+使用电阻时，我们需要先知道其阻值。这里有两种方法：可以观察电阻上的色环，或者使用万用表测量电阻值。建议使用第一种方法，因为它更方便快捷。
 
 .. image:: img/resistance_card.jpg
 
-As shown in the card, each color stands for a number. 
+如图所示，每种颜色代表一个数字。
 
 .. list-table::
 
-   * - Black
-     - Brown
-     - Red
-     - Orange
-     - Yellow
-     - Green
-     - Blue
-     - Violet
-     - Grey
-     - White
-     - Gold
-     - Silver
+   * - 黑色
+     - 棕色
+     - 红色
+     - 橙色
+     - 黄色
+     - 绿色
+     - 蓝色
+     - 紫色
+     - 灰色
+     - 白色
+     - 金色
+     - 银色
    * - 0
      - 1
      - 2
@@ -51,48 +48,43 @@ As shown in the card, each color stands for a number.
      - 0.1
      - 0.01
 
-The 4- and 5-band resistors are frequently used, on which there are 4 and 5 chromatic bands. 
+4 色环和 5 色环电阻是常用的，分别有 4 条和 5 条色环。
 
-Normally, when you get a resistor, you may find it hard to decide which end to start for reading the color. 
-The tip is that the gap between the 4th and 5th band will be comparatively larger.
+通常情况下，当你拿到一个电阻时，可能很难决定从哪一端开始读取颜色。技巧是：第 4 条和第 5 条色环之间的间距相对较大。
 
-Therefore, you can observe the gap between the two chromatic bands at one end of the resistor; 
-if it's larger than any other band gaps, then you can read from the opposite side. 
+因此，你可以观察电阻一端两条色环之间的间距；如果它比其他任何色环间距都大，则从相反的一侧开始读取。
 
-Let’s see how to read the resistance value of a 5-band resistor as shown below.
+下面我们来看看如何读取一个 5 色环电阻的阻值。
 
 .. image:: img/220ohm.jpg
     :width: 500
 
-So for this resistor, the resistance should be read from left to right. 
-The value should be in this format: 1st Band 2nd Band 3rd Band x 10^Multiplier (Ω) and the permissible error is ±Tolerance%. 
-So the resistance value of this resistor is 2(red) 2(red) 0(black) x 10^0(black) Ω = 220 Ω, 
-and the permissible error is ± 1% (brown). 
+对于这个电阻，应该从左到右读取。其格式应为：第 1 环 第 2 环 第 3 环 x 10^倍率（Ω），允许误差为 ± 容差%。因此，该电阻的阻值为 2（红色）2（红色）0（黑色）x 10^0（黑色）Ω = 220 Ω，允许误差为 ± 1%（棕色）。
 
-.. list-table::Common resistor color band
+.. list-table::常用电阻色环对照表
     :header-rows: 1
 
-    * - Resistor 
-      - Color Band  
-    * - 10Ω   
-      - brown black black silver brown
-    * - 100Ω   
-      - brown black black black brown
-    * - 220Ω 
-      - red red black black brown
-    * - 330Ω 
-      - orange orange black black brown
-    * - 1kΩ 
-      - brown black black brown brown
-    * - 2kΩ 
-      - red black black brown brown
-    * - 5.1kΩ 
-      - green brown black brown brown
-    * - 10kΩ 
-      - brown black black red brown 
-    * - 100kΩ 
-      - brown black black orange brown 
-    * - 1MΩ 
-      - brown black black green brown 
+    * - 电阻
+      - 色环
+    * - 10Ω
+      - 棕黑黑银棕
+    * - 100Ω
+      - 棕黑黑黑棕
+    * - 220Ω
+      - 红红黑黑棕
+    * - 330Ω
+      - 橙橙黑黑棕
+    * - 1kΩ
+      - 棕黑黑棕棕
+    * - 2kΩ
+      - 红黑黑棕棕
+    * - 5.1kΩ
+      - 绿棕黑棕棕
+    * - 10kΩ
+      - 棕黑黑红棕
+    * - 100kΩ
+      - 棕黑黑橙棕
+    * - 1MΩ
+      - 棕黑黑绿棕
 
-You can learn more about resistor from Wiki: `Resistor - Wikipedia <https://en.wikipedia.org/wiki/Resistor>`_.
+你可以从维基百科了解更多关于电阻的信息：`Resistor - Wikipedia <https://en.wikipedia.org/wiki/Resistor>`_.

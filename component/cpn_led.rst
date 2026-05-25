@@ -1,4 +1,3 @@
-
 .. _cpn_led:
 
 LED
@@ -7,22 +6,22 @@ LED
 .. image:: img/LED.png
     :width: 400
 
-Semiconductor light-emitting diode is a type of component which can turn electric energy into light energy via PN junctions. By wavelength, it can be categorized into laser diode, infrared light-emitting diode and visible light-emitting diode which is usually known as light-emitting diode (LED). 
-                    
-Diode has unidirectional conductivity, so the current flow will be as the arrow indicates in figure circuit symbol. You can only provide the anode with a positive power and the cathode with a negative. Thus the LED will light up. 
+半导体发光二极管是一种通过 PN 结将电能转化为光能的元件。按波长可分为激光二极管、红外发光二极管和可见光发光二极管，后者通常被称为发光二极管（LED）。
+
+二极管具有单向导电性，因此电流方向将如电路符号中箭头所示。你只能将正极接正电源，负极接负电源，这样 LED 才会发光。
 
 .. image:: img/led_symbol.png
 
 
-An LED has two pins. The longer one is the anode, and shorter one, the cathode. Pay attention not to connect them inversely. There is fixed forward voltage drop in the LED, so it cannot be connected with the circuit directly because the supply voltage can outweigh this drop and cause the LED to be burnt. The forward voltage of the red, yellow, and green LED is 1.8 V and that of the white one is 2.6 V. Most LEDs can withstand a maximum current of 20 mA, so we need to connect a current limiting resistor in series.                   
+LED 有两个引脚。长引脚为正极，短引脚为负极。注意不要接反。LED 具有固定的正向压降，因此不能直接接入电路，因为电源电压可能超过该压降导致 LED 烧毁。红色、黄色和绿色 LED 的正向压降为 1.8V，白色 LED 为 2.6V。大多数 LED 能承受的最大电流为 20mA，因此需要串联一个限流电阻。
 
-The formula of the resistance value is as follows:
+电阻值的计算公式如下：
 
     R = (Vsupply – VD)/I
 
-**R** stands for the resistance value of the current limiting resistor, **Vsupply** for voltage supply, **VD** for voltage drop and **I** for the working current of the LED.
+**R** 表示限流电阻的阻值，**Vsupply** 表示电源电压，**VD** 表示压降，**I** 表示 LED 的工作电流。
 
-Here is the detailed introduction for the LED: `LED - Wikipedia <https://en.wikipedia.org/wiki/Light-emitting_diode>`_.
+以下是 LED 的详细介绍：`LED - Wikipedia <https://en.wikipedia.org/wiki/Light-emitting_diode>`_.
 
 .. **Example**
 

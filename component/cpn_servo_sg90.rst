@@ -1,21 +1,20 @@
-
 .. _cpn_servo:
 
-Servo
+舵机
 ===========
 
 .. image:: img/servo.png
     :align: center
 
-A servo is generally composed of the following parts: case, shaft, gear system, potentiometer, DC motor, and embedded board.  
+舵机通常由以下部分组成：外壳、转轴、齿轮系统、电位器、直流电机和内置控制板。
 
-It works like this: The microcontroller sends out PWM signals to the servo, and then the embedded board in the servo receives the signals through the signal pin and controls the motor inside to turn. As a result, the motor drives the gear system and then motivates the shaft after deceleration. The shaft and potentiometer of the servo are connected together. When the shaft rotates, it drives the potentiometer, so the potentiometer outputs a voltage signal to the embedded board. Then the board determines the direction and speed of rotation based on the current position, so it can stop exactly at the right position as defined and hold there.
+其工作原理如下：微控制器向舵机发送 PWM 信号，舵机内的控制板通过信号引脚接收信号并控制内部电机转动。电机驱动齿轮系统，经减速后带动转轴旋转。舵机的转轴与电位器相连，当转轴旋转时带动电位器，电位器向控制板输出电压信号。控制板根据当前位置判断旋转方向和速度，从而精确停止在指定位置并保持不动。
 
 .. image:: img/servo_internal.png
     :align: center
 
-The angle is determined by the duration of a pulse that is applied to the control wire. This is called Pulse width Modulation. The servo expects to see a pulse every 20 ms. The length of the pulse will determine how far the motor turns. For example, a 1.5ms pulse will make the motor turn to the 90 degree position (neutral position).
-When a pulse is sent to a servo that is less than 1.5 ms, the servo rotates to a position and holds its output shaft some number of degrees counterclockwise from the neutral point. When the pulse is wider than 1.5 ms the opposite occurs. The minimal width and the maximum width of pulse that will command the servo to turn to a valid position are functions of each servo. Generally the minimum pulse will be about 0.5 ms wide and the maximum pulse will be 2.5 ms wide.
+角度由施加到控制线上的脉冲持续时间决定，这称为脉宽调制（PWM）。舵机每 20 ms 接收一个脉冲。脉冲的长度决定电机转动的角度。例如，1.5ms 的脉冲将使电机转到 90 度位置（中间位置）。
+当发送给舵机的脉冲小于 1.5ms 时，舵机会旋转到某个位置并将其输出轴保持在中间点逆时针方向的一定角度处。当脉冲宽度大于 1.5ms 时则相反。使舵机旋转到有效位置的最小和最大脉冲宽度取决于具体舵机型号。通常最小脉冲约为 0.5ms，最大脉冲约为 2.5ms。
 
 .. image:: img/servo_duty.png
     :width: 600
@@ -27,5 +26,3 @@ When a pulse is sent to a servo that is less than 1.5 ms, the servo rotates to a
 .. * :ref:`3.1.2_c` (C Project)
 .. * :ref:`1.3.2_py` (Python Project)
 .. * :ref:`4.1.8_py` (Python Project)
-
-

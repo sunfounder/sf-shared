@@ -1,21 +1,20 @@
-
 .. _cpn_slide_switch:
 
-Slide Switch
+滑动开关
 ==============
 
 .. image:: img/slide_switch.png
     :width: 150
     :align: center
 
-A slide switch, just as its name implies, is to slide the switch bar to connect or break the circuit, and further switch circuits. The common-used types are SPDT, SPTT, DPDT, DPTT etc. The slide switch is commonly used in low-voltage circuit. It has the features of flexibility and stability, and  applies in electric instruments and electric toys widely.
-How it works: Set the middle pin as the fixed one. When you pull the slide to the left, the  two pins on the left are connected; when you pull it to the right, the two pins on the right are connected. Thus, it works as a switch connecting or disconnecting circuits. See the figure below:
+滑动开关，顾名思义，是通过滑动开关柄来接通或断开电路，进而切换电路。常用类型有 SPDT、SPTT、DPDT、DPTT 等。滑动开关常用于低压电路，具有灵活稳定的特点，广泛应用于电子仪器和电动玩具中。
+工作原理：将中间引脚设为固定端。当将开关柄向左滑动时，左侧的两个引脚接通；向右滑动时，右侧的两个引脚接通。这样它就起到开关的作用，连接或断开电路。如下图所示：
 
 .. image:: img/slide_principle.png
     :width: 400
     :align: center
 
-The circuit symbol of the slide switch is shown as below. The pin2 in the figure refers to the middle pin.
+滑动开关的电路符号如下所示。图中的 pin2 指的是中间引脚。
 
 .. image:: img/slide_symbol.png
     :width: 200
@@ -28,4 +27,3 @@ The circuit symbol of the slide switch is shown as below. The pin2 in the figure
 .. * :ref:`2.1.4_py` (Python Project)
 .. * :ref:`4.1.15_py` (Python Project)
 .. * :ref:`1.15_scratch` (Scratch Project)
-

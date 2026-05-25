@@ -1,46 +1,44 @@
-
 .. _cpn_pir:
 
-PIR Motion Sensor Module
+PIR 运动传感器模块
 ============================
 
 .. image:: img/pir_pic.png
     :width: 300
     :align: center
 
-The PIR sensor detects infrared heat radiation that can be used to detect the presence of organisms that emit infrared heat radiation.
+PIR 传感器检测红外热辐射，可用于检测发出红外热辐射的生物体的存在。
 
-The PIR sensor is split into two slots that are connected to a differential amplifier. Whenever a stationary object is in front of the sensor, the two slots receive the same amount of radiation and the output is zero. Whenever a moving object is in front of the sensor, one of the slots receives more radiation than the other , which makes the output fluctuate high or low. This change in output voltage is a result of detection of motion.
+PIR 传感器分为两个槽，连接到差分放大器。当静止物体位于传感器前方时，两个槽接收到相同量的辐射，输出为零。当运动物体位于传感器前方时，其中一个槽接收到的辐射多于另一个，导致输出波动为高电平或低电平。这种输出电压的变化就是运动检测的结果。
 
 .. image:: img/PIR_working_principle.jpg
     :width: 800
 
-After the sensing module is wired, there is a one-minute initialization. During the initialization, module will output for 0~3 times at intervals. Then the module will be in the standby mode. Please keep the interference of light source and other sources away from the surface of the module so as to avoid the misoperation caused by the interfering signal. Even you'd better use the module without too much wind, because the wind can also interfere with the sensor.
+传感器模块接线后，需要一分钟的初始化时间。在初始化期间，模块会间隔输出 0~3 次。之后模块进入待机模式。请避免光源和其他干扰源靠近模块表面，以免干扰信号引起误操作。最好在无风的环境中使用模块，因为风也会干扰传感器。
 
 .. image:: img/pir_back.png
     :width: 600
     :align: center
 
-**Distance Adjustment**
+**距离调节**
 
-Turning the knob of the distance adjustment potentiometer clockwise, the range of sensing distance increases, and the maximum sensing distance range is about 0-7 meters. If turn it anticlockwise, the range of sensing distance is reduced, and the minimum sensing distance range is about 0-3 meters.
+顺时针旋转距离调节电位器的旋钮，感应距离范围增加，最大感应距离范围约为 0-7 米。逆时针旋转则感应距离范围减小，最小感应距离范围约为 0-3 米。
 
-**Delay adjustment**
+**延时调节**
 
-Rotate the knob of the delay adjustment potentiometer clockwise, you can also see the sensing delay increasing. The maximum of the sensing delay can reach up to 300s. On the contrary, if rotate it anticlockwise, you can shorten the delay with a minimum of 5s. 
+顺时针旋转延时调节电位器的旋钮，感应延时增加。最大感应延时可达 300 秒。反之，逆时针旋转可缩短延时，最短为 5 秒。
 
-**Two Trigger Modes**
+**两种触发模式**
 
-Choosing different modes by using the jumper cap.
+通过跳线帽选择不同模式。
 
-* **H**: Repeatable trigger mode, after sensing the human body, the module outputs high level. During the subsequent delay period, if somebody enters the sensing range, the output will keep being the high level.
+* **H**\ ：可重复触发模式，感应到人体后模块输出高电平。在后续延时期间，如果有人进入感应范围，输出将保持高电平。
 
-* **L**: Non-repeatable trigger mode, outputs high level when it senses the human body. After the delay, the output will change from high level into low level automatically. 
+* **L**\ ：不可重复触发模式，感应到人体后输出高电平。延时结束后，输出将自动从高电平变为低电平。
 
-.. **Example**
+.. **示例**
 
-.. * :ref:`2.2.7_c` (C Project)
-.. * :ref:`2.2.7_py` (Python Project)
-.. * :ref:`4.1.4_py` (Python Project)
-.. * :ref:`1.5_scratch` (Scratch Project)
-
+.. * :ref:`2.2.7_c` （C 项目）
+.. * :ref:`2.2.7_py` （Python 项目）
+.. * :ref:`4.1.4_py` （Python 项目）
+.. * :ref:`1.5_scratch` （Scratch 项目）

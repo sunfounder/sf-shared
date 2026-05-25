@@ -1,4 +1,3 @@
-
 .. _cpn_rgb_led:
 
 RGB LED
@@ -6,20 +5,20 @@ RGB LED
 
 .. image:: img/rgb_led.png
     :width: 100
-    
-RGB LEDs emit light in various colors. An RGB LED packages three LEDs of red, green, and blue into a transparent or semitransparent plastic shell. It can display various colors by changing the input voltage of the three pins and superimpose them, which, according to statistics, can create 16,777,216 different colors. 
+
+RGB LED 能够发出各种颜色的光。RGB LED 将红、绿、蓝三个 LED 封装在透明或半透明的塑料外壳中。通过改变三个引脚的输入电压并叠加混合，可以显示出各种颜色，据统计最多可产生 16,777,216 种不同的颜色。
 
 .. image:: img/rgb_light.png
     :width: 600
 
-RGB LEDs can be categorized into common anode and common cathode ones. In this kit, the latter is used. The **common cathode**, or CC, means to connect the cathodes of the three LEDs. After you connect it with GND and plug in the three pins, the LED will flash the corresponding color. 
+RGB LED 可分为共阳极和共阴极两种类型。本套件中使用的是共阴极类型。**共阴极（CC）**\ 是指将三个 LED 的阴极连接在一起。将其连接到 GND 并接入三个引脚后，LED 将发出相应的颜色。
 
-Its circuit symbol is shown as figure.
+其电路符号如下图所示。
 
 .. image:: img/rgb_symbol.png
     :width: 300
 
-An RGB LED has 4 pins: the longest one is GND; the others are Red, Green and Blue. Touch its plastic shell and you will find a cut. The pin closest to the cut is the first pin, marked as Red, then GND, Green and Blue in turn. 
+RGB LED 有 4 个引脚：最长的是 GND；其余分别为 Red、Green 和 Blue。触摸其塑料外壳可以发现一个切口。最靠近切口的引脚为第一个引脚，标记为 Red，然后依次为 GND、Green 和 Blue。
 
 .. image:: img/rgb_pin.jpg
     :width: 200

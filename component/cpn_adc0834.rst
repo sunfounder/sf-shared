@@ -1,51 +1,25 @@
-
 .. _cpn_adc0834:
 
 ADC0834
 ==============
 
-ADC0834 is an 8-bit successive approximation analog-to-digital converter that is equipped with an input-configurable
-multichannel multi-plexer and serial input/output. The serial
-input/output is configured to interface with standard shift registers or
-microprocessors.
+ADC0834 是一款 8 位逐次逼近型模数转换器，配备输入可配置的多通道多路复用器和串行输入/输出接口。串行输入/输出设计用于与标准移位寄存器或微处理器接口。
 
 .. image:: img/image309.png
 
 
-**Sequence of Operation**
+**操作时序**
 
-A conversion is initiated by setting CS low, which enables all logic
-circuits. CS must be held low for the complete conversion process. A
-clock input is then received from the processor. On each low-to-high
-transition of the clock input, the data on DI is clocked into the
-multiplexer address shift register. The first logic high on the input is
-the start bit. A 3- to 4-bit assignment word follows the start bit. On
-each successive low-to-high transition of the clock input, the start bit
-and assignment word are shifted through the shift register. When the
-start bit is shifted into the start location of the multiplexer
-register, the input channel is selected and conversion starts. The SAR
-Statu output (SARS) goes high to indicate that a conversion is in
-progress, and DI to the multiplexer shift register is disabled the
-duration of the conversion.
+转换通过将 CS 置为低电平来启动，这将启用所有逻辑电路。CS 必须在整个转换过程中保持低电平。然后从处理器接收时钟输入。在每个时钟输入的低到高跳变沿，DI 上的数据被时钟送入多路复用器地址移位寄存器。输入的第一个逻辑高电平为起始位。起始位之后是 3 到 4 位的分配字。在每个后续时钟输入的低到高跳变沿，起始位和分配字通过移位寄存器移位。当起始位移入多路复用器寄存器的起始位置时，输入通道被选中，转换开始。SAR 状态输出 (SARS) 变为高电平，表示转换正在进行，并且在转换期间禁用 DI 到多路复用器移位寄存器。
 
-An interval of one clock period is automatically inserted to allow the
-selected multiplexed channel to settle. The data output DO comes out of
-the high-impedance state and provides a leading low for this one clock
-period of multiplexer settling time. The SAR comparator compares
-successive outputs from the resistive ladder with the incoming analog
-signal. The comparator output indicates whether the analog input is
-greater than or less than the resistive ladder output. As the conversion
-proceeds, conversion data is simultaneously output from the DO output
-pin, with the most significant bit (MSB) first.
+自动插入一个时钟周期的间隔，以允许选中的多路复用通道稳定。数据输出 DO 脱离高阻态，并在这一时钟周期的多路复用器稳定时间内提供前导低电平。SAR 比较器将电阻阶梯网络的逐次输出与输入的模拟信号进行比较。比较器输出指示模拟输入是大于还是小于电阻阶梯网络输出。随着转换的进行，转换数据同时从 DO 输出引脚输出，最高有效位 (MSB) 优先。
 
-After eight clock periods, the conversion is complete and the SARS
-output goes low. Finally outputs the least-significant-bit-first data
-after the MSB-first data stream.
+经过八个时钟周期后，转换完成，SARS 输出变为低电平。最后在 MSB 优先数据流之后输出最低有效位优先的数据。
 
 .. image:: img/image175.png
 
 
-**ADC0834 MUX ADDRESS CONTROL LOGIC TABLE**
+**ADC0834 MUX 地址控制逻辑表**
 
 .. image:: img/image176.png
 

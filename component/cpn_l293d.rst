@@ -1,22 +1,21 @@
-
 .. _cpn_l293d:
 
-L293D 
+L293D
 =================
 
-L293D is a 4-channel motor driver integrated by chip with high voltage and high current. 
-It's designed to connect to standard DTL, TTL logic level, and drive inductive loads (such as relay coils, DC, Stepper Motors) and power switching transistors etc. 
-DC Motors are devices that turn DC electrical energy into mechanical energy. They are widely used in electrical drive for their superior speed regulation performance.
+L293D 是一款集成高压大电流的 4 通道电机驱动芯片。
+它设计用于连接标准 DTL、TTL 逻辑电平，并驱动感性负载（如继电器线圈、直流电机、步进电机）和功率开关晶体管等。
+直流电机是将直流电能转换为机械能的装置。因其优越的调速性能，广泛应用于电气传动中。
 
-See the figure of pins below. L293D has two pins (Vcc1 and Vcc2) for power supply. 
-Vcc2 is used to supply power for the motor, while Vcc1 to supply for the chip. Since a small-sized DC motor is used here, connect both pins to +5V.
+下图展示了引脚排列。L293D 有两个电源引脚（Vcc1 和 Vcc2）。
+Vcc2 用于为电机供电，Vcc1 用于为芯片供电。由于此处使用小型直流电机，将两个引脚均连接至 +5V。
 
 .. image:: img/l293d111.png
 
-The following is the internal structure of L293D. 
-Pin EN is an enable pin and only works with high level; A stands for input and Y for output. 
-You can see the relationship among them at the right bottom. 
-When pin EN is High level, if A is High, Y outputs high level; if A is Low, Y outputs Low level. When pin EN is Low level, the L293D does not work.
+以下是 L293D 的内部结构。
+EN 引脚为使能引脚，仅在高电平时工作；A 表示输入，Y 表示输出。
+你可以在右下角看到它们之间的关系。
+当 EN 引脚为高电平时，若 A 为高电平，Y 输出高电平；若 A 为低电平，Y 输出低电平。当 EN 引脚为低电平时，L293D 不工作。
 
 .. image:: img/l293d334.png
 

@@ -1,16 +1,15 @@
-
 .. _cpn_tilt_switch:
 
-Tilt Switch
+倾斜开关
 =============================
 
 .. image:: img/tilt_switch.png
     :width: 80
     :align: center
 
-The tilt switch used here is a ball one with a metal ball inside. It is used to detect inclinations of a small angle.
+这里使用的倾斜开关是滚珠式开关，内部有一个金属球。它用于检测小幅度的倾斜角度。
 
-The principle is very simple. When the switch is tilted in a certain angle, the ball inside rolls down and touches the two contacts connected to the pins outside, thus triggering circuits. Otherwise the ball will stay away from the contacts, thus breaking the circuits.
+其原理非常简单。当开关倾斜到一定角度时，内部的金属球会滚落下来，接触到与外部引脚相连的两个触点，从而导通电路。否则金属球将远离触点，使电路断开。
 
 .. image:: img/tilt_symbol.png
     :width: 600

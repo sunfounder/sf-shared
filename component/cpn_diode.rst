@@ -1,37 +1,36 @@
-
 .. _cpn_diode:
 
-Diode
+二极管
 =================
 
 
-A diode is an electronic component with two electrodes. It allows current to flow in only one direction, which is often called the "Rectifying" function.
-Thus, a diode can be thought of as an electronic version of a check valve.
+二极管是一种具有两个电极的电子元件。它允许电流仅沿一个方向流动，这通常被称为"整流"功能。
+因此，二极管可被视为电子版的单向阀。
 
-Because of its unidirectional conductivity, the diode is used in almost all electronic circuits of some complexity. It is one of the first semiconductor devices and has a wide range of applications.
+由于其单向导电性，二极管几乎应用于所有有一定复杂度的电子电路中。它是最早的半导体器件之一，应用范围广泛。
 
-According to its use classification, it can be divided into detector diodes, rectifier diodes, limiter diodes, voltage regulator diodes, etc. 
+根据用途分类，可分为检波二极管、整流二极管、限幅二极管、稳压二极管等。
 
-Rectifier diodes and voltage regulator diodes are included in this kit.
+本套件中包含整流二极管和稳压二极管。
 
-**Rectifier Diode**
+**整流二极管**
 
 .. image:: img/in4007_diode.png
 .. image:: img/symbol_rectifier_diode.png
     :width: 200
 
-A rectifier diode is a semiconductor diode, used to rectify AC (alternating current) to DC (direct current) using the rectifier bridge application. The alternative of rectifier diode through the Schottky barrier is mainly valued within digital electronics. This diode is capable to conduct the values of current which changes from mA to a few kA & voltages up to a few kV.
+整流二极管是一种半导体二极管，用于通过整流桥电路将交流电（AC）整流为直流电（DC）。通过肖特基势垒替代的整流二极管主要在数字电子中具有价值。该二极管能够导通从 mA 到数 kA 的电流值和高达数 kV 的电压值。
 
-The designing of rectifier diodes can be done with Silicon material and they are capable of conducting high electric current values. These diodes are not famous but still used Ge or gallium arsenide-based semiconductor diodes. Ge diodes have less allowable reversed voltage as well as a lesser allowable junction temperature. The Ge diode has a benefit as compared to Si diode that is low threshold voltage value while operating in a forward-bias.
+整流二极管可采用硅材料制造，能够导通大电流值。这些二极管虽不那么常见，但仍使用锗或砷化镓基半导体二极管。锗二极管的允许反向电压较低，允许结温也较低。锗二极管相比硅二极管的优点是正向偏置工作时阈值电压较低。
 
-* `1N400x general-purpose diode  - Wikipedia <https://en.wikipedia.org/wiki/1N400x_general-purpose_diode>`_
+* `1N400x general-purpose diode - Wikipedia <https://en.wikipedia.org/wiki/1N400x_general-purpose_diode>`_
 
 
-**Zener Diode**
+**稳压二极管**
 
-A Zener diode is a special type of diode designed to reliably allow current to flow "backwards" when a certain set reverse voltage, known as the Zener voltage, is reached.
+稳压二极管是一种特殊类型的二极管，设计用于在达到特定反向电压（称为稳压值）时，可靠地允许电流"反向"流动。
 
-This diode is a semiconductor device that has a very high resistance up to the critical reverse breakdown voltage. At this critical breakdown point, the reverse resistance is reduced to a very small value, and the current increases while the voltage remains constant in this low resistance region.
+该二极管是一种半导体器件，在达到临界反向击穿电压之前具有非常高的电阻。在此临界击穿点，反向电阻减小到很小的值，电流增加而电压在该低电阻区域内保持恒定。
 
 .. image:: img/zener_diode.png
 .. image:: img/symbol-zener-diode.jpg

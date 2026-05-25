@@ -1,22 +1,21 @@
-
 .. _cpn_touch_switch:
 
-Touch Switch Module
+触摸开关模块
 ==================================
 
 .. image:: img/touch168.png
     :width: 300
     :align: center
 
-Touch switch module works by detecting a change in capacitance due to influence of an external object. The touch plate is covered with insulating material, and the user does not come in contact with the electrical circuit.
+触摸开关模块通过检测外部物体引起的电容变化来工作。触摸板覆盖有绝缘材料，用户不直接接触电路。
 
-A capacitive touch switch has different layers—top insulating face plate followed by touch plate, another insulating layer and then ground plate.
+电容式触摸开关具有不同的层结构——顶部为绝缘面板，然后是触摸板，另一层绝缘层，最后是接地板。
 
 .. image:: img/touch169.jpeg
 
-In practice, a capacitive sensor can be made on a double-sided PCB by regarding one side as the touch sensor and the opposite side as ground plate of the capacitor. When power is applied across these plates, the two plates get charged. In equilibrium state, the plates have the same voltage as the power source.
+在实际应用中，电容式传感器可以在双面 PCB 上制作，将一面作为触摸传感器，另一面作为电容的接地板。当在两块板之间施加电源时，两块板会充电。在平衡状态下，两块板的电压与电源电压相同。
 
-The touch detector circuit has an oscillator whose frequency is dependent on capacitance of the touchpad. When a finger is moved close to the touchpad, additional capacitance causes frequency of this internal oscillator to change. The detector circuit tracks oscillator frequency at timed intervals, and when the shift crosses the threshold change, the circuit triggers a key-press event.
+触摸检测电路包含一个振荡器，其频率取决于触摸板的电容。当手指靠近触摸板时，额外的电容会导致内部振荡器的频率发生变化。检测电路按时间间隔跟踪振荡器频率，当频率偏移超过阈值时，电路触发按键事件。
 
 .. **Example**
 

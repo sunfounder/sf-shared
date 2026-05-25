@@ -1,28 +1,27 @@
-
 .. _cpn_capacitor:
 
-Capacitor
+电容
 =============
 
 .. image:: img/103_capacitor.png
 .. image:: img/10uf_cap.png
 
-Capacitor, refers to the amount of charge storage under a given potential difference, denoted as C, and the international unit is farad (F). 
-Generally speaking, electric charges move under force in an electric field. When there is a medium between conductors, the movement of electric charges is hindered and the electric charges accumulate on the conductors, resulting in accumulation of electric charges. 
+电容，是指在给定电位差下的电荷存储量，用 C 表示，国际单位是法拉（F）。
+一般来说，电荷在电场中受力而运动。当导体之间存在介质时，电荷的运动受到阻碍，电荷积聚在导体上，从而产生电荷积累。
 
-The amount of stored electric charges is called capacitance. Because capacitors are one of the most widely used electronic components in electronic equipment, they are widely used in direct current isolation, coupling, bypass, filtering, tuning loops, energy conversion, and control circuits. Capacitors are divided into electrolytic capacitors, solid capacitors, etc.
+存储的电荷量称为电容。由于电容器是电子设备中应用最广泛的电子元件之一，广泛应用于隔直、耦合、旁路、滤波、调谐回路、能量转换和控制电路中。电容器分为电解电容器、固态电容器等。
 
-According to material characteristics, capacitors can be divided into: aluminum electrolytic capacitors, film capacitors, tantalum capacitors, ceramic capacitors, super capacitors, etc.
+根据材料特性，电容器可分为：铝电解电容器、薄膜电容器、钽电容器、陶瓷电容器、超级电容器等。
 
-In this kit, ceramic capacitors and electrolytic capacitors are used. 
+本套件中使用的是陶瓷电容器和电解电容器。
 
 * `Ceramic Capacitor - Wikipedia <https://en.wikipedia.org/wiki/Ceramic_capacitor>`_
 
 * `Electrolytic Capacitor - Wikipedia <https://en.wikipedia.org/wiki/Electrolytic_capacitor>`_
 
-There are 103 or 104 label on the ceramic capacitors, which represent the capacitance value, 103=10x10^3pF, 104=10x10^4pF
+陶瓷电容器上标有 103 或 104 标识，代表电容值，103=10×10^3pF，104=10×10^4pF
 
-**Unit Conversion**
+**单位换算**
 
     1F=10^3mF=10^6uF=10^9nF=10^12pF
 

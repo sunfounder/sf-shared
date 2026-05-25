@@ -1,20 +1,19 @@
-
 .. _cpn_humiture_sensor:
 
-Humiture Sensor Module
+温湿度传感器模块
 =============================
 
 .. image:: img/dht11_pic.png
     :width: 400
     :align: center
 
-The digital temperature and humidity sensor DHT11 is a composite sensor that contains a calibrated digital signal output of temperature and humidity. 
-The technology of a dedicated digital modules collection and the temperature and humidity sensing technology are applied to ensure that the product has high reliability and excellent long-term stability.
+数字温湿度传感器 DHT11 是一款复合传感器，包含校准后的数字温湿度信号输出。
+该产品采用了专用数字模块采集技术和温湿度传感技术，确保具有高可靠性和优异的长期稳定性。
 
 
-Only three pins are available for use: VCC, GND, and DATA. 
-The communication process begins with the DATA line sending start signals to DHT11, and DHT11 receives the signals and returns an answer signal. 
-Then the host receives the answer signal and begins to receive 40-bit humiture data (8-bit humidity integer + 8-bit humidity decimal + 8-bit temperature integer + 8-bit temperature decimal + 8-bit checksum).
+只有三个引脚可供使用：VCC、GND 和 DATA。
+通信过程始于 DATA 线向 DHT11 发送起始信号，DHT11 接收信号后返回应答信号。
+然后主机接收应答信号，开始接收 40 位的温湿度数据（8 位湿度整数 + 8 位湿度小数 + 8 位温度整数 + 8 位温度小数 + 8 位校验和）。
 
 .. image:: img/Dht11.png
 

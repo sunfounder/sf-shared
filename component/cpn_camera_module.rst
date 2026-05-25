@@ -1,47 +1,39 @@
-
 .. _cpn_camera_module:
 
-Camera Module
-====================================
+摄像头模块
+==========
 
-
-**Description**
+**描述**
 
 .. image:: img/camera_module_pic.png
    :width: 200
    :align: center
 
-This is a 5MP Raspberry Pi camera module with OV5647 sensor. It's plug and play, connect the included ribbon cable to the CSI (Camera Serial Interface) port on your Raspberry Pi and you're ready to go.
+这是一款 5MP Raspberry Pi 摄像头模块，采用 OV5647 传感器。即插即用，将附带的排线连接到 Raspberry Pi 的 CSI（摄像头串行接口）端口即可使用。
 
-The board is small, about 25mm x 23mm x 9mm, and weighs 3g, making it ideal for mobile or other size and weight-critical applications. The camera module has a native resolution of 5 megapixels and has an on-board fixed focus lens that captures still images at 2592 x 1944 pixels, and also supports 1080p30, 720p60 and 640x480p90 video.
+该电路板尺寸小巧，约 25mm x 23mm x 9mm，重 3g，非常适合移动或其他对尺寸和重量有严格要求的应用。摄像头模块原生分辨率为 5 百万像素，配备板载定焦镜头，可拍摄 2592 x 1944 像素的静态图像，同时支持 1080p30、720p60 和 640x480p90 视频。
 
-.. note:: 
+.. note::
 
-   The module is only capable of capturing pictures and videos, not sound.
+   该模块仅能拍摄图片和视频，不支持录音。
 
+**规格**
 
+* **静态图像分辨率**\ ：2592×1944
+* **支持视频分辨率**\ ：1080p/30 fps、720p/60fps 和 640 x480p 60/90 视频录制
+* **光圈（F）**\ ：1.8
+* **视角**\ ：65 度
+* **尺寸**\ ：24mmx23.5mmx8mm
+* **重量**\ ：3g
+* **接口**\ ：CSI 接口
+* **支持操作系统**\ ：Raspberry Pi OS（建议使用最新版本）
 
-**Specification**
-
-* **Static Images Resolution**: 2592×1944 
-* **Supported Video Resolution**: 1080p/30 fps, 720p/ 60fps and 640 x480p 60/90 video recording 
-* **Aperture (F)**: 1.8 
-* **Visual Angle**: 65 degree 
-* **Dimension**: 24mmx23.5mmx8mm 
-* **Weight**: 3g 
-* **Interface**: CSI connector 
-* **Supported OS**: Raspberry Pi OS(latest version recommended) 
-
-
-
-**Assemble the Camera Module**
+**安装摄像头模块**
 -------------------------------------
 
+在摄像头模块或 Raspberry Pi 上，您会找到一个扁平塑料连接器。小心地向外拉出黑色固定卡扣，直至其部分拉出。按照图示方向将 FFC 排线插入塑料连接器，然后将固定卡扣推回原位。
 
-On the camera module or Raspberry Pi, you will find a flat plastic connector. Carefully pull out the black fixing switch until the fixing switch is partially pulled out. Insert the FFC cable into the plastic connector in the direction shown and push the fixing switch back into place.
-
-If the FFC wire is installed correctly, it will be straight and will not pull out when you gently pull on it. If not, reinstall it again.
-
+如果 FFC 排线安装正确，它会保持平直，轻轻拉动时不会脱出。如果没有，请重新安装。
 
 .. image:: img/connect_ffc.png
 .. image:: img/1.10_camera.png
@@ -49,10 +41,8 @@ If the FFC wire is installed correctly, it will be straight and will not pull ou
 
 .. warning::
 
-   Do not install the camera with the power on, it may damage your camera.
+   请勿在通电状态下安装摄像头，否则可能损坏摄像头。
 
-
-   
 .. **Example**
 
 .. * :ref:`3.1.1_py` (Python Project)

@@ -1,23 +1,22 @@
-
 .. _cpn_button:
 
-Button
+按钮
 ==========
 
 .. image:: img/button.png
     :width: 400
     :align: center
 
-Buttons are a common component used to control electronic devices. They are usually used as switches to connect or break circuits. Although buttons come in a variety of sizes and shapes, the one used here is a 6mm mini-button as shown in the following pictures.
-Pin 1 is connected to pin 2 and pin 3 to pin 4. So you just need to connect either of pin 1 and pin 2 to pin 3 or pin 4.
+按钮是用于控制电子设备的常见元件。它们通常用作开关来连接或断开电路。虽然按钮有各种尺寸和形状，但这里使用的是 6mm 微型按钮，如下图所示。
+引脚 1 连接引脚 2，引脚 3 连接引脚 4。因此您只需将引脚 1 或 2 中的任一个连接到引脚 3 或 4。
 
-The following is the internal structure of a button. The symbol on the right below is usually used to represent a button in circuits. 
+以下是按钮的内部结构。右下方符号通常用于在电路中表示按钮。
 
 .. image:: img/button_symbol.png
     :width: 400
     :align: center
 
-Since the pin 1 is connected to pin 2, and pin 3 to pin 4, when the button is pressed, the 4 pins are connected, thus closing the circuit.
+由于引脚 1 连接引脚 2，引脚 3 连接引脚 4，当按钮按下时，4 个引脚连通，从而闭合电路。
 
 .. image:: img/button2.png
     :width: 600
@@ -32,4 +31,3 @@ Since the pin 1 is connected to pin 2, and pin 3 to pin 4, when the button is pr
 .. * :ref:`4.1.2_py` (Python Project)
 .. * :ref:`4.1.10_py` (Python Project)
 .. * :ref:`1.4_scratch` (Scratch Project)
-

@@ -1,39 +1,30 @@
-
 .. _cpn_ultrasonic_sensor:
 
-Ultrasonic Module
+超声波模块
 ================================
 
 .. image:: img/ultrasonic_pic.png
     :width: 400
     :align: center
 
-Ultrasonic ranging module provides 2cm - 400cm non-contact measurement function, and the ranging accuracy can reach to 3mm. 
-It can ensure that the signal is stable within 5m, and the signal is gradually weakened after 5m, till the 7m position disappears.
+超声波测距模块提供 2cm - 400cm 的非接触式测量功能，测距精度可达 3mm。
+在 5m 范围内可确保信号稳定，超过 5m 后信号逐渐减弱，至 7m 处信号消失。
 
-The module includes ultrasonic transmitters, receiver and control circuit. The basic principles are as follows:
+该模块包含超声波发射器、接收器和控制电路。基本原理如下：
 
-#. Use an IO flip-flop to process a high level signal of at least 10us.
+#. 使用 IO 触发器处理至少 10us 的高电平信号。
 
-#. The module automatically sends eight 40khz and detects if there is a pulse signal return.
+#. 模块自动发送 8 个 40kHz 的脉冲，并检测是否有脉冲信号返回。
 
-#. If the signal returns, passing the high level, the high output IO duration is the time from the transmission of the ultrasonic wave to the return of it. Here, test distance = (high time x sound speed (340 m / s) / 2.
+#. 如果有信号返回，则高电平持续的时间即为超声波从发射到返回的时间。此处，测试距离 = (高电平时间 x 声速 (340 m/s)) / 2。
 
-
-
-The timing diagram is shown below. 
+时序图如下所示。
 
 .. image:: img/ultrasonic228.png
 
-You only need to supply a short 10us pulse for the trigger input to start the ranging, and then the module
-will send out an 8 cycle burst of ultrasound at 40 kHz and raise its
-echo. You can calculate the range through the time interval between
-sending trigger signal and receiving echo signal.
+只需向触发输入端提供一个 10us 的短脉冲即可启动测距，然后模块将发出 8 个 40kHz 的超声波脉冲并拉高回响信号。通过发送触发信号和接收回响信号之间的时间间隔，即可计算出距离。
 
-Formula: us / 58 = centimeters or us / 148 =inch; or: the range = high
-level time \* velocity (340M/S) / 2; you are suggested to use
-measurement cycle over 60ms in order to prevent signal collisions of
-trigger signal and the echo signal.
+公式：us / 58 = 厘米 或 us / 148 = 英寸；或者：距离 = 高电平时间 x 声速 (340M/S) / 2；建议使用超过 60ms 的测量周期，以防止触发信号和回响信号发生冲突。
 
 .. **Example**
 

@@ -28,6 +28,7 @@ Format: `.. _anchor_name:` at column 0. Must match EN exactly.
 
 ### Community Note
 Chinese repo does NOT use Facebook community notes. Files start directly with anchors or titles.
+When translating from EN: strip the opening `.. note::` Facebook community block entirely. Do not translate or replace it.
 
 ### Inline Markup Spacing (CJK)
 

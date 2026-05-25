@@ -1,25 +1,24 @@
-
 .. _cpn_mcp3008:
 
 MCP3008
 ==============
 
-MCP3008 is a 10-bit successive approximation analog-to-digital converter (ADC) with 8 input channels and an SPI (Serial Peripheral Interface) communication protocol. It is capable of interfacing with a microcontroller to convert analog input signals into digital data for further processing.
+MCP3008 是一款 10 位逐次逼近型模数转换器（ADC），具有 8 个输入通道和 SPI（串行外设接口）通信协议。它能够与微控制器接口，将模拟输入信号转换为数字数据以供进一步处理。
 
 .. image:: img/MCP3008.jpg
       :width: 40%
 
-**Sequence of Operation**
+**操作时序**
 
-A conversion on the MCP3008 begins by setting the CS (chip select) pin low, which activates communication with the device. The microcontroller then sends a 3-byte control stream via the SPI interface to specify the configuration and select the input channel.
+MCP3008 上的转换通过将 CS（片选）引脚置为低电平开始，从而激活与设备的通信。微控制器随后通过 SPI 接口发送 3 字节控制流，以指定配置并选择输入通道。
 
-The first byte sent contains the start bit and the single/differential selection bit. The next bits indicate which of the 8 channels (CH0–CH7) to read from. Data is shifted into the device on each rising edge of the SPI clock (SCLK), and the conversion result is returned simultaneously.
+发送的第一个字节包含起始位和单端/差分选择位。接下来的位指示要读取的 8 个通道（CH0–CH7）中的哪一个。数据在 SPI 时钟（SCLK）的每个上升沿移入设备，同时转换结果被返回。
 
-A short delay is included internally for the selected input channel to settle before conversion begins. The MCP3008 then performs a 10-bit analog-to-digital conversion using a sample-and-hold circuit and a successive approximation register (SAR) comparator.
+内部包含一个短延迟，以便所选输入通道在转换开始前稳定。MCP3008 随后通过采样保持电路和逐次逼近寄存器（SAR）比较器执行 10 位模数转换。
 
-The conversion result is transmitted back to the microcontroller through the MISO (Master In Slave Out) line. The most significant bit (MSB) of the 10-bit result is sent first, followed by the remaining bits. The microcontroller reads the result over the SPI bus during this time.
+转换结果通过 MISO（主输入从输出）线传回微控制器。10 位结果的最高有效位（MSB）首先发送，随后是剩余位。微控制器在此期间通过 SPI 总线读取结果。
 
-After the full 10-bit digital value is shifted out, the MCP3008 completes the cycle and waits for the next command.
+当完整的 10 位数字值移出后，MCP3008 完成该周期并等待下一个命令。
 
 * `MCP3008 series Datasheet <https://www.alldatasheet.com/datasheet-pdf/view/304558/MICROCHIP/MCP3008-ISLASHP.html>`_
 

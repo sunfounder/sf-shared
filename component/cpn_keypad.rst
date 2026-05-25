@@ -1,19 +1,18 @@
-
 .. _cpn_keypad:
 
-Keypad
+键盘
 ========================
 
-A keypad is a rectangular array of 12 or 16 OFF-(ON) buttons. 
-Their contacts are accessed via a header suitable for connection with a ribbon cable or insertion into a printed circuit board. 
-In some keypads, each button connects with a separate contact in the header, while all the buttons share a common ground.
+键盘是一个由 12 或 16 个 OFF-(ON) 按钮组成的矩形阵列。
+其触点通过一个排针接口引出，适用于连接排线或插入印刷电路板。
+在某些键盘中，每个按钮与排针上的独立触点连接，而所有按钮共享一个公共地。
 
 .. image:: img/keypad314.png
 
-More often, the buttons are matrix encoded, meaning that each of them bridges a unique pair of conductors in a matrix. 
-This configuration is suitable for polling by a microcontroller, which can be programmed to send an output pulse to each of the four horizontal wires in turn. 
-During each pulse, it checks the remaining four vertical wires in sequence, to determine which one, if any, is carrying a signal. 
-Pullup or pulldown resistors should be added to the input wires to prevent the inputs of the microcontroller from behaving unpredictably when no signal is present.
+更常见的是，按钮采用矩阵编码方式，即每个按钮桥接矩阵中唯一的一对导线。
+这种配置适用于微控制器的轮询方式，可编程为依次向四条水平线中的每一条发送输出脉冲。
+在每个脉冲期间，它依次检查其余四条垂直线，以确定哪一条（如果有）正在传输信号。
+应在输入线上添加上拉或下拉电阻，以防止微控制器输入端在没有信号时出现不可预测的行为。
 
 .. **Example**
 

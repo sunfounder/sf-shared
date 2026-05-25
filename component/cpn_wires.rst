@@ -1,32 +1,15 @@
-
 .. _cpn_wires:
 
-Jumper Wires
+跳线
 =====================
 
-Wires that connect two terminals are called jumper wires. There are
-various kinds of jumper wires. Here we focus on those used in
-breadboard. Among others, they are used to transfer electrical signals
-from anywhere on the breadboard to the input/output pins of a
-microcontroller.
+连接两个端点的导线称为跳线。跳线有多种类型，这里我们重点介绍面包板中使用的跳线。它们用于将电信号从面包板的任何位置传输到微控制器的输入/输出引脚。
 
-Jump wires are fitted by inserting their "end connectors" into the slots
-provided in the breadboard, beneath whose surface there are a few sets
-of parallel plates that connect the slots in groups of rows or columns
-depending on the area. The "end connectors" are inserted into the
-breadboard, without soldering, in the particular slots that need to be
-connected in the specific prototype.
+跳线的连接方式是将"端接头"插入面包板的插槽中。面包板表面下方有几组平行金属片，根据区域不同，将插槽按行或列分组连接。"端接头"无需焊接，直接插入面包板中需要连接的特定插槽，用于构建特定原型。
 
-There are three types of jumper wire: Female-to-Female, Male-to-Male,
-and Male-to-Female. The reason we call it Male-to-Female is because it
-has the outstanding tip in one end as well as a sunk female end.
-Male-to-Male means both side are male and Female-to-Female means both
-ends are female.
+跳线有三种类型：母对母、公对公和公对母。之所以称为公对母，是因为它一端有凸出的针脚，另一端为凹陷的母头。公对公表示两端均为公头，母对母表示两端均为母头。
 
 .. image:: img/Jumper_Wires.png
 
 
-More than one type of them may be used in a project. The color of the
-jump wires is different but it doesn’t mean their function is different
-accordingly; it's just designed so to better identify the connection
-between each circuit.
+一个项目中可能使用多种类型的跳线。跳线的颜色不同，但并不意味着功能不同；颜色设计只是为了更好地识别各电路之间的连接关系。

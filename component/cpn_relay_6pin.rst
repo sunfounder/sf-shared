@@ -1,59 +1,35 @@
-
 .. _cpn_relay:
 
-Relay
+继电器
 ==========================================
 
 .. image:: img/relay_pic.png
     :width: 200
     :align: center
 
-As we may know, relay is a device which is used to provide connection
-between two or more points or devices in response to the input signal
-applied. In other words, relays provide isolation between the controller
-and the device as devices may work on AC as well as on DC. However, they
-receive signals from a microcontroller which works on DC hence requiring
-a relay to bridge the gap. Relay is extremely useful when you need to
-control a large amount of current or voltage with small electrical
-signal.
+众所周知，继电器是一种用于根据输入信号在两个或多个点或设备之间建立连接的器件。换句话说，继电器在控制器和设备之间提供隔离，因为设备可能工作在交流电或直流电下。然而，它们接收来自微控制器的信号，而微控制器工作在直流电下，因此需要继电器来桥接这一差距。当你需要用较小的电信号控制大电流或大电压时，继电器非常有用。
 
-There are 5 parts in every relay:
+每个继电器都有 5 个部分：
 
 .. image:: img/relay142.jpeg
 
-**Electromagnet** - It consists of an iron core wounded by coil of
-wires. When electricity is passed through, it becomes magnetic.
-Therefore, it is called electromagnet.
+**电磁铁** - 由绕在铁芯上的线圈组成。当通电时，它会变成磁铁。因此，它被称为电磁铁。
 
-**Armature** - The movable magnetic strip is known as armature. When
-current flows through them, the coil is it energized thus producing a
-magnetic field which is used to make or break the normally open (N/O) or
-normally close (N/C) points. And the armature can be moved with direct
-current (DC) as well as alternating current (AC).
+**衔铁** - 可移动的磁条称为衔铁。当电流流过线圈时，线圈通电，从而产生磁场，用于接通或断开常开（N/O）或常闭（N/C）触点。衔铁可以由直流电（DC）和交流电（AC）驱动。
 
-**Spring** - When no currents flow through the coil on the
-electromagnet, the spring pulls the armature away so the circuit cannot
-be completed.
+**弹簧** - 当电磁铁线圈中没有电流时，弹簧将衔铁拉离，使电路无法接通。
 
-Set of electrical **contacts** - There are two contact points:
+一组电气**触点** - 有两个触点：
 
--  Normally open - connected when the relay is activated, and disconnected when it is inactive.
+- 常开 - 继电器激活时连接，继电器未激活时断开。
 
--  Normally close - not connected when the relay is activated, and connected when it is inactive.
+- 常闭 - 继电器激活时断开，继电器未激活时连接。
 
-**Molded frame** - Relays are covered with plastic for protection.
+**模制框架** - 继电器用塑料外壳保护。
 
-The working principle of relay is simple. When power is supplied to the
-relay, currents start flowing through the control coil; as a result, the
-electromagnet starts energizing. Then the armature is attracted to the
-coil, pulling down the moving contact together thus connecting with the
-normally open contacts. So the circuit with the load is energized. Then
-breaking the circuit would a similar case, as the moving contact will be
-pulled up to the normally closed contacts under the force of the spring.
-In this way, the switching on and off of the relay can control the state
-of a load circuit.
+继电器的工作原理很简单。当继电器供电时，电流开始流过控制线圈，电磁铁开始励磁。然后衔铁被吸引到线圈，带动活动触点向下运动，从而与常开触点连接。因此，带负载的电路通电。断开电路的情况类似，活动触点在弹簧力的作用下被向上拉至常闭触点。通过这种方式，继电器的接通和断开可以控制负载电路的状态。
 
-.. **Example**
+.. **示例**
 
-.. * :ref:`1.3.3_c` (C Project)
-.. * :ref:`1.3.3_py` (Python Project)
+.. * :ref:`1.3.3_c` （C 项目）
+.. * :ref:`1.3.3_py` （Python 项目）

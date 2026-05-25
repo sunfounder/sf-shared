@@ -1,29 +1,26 @@
-
 .. _cpn_rotary_encoder:
 
-Rotary Encoder Module
+旋转编码器模块
 =============================
 
 .. image:: img/rotary_encoder_pic.png
     :width: 300
     :align: center
 
-A rotary encoder is a position sensor that converts the rotation of a knob into an output signal, indicating the direction in which the knob is turned.
+旋转编码器是一种位置传感器，可将旋钮的旋转转换为输出信号，指示旋钮的旋转方向。
 
-Rotary encoders are digital versions of potentiometers, offering greater versatility. They can rotate continuously, while potentiometers have limited rotation. Potentiometers indicate exact knob position, while rotary encoders show changes in position.
+旋转编码器是电位器的数字版本，具有更高的灵活性。它们可以连续旋转，而电位器的旋转角度有限。电位器指示精确的旋钮位置，而旋转编码器则显示位置的变化。
 
-There are mainly two types of rotary encoders: absolute and incremental (relative) encoders. An incremental one is used in this kit.
+旋转编码器主要有两种类型：绝对式和增量式（相对式）编码器。本套件中使用的是增量式编码器。
 
-Incremental encoders produce two-phase square waves, with a 90-degree phase difference commonly referred to as the A and B channels.
+增量式编码器产生两相方波，相位差为 90 度，通常称为 A 和 B 通道。
 
-As illustrated below, when channel A transitions from a high level to a low level, if channel B is at a high level, it indicates that the rotary encoder is rotating clockwise (CW); if at that moment channel B is at a low level, it means the rotation is counterclockwise (CCW). Therefore, by reading the value of channel B when channel A is at a low level, we can determine the direction in which the rotary encoder rotates.
-
-
+如下图所示，当通道 A 从高电平跳变到低电平时，如果通道 B 为高电平，则表示旋转编码器正在顺时针（CW）旋转；如果此时通道 B 为低电平，则表示逆时针（CCW）旋转。因此，通过读取通道 A 为低电平时通道 B 的值，我们可以判断旋转编码器的旋转方向。
 
 .. image:: img/image206.png
     :width: 600
     :align: center
-	
+
 .. **Example**
 
 .. * :ref:`2.1.6_c` (C Project)

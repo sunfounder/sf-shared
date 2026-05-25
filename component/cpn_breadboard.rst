@@ -1,30 +1,21 @@
-
 .. _cpn_breadboard:
 
-Breadboard
-==============
+面包板
+============
 
 .. image:: img/breadboard.png
     :width: 600
 
-A breadboard is a construction base for prototyping of electronics. Originally the word referred to a literal bread board, a polished piece of wood used for slicing bread.[1] In the 1970s the solderless breadboard (a.k.a. plugboard, a terminal array board) became available and nowadays the term "breadboard" is commonly used to refer to these.
+面包板是一种用于电子原型制作的构造基板。最初这个词指的是字面意义上的面包板，一块用于切面包的抛光木板。[1] 到了 20 世纪 70 年代，免焊面包板（也称为插板、端子阵列板）问世，如今"面包板"一词通常即指此类板。
 
-It is used to build and test circuits quickly before finishing any circuit design. 
-And it has many holes into which components mentioned above can be inserted like ICs and resistors as well as jumper wires. 
-The breadboard allows you to plug in and remove components easily. 
+它用于在完成电路设计之前快速构建和测试电路。
+它有许多孔，可以插入上述元件，如 IC、电阻器以及跳线。
+面包板允许您轻松插入和移除元件。
 
-The picture shows the internal structure of a breadboard. 
-Although these holes on the breadboard appear to be independent of each other, they are actually connected to each other through metal strips internally.
+图片展示了面包板的内部结构。
+虽然面包板上的这些孔看起来彼此独立，但实际上它们通过内部的金属条相互连接。
 
 .. image:: img/breadboard_internal.png
     :width: 600
 
-If you want to know more about breadboard, refer to: `How to Use a Breadboard - Science Buddies <https://www.sciencebuddies.org/science-fair-projects/references/how-to-use-a-breadboard#pth-smd>`_
-
-
-
-
-
-
-
-
+如果您想了解更多关于面包板的信息，请参考：`How to Use a Breadboard - Science Buddies <https://www.sciencebuddies.org/science-fair-projects/references/how-to-use-a-breadboard#pth-smd>`_

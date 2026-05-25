@@ -1,52 +1,25 @@
-
 .. _cpn_mfrc522:
 
-MFRC522 Module
+MFRC522 模块
 =====================
 
 **RFID**
 
-Radio Frequency Identification (RFID) refers to technologies that
-involve using wireless communication between an object (or tag) and an
-interrogating device (or reader) to automatically track and identify
-such objects. The tag transmission range is limited to several meters
-from the reader. A clear line of sight between the reader and tag is not
-necessarily required.
+射频识别（RFID）是指利用物体（或标签）与询问设备（或读卡器）之间的无线通信来自动跟踪和识别这些物体的技术。标签的传输范围仅限于距离读卡器数米以内。读卡器与标签之间不一定需要清晰的视线。
 
-Most tags contain at least one integrated circuit (IC) and an antenna.
-The microchip stores information and is responsible for managing the
-radio frequency (RF) communication with the reader. Passive tags do not
-have an independent energy source and depend on an external
-electromagnetic signal, provided by the reader, to power their
-operations. Active tags contain an independent energy source, such as a
-battery. Thus, they may have increased processing, transmission
-capabilities and range.
+大多数标签至少包含一个集成电路（IC）和一个天线。微芯片存储信息并负责管理与读卡器之间的射频（RF）通信。无源标签没有独立的能源，依赖读卡器提供的外部电磁信号来供电运行。有源标签包含独立的能源，如电池。因此，它们可能具有更强的处理能力、传输能力和更远的传输范围。
 
 .. image:: img/image230.png
 
 
 **MFRC522**
 
-MFRC522 is a kind of integrated read and write card chip. It is commonly
-used in the radio at 13.56MHz. Launched by the NXP Company, it is a
-low-voltage, low-cost, and small-sized non-contact card chip, a best
-choice of intelligent instrument and portable handheld device.
+MFRC522 是一种集成读写的卡芯片。它常用于 13.56MHz 的射频通信中。由 NXP 公司推出，是一款低电压、低成本、小尺寸的非接触式卡芯片，是智能仪器和便携手持设备的理想选择。
 
-The MF RC522 uses advanced modulation and demodulation concept which
-fully presented in all types of 13.56MHz passive contactless
-communication methods and protocols. In addition, it supports rapid
-CRYPTO1 encryption algorithm to verify MIFARE products. MFRC522 also
-supports MIFARE series of high-speed non-contact communication, with a
-two-way data transmission rate up to 424kbit/s. As a new member of the
-13.56MHz highly integrated reader card series, MF RC522 is much similar
-to the existing MF RC500 and MF RC530 but there also exists great
-differences. It communicates with the host machine via the serial manner
-which needs less wiring. You can choose between SPI, I2C and serial UART
-mode (similar to RS232), which helps reduce the connection, save PCB
-board space (smaller size), and reduce cost.
+MF RC522 采用了先进的调制和解调概念，完全适用于所有类型的 13.56MHz 无源非接触式通信方式和协议。此外，它支持快速的 CRYPTO1 加密算法来验证 MIFARE 产品。MFRC522 还支持 MIFARE 系列的高速非接触式通信，双向数据传输速率高达 424kbit/s。作为 13.56MHz 高集成度读卡器芯片系列的新成员，MF RC522 与现有的 MF RC500 和 MF RC530 非常相似，但也存在较大差异。它通过串行方式与主机通信，需要的接线更少。你可以选择 SPI、I2C 和串行 UART 模式（类似于 RS232），这有助于减少连接、节省 PCB 板空间（更小的尺寸）并降低成本。
 
-.. **Example**
+.. **示例**
 
-.. * :ref:`2.2.10_c` (C Project)
-.. * :ref:`2.2.10_py` (Python Project)
-.. * :ref:`4.1.19_py` (Python Project)
+.. * :ref:`2.2.10_c` （C 项目）
+.. * :ref:`2.2.10_py` （Python 项目）
+.. * :ref:`4.1.19_py` （Python 项目）
