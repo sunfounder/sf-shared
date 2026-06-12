@@ -60,6 +60,8 @@
    .. image:: /_shared/pi_start/img/imager_os.png
       :width: 90%
 
+   .. tip::
+      请勿安装32位系统，否则某些必要的依赖可能无法使用。
 
 .. start_storage
 
