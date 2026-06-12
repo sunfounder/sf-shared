@@ -74,6 +74,8 @@ Installare il sistema operativo sulla scheda microSD
    .. image:: /_shared/pi_start/img/imager_os.png
       :width: 90%
 
+   .. tip::
+      Non installare la versione a 32 bit, poiché alcune dipendenze necessarie potrebbero non essere disponibili.
 
 .. start_storage
 
