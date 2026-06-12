@@ -74,6 +74,8 @@ microSDカードへのOSインストール
    .. image:: /_shared/pi_start/img/imager_os.png
       :width: 90%
 
+   .. tip::
+      32ビット版はインストールしないでください。必要な依存関係の一部が利用できない場合があります。
 
 .. start_storage
 
