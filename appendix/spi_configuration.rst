@@ -22,7 +22,7 @@ Suivez les étapes ci-dessous pour activer et vérifier l’interface SPI sur vo
 Ces instructions s’appliquent aux Raspberry Pi 5, 4, 3 et Zero 2W.
 
 Activer l’interface SPI
-------------------------
+--------------------------
 
 #. Ouvrez un terminal sur votre ordinateur (Windows : **PowerShell** ; macOS/Linux : **Terminal**) et connectez-vous à votre Raspberry Pi :
 

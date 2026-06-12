@@ -72,7 +72,7 @@ Vous devez l’activer via l’outil de configuration.
 
 
 Connexion avec RealVNC® Viewer
--------------------------------
+---------------------------------
 
 #. Téléchargez et installez |shared_link_realvnc| pour votre système d’exploitation.
 

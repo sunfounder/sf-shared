@@ -154,7 +154,7 @@ C’est la méthode la plus pratique pour la plupart des utilisateurs.
 --------------------------------
 
 Options d’accès graphique à distance
--------------------------------------
+---------------------------------------
 
 .. |shared_link_rpi_connect| raw:: html
 

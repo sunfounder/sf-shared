@@ -21,7 +21,7 @@ Suivez les étapes ci-dessous pour activer et tester l’interface I²C sur votr
 Ces instructions s’appliquent aux Raspberry Pi 5, 4, 3 et Zero 2W.
 
 Activer l’interface I²C
-------------------------
+--------------------------
 
 #. Ouvrez un terminal sur votre ordinateur (Windows : **PowerShell** ; macOS/Linux : **Terminal**) et connectez-vous à votre Raspberry Pi :
 

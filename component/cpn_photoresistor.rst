@@ -15,7 +15,7 @@
 .. _cpn_photoresistor:
 
 Photoresistor
-==============
+================
 
 .. image:: img/photoresistor.png
     :width: 200

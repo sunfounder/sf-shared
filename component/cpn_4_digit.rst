@@ -15,7 +15,7 @@
 .. _cpn_4_digit:
 
 Affichage à 7 segments 4 chiffres
-==================================
+=====================================
 
 L'affichage à 7 segments 4 chiffres se compose de quatre affichages à 7 segments fonctionnant 
 ensemble.
