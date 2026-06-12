@@ -14,7 +14,7 @@
 
 .. _cpn_battery_3pin_blue:
 
-3-pin Battery
+3-Pin-Batterie
 =================
 
 .. image:: img/3pin_battery_blue.jpg

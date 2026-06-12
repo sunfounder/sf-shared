@@ -1,6 +1,6 @@
 .. _cpn_circular_ws2812_module:
 
-Circular WS2812 LED Module
+Rundes WS2812 LED-Modul
 ===========================================================
 
 .. image:: img/c_ws2812_module.png

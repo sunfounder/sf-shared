@@ -16,7 +16,7 @@
 .. _install_all_modules_fusion_hat:
 
 Stromversorgung konfigurieren & Software installieren (Wichtig)
-================================================================
+==================================================================
 
 In diesem Kapitel installieren Sie die erforderliche Software, konfigurieren die Audioausgabe, richten ein sicheres Energiemanagement ein und lernen, wie Sie den Raspberry Pi korrekt herunterfahren.
 
@@ -67,7 +67,7 @@ Damit ist die Softwareinstallation für das Fusion HAT+ abgeschlossen.
 
 
 Sicheres Herunterfahren konfigurieren und verwenden
-----------------------------------------------------
+------------------------------------------------------
 
 Das Fusion HAT+ nutzt das Herunterfahr-Signal des Raspberry Pi, um die Stromversorgung vollständig zu steuern.  
 Um einen sicheren und zuverlässigen Abschaltvorgang zu gewährleisten, müssen Sie das **Herunterfahrverhalten** entsprechend Ihrem Raspberry-Pi-Modell konfigurieren und anschließend den **Power-Taster** korrekt verwenden.

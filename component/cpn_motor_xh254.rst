@@ -14,8 +14,8 @@
 
 .. _cpn_motor_xh254:
 
-DC Motor XH2.54
-===================
+Gleichstrommotor XH2.54
+=========================
 
 .. image:: img/motor_254_pic.png
     :width: 50%

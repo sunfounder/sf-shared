@@ -15,7 +15,7 @@
 .. _cpn_buzzer:
 
 Summer
-=======
+=========
 
 .. image:: img/buzzer.png
     :width: 600
