@@ -67,9 +67,9 @@ Se hai uno schermo
 
 .. start_setup_pi_headless
 
-----------------------------------
+------------------------------------
 Se non hai uno schermo (Headless)
-----------------------------------
+------------------------------------
 
 Senza un monitor, puoi configurare e accedere al tuo Raspberry Pi da remoto.  
 Questo è il metodo più comodo per la maggior parte degli utenti.

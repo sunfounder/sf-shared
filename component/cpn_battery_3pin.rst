@@ -15,7 +15,7 @@
 .. _cpn_battery_3pin_blue:
 
 Batteria a 3 Pin
-=================
+===================
 
 .. image:: img/3pin_battery_blue.jpg
     :width: 60%
