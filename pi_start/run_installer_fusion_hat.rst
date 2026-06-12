@@ -25,7 +25,7 @@ En este capítulo, instalarás el software relacionado, configurarás el audio, 
 
 
 Instalar el módulo ``fusion-hat``
-----------------------------------
+------------------------------------
 
 Para este kit, todas las funcionalidades GPIO se gestionan a través del Fusion HAT+. Por lo tanto, necesitas usar la biblioteca ``fusion-hat`` que lo acompaña para acceder y controlar dichas funciones.
 
