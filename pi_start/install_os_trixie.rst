@@ -73,6 +73,9 @@ Installieren des Betriebssystems auf die microSD-Karte
    .. image:: /_shared/pi_start/img/imager_os.png
       :width: 90%
 
+   .. tip::
+      Installieren Sie nicht die 32-Bit-Version, da einige erforderliche Abhängigkeiten möglicherweise nicht verfügbar sind.
+
 .. start_storage
 
 4. Wählen Sie im Abschnitt **Speicher** Ihre microSD-Karte aus.
