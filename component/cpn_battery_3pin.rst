@@ -25,7 +25,7 @@
 * **Middle**: Dient zum Spannungsausgleich zwischen den beiden Zellen und schützt dadurch die Batterie.
 * **GND**: Negativer Batterieanschluss.
 
-Dies ist ein von SunFounder entwickelter kundenspezifischer Batteriepack, der aus zwei 18650-Batterien mit einer Kapazität von 2000 mAh besteht. Der Anschluss ist ein XH2.54 3P-Stecker, sodass der Akku direkt geladen werden kann, nachdem er in das Robot HAT eingesteckt wurde.
+Dies ist ein von SunFounder entwickelter kundenspezifischer Batteriepack, der aus zwei Power Pack-Batterien mit einer Kapazität von 2000 mAh besteht. Der Anschluss ist ein XH2.54 3P-Stecker, sodass der Akku direkt geladen werden kann, nachdem er in das Robot HAT eingesteckt wurde.
 
 **Eigenschaften**
 

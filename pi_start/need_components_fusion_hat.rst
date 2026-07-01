@@ -35,7 +35,7 @@ Erforderliche Komponenten
 
 * **Netzteil**
 
-  Dieses Kit enthält ein **18650-Akkupack** und ein **Fusion HAT+**-Board mit integrierter Ladeschaltung.
+  Dieses Kit enthält ein **Power Pack** und ein **Fusion HAT+**-Board mit integrierter Ladeschaltung.
   
   .. image:: /_shared/pi_start/img/need_power.png
     :width: 400
