@@ -17,7 +17,7 @@
 Module Ultrasonique
 ===========================
 
-.. image:: img/ultrasonic_pic.png
+.. image:: /_shared/component/img/ultrasonic_pic.png
     :width: 400
     :align: center
 
@@ -34,7 +34,7 @@ Le module comprend des émetteurs ultrasoniques, un récepteur et un circuit de 
 
 Le diagramme de chronométrage est présenté ci-dessous.
 
-.. image:: img/ultrasonic228.png
+.. image:: /_shared/component/img/ultrasonic228.png
 
 Il suffit de fournir une courte impulsion de 10 μs à l'entrée du déclencheur pour démarrer la télémétrie, puis le module
 enverra une rafale de 8 cycles d'ultrasons à 40 kHz et élèvera son
