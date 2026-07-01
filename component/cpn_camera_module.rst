@@ -19,7 +19,7 @@
 
 **説明**
 
-.. image:: img/camera_module_pic.png
+.. image:: /_shared/component/img/camera_module_pic.png
    :width: 200
    :align: center
 
@@ -53,8 +53,8 @@
 
 FFCケーブルが正しく取り付けられている場合、それはまっすぐで、優しく引っ張っても外れません。そうでない場合は、再度取り付けてください。
 
-.. image:: img/connect_ffc.png
-.. image:: img/1.10_camera.png
+.. image:: /_shared/component/img/connect_ffc.png
+.. image:: /_shared/component/img/1.10_camera.png
    :width: 700
 
 .. warning::

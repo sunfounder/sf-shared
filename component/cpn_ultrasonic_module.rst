@@ -17,7 +17,7 @@
 超音波モジュール
 ================================
 
-.. image:: img/ultrasonic_pic.png
+.. image:: /_shared/component/img/ultrasonic_pic.png
     :width: 400
     :align: center
 
@@ -34,7 +34,7 @@
 
 タイミングダイアグラムは下に示されています。
 
-.. image:: img/ultrasonic228.png
+.. image:: /_shared/component/img/ultrasonic228.png
 
 測距を開始するには、トリガー入力に短い10usのパルスを供給するだけで十分です。その後、モジュールは40kHzで8サイクルの超音波バーストを送出し、そのエコーを高めます。
 トリガーシグナルの送信とエコーシグナルの受信との間の時間間隔を通じて、距離を計算することができます。
