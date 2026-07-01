@@ -17,7 +17,7 @@
 Ultraschallmodul
 ================================
 
-.. image:: img/ultrasonic_pic.png
+.. image:: /_shared/component/img/ultrasonic_pic.png
     :width: 400
     :align: center
 
@@ -34,7 +34,7 @@ Das Modul enthält Ultraschallsender, Empfänger und Steuerschaltung. Die Grundp
 
 Das Timing-Diagramm ist unten dargestellt.
 
-.. image:: img/ultrasonic228.png
+.. image:: /_shared/component/img/ultrasonic228.png
 
 Es ist nur notwendig, einen kurzen 10µs-Impuls für den Trigger-Eingang zu liefern, um die Entfernungsmessung zu starten. Danach wird das Modul 
 einen 8-Zyklus-Ultraschallimpuls mit 40 kHz senden und sein

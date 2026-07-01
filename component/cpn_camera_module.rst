@@ -19,7 +19,7 @@ Kameramodul
 
 **Beschreibung**
 
-.. image:: img/camera_module_pic.png
+.. image:: /_shared/component/img/camera_module_pic.png
    :width: 200
    :align: center
 
@@ -50,8 +50,8 @@ Am Kameramodul oder Raspberry Pi finden Sie einen flachen Kunststoffanschluss. Z
 
 Wenn das FFC-Kabel korrekt installiert ist, wird es gerade sein und sich nicht herausziehen lassen, wenn Sie leicht daran ziehen. Wenn nicht, installieren Sie es erneut.
 
-.. image:: img/connect_ffc.png
-.. image:: img/1.10_camera.png
+.. image:: /_shared/component/img/connect_ffc.png
+.. image:: /_shared/component/img/1.10_camera.png
    :width: 700
 
 .. warning::
