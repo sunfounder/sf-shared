@@ -25,7 +25,7 @@ Batteria a 3 Pin
 * **Centrale**: Per bilanciare la tensione tra le due celle e proteggere così la batteria.
 * **GND**: Terminale negativo della batteria.
 
-Questo è un pacco batteria personalizzato realizzato da SunFounder, composto da due batterie 18650 con una capacità di 2000 mAh. Il connettore è XH2.54 3P, che può essere caricato direttamente dopo essere stato inserito nel Robot HAT.
+Questo è un pacco batteria personalizzato realizzato da SunFounder, composto da due batterie Power Pack con una capacità di 2000 mAh. Il connettore è XH2.54 3P, che può essere caricato direttamente dopo essere stato inserito nel Robot HAT.
 
 **Caratteristiche**
 

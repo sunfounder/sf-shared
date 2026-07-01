@@ -35,7 +35,7 @@ Componenti necessari
 
 * **Alimentatore**
 
-  Questo kit include un **pacco batterie 18650** e una scheda **Fusion HAT+** con circuito di ricarica integrato.
+  Questo kit include un **Power Pack** e una scheda **Fusion HAT+** con circuito di ricarica integrato.
   
   .. image:: /_shared/pi_start/img/need_power.png
     :width: 400
