@@ -17,7 +17,7 @@
 Modulo Ultrasuoni
 =============================
 
-.. image:: img/ultrasonic_pic.png
+.. image:: /_shared/component/img/ultrasonic_pic.png
     :width: 400
     :align: center
 
@@ -34,7 +34,7 @@ Il modulo comprende trasmettitori ultrasonici, ricevitore e circuito di controll
 
 Il diagramma temporale è riportato di seguito.
 
-.. image:: img/ultrasonic228.png
+.. image:: /_shared/component/img/ultrasonic228.png
 
 Basta fornire un breve impulso di 10us all'ingresso di trigger per avviare la misurazione; 
 successivamente, il modulo invierà un burst di ultrasuoni di 8 cicli a 40 kHz e rileverà il 

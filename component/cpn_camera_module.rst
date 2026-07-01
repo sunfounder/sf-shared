@@ -20,7 +20,7 @@ Modulo Fotocamera
 
 **Descrizione**
 
-.. image:: img/camera_module_pic.png
+.. image:: /_shared/component/img/camera_module_pic.png
    :width: 200
    :align: center
 
@@ -56,8 +56,8 @@ Sul modulo fotocamera o sul Raspberry Pi, troverai un connettore di plastica pia
 Se il filo FFC è installato correttamente, sarà dritto e non si staccherà tirandolo delicatamente. In caso contrario, reinstallalo nuovamente.
 
 
-.. image:: img/connect_ffc.png
-.. image:: img/1.10_camera.png
+.. image:: /_shared/component/img/connect_ffc.png
+.. image:: /_shared/component/img/1.10_camera.png
    :width: 700
 
 .. warning::
