@@ -5,7 +5,7 @@
 
 **描述**
 
-.. image:: img/camera_module_pic.png
+.. image:: /_shared/component/img/camera_module_pic.png
    :width: 200
    :align: center
 
@@ -35,8 +35,8 @@
 
 如果 FFC 排线安装正确，它会保持平直，轻轻拉动时不会脱出。如果没有，请重新安装。
 
-.. image:: img/connect_ffc.png
-.. image:: img/1.10_camera.png
+.. image:: /_shared/component/img/connect_ffc.png
+.. image:: /_shared/component/img/1.10_camera.png
    :width: 700
 
 .. warning::

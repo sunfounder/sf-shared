@@ -3,7 +3,7 @@
 超声波模块
 ================================
 
-.. image:: img/ultrasonic_pic.png
+.. image:: /_shared/component/img/ultrasonic_pic.png
     :width: 400
     :align: center
 
@@ -20,7 +20,7 @@
 
 时序图如下所示。
 
-.. image:: img/ultrasonic228.png
+.. image:: /_shared/component/img/ultrasonic228.png
 
 只需向触发输入端提供一个 10us 的短脉冲即可启动测距，然后模块将发出 8 个 40kHz 的超声波脉冲并拉高回响信号。通过发送触发信号和接收回响信号之间的时间间隔，即可计算出距离。
 
