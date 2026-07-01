@@ -22,7 +22,7 @@
 
 * **电源适配器**
 
-  本套件配备了 **18650 电池盒** 和带有内置充电电路的 **Fusion HAT+** 扩展板。
+  本套件配备了 **Power Pack** 和带有内置充电电路的 **Fusion HAT+** 扩展板。
   
   .. image:: /_shared/pi_start/img/need_power.png
     :width: 400
