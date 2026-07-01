@@ -35,7 +35,7 @@ Composants requis
 
 * **Adaptateur d’alimentation**
 
-  Ce kit est fourni avec un **pack de batteries 18650** et une carte **Fusion HAT+** intégrant un circuit de charge.
+  Ce kit est fourni avec un **Power Pack** et une carte **Fusion HAT+** intégrant un circuit de charge.
   
   .. image:: /_shared/pi_start/img/need_power.png
     :width: 400

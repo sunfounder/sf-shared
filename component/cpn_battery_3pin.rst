@@ -25,7 +25,7 @@ Batterie 3 broches
 * **Milieu** : Pour équilibrer la tension entre les deux cellules et ainsi protéger la batterie.
 * **GND** : Borne négative de la batterie.
 
-Il s'agit d'un pack de batteries personnalisé fabriqué par SunFounder, composé de deux batteries 18650 d'une capacité de 2000 mAh. Le connecteur est de type XH2.54 3P, ce qui permet de le charger directement après l'avoir inséré dans le Robot HAT.
+Il s'agit d'un pack de batteries personnalisé fabriqué par SunFounder, composé de deux batteries Power Pack d'une capacité de 2000 mAh. Le connecteur est de type XH2.54 3P, ce qui permet de le charger directement après l'avoir inséré dans le Robot HAT.
 
 **Caractéristiques**
 
