@@ -17,7 +17,7 @@
 3-pin Battery
 =================
 
-.. image:: img/3pin_battery_blue.jpg
+.. image:: /_shared/component/img/3pin_battery_blue.jpg
     :width: 60%
     :align: center
 

@@ -17,7 +17,7 @@
 Ultrasonic Module
 ================================
 
-.. image:: img/ultrasonic_pic.png
+.. image:: /_shared/component/img/ultrasonic_pic.png
     :width: 400
     :align: center
 
@@ -36,7 +36,7 @@ The module includes ultrasonic transmitters, receiver and control circuit. The b
 
 The timing diagram is shown below. 
 
-.. image:: img/ultrasonic228.png
+.. image:: /_shared/component/img/ultrasonic228.png
 
 You only need to supply a short 10us pulse for the trigger input to start the ranging, and then the module
 will send out an 8 cycle burst of ultrasound at 40 kHz and raise its
