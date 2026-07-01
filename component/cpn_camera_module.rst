@@ -19,7 +19,7 @@ Módulo de Cámara
 
 **Descripción**
 
-.. image:: img/camera_module_pic.png
+.. image:: /_shared/component/img/camera_module_pic.png
    :width: 200
    :align: center
 
@@ -51,8 +51,8 @@ En el módulo de cámara o Raspberry Pi, encontrarás un conector de plástico p
 
 Si el cable FFC está correctamente instalado, estará recto y no se saldrá cuando tires suavemente de él. Si no, reinstálalo nuevamente.
 
-.. image:: img/connect_ffc.png
-.. image:: img/1.10_camera.png
+.. image:: /_shared/component/img/connect_ffc.png
+.. image:: /_shared/component/img/1.10_camera.png
    :width: 700
 
 .. warning::

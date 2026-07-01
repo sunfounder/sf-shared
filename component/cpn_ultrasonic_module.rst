@@ -17,7 +17,7 @@
 Módulo Ultrasónico
 ================================
 
-.. image:: img/ultrasonic_pic.png
+.. image:: /_shared/component/img/ultrasonic_pic.png
     :width: 400
     :align: center
 
@@ -34,7 +34,7 @@ El módulo incluye transmisores ultrasónicos, receptor y circuito de control. L
 
 El diagrama de tiempos se muestra a continuación.
 
-.. image:: img/ultrasonic228.png
+.. image:: /_shared/component/img/ultrasonic228.png
 
 Solo necesitas suministrar un pulso corto de 10 us para que la entrada del trigger 
 inicie la medición, y luego el módulo enviará una ráfaga de 8 ciclos de ultrasonido 
