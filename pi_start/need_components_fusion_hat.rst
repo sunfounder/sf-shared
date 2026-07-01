@@ -35,7 +35,7 @@
 
 * **電源アダプター**
 
-  本キットには **18650 バッテリーパック** と、充電回路を内蔵した **Fusion HAT+** ボードが付属しています。
+  本キットには **Power Pack** と、充電回路を内蔵した **Fusion HAT+** ボードが付属しています。
   
   .. image:: /_shared/pi_start/img/need_power.png
     :width: 400
