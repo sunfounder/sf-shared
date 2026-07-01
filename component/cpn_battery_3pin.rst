@@ -25,7 +25,7 @@ Batería de 3 Pines
 * **Medio**: Para equilibrar el voltaje entre las dos celdas y así proteger la batería.
 * **GND**: Terminal negativo de la batería.
 
-Este es un paquete de baterías personalizado fabricado por SunFounder que consta de dos baterías 18650 con una capacidad de 2000 mAh. El conector es XH2.54 3P, que se puede cargar directamente después de insertarlo en el Robot HAT.
+Este es un paquete de baterías personalizado fabricado por SunFounder que consta de dos baterías Power Pack con una capacidad de 2000 mAh. El conector es XH2.54 3P, que se puede cargar directamente después de insertarlo en el Robot HAT.
 
 **Características**
 

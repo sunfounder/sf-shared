@@ -35,7 +35,7 @@ Componentes necesarios
 
 * **Adaptador de alimentación**
 
-  Este kit incluye un **paquete de baterías 18650** y una placa **Fusion HAT+** con un circuito de carga integrado.
+  Este kit incluye un **Power Pack** y una placa **Fusion HAT+** con un circuito de carga integrado.
   
   .. image:: /_shared/pi_start/img/need_power.png
     :width: 400
