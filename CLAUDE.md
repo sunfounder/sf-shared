@@ -61,3 +61,36 @@ All language repos must have **identical image files** to the English reference.
 7. Community notes translated
 
 ## File Counts: 67 total (appendix/7 + component/54 + pi_start/6)
+
+## Language Branch Mapping for Consumer Repos (added 2026-09-21)
+
+Currently all languages live as **branches of this single repo** (`main`, `docs-cn`, `docs-de`, `docs-es`, `docs-fr`, `docs-it`, `docs-ja`), not as separate repos. Branch histories mirror `main` commit-for-commit, and commit messages are English in every branch — never judge a branch by its commit messages.
+
+Consumer Sphinx projects (e.g. `raphael-kit`) include this repo as a submodule at `docs/source/_shared`. **Each consumer branch must keep its submodule gitlink pointing at the matching language branch of this repo:**
+
+| Consumer branch | sf-shared branch |
+| --- | --- |
+| docs (en) | main |
+| docs-de | docs-de |
+| docs-es | docs-es |
+| docs-fr | docs-fr |
+| docs-it | docs-it |
+| docs-ja | docs-ja |
+
+**Pitfall (happened 2026-09):** a cross-language docs sync accidentally reset the gitlink of every consumer language branch to the English `main` commit, so translated sites (e.g. Japanese) built with English shared pages. Before committing anything to a consumer language branch, verify:
+
+```
+git ls-tree HEAD docs/source/_shared                       # the recorded gitlink
+git -C docs/source/_shared branch -r --contains <sha>      # which sf-shared branch it belongs to
+```
+
+The gitlink must belong to the matching language branch above.
+
+Consumer language worktrees keep `_shared` uninitialized (empty dir). To move the gitlink without initializing the submodule:
+
+```
+git update-index --cacheinfo 160000,<sha>,docs/source/_shared
+git commit -m "fix(docs): point _shared submodule to translated docs-<lang> branch"
+```
+
+This CLAUDE.md itself is a maintainer document and is not part of the built site.
